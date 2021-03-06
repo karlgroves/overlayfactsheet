@@ -7,17 +7,33 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGCH8KPZG9"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'G-NGCH8KPZG9');
     </script>
     <style type="text/css">
-        body{
+        body {
             margin: 1em;
             background-color: #f8f9fa;
             font-family: sans-serif;
             font-size: 1rem;
+        }
+
+        h1 {
+
+        }
+
+        h2 {
+
+        }
+
+        .summary {
+
         }
     </style>
 </head>
@@ -25,49 +41,74 @@
 <body>
 <h1>Overlay Fact Sheet</h1>
 <h2>Introduction, Definition, and History of Web Accessibility Overlays</h2>
-<p>Summary: Overlays are a broad term for technologies aimed at improving the accessibility of a website by applying third-party source code (typically JavaScript) to make improvements to the front-end code of the website.</p>
+<p class="summary">Summary: Overlays are a broad term for technologies aimed at improving the accessibility of a website
+    by applying third-party source code (typically JavaScript) to make improvements to the front-end code of the
+    website.</p>
+<p>Website add-on products purporting to improve accessibility go back to the late 1990s with products like <a
+        href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a> and <a
+        href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Both of which added text-to-speech
+    capabilities to the website(s) on which they were installed. Later, similar products came to market that added
+    additional tools to their software that allow user-based control of things like font-sizes and changes to the web
+    pages colors so that contrast is improved. Products like Userway, EqualWeb, AudioEye, User1st, and accessiBe. These
+    products may also be white labelled under additional names.</p>
 
-<!--//
-  * full history of overlays beginning with browsealoud, readspeaker, etc.
-  * description of things like userway, equalweb etc.
-  * description of Amaze, Alchemy, and Sentinel
-
- //-->
+<p>An additional class of product exists, which only perform automated repairs and are marketed as a temporary solution.
+    These include Amaze by Deque Systems, Alchemy by Level Access, and Sentinel by Tenon.</p>
 
 <h2>Strengths and Weaknesses of Overlay &quot;Widgets&quot;</h2>
-<p>Summary: Overlay widgets unnecessary and poorly placed in the technology stack.</p>
-
-<!--//
-  * features of the widgets
-  * discussion of the utility provided
-  * discussion of why a per-site assistive technology is impractical and, in essence, merely a "feel good" feature, because users who need AT already have it
- //-->
-
+<p class="summary">Summary: Overlay widgets unnecessary and poorly placed in the technology stack.</p>
+<p>As stated above, some overlay products contain widgets which present a series of controls that modify the
+    presentation of the page they're on. Depending on the product, those changes may do things like change the page
+    contrast, enlarge the size of the page's text, or perform other changes to the page that are intended to improve the
+    experience for users with disabilities. To laypersons, these features may seem beneficial, but their practical value
+    is largely overstated because the end users that these features claim to serve will already have the necessary
+    features on their computer, either as a built-in feature or as an additional piece of software that the user needs
+    to access not only the Web but all software. On this latter point, it is a mistake to believe that the features
+    provided by the overlay widget will be of much use by end users because if those features were <em>necessary</em> to
+    use the website, they'd be needed for all websites that the user interacts with. Instead, the widget is - at best -
+    redundant functionality with what the user already has. </p>
 
 <h2>Strengths and Weaknesses of Automated Repair</h2>
-<p>Summary: While some automated repair is possible, customers should be discouraged from using an overlay as a long-term solution.</p>
+<p class="summary">Summary: While some automated repair is possible, customers should be discouraged from using an
+    overlay as a long-term solution.</p>
+<p>Some overlay products have capabilities aimed at providing accessibility repairs to the underlying page on which the
+    overlay is added. These repairs are applied when the page loads in the user's browser. While it is true that a
+    non-trivial array of accessibility problems can be repaired in this manner, the nature, extent, and accuracy of such
+    repair are limited by a number of important factors:</p>
+<ul>
+    <li>Automated application of text alternatives for images is not reliable</li>
+    <li>Automated repair of field labels, error management, error handling, and focus control on forms is not reliable
+    </li>
+    <li>Automated repair of keyboard access is not reliable</li>
+    <li>Modern, component-based user interfaces, such as those using ReactJS, Angular, or Vue may change the state of
+        all or some of the underlying page independently of the overlay, rendering it unable to fix those
+        JavaScript-driven changes to content.
+    </li>
+    <li>Repairs to the page can either slow down page load times or cause unexpected page changes for assistive
+        technology users.
+    </li>
+</ul>
 
-<!--//
-  * discussions of the kinds of things that can be fixed and cannot be fixed
-  * long-term reliance on an overlay's repair features is a bad strategy
-
- //-->
-
+<p>In addition to the above, overlays do not repair content in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, or
+    media files.</p>
 
 <h2>Fitness for Achieving Compliance with Accessibility Standards</h2>
-<p>Summary: While the use of an overlay may improve compliance with a handful of provisions in major accessibility standards, full compliance cannot be achieved with an overlay.</p>
+<p class="summary">Summary: While the use of an overlay may improve compliance with a handful of provisions in major
+    accessibility standards, full compliance cannot be achieved with an overlay.</p>
+<p>Among the many claims made by overlay vendors is the claim that the use of their product will being the site into
+    compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate
+    compliance with those standards.</p>
 
-<!--//
-  * full compliance is impossible
-  * widgets are unable to bridget that gap
+<blockquote>
+    Conformance to a standard means that you meet or satisfy the 'requirements' of the standard. In WCAG 2.0 the
+    'requirements' are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is,
+    there is no content which violates the Success Criteria.
+    <cite><a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding WCAG 2.0: Understanding
+        Conformance</a> </cite>
+</blockquote>
 
- //-->
-
-
-<h2>Notable controversies</h2>
-
-<!--//  //-->
-
+<p>Given that conformance is defined as meeting <em>all</em> requirements of the standard, these products' documented inability to repair all
+possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant scepticism.</p>
 
 <h2>In their own words</h2>
 
@@ -82,12 +123,61 @@
 <h2>Statement from Sponsors and Signatories to this Fact Sheet</h2>
 <p>As a result of the above information:</p>
 <ol>
-    <li>We will never advocate, recommend, integrate an overlay which provides a widget</li>
+    <li>We will never advocate, recommend, integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards</li>
     <li>We will always advocate for the remediation of accessibility issues at the source of the original error</li>
+    <li>We will refuse to stay silent when overlay vendors use deception to market their products</li>
 </ol>
 
 <h3>Signed by:</h3>
 <!--// list of all people signing the statement //-->
+
+
+<h2>Additional Reading</h2>
+
+<ul>
+    <li><a href="https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html">accessiBe will get you sued</a> -
+        Adrian Roselli
+    </li>
+    <li><a href="https://www.youtube.com/watch?v=e-3xlUarxRQ">5 False Claims 1-Line “AI” Accessibility Script Vendors
+        Make</a> - Eric Eggert
+    </li>
+    <li><a href="https://www.lflegal.com/2020/08/quick-fix/">Honor the ADA: Avoid Web Accessibility Quick-Fix
+        Overlays</a> - Lainey Feingold
+    </li>
+    <li>
+        <a href="https://sheribyrnehaber.medium.com/overlays-are-not-the-solution-to-your-accessibility-problem-c5ffe44bd61f">Overlays
+            are not the solution to your accessibility problem</a> - Sheri Byrne-Haber
+    </li>
+    <li>
+        <a href="https://www.tpgi.com/bolt-on-accessibility-5-gears-in-reverse/https://www.tpgi.com/bolt-on-accessibility-5-gears-in-reverse/">Bolt-on
+            Accessibility – 5 gears in reverse</a> - Steven Faulkner
+    </li>
+    <li><a href="https://www.linkedin.com/pulse/deploying-accessibility-overlay-widget-better-than-doing-springer">Is
+        Deploying an Accessibility Overlay or Widget Better Than Doing Nothing?</a> - Timothy Springer
+    </li>
+    <li><a href="https://logictran.com/2020/08/24/the-trouble-with-accessibility-overlays/">The Trouble with
+        Accessibility Overlays</a> - Alex Tran
+    </li>
+    <li><a href="https://medium.com/@krisrivenburgh/the-death-of-accessibility-overlays-5603515d8250">The Death of
+        Accessibility Overlays</a> - Kris Rivenburgh
+    </li>
+    <li><a href="https://accessdefense.com/?p=5378">Is there a silver bullet for ADA website accessibility? Sorry, but
+        the answer is no.</a> - Richard Hunt
+    </li>
+    <li><a href="https://www.propellermediaworks.com/blog/avoid-web-accessibility-overlay-toolbars/">Overlay
+        Accessibility Solutions Fail ADA Website Compliance</a> - Propeller Media Works
+    </li>
+    <li><a href="https://karlgroves.com/2018/05/25/automated-lies-with-one-line-of-code">Automated Lies, with one line
+        of code</a> - Karl Groves
+    </li>
+    <li><a href="lalutineduweb.fr/en/web-accessibility-overlays-lies-gum-balls/">Web accessibility overlay tools: lies
+        and gum balls
+    </a> - Julie Moynat
+    </li>
+    <li><a href="https://www.scribd.com/document/490740167/Exhibit-A-for-21-cv-00017">Sole reliance on accessiBe will
+        not be sufficient in ensuring full and equal access to a website</a> - Exhibit A 21-cv-00017, Murphy v. Eyebobs
+    </li>
+</ul>
 
 
 </body>

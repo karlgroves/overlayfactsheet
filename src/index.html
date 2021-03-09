@@ -17,8 +17,14 @@
         gtag('config', 'G-NGCH8KPZG9');
     </script>
     <style type="text/css">
+        html {
+            margin: 0;
+            padding: 0;
+        }
+
         body {
-            margin: 1em;
+            padding: 0;
+            margin: 0 1em;
             background-color: #f8f9fa;
             font-family: sans-serif;
             font-size: 1rem;
@@ -26,7 +32,13 @@
         }
 
         h1 {
-
+            padding: 0;
+            margin: 0 0 2em 0;
+            text-align: center;
+            font-size: 1.5em;
+            background-color: #369;
+            line-height: 5em;
+            color: #eee;
         }
 
         h2 {
@@ -35,6 +47,10 @@
 
         .summary {
 
+        }
+
+        .in-their-words {
+            margin-bottom: 1em;
         }
     </style>
 </head>
@@ -92,9 +108,12 @@
     media files.</p>
 
 <p>An additional class of product exists, which only perform automated repairs and are marketed as a temporary solution.
-    These include Amaze by Deque Systems, Alchemy by Level Access, and Sentinel by Tenon. For purposes of this document, these products aren't
-considered to be in the same class of product as the overlays that provide widgets.  The most notable difference, beyond the
-lack of a &quot;widget&quot; is that Amaze, Alchemy, and Sentinel are understood by their manufacturers as being intended for use as an <em>interim</em> solution.</p>
+    These include Amaze by Deque Systems, Alchemy by Level Access, and Sentinel by Tenon. For purposes of this document,
+    these products aren't
+    considered to be in the same class of product as the overlays that provide widgets. The most notable difference,
+    beyond the
+    lack of a &quot;widget&quot; is that Amaze, Alchemy, and Sentinel are understood by their manufacturers as being
+    intended for use as an <em>interim</em> solution.</p>
 
 <h2>Fitness for Achieving Compliance with Accessibility Standards</h2>
 <p class="summary">Summary: While the use of an overlay may improve compliance with a handful of provisions in major
@@ -111,30 +130,176 @@ lack of a &quot;widget&quot; is that Amaze, Alchemy, and Sentinel are understood
         Conformance</a> </cite>
 </blockquote>
 
-<p>Given that conformance is defined as meeting <em>all</em> requirements of the standard, these products' documented inability to repair all
-possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant scepticism.</p>
+<p>Given that conformance is defined as meeting <em>all</em> requirements of the standard, these products' documented
+    inability to repair all
+    possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be
+    viewed with significant scepticism.</p>
 
 <h2>In their own words</h2>
-<p>Please note: while this section may mention specific vendors, these comments are par-for-the-course when it comes to the user experience provided by overlay widgets which have, in themselves, a pattern of negatively impacting the user experience</p>
+<p>Many users with disabilities have expressed strong words of dissatisfaction with overlay products. As shown below,
+    overlays themselves may have accessibility problems significant enough for users to take steps to actively block
+    overlays from appearing at all.</p>
+<p>Please note: while this section may mention specific vendors, these comments are par-for-the-course when it comes to
+    the user experience provided by overlay widgets which have, in themselves, a pattern of negatively impacting the
+    user experience.</p>
 
-<!--// A list of tweets and other quotes about overlays from real users with disabilities //-->
+<blockquote class="in-their-words">
+    ... assuming your tool can do a good job making something accessible, it can do an even better job making something
+    accessible running directly on the user's machine having access to machine code and machine APIs <a
+        href="https://twitter.com/DerekRiemer/status/1365136025861775364">DerekRiemer</a>
+</blockquote>
 
+<blockquote class="in-their-words">
+    ... I finally managed to gain access to my @NameCheap account by blocking #AccessiBe in my Windows Hosts file. I
+    should not need to do this to use the Internet. AccessiBe needs to AccessiBeGone <a
+        href="https://twitter.com/WilfSplodNokit/status/1365478393895153664">WilfSplodNokit</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    ... I know with 100% certainty, any site which has deployed an overlay in the past year and a half has been less
+    useable for both my wife and me—both blind. <a href="https://twitter.com/GeauxEnder/status/1364943889132646408">GeauxEnder</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    ... Still a pain to even try reading the article on a mobile device because of the constant interruption every few
+    seconds. Considering every site using your service also has this problem... Nope. <a
+        href="https://twitter.com/Big_D01/status/1365187231829254144">Big_D01</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    ...Making a webpage accessible does take work, and simply telling a business they can install your plugin is
+    absolutely foolish, you build, and design accessibility in to a webpage using WCAG standards. <a
+        href="https://twitter.com/w9fyi/status/1366019424415866880">w9fyi</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    ... Suggesting one line of code is cheap so you should do it by inference suggests disabled lives aren't worth
+    investing in either. #a11y <a href="https://twitter.com/Kevmarmol_CT/status/1365005141594750986">Kevmarmol_CT</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    @AccessiBe Just to demonstrate my good faith, here's a quick free audit of https://t.co/1mQGCCtnIs. You capture
+    &quot;tab&quot; which is the standard way to navigate. There's no way to not enable your overlay if I want to
+    navigate the page. Once the overlay is enabled, wild things happen. <a
+        href="https://twitter.com/eluberoff/status/1366386598770839557">eluberoff</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    #AccessiBe makes sites harder to use by getting in the way of browsing and changing access barriers on a page, not
+    fixing them. A student and I came across an &quot;enhanced&quot; website and to my shame, we left because navigating
+    that mess was beyond my skills, on that day. <a
+        href="https://twitter.com/turtlecatpurrz/status/1365099776207851523">turtlecatpurrz</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites
+    have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates
+    will not sway me on this view. https://t.co/ZgFt8JtsbZ <a
+        href="https://twitter.com/SingingTigress/status/1364922970670583815">SingingTigress</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    An die Screen Reader nutzenden Follower: Vielleicht habt ihr schon von #Accessibe gehört, einem Overlay, das
+    behauptet, Seiten, in denen es eingebunden ist, zugänglicher zu machen. Ich möchte nicht näher ins Detail gehen.
+    Kurz gesagt: Kompletter Blödsinn. Finger weg! <a href="https://twitter.com/MarcoZehe/status/1365587195596181507">MarcoZehe</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    Automated solutions which promise to make your site accessible can't. It takes more than automation to achieve this
+    requirement. You won't be safe from liability. you will almost assuredly negatively impact your customers with
+    disabilities. <a href="https://twitter.com/twithoff/status/1364957890050686976">twithoff</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader,
+    I know that my blocker isn't working properly, and I'm in for a hellish experience on that particular website.
+    https://t.co/ZFzKMfUe0t <a href="https://twitter.com/BorrisInABox/status/1364295702696890370">BorrisInABox</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    I tried using this @AccessiBe site with VoiceOver in Chrome on iOS. The 4-star rating is announced as &quot;unpronounceable&quot;
+    🤦‍♀️ https://t.co/f4MxQ2eLLP" <a href="https://twitter.com/racheleditullio/status/1365739183839588357">racheleditullio</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    I wrote an email to their customer service detailing that I can not use their site due to the overlay, but... I
+    really am disappointed, but I hope they listen. @Goodfair_ - please stop using AccessiBe. <a
+        href="https://twitter.com/kit_flowerstorm/status/1364605580405575681">kit_flowerstorm</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    I'm not an accessibility expert, just a screen reader user with decent skills telling you that this thread is spot
+    on and my experience with #AccessiBe is that it makes sites with accessibility issues even harder to work around.
+    https://t.co/cfyrEqXwTy <a href="https://twitter.com/atfarnum/status/1365075850861887490">atfarnum</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    ...If you are blind or low vision and rely on assistive technologies like screen readers, you may have begun finding
+    popular websites becoming less usable...this page describes how to ban AccessiBe from ever reaching your computer
+    ... https://t.co/qbiKvolizS <a href="https://twitter.com/smartudlab/status/1365651400638615559">smartudlab</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    OK, this seems very wrong to me. A local chain here named Fleet Farm is now using AccessiBe. It makes a mess of the
+    search for location feature. This is what I now get on the start of the result page. <a
+        href="https://twitter.com/kellylford/status/1363698942152757253">kellylford</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    Thank goodness Firefox blocks their accessibility detection. For me, focus jumps all over the place with #AccessiBe
+    enabled. When it's disabled, it behaves itself. <a href="https://twitter.com/mhorspool/status/1364983194546757634">mhorspool</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    There are 0 automated tools that can tetect accessibility problems accurately at anything above 30% of the time. 0.
+    This is commonly known by anyone who's been in this space for at least a week. #AccessiBe <a
+        href="https://twitter.com/cswordpress/status/1365042078401576968">cswordpress</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    There's a perfectly practical tool for making websites accessible. It's called a programmer. The needs that matter
+    in making a website accessible are those of the users. If you can't meet those, then you can't meet the basic costs
+    of doing business. <a href="https://twitter.com/WTBDavidG/status/1366074519086055425">WTBDavidG</a>
+</blockquote>
+
+<blockquote class="in-their-words">
+    When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2's. The title of each phone
+    remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other
+    components of the tables become headings as well. <a
+        href="https://twitter.com/CatchTheseWords/status/1364915942157922308">CatchTheseWords</a>
+</blockquote>
 
 <h2>Conclusion</h2>
-<p></p>
+<p>Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The
+    invention of novel approaches to resolving this challenge is to be commended. However, in the case of overlays -
+    especially those which attempt to add widgets that present assistive features - the challenge is not being met. Even
+    more problematic are the deceptive marketing provided by some overlay vendors who promise that implementing their
+    product will give their customer's sites immediate compliance with laws and standards.</p>
 
+<p>No overlay product on the market can cause a website to become fully compliant with any existing accessibility
+    standard and therefore cannot eliminate legal risk.</p>
 
 <h2>Statement from Sponsors and Signatories to this Fact Sheet</h2>
 <p>As a result of the above information:</p>
 <ol>
-    <li>We will never advocate, recommend, integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards</li>
+    <li>We will never advocate, recommend, integrate an overlay which deceptively markets itself as providing automated
+        compliance with laws or standards
+    </li>
     <li>We will always advocate for the remediation of accessibility issues at the source of the original error</li>
     <li>We will refuse to stay silent when overlay vendors use deception to market their products</li>
-    <li>More specifically, we hereby advocate for the removal of accessiBe, AudioEye, UserWay, User1st, MK-Sense, and all similar products and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible</li>
+    <li>More specifically, we hereby advocate for the removal of accessiBe, AudioEye, UserWay, User1st, MK-Sense, and
+        all similar products and encourage the site owners who've implemented these products to use more robust,
+        independent, and permanent strategies to making their sites more accessible
+    </li>
 </ol>
 
 <h3>Signed by:</h3>
-<!--// list of all people signing the statement //-->
+<!--//
+    Add your name to this list in accordance with the guidance provided in the repository's README document
+ //-->
+<ol>
+    <li>Karl Groves, Founder and President, Tenon.io</li>
+</ol>
 
 
 <h2>Additional Reading</h2>

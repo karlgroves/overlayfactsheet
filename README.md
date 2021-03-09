@@ -14,6 +14,8 @@ Below that is an ordered list (`<ol>`);
 
 Add your name as a `<li>` in that list, in the following format:  Name, Title, Organization. For example: `Joe Schmoe, CEO, Acme Corp.`
 
+Please do not add links in the endorsement section. This isn't an exercise in SEO for anyone, it is a statement of unity.
+
 Please use the PR process described below, issuing your PR against the `develop` branch.
 
 ### Design and/or Code

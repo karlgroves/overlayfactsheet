@@ -12,7 +12,7 @@ Toward the bottom of the page in the `/src/index.html` file is a heading that sa
 
 Below that is an ordered list (`<ol>`);
 
-Add your name as a `<li>` in that list, in the following format:  Name, Title, Organization. For example: `Joe Schmoe, CEO, Acme Corp.`
+Add your name as a `<li>` in that list, in the following format:  Name, Title, Organization. For example: `Joe Schmoe, CEO, Acme Corp.`  If you'd rather not put your title and organization down, that's fine.  Feel free to do something like `Joe Schmoe, self`
 
 Please do not add links in the endorsement section. This isn't an exercise in SEO for anyone, it is a statement of unity.
 

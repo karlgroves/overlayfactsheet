@@ -6,6 +6,18 @@ A non-biased, community-driven, fact-based information sheet aimed at educating 
 
 ## Contributing
 
+### Endorse this statement
+
+Toward the bottom of the page in the `/src/index.html` file is a heading that says "Signed by".
+
+Below that is an ordered list (`<ol>`);
+
+Add your name as a `<li>` in that list, in the following format:  Name, Title, Organization. For example: `Joe Schmoe, CEO, Acme Corp.`  If you'd rather not put your title and organization down, that's fine.  Feel free to do something like `Joe Schmoe, self`
+
+Please do not add links in the endorsement section. This isn't an exercise in SEO for anyone, it is a statement of unity.
+
+Please use the PR process described below, issuing your PR against the `develop` branch.
+
 ### Design and/or Code
 
 Contributions to the design and/ or code are encouraged!
@@ -30,4 +42,5 @@ Please note the following general content guidance:
 2. Opinions should be avoided unless they are opinions of end users describing their experiences with overlays.
 3. Advertisements for any product, service, or company is prohibited.
 4. You should use [Wikipedia's Content Standards](https://en.wikipedia.org/wiki/Wikipedia:Understanding_Wikipedia%27s_content_standards) and [Principles](https://en.wikipedia.org/wiki/Wikipedia:Principles) as guides for what we're trying to accomplish here.
+
 

@@ -13,8 +13,23 @@
 /* Custom properties */
 :root {
   --color-gray-100: #ffffff;
-  --color-gray-200: #eeeeee;
-  --color-blue: #369;
+  --color-gray-200: #d3d3d3;
+  --color-gray-300: #afafaf;
+  --color-gray-400: #aeaeae;
+  --color-gray-500: #949494;
+  --color-gray-600: #818181;
+  --color-gray-700: #6a6a6a;
+  --color-gray-800: #6a6a6a;
+  --color-gray-900: #3f3f3f;
+  --color-blue-100: #D6E4FF;
+  --color-blue-200; #ADC8FF;
+  --color-blue-300; #84A9FF;
+  --color-blue-400; #6690FF;
+  --color-blue-500; #3366FF;
+  --color-blue-600; #254EDB;
+  --color-blue-700; #1939B7;
+  --color-blue-800; #102693;
+  --color-blue-900; #091A7A;
   --typeface-primary: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   --line-height-100: 1.1;
   --line-height-200: 1.3;
@@ -62,7 +77,7 @@ html {
 
 body {
   background-color: var(--color-gray-100);
-  color: var(--color-type);
+  color: var(--color-gray-900);
   font-family: var(--typeface-primary);
   font-size: 125%;
   line-height: var(--line-height-300);

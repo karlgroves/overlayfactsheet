@@ -224,6 +224,7 @@ a:focus {
 }
 
 .quote cite {
+  font-style: normal;;
   display: block;
   margin-top: 0.5rem;
 }

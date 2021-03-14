@@ -8,6 +8,14 @@ A non-biased, community-driven, fact-based information sheet aimed at educating 
 
 ### Endorse this statement
 
+#### EASY:  If the whole PR thing is something you're not comfortable with you can do one of three things:
+
+ * Log an Issue in this repo: Click "Issues" and follow the process of adding an issue that indicates that you want to sign
+ * Send an email to karl@tenon.io to indicate that you want to sign
+ * Send a Twitter DM to @karlgroves to indicate that you want to sign
+
+#### Harder, but more efficient
+
 Toward the bottom of the page in the `/src/index.html` file is a heading that says "Signed by".
 
 Below that is an ordered list (`<ol>`);
@@ -30,7 +38,6 @@ We follow a modified "git flow" type of workflow:
 4. Once a repo admin approves the PR, it will be merged into `develop`
 5. From there, it'll be verified on the preview version of the site and, if acceptable, a PR will be made to go from `develop` to `main`.
 6. When the PR to `main` has passed, it will automatically deploy.
-
 
 ### Content
 

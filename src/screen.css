@@ -13,6 +13,7 @@
 
 /* Custom properties */
 :root {
+  --border-radius: 0.5rem;
   --border-thickness: 2px;
   --color-gray-100: #ffffff;
   --color-gray-200: #eaeaea;
@@ -136,6 +137,9 @@ blockquote {
 
 a {
   color: var(--color-red-700);
+  transition:
+  150ms background-color ease-in-out,
+  150ms color ease-in-out;
 }
 
 a:hover,
@@ -246,9 +250,26 @@ a:focus {
 .quote {
   background-color: var(--color-gray-100);
   border: var(--border-thickness) solid var(--color-red-200);
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
   margin-top: calc(var(--vertical-rhythm) * 2);
   padding: 2rem;
+}
+
+.add-your-name {
+  background: var(--color-yellow-100);
+  border: var(--border-thickness) solid var(--color-yellow-500);
+  border-radius: var(--border-radius);
+  color: var(--color-yellow-800);
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-top: var(--vertical-rhythm);
+  padding: 1rem 2rem;
+}
+
+.add-your-name:hover,
+.add-your-name:focus {
+  background: var(--color-yellow-300);
+  color: var(--color-yellow-900);
 }
 
 @supports (display: grid) {
@@ -315,7 +336,7 @@ a:focus {
   .quote {
     background-color: var(--color-gray-900);
     border: var(--border-thickness) solid var(--color-red-800);
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius);
     margin-top: calc(var(--vertical-rhythm) * 2);
     padding: 2rem;
   }

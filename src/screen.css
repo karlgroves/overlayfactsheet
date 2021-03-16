@@ -162,6 +162,19 @@ a:focus {
   padding: 1rem;
 }
 
+.skip-to-content-link {
+  display: inline-block;
+  background: #fff;
+  padding: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -100%);
+}
+
+.skip-to-content-link:focus {
+  transform: translate(-50%, 20%);
+}
+
 
 /* Layout */
 .header {

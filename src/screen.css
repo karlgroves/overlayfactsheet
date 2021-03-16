@@ -13,6 +13,7 @@
 
 /* Custom properties */
 :root {
+  --border-radius: 0.5rem;
   --border-thickness: 2px;
   --color-gray-100: #ffffff;
   --color-gray-200: #eaeaea;
@@ -116,10 +117,14 @@ p {
   margin-top: var(--vertical-rhythm);
 }
 
-ul,
-ol {
+ul {
   margin-top: var(--vertical-rhythm);
   margin-left: 2rem;
+}
+
+ol {
+  margin-top: var(--vertical-rhythm);
+  margin-left: 3rem;
 }
 
 li {
@@ -132,6 +137,9 @@ blockquote {
 
 a {
   color: var(--color-red-700);
+  transition:
+  150ms background-color ease-in-out,
+  150ms color ease-in-out;
 }
 
 a:hover,
@@ -165,6 +173,30 @@ a:focus {
 .further-reading {
   margin-top: calc(var(--vertical-rhythm) * 2);
   padding: 0 2rem 4rem 2rem;
+}
+
+.quotes {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@supports (display: grid) {
+  .quotes {
+    margin-top: var(--vertical-rhythm);
+  }
+}
+
+@media screen and (min-width: 60rem) {
+  .quotes {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (min-width: 80rem) {
+  .quotes {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
 
 .in-their-own-words {
@@ -218,9 +250,32 @@ a:focus {
 .quote {
   background-color: var(--color-gray-100);
   border: var(--border-thickness) solid var(--color-red-200);
-  border-radius: 0.5rem;
+  border-radius: var(--border-radius);
   margin-top: calc(var(--vertical-rhythm) * 2);
   padding: 2rem;
+}
+
+.add-your-name {
+  background: var(--color-yellow-100);
+  border: var(--border-thickness) solid var(--color-yellow-500);
+  border-radius: var(--border-radius);
+  color: var(--color-yellow-800);
+  display: inline-block;
+  font-size: 1.25rem;
+  margin-top: var(--vertical-rhythm);
+  padding: 1rem 2rem;
+}
+
+.add-your-name:hover,
+.add-your-name:focus {
+  background: var(--color-yellow-300);
+  color: var(--color-yellow-900);
+}
+
+@supports (display: grid) {
+  .quote {
+    margin-top: 0;
+  }
 }
 
 .quote cite {
@@ -281,7 +336,7 @@ a:focus {
   .quote {
     background-color: var(--color-gray-900);
     border: var(--border-thickness) solid var(--color-red-800);
-    border-radius: 0.5rem;
+    border-radius: var(--border-radius);
     margin-top: calc(var(--vertical-rhythm) * 2);
     padding: 2rem;
   }

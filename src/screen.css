@@ -302,7 +302,9 @@ a:focus {
   font-size: 1rem;
 }
 
-
+#webaim-quote{
+  margin: 2rem;
+}
 
 
 /* Dark mode */

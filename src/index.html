@@ -58,11 +58,6 @@
         </a>
       </li>
       <li>
-        <a href="#strengths-and-weaknesses-of-automated-repair">
-          Strengths and weaknesses of automated repair
-        </a>
-      </li>
-      <li>
         <a href="#fitness-for-achieving-compliance-with-accessibility-standards">
           Fitness for achieving compliance with accessibility standards
         </a>
@@ -149,48 +144,6 @@
       </cite>
     </blockquote>
 		<p>Conformance is defined as meeting all requirements of the standard. These products' documented inability to repair all possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant scepticism.</p>
-
-    <h2 id="strengths-and-weaknesses-of-automated-repair">
-      Strengths and weaknesses of automated repair
-    </h2>
-    <p class="summary">
-      While some automated repair is possible, customers should be
-      discouraged from using an overlay as a long-term solution.
-    </p>
-    <p>Some overlay products have capabilities aimed at providing accessibility
-      repairs to the underlying page on which the overlay is added. These repairs
-      are applied when the page loads in the user's browser.</p>
-    <p>While it is true that a non-trivial array of accessibility problems can be
-      repaired in this manner, the nature, extent, and accuracy of such repair are
-      limited by a number of important factors:</p>
-    <ul>
-      <li>Automated application of text alternatives for images is not
-        reliable
-      </li>
-      <li>Automated repair of field labels, error management, error handling, and
-        focus control on forms is not reliable
-      </li>
-      <li>Automated repair of keyboard access is not reliable</li>
-      <li>Modern, component-based user interfaces, such as those using ReactJS,
-        Angular, or Vue may change the state of all or some of the underlying page
-        independently of the overlay, rendering it unable to fix those
-        JavaScript-driven changes to content.
-      </li>
-      <li>Repairs to the page can either slow down page load times or cause
-        unexpected page changes for assistive technology users.
-      </li>
-    </ul>
-
-    <p>In addition to the above, overlays do not repair content in Flash, Java,
-      Silverlight, PDF, HTML5 Canvas, SVG, or media files.</p>
-    <p>An additional class of product exists, which only perform automated
-      repairs and are marketed as a temporary solution. These include Amaze by
-      Deque Systems, Alchemy by Level Access, and Sentinel by Tenon.
-    <p>For purposes of this document, these products aren't considered to be in
-      the same class of product as the overlays that provide widgets. The most
-      notable difference, beyond the lack of a “widget” is that Amaze,
-      Alchemy, and Sentinel are understood by their manufacturers as being intended
-      for use as an <strong>interim</strong> solution.</p>
 
     <h2 id="fitness-for-achieving-compliance-with-accessibility-standards">
       Fitness for achieving compliance with accessibility standards

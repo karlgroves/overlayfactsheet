@@ -19,7 +19,7 @@
     gtag('config', 'G-NGCH8KPZG9');
   </script>
   <link rel="icon" href="/favicon.ico">
-  <link href="screen.css" rel="stylesheet" />
+  <link href="screen.css" rel="stylesheet"/>
 
   <meta content="summary" name="twitter:card"/>
   <meta content="Overlay Fact Sheet" name="twitter:title"/>
@@ -31,20 +31,20 @@
 <a href="#main" class="skip-to-content-link">Skip to content</a>
 <header class="header text-align-center">
   <svg aria-hidden="true" class="logo" height="120" width="120" viewBox="0 0 120 120"
-    xmlns="http://www.w3.org/2000/svg">
+       xmlns="http://www.w3.org/2000/svg">
     <path
       d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60S0 93.137 0 60 26.863 0 60 0zm4.167 26.667h-25c-6.904 0-12.5 5.596-12.5 12.5v25c0 6.903 5.596 12.5 12.5 12.5h4.166v4.166c0 6.904 5.597 12.5 12.5 12.5h25c6.904 0 12.5-5.596 12.5-12.5v-25c0-6.903-5.596-12.5-12.5-12.5h-4.166v-4.166c0-6.904-5.597-12.5-12.5-12.5zM80.833 47.5a8.343 8.343 0 018.334 8.333v25a8.343 8.343 0 01-8.334 8.334h-25a8.343 8.343 0 01-8.333-8.334v-4.166h16.667c6.903 0 12.5-5.597 12.5-12.5V47.5h4.166zM64.167 30.833a8.343 8.343 0 018.333 8.334v4.166H55.833c-6.903 0-12.5 5.597-12.5 12.5V72.5h-4.166a8.343 8.343 0 01-8.334-8.333v-25a8.343 8.343 0 018.334-8.334h25z"
       fill-rule="evenodd"/>
   </svg>
   <h1 class="title">Overlay Fact Sheet</h1>
 </header>
-<section>
+<nav aria-labelledby="toc">
   <div class="container">
     <h2 id="toc">Table of contents</h2>
     <ol>
       <li>
-        <a href="#introduction-definition-and-history-of-web-accessibility-overlays">
-          Introduction, definition, and history of web accessibility overlays
+        <a href="#what-is-a-web-accessibility-overlay">
+          What is a web accessibility overlay?
         </a>
       </li>
       <li>
@@ -63,6 +63,9 @@
         </a>
       </li>
       <li>
+        <a href="#privacy">Privacy of personal data</a>
+      </li>
+      <li>
         <a href="#in-their-own-words">In their own words</a></li>
       <li>
         <a href="#conclusion">Conclusion</a>
@@ -75,35 +78,25 @@
       <li><a href="#additional-reading">Additional Reading</a></li>
     </ol>
   </div>
-</section>
+</nav>
 <main id="main">
   <div class="container">
-    <h2 id="introduction-definition-and-history-of-web-accessibility-overlays">
-      Introduction, definition, and history of web accessibility overlays
+    <h2 id="what-is-a-web-accessibility-overlay">
+      What is a web accessibility overlay?
     </h2>
     <p class="summary">
-      Overlays are a broad term for technologies aimed at improving the
-      accessibility of a website by applying third-party source code (typically
-      JavaScript) to make improvements to the front-end code of the website.
-    </p>
-    <p>Website add-on products purporting to improve accessibility go back to the
-      late 1990s with products like <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a>
-      and <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Both
-      of which added text-to-speech capabilities to the website(s) on which they
-      were installed.</p>
-    <p>Later, similar products came to market that added additional tools to
-      their software that allow user-based control of things like font-sizes and
-      changes to the web pages colors so that contrast is improved. Products like
-      Userway, EqualWeb, AudioEye, User1st, MaxAccess, FACIL'iti, Purple Lens, and accessiBe fall into this category.
-      These products are sometimes also white labelled under additional names and the above is not an exhaustive list of 
-      products with which this Fact Sheet is aimed at.</p>
+      Overlays are a broad term for technologies aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website.</p>
+    <p>Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a>
+      and <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed.</p>
+    <p>Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability.</p>
+		<p>Some newer overlay products aim to fix any problems in the site's code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem.</p>
+		<p>Products like Userway, EqualWeb, AudioEye, User1st, MaxAccess, FACIL'iti, Purple Lens, and accessiBe are known as accessibility overlays. They are sometimes white labelled (sold under other names), so this is not a complete list of the type of products discussed on this page.</p>
 
     <h2 id="strengths-and-weaknesses-of-overlay-widgets">
       Strengths and weaknesses of overlay “widgets”
     </h2>
     <p class="summary">
-      Overlay widgets are unnecessary and are poorly placed in the
-      technology stack.
+      Overlay widgets are unnecessary and are poorly placed in the technology stack.
     </p>
     <p>As stated above, some overlay products contain widgets which present a
       series of controls that modify the presentation of the page they're on.
@@ -182,8 +175,8 @@
       to satisfy the Success Criteria, that is, there is no content which
       violates the Success Criteria.
       <cite>
-        <a href="https://www.w3.org/TR/UNDERSTANDING-WCAG20/conformance">Understanding
-          WCAG 2.0: Understanding Conformance</a>
+        <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance">Understanding
+          WCAG 2.1: Understanding Conformance</a>
       </cite>
     </blockquote>
 
@@ -192,6 +185,25 @@
       all possible issues means that they cannot bring a website into compliance.
       Products marketed with such claims should be viewed with significant
       scepticism.</p>
+  </div>
+
+  <div class="container">
+    <h2 id="privacy">Privacy of personal data</h2>
+
+    <p>Overlays that automatically enable certain settings, like those for screen reader or speech recognition users, do
+      so by detecting when an assistive technology is running on the device. This exposes the fact that the person using
+      the device at the time has a disability. In certain cases, like screen reader users where the majority are blind
+      or have low vision, it exposes even more detail about the nature of their disability. Like age, ethnic background,
+      or preferred gender, disability is sensitive personal information. It is not data that should be collected without
+      the informed consent of the person it belongs to.</p>
+
+    <p>Some overlays have been found to persist users' settings across sites which use the same overlay. This is done by
+      setting a cookie on the user's computer. When the user enables a setting for an overlay feature on one site, the
+      overlay will automatically turn on that feature on other sites. While the overlay company might think they're
+      doing good by the end user, the big privacy problem is that the user never opted in to be tracked and there's also no
+      ability to opt-out. Due to this lack of an opt-out (other than explicitly turning off that setting) this creates
+      GDPR and CCPA risk for the overlay customer.</p>
+
   </div>
 
   <div class="in-their-own-words">
@@ -224,7 +236,8 @@
         #AccessiBe in my Windows Hosts file. I should not need to do this to use
         the Internet. AccessiBe needs to AccessiBeGone
         <cite>
-          <a class="quote-source" href="https://twitter.com/WilfSplodNokit/status/1365478393895153664">WilfSplodNokit</a>
+          <a class="quote-source"
+             href="https://twitter.com/WilfSplodNokit/status/1365478393895153664">WilfSplodNokit</a>
         </cite>
       </blockquote>
 
@@ -280,7 +293,8 @@
         came across an &quot;enhanced&quot; website and to my shame, we left
         because navigating that mess was beyond my skills, on that day.
         <cite>
-          <a class="quote-source" href="https://twitter.com/turtlecatpurrz/status/1365099776207851523">turtlecatpurrz</a>
+          <a class="quote-source"
+             href="https://twitter.com/turtlecatpurrz/status/1365099776207851523">turtlecatpurrz</a>
         </cite>
       </blockquote>
 
@@ -290,7 +304,8 @@
         with this overlay. Discrediting reputable accessiblity professionals and
         advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ
         <cite>
-          <a class="quote-source" href="https://twitter.com/SingingTigress/status/1364922970670583815">SingingTigress</a>
+          <a class="quote-source"
+             href="https://twitter.com/SingingTigress/status/1364922970670583815">SingingTigress</a>
         </cite>
       </blockquote>
 
@@ -330,7 +345,7 @@
         🤦‍♀️ https://t.co/f4MxQ2eLLP"
         <cite>
           <a class="quote-source"
-            href="https://twitter.com/racheleditullio/status/1365739183839588357">racheleditullio</a>
+             href="https://twitter.com/racheleditullio/status/1365739183839588357">racheleditullio</a>
         </cite>
       </blockquote>
 
@@ -340,7 +355,7 @@
         they listen. @Goodfair_ - please stop using AccessiBe.
         <cite>
           <a class="quote-source"
-            href="https://twitter.com/kit_flowerstorm/status/1364605580405575681">kit_flowerstorm</a>
+             href="https://twitter.com/kit_flowerstorm/status/1364605580405575681">kit_flowerstorm</a>
         </cite>
       </blockquote>
 
@@ -408,7 +423,7 @@
         all the other components of the tables become headings as well.
         <cite>
           <a class="quote-source"
-            href="https://twitter.com/CatchTheseWords/status/1364915942157922308">CatchTheseWords</a>
+             href="https://twitter.com/CatchTheseWords/status/1364915942157922308">CatchTheseWords</a>
         </cite>
       </blockquote>
     </div>
@@ -432,9 +447,13 @@
       vendors who promise that implementing their product will give their
       customer's sites immediate compliance with laws and standards.</p>
     <p>The ineffectiveness of overlays is something that has broad agreement among
-    accessibility practitioners, per the <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM Survey of Web Accessibility Practitioners</a>
-    which found:</p>
-    <blockquote id="webaim-quote">A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective.</blockquote>
+      accessibility practitioners, per the <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM
+        Survey of Web Accessibility Practitioners</a>
+      which found:</p>
+    <blockquote id="webaim-quote">A strong majority (67%) of respondents rate these tools as not at all or not very
+      effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very
+      effective, and only 2.4% rating them as very effective.
+    </blockquote>
     <h2 id="statement-from-sponsors-and-signatories-to-this-fact-sheet">
       Statement from sponsors and signatories to this fact sheet
     </h2>
@@ -466,7 +485,10 @@
     //-->
     <ol>
       <li>Karl Groves, Founder and President, Tenon.io</li>
-      <li>Bill Dengler, totally blind computer science student and code contributor to the NVDA screen reader, Swarthmore College, Philadelphia</li>
+      <li>Matt King, Chair, W3C ARIA Authoring Practices Task Force and W3C ARIA and Assistive Technologies Community Group</li>
+      <li>Bill Dengler, totally blind computer science student and code contributor to the NVDA screen reader,
+        Swarthmore College, Philadelphia
+      </li>
       <li>Nicolas Steenhout, Independent accessibility consultant</li>
       <li>Rian Rietveld, web accessibility specialist, Level Level</li>
       <li>Weston Thayer, Founder, Assistiv Labs</li>
@@ -479,9 +501,9 @@
       <li>Eric Eggert, Co-Founder, outline</li>
       <li>Dale Reardon - Founder &amp; CEO of TravelForAll.Guide</li>
       <li>Jason Gill - Certified Web Accessibility Specialist</li>
-      <li>Michael Ausbun, CPWA, Accessibility Specialist</li>
+      <li>Michael Ausbun, CPWA, Web Accessibility Engineer, Prime Access Consulting, Inc.</li>
       <li>Ronny Hendriks - Accessibility Consultant, Toegankelijk Online</li>
-      <li>Charles Hall, Senior Accessibility Designer, CVS Health</li>
+      <li>Charles Hall, Invited Expert W3C AGWG</li>
       <li>Hai Nguyen Ly, Accessibility Advocate</li>
       <li>David Luhr, Accessibility Consultant</li>
       <li>Justin L. Yarbrough, Accessibility Specialist, Rio Salado College</li>
@@ -537,7 +559,8 @@
       <li>Jon Gibbins, digital accessibility consultant, Dotjay Ltd</li>
       <li>Alicia Jarvis</li>
       <li>Anthony Fernando, CPWA, Accessibility QA Manager, Pearson</li>
-      <li>Jennifer Strickland, Senior HCD + Accessibility Engineer at MITRE, Accessibility Consultant at Level Access</li>
+      <li>Jennifer Strickland, Senior HCD + Accessibility Engineer at MITRE, Accessibility Consultant at Level Access
+      </li>
       <li>Lainey Feingold - lawyer and author, Law Office of Lainey Feingold</li>
       <li>Andrew Hayward, Accessibility Engineer</li>
       <li>Jean Ducrot, Accessibility Engineer, CPWA</li>
@@ -594,7 +617,9 @@
       <li>Billy Gregory, TPGi</li>
       <li>Thomas Logan</li>
       <li>Brian Elton, Accessibility Engineer/Consultant</li>
-      <li>Kevin Mar-Molinero, Director of Experience Technologies Kin+Carta Connect, Member of BIMA Inclusive Design Council.</li>
+      <li>Kevin Mar-Molinero, Director of Experience Technologies Kin+Carta Connect, Member of BIMA Inclusive Design
+        Council.
+      </li>
       <li>Crystal Preston-Watson, Quality and Accessibility Engineer</li>
       <li>Bob Dodd, Accessibility Consultant</li>
       <li>Chauncey McAskill</li>
@@ -633,7 +658,8 @@
       <li>Lindsey Dragun, Developer / Accessibility Advocate</li>
       <li>Michail Yasonik, Senior Software Engineer</li>
       <li>Marcy Sutton, Independent Web Developer and Accessibility Specialist</li>
-      <li>Talita Pagani, Accessibility and UX Consultant, Research Scientist in Web Accessibility for Neurodiversity</li>
+      <li>Talita Pagani, Accessibility and UX Consultant, Research Scientist in Web Accessibility for Neurodiversity
+      </li>
       <li>Aaron Chu, UI Engineer + Disability &amp; Design Researcher</li>
       <li>Adam Saucier, Web Accessibility Specialist</li>
       <li>Arnaud Delafosse, Web Quality &amp; Accessibility Consultant, Temesis</li>
@@ -664,7 +690,9 @@
       <li>Paweł Choiński, Front-End Developer</li>
       <li>Eric Hind, Accessibility Specialist</li>
       <li>Sylvie Duchateau, Web Accessibility Consultant, Access42</li>
-      <li>Rachel Cherry, Accessibility Specialist, Director of WPCampus, and Director of Technology and Design, Equal Made</li>
+      <li>Rachel Cherry, Accessibility Specialist, Director of WPCampus, and Director of Technology and Design, Equal
+        Made
+      </li>
       <li>Lucy Greco, Accessaces</li>
       <li>John Lukosky, Accessibility Specialist</li>
       <li>Jennifer Grant, Senior Accessibility Engineer, Educational Testing Service</li>
@@ -791,7 +819,9 @@
       <li>Jeremy Neander, Senior Front End Engineer</li>
       <li>Nick Croft, Senior Full Stack Web Developer, WAS, CPACC, CPWA, 508 TT</li>
       <li>Dag Eikesdal, web developer & accessibility specialist</li>
-      <li>Dylan M. Rafaty, Disability Rights Activist and Head of Accessibility Strategy & Partnerships at C-Hear, Inc.</li>
+      <li>Dylan M. Rafaty, Disability Rights Activist and Head of Accessibility Strategy & Partnerships at C-Hear,
+        Inc.
+      </li>
       <li>Randi Strunk, self</li>
       <li>Jörg Morsbach, anatom5</li>
       <li>Thomas Logan, Founder and CEO, Equal Entry</li>
@@ -848,24 +878,86 @@
       <li>Tommy Feldt, CPWA, Accessibility consultant, Useit</li>
       <li>Ida Franceen, Developer</li>
       <li>Jean-Claude Simpson, Front-end developer, Mangoweb</li>
-      <li>Holly Schroeder, UX Researcher and Writer, a11y </li>
+      <li>Holly Schroeder, UX Researcher and Writer, a11y</li>
       <li>Roel Van Gils, WAS, Co-founder Eleven Ways</li>
       <li>Sara Soueidan, independent Web UI and design systems engineer</li>
       <li>Clive Loseby, Owner, Access by Design</li>
       <li>Afnizar Nur Ghifari, Product Designer</li>
       <li>Laura Bentz, CPACC, User Experience Interaction Designer, a well-known Fortune 500 banking institution</li>
-			<li>Sarah Pulis, Director Accessibility Services, Intopia</li>
-			<li>Adem Cifcioglu, Director Accessible Technologies, Intopia</li>
-			<li>Stewart Hay, Managing Director, Intopia</li>
-			<li>Chris Pycroft, Digital Accessibility Consultant, Intopia</li>
-			<li>Julie Grundy, Digital Accessibility Consultant, Intopia</li>
+      <li>Sarah Pulis, Director Accessibility Services, Intopia</li>
+      <li>Adem Cifcioglu, Director Accessible Technologies, Intopia</li>
+      <li>Stewart Hay, Managing Director, Intopia</li>
+      <li>Chris Pycroft, Digital Accessibility Consultant, Intopia</li>
+      <li>Julie Grundy, Digital Accessibility Consultant, Intopia</li>
       <li>Robin Whittleton, Engineering Manager</li>
       <li>Justin Wong, Full-Stack Developer, Project COSMIC Limited</li>
       <li>Jana Uhrich, Costco Wholesale</li>
       <li>Will Buckingham, Senior Front-End Engineer / Lead Accessibility Engineer, Prescriptive Data</li>
+      <li>Doug Hayman, Accessibility Specialist & Trusted Tester</li>
       <li>Jules Ernst, Digital Accessibility Consultant, 200 OK</li>
       <li>Cory Joseph, self</li>
       <li>Amanda Ryan, Academic Technologist</li>
+      <li>Sébastien Delorme, CEO, Ideance</li>
+      <li>Nicolas Hoffmann, Senior Front-End developer / Accessibility advocate</li>
+      <li>Yvain Liechti, Design System Engineer, UKG</li>
+      <li>Sébastien Picq, Senior Front-End Engineer / Accessibility consultant</li>
+      <li>Robin Massart, Policy Assistant on the Web Accessibility Directive, European Commission</li>
+      <li>Chris M Law, Consultant, Accessibility Track</li>
+      <li>Asaf Kuller , Websites accessibility consultant, Kull-Air Studio, Israel,</li>
+      <li>Ray Schwartz, Accessibility Consultant, InRhythm</li>
+      <li>Guy Hickling, Freelance Accessibility Consultant</li>
+      <li>Mario Vasquez, UX Designer</li>
+      <li>Jérémy Renard, webdesigner / front-end developer</li>
+      <li>Jan Pettersson, UI developer</li>
+      <li>Jan Maarten, Designer & Accessibility Specialist</li>
+      <li>Benjamin de Oostfreese, Front-end web developer</li>
+      <li>Zhiyang Ong, Ph.D. student, Texas A&M University</li>
+      <li>Caroline Desrosiers, Founder & CEO of Scribely</li>
+      <li>Anthony LADEUIL, Consultant Accessibilité, Clever Age</li>
+      <li>Danielle Sheffler, Accessibility Consultant</li>
+      <li>George McKinlay Accessibility Consultant</li>
+      <li>Jean-Baptiste Audras, WordPress Core team representative, former WordPress Accessibility team representative, Whodunit Agency head of technology, France</li>
+      <li>Aaron Jorbin, Product and Engineering Leader</li>
+      <li>Ethan Holliger, Accessibility Engineer</li>
+      <li>Mike Vogel, Accessibility Consultant / UX Engineer</li>
+      <li>Karli Yeoman, Accessibility Engineer, Expedia Group</li>
+      <li>Carmen Matthews, Accessibility Specialist</li>
+      <li>Kalani Helekunihi, Disabled Scientist</li>
+      <li>Mark Boyden, IT Consultant, Web Developer, FOSS Contributor</li>
+      <li>Andy Marino, Lead Developer, Unity Web Agency</li>
+      <li>Alisa Herr, CEO, Unity Web Agency</li>
+      <li>Jacqueline Pugliese, Accessibility Consultant</li>
+      <li>Maurício Pereiro, Quality Assurance Analyst in Digital Accessibility</li>
+      <li>Dr. Keith Newton. Technical Program Manager -  Accessibility, eBay</li>
+      <li>Franck Letrouvé, CEO, pixFL</li>
+      <li>Tema Smith-Bosken, Senior A11y SME and Digital Marketing Senior Advisor Cigna</li>
+      <li>Attila Bodnár, Web Developer, Accessibility Engineer</li>
+      <li>Richard Thiel, Frontend Engineer &amp; Accessibility Advocate, real.digital</li>
+      <li>Stefan Farnetani, Digital Accessibility Specialist & CEO, mindscreen</li>
+      <li>Lukáš Hosnedl, freelance translator, dev and accessibility consultant</li>
+      <li>Frank Reding, Development Manager &amp; Accessibility Advocate, Shopify</li>
+      <li>Michael Telgkamp, Digital Accessibility Specialist & Developer, mindscreen</li>
+      <li>Ginger Claassen, accessibility engineer / consultant</li>
+      <li>Duff Johnson CEO, PDF Association</li>
+      <li>Steve Green Managing Director Test Partners Ltd</li>
+      <li>Jennifer Grenier, Software Engineer</li>
+      <li>Okuto Oyama, Front-end Designer &amp; Accessibility Advocate, Internet Watcher</li>
+      <li>Quin Marilyn, programmer and accessibility advocate.</li>
+      <li>Peter Quale, Lead Accessibility Consultant, Target Corp.</li>
+      <li>Carlos Moreno, Software Engineer &amp; Accessibility Advocate, Outsmartly</li>
+      <li>Peter Heery, Accessibility Scotland</li>
+      <li>Dirk Neyhart</li>
+      <li>Lindsay Yazzolino, nonvisual accessibility designer, CVS Health</li>
+      <li>Marc Haunschild, Accessibility Consultant, Author and Teacher</li>
+      <li>David Murdoch, Principal Accessibility Consultant, Test Partners Ltd</li>
+      <li>Tim Frick, President, Mightybytes</li>
+      <li>Kathy Cahill, Associate Dean, Accessibility and Usability, MIT</li>
+      <li>Greg McNeil, President/CEO, 216digital</li>
+      <li>Bobby Graczyk, Accessibility Specialist, 216digital</li>
+      <li>Joseph S. Levin, Portal Design</li>
+      <li>Matthieu Marseille, Senior Front End Engineer and RGAA certified accessibility expert, ekino</li>
+      <li>Asaf Kuller, Websites accessibility consultant, Kull-Air Studio, Israel</li>
+      <li>Wilmer Rodriguez Vega, Digital Accessibility Consultant</li>
       <li>Shaylor Murray, Owner and Product Developer, Online ADA (Max Access)</li>
     </ol>
     <p>
@@ -936,7 +1028,8 @@
         <span class="further-reading-source">Karl Groves</span>
       </li>
       <li>
-        <a href="https://www.lalutineduweb.fr/en/web-accessibility-overlays-lies-gum-balls/">Web accessibility overlay tools: lies
+        <a href="https://www.lalutineduweb.fr/en/web-accessibility-overlays-lies-gum-balls/">Web accessibility overlay
+          tools: lies
           and gum balls</a>
         <span class="further-reading-source">Julie Moynat</span>
       </li>
@@ -959,7 +1052,7 @@
         <a href="https://allerlay.com/de/accessibility-widgets-wie-barrierefrei-machen-sie-deine-website/">Swiss
           article in German:<span
             lang="de-CH">Accessibility-Widgets: Wie barrierefrei machen sie deine Website?</span></a>
-          <span class="further-reading-source">Allerlay</span>
+        <span class="further-reading-source">Allerlay</span>
       </li>
       <li><a
         href="https://barrierekompass.de/aktuelles/detail/guenstig-oder-kostenlos-barrierefrei-mit-kuenstlicher-intelligenz-ki.html">German
@@ -967,9 +1060,19 @@
           lang="de-DE">Günstig oder kostenlos – barrierefrei mit Künstlicher Intelligenz (KI)?</span></a>
         <span class="further-reading-source" lang="de-DE">Barriere Kompass</span>
       </li>
-      <li><a href="https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them">People With Disabilities Say This AI Tool Is Making the Web Worse for Them</a><span class="further-reading-source">Vice Media</span></li>
+      <li><a
+        href="https://www.vice.com/en/article/m7az74/people-with-disabilities-say-this-ai-tool-is-making-the-web-worse-for-them">People
+        With Disabilities Say This AI Tool Is Making the Web Worse for Them</a><span class="further-reading-source">Vice Media</span>
+      </li>
+      <li><a href="https://www.ictaccessibilitytesting.org/ict-2020-overlays-panel/">ICT Accessibility Testing Symposium
+        2020 Overlays Panel (Recording and Transcript)</a>
+        <span class="further-reading-source">Karl Groves, Al Hoffman, Anil Lewis, David O’Neill, Cyndi Rowland, Chris M. Law</span>
+      </li>
+      <li><a href="https://www.nbcnews.com/tech/innovation/blind-people-advocates-slam-company-claiming-make-websites-ada-compliant-n1266720">
+        Blind people, advocates slam company claiming to make websites ADA compliant</a> <span class="further-reading-source">NBC News</span></li>
     </ul>
   </div>
 </aside>
 </body>
 </html>
+

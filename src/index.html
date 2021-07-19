@@ -47,23 +47,15 @@
           What is a web accessibility overlay?
         </a>
       </li>
-      <li>
-        <a href="#strengths-and-weaknesses-of-overlay-widgets">
-          Strengths and weaknesses of overlay “widgets”
+			<li>
+        <a href="#strengths-of-accessibility-overlays">
+          Strengths of accessibility overlays
         </a>
       </li>
-      <li>
-        <a href="#strengths-and-weaknesses-of-automated-repair">
-          Strengths and weaknesses of automated repair
+			<li>
+        <a href="#weaknesses-of-accessibility-overlays">
+          Weaknesses of accessibility overlays
         </a>
-      </li>
-      <li>
-        <a href="#fitness-for-achieving-compliance-with-accessibility-standards">
-          Fitness for achieving compliance with accessibility standards
-        </a>
-      </li>
-      <li>
-        <a href="#privacy">Privacy of personal data</a>
       </li>
       <li>
         <a href="#in-their-own-words">In their own words</a></li>
@@ -91,120 +83,66 @@
     <p>Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability.</p>
 		<p>Some newer overlay products aim to fix any problems in the site's code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem.</p>
 		<p>Products like Userway, EqualWeb, AudioEye, User1st, MaxAccess, FACIL'iti, Purple Lens, and accessiBe are known as accessibility overlays. They are sometimes white labelled (sold under other names), so this is not a complete list of the type of products discussed on this page.</p>
+		
+		<h2 id="strengths-of-accessibility-overlays">
+			Strengths of accessibility overlays
+		</h2>
+		<p>If you want to know more about the benefits of a specific accessibility overlay, please check its product website because each one is different. Here we've listed the features common to most overlay products.</p>
+		<ul>
+			<li>Most accessibility overlays are easy to install</li>
+			<li>Overlays may be useful to people who have recently acquired disabilities, and are not yet aware of the assistive technology available to them</li>
+			<li>Overlays with automated repair can be a temporary solution while you repair the site yourself</li>
+			<li>People without disabilities will feel good about doing business with an organisation which shows concern for people with disabilities</li>
+		</ul>
 
-    <h2 id="strengths-and-weaknesses-of-overlay-widgets">
-      Strengths and weaknesses of overlay “widgets”
-    </h2>
-    <p class="summary">
-      Overlay widgets are unnecessary and are poorly placed in the technology stack.
-    </p>
-    <p>As stated above, some overlay products contain widgets which present a
-      series of controls that modify the presentation of the page they're on.
-      Depending on the product, those changes may do things like change the page
-      contrast, enlarge the size of the page's text, or perform other changes to
-      the page that are intended to improve the experience for users with
-      disabilities.</p>
-    <p>To laypersons, these features may seem beneficial, but their practical
-      value is largely overstated because the end users that these features claim
-      to serve will already have the necessary features on their computer, either
-      as a built-in feature or as an additional piece of software that the user
-      needs to access not only the Web but all software.</p>
-    <p>On this latter point, it is a mistake to believe that the features
-      provided by the overlay widget will be of much use by end users because if
-      those features were <strong>necessary</strong> to use the website, they'd be
-      needed for all websites that the user interacts with. Instead, the widget is 
-      as—at best—redundant functionality with what the user already has.</p>
+		<h2 id="weaknesses-of-accessibility-overlays">
+			Weaknesses of accessibility overlays
+		</h2>
+		<p>Overlay products are unlikely to list their drawbacks on their marketing sites. However, accessibility overlays do have several problems which make it difficult to recommend that you use one.</p>
+		<ul>
+			<li>Overlays add redundant widgets to your page</li>
+			<li>Overlays will not make you compliant with accessibility standards</li>
+			<li>Overlays with automated repair features cannot reliably fix many problems</li>
+			<li>Overlays invade privacy</li>
+			<li>Overlays cannot fix content that isn't in HTML, CSS or JavaScript (such as media files or PDFs) or inside HTML5 canvas elements</li>
+			<li>Overlays add performance delays by loading scripts which must analyse and repair the code via the DOM</li>
+		</ul>
+		
+		<h3>Redundant overlay widgets</h3>
+		<p>Some overlay products have widgets with controls to change the presentation of the page they're on. These controls can change the contrast or enlarge the text size. This might seem like a good idea, but their practical value is overstated. The people these features claim to help will already have the necessary tools on their computer, either as a built-in feature or as an extra app used to access not only the Web but all software.</p>
+		<p>For example, when someone needs a high contrast website, they need all websites to be high contrast, so they use a high contrast theme on their device. The widget's high contrast tool is redundant.</p>
+		<p>If you think your site's audience would benefit from widgets like this, but don't want the other problems that overlays can cause, please check the Alternatives To Overlays section below.</p>
 
-    <h2 id="strengths-and-weaknesses-of-automated-repair">
-      Strengths and weaknesses of automated repair
-    </h2>
-    <p class="summary">
-      While some automated repair is possible, customers should be
-      discouraged from using an overlay as a long-term solution.
-    </p>
-    <p>Some overlay products have capabilities aimed at providing accessibility
-      repairs to the underlying page on which the overlay is added. These repairs
-      are applied when the page loads in the user's browser.</p>
-    <p>While it is true that a non-trivial array of accessibility problems can be
-      repaired in this manner, the nature, extent, and accuracy of such repair are
-      limited by a number of important factors:</p>
-    <ul>
-      <li>Automated application of text alternatives for images is not
-        reliable
-      </li>
-      <li>Automated repair of field labels, error management, error handling, and
-        focus control on forms is not reliable
-      </li>
-      <li>Automated repair of keyboard access is not reliable</li>
-      <li>Modern, component-based user interfaces, such as those using ReactJS,
-        Angular, or Vue may change the state of all or some of the underlying page
-        independently of the overlay, rendering it unable to fix those
-        JavaScript-driven changes to content.
-      </li>
-      <li>Repairs to the page can either slow down page load times or cause
-        unexpected page changes for assistive technology users.
-      </li>
-    </ul>
+		<h3>Automated repair is not reliable</h3>
+		<p>Some overlay products aim to provide accessibility repairs to the page they're on. These repairs are applied after the page loads in the user's browser.</p>
+		<p>It's true that some accessibility problems can be fixed this way. But the usefulness of these repairs is limited by several important factors:</p>
+		<ul>
+			<li>Automated application of text alternatives for images is not reliable</li>
+			<li>Automated repair of field labels, errors and focus control on forms is not reliable</li>
+			<li>Automated repair of keyboard access is not reliable</li>
+			<li>Modern component-based sites (made with ReactJS, Angular, or Vue) will change the state of all or some of the page based on user interactions. The overlay is unable to fix the updated content.</li>
+			<li>Repairs to the page can slow down page load times, or cause unexpected page updates for assistive technology users.</li>
+		</ul>	
+		<p>Some overlay products only perform automated repairs and are marketed as a temporary solution. These include Amaze by Deque Systems, Alchemy by Level Access, and Sentinel by Tenon. These products aren't in the same class of product as the overlays that provide widgets. Beyond the lack of a "widget", the biggest difference is that their manufacturers intend them to be an interim solution only.</p>
 
-    <p>In addition to the above, overlays do not repair content in Flash, Java,
-      Silverlight, PDF, HTML5 Canvas, SVG, or media files.</p>
-    <p>An additional class of product exists, which only perform automated
-      repairs and are marketed as a temporary solution. These include Amaze by
-      Deque Systems, Alchemy by Level Access, and Sentinel by Tenon.
-    <p>For purposes of this document, these products aren't considered to be in
-      the same class of product as the overlays that provide widgets. The most
-      notable difference, beyond the lack of a “widget” is that Amaze,
-      Alchemy, and Sentinel are understood by their manufacturers as being intended
-      for use as an <strong>interim</strong> solution.</p>
-
-    <h2 id="fitness-for-achieving-compliance-with-accessibility-standards">
-      Fitness for achieving compliance with accessibility standards
-    </h2>
-    <p class="summary">While the use of an overlay may improve
-      compliance with a handful of provisions in major accessibility standards,
-      full compliance cannot be achieved with an overlay.</p>
-    <p>Among the many claims made by overlay vendors is the claim that the use of
-      their product will being the site into compliance with accessibility
-      standards such as WCAG 2.x, related and derivative standards, and laws that
-      mandate compliance with those standards.</p>
-
-    <blockquote class="conformance-quote">
-      Conformance to a standard means that you meet or satisfy the
-      ‘requirements’ of the standard. In WCAG 2.0 the
-      ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need
-      to satisfy the Success Criteria, that is, there is no content which
-      violates the Success Criteria.
+		<h3>Compliance with accessibility standards</h3>
+		<p>One of the many claims made by overlay vendors is that using their product will make the site compliant with accessibility standards. These standards include WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards.</p>
+		<blockquote class="conformance-quote">
+      Conformance to a standard means that you meet or satisfy the ‘requirements’ of the standard. In WCAG 2.0 the
+      ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is, there is no content which violates the Success Criteria.
       <cite>
         <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance">Understanding
           WCAG 2.1: Understanding Conformance</a>
       </cite>
     </blockquote>
+		<p>Conformance is defined as meeting all requirements of the standard. These products' documented inability to repair all possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant scepticism.</p>
 
-    <p>Given that conformance is defined as meeting <strong>all</strong>
-      requirements of the standard, these products' documented inability to repair
-      all possible issues means that they cannot bring a website into compliance.
-      Products marketed with such claims should be viewed with significant
-      scepticism.</p>
-  </div>
+    <h3 id="privacy">Privacy of personal data</h3>
 
-  <div class="container">
-    <h2 id="privacy">Privacy of personal data</h2>
+    <p>Some overlays detect when assistive technology is running on a device. This exposes the fact that the person using the device has a disability. In some cases it also reveals details about the nature of their disability. For example, screen reader software is mostly used by people who are blind or have low vision. Disability is sensitive personal information, just like age, ethnic background, or gender. You should not collect sensitive data on people without their informed consent.</p>
 
-    <p>Overlays that automatically enable certain settings, like those for screen reader or speech recognition users, do
-      so by detecting when an assistive technology is running on the device. This exposes the fact that the person using
-      the device at the time has a disability. In certain cases, like screen reader users where the majority are blind
-      or have low vision, it exposes even more detail about the nature of their disability. Like age, ethnic background,
-      or preferred gender, disability is sensitive personal information. It is not data that should be collected without
-      the informed consent of the person it belongs to.</p>
-
-    <p>Some overlays have been found to persist users' settings across sites which use the same overlay. This is done by
-      setting a cookie on the user's computer. When the user enables a setting for an overlay feature on one site, the
-      overlay will automatically turn on that feature on other sites. While the overlay company might think they're
-      doing good by the end user, the big privacy problem is that the user never opted in to be tracked and there's also no
-      ability to opt-out. Due to this lack of an opt-out (other than explicitly turning off that setting) this creates
-      GDPR and CCPA risk for the overlay customer.</p>
-
-  </div>
+		<p>Overlays often save users' settings from other sites which use the same overlay. They do this by setting a cookie on the user's computer. When the user turns on an overlay feature on one site, the overlay will turn on that feature on other sites as well. While this might seem helpful, the big privacy problem is that the user wasn't told they would be tracked. The lack of an opt-out creates GDPR and CCPA risk for sites with overlays.</p>
+</div>
 
   <div class="in-their-own-words">
     <div class="container">

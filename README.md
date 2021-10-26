@@ -8,6 +8,9 @@ A non-biased, community-driven, fact-based information sheet aimed at educating 
 
 ### Endorse this statement
 
+Please note: The content of the Overlay Factsheet may change over time. Specifically, content may be added, edited, or removed to provide additional clarity, additional evidence, or other changes in keeping with the goal of sharing facts on overlays. Please understand this before requesting your signature be added. These changes are and will be made in a good faith effort to continue to raise awareness of overlays, their traits, strengths, and weaknesses.  Please be sure to "Watch" this repo to review if any of the changes are consequential enough to change your endorsement.
+
+
 #### EASY:  If the whole PR thing is something you're not comfortable with you can do one of three things:
 
  * Log an Issue in this repo: Click "Issues" and follow the process of adding an issue that indicates that you want to sign

@@ -326,7 +326,7 @@ a:focus {
   a:hover,
   a:focus {
     background: var(--color-red-900);
-  }
+  } 
 
   .header {
     background-color: var(--color-gray-100);
@@ -343,6 +343,15 @@ a:focus {
   .summary {
     color: var(--color-gray-900);
   }
+  
+  .summary a {
+    color: var(--color-red-700);
+  } 
+  
+  .summary a:hover,
+  .summary a:focus {
+    background: var(--color-red-100);
+  } 
 
   .in-their-own-words {
     background-color: var(--color-red-900);

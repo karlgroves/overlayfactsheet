@@ -14,7 +14,7 @@ Please note: The content of the Overlay Factsheet may change over time. Specific
 #### EASY:  If the whole PR thing is something you're not comfortable with you can do one of three things:
 
  * Log an Issue in this repo: Click "Issues" and follow the process of adding an issue that indicates that you want to sign
- * Send an email to karl@tenon.io to indicate that you want to sign
+ * Send an email to karlgroves@gmail.com to indicate that you want to sign
  * Send a Twitter DM to @karlgroves to indicate that you want to sign
 
 #### Harder, but more efficient

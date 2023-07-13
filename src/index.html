@@ -18,6 +18,7 @@
 
     gtag('config', 'G-NGCH8KPZG9');
   </script>
+
   <link rel="icon" href="/favicon.ico">
   <link href="screen.css" rel="stylesheet"/>
 
@@ -508,7 +509,7 @@
       <p class="summary">Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them.
       Such overlay claims are a textbook case of an attempt to <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslight</a> people to deflect criticism.</p>
 
-      <p>As of today, the signatories to the overlay factsheet include:</p>
+      <p>As of today, the <span id="total-count"></span> signatories to the overlay factsheet include:</p>
       <ul>
         <li>Contributors and editors for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr>,
           and <abbr title="Hypertext Markup Language">HTML</abbr> specifications</li>
@@ -525,11 +526,11 @@
       <p>In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the
         improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and
         misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree.</p>
-
+        <button id="sort-button">Sort List Alphabetically</button>
     <!--//
       Add your name to this list in accordance with the guidance provided in the repository's README document
     //-->
-    <ol>
+    <ol id="signatories">
       <li>Karl Groves, Founder and President, Tenon.io</li>
       <li>Matt King, Chair, W3C ARIA Authoring Practices Task Force and W3C ARIA and Assistive Technologies Community Group</li>
       <li>Bill Dengler, totally blind computer science student and code contributor to the NVDA screen reader,
@@ -1505,5 +1506,20 @@
         </ul>
   </div>
 </aside>
+<script>
+  var list = document.querySelector('#signatories');
+  var items = Array.from(list.getElementsByTagName('li'));
+  var button = document.getElementById('sort-button');
+
+  document.getElementById('total-count').textContent = "Total count: " + items.length;
+
+  button.addEventListener('click', function() {
+    items.sort(function(a, b) {
+      return a.textContent.localeCompare(b.textContent);
+    }).forEach(function(li) {
+      list.appendChild(li);
+    });
+  });
+</script>
 </body>
 </html>

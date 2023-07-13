@@ -75,6 +75,17 @@
         <a href="#statement-from-sponsors-and-signatories-to-this-fact-sheet">
           Statement from sponsors and signatories to this fact sheet
         </a>
+        <ul>
+           <li>
+        <a href="#signed-by">Signed by</a>
+      </li>
+       <li>
+        <a href="#list-of-signatories">List of signatories</a>
+      </li>
+       <li>
+        <a href="#add-your-name">Add your name to the list</a>
+      </li>
+        </ul>
       </li>
       <li><a href="#additional-reading">Additional Reading</a></li>
     </ol>
@@ -509,7 +520,7 @@
       <p class="summary">Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them.
       Such overlay claims are a textbook case of an attempt to <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslight</a> people to deflect criticism.</p>
 
-      <p>As of today, the <span id="total-count"></span> signatories to the overlay factsheet include:</p>
+      <p>As of today, the signatories to the overlay factsheet include:</p>
       <ul>
         <li>Contributors and editors for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr>,
           and <abbr title="Hypertext Markup Language">HTML</abbr> specifications</li>
@@ -526,7 +537,11 @@
       <p>In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the
         improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and
         misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree.</p>
-        <button id="sort-button">Sort List Alphabetically</button>
+       
+       <h3 id="list-of-signatories">List of signatories</h3>
+       <p id="total-count"></p>
+        <button id="sort-button" class="add-your-name">Sort List Alphabetically</button>
+        <button id="reset-button" class="add-your-name">Reset List</button>
     <!--//
       Add your name to this list in accordance with the guidance provided in the repository's README document
     //-->
@@ -1339,8 +1354,10 @@
       <li>Marie Le Borgne, Accessibility consultant</li>
       <li>Anne Lee Steele, Community Manager, The Turing Way</li>
       <li>Sasirekha Palanisamy, Test Manager and Digital Accessibility Evangelist.</li>
+      <li>Marcelo Paiva, Inclusive Designer and Accessibility Evangelist.</li>
     </ol>
-    <p>
+    <h3 id="add-your-name"> Join the list:</h3>
+    <p>Add your name to the list by following the instruction published in our public repository on github.<p>
       <a class="add-your-name" href="https://github.com/karlgroves/overlayfactsheet/#endorse-this-statement">
         Add your name to this list
       </a>
@@ -1507,19 +1524,28 @@
   </div>
 </aside>
 <script>
-  var list = document.querySelector('#signatories');
-  var items = Array.from(list.getElementsByTagName('li'));
-  var button = document.getElementById('sort-button');
+    var list = document.querySelector('#signatories');
+    var items = Array.from(list.getElementsByTagName('li'));
+    var buttonSort = document.getElementById('sort-button');
+    var buttonReset = document.getElementById('reset-button');
 
-  document.getElementById('total-count').textContent = "Total count: " + items.length;
+    var originalOrder = items.slice();
 
-  button.addEventListener('click', function() {
-    items.sort(function(a, b) {
-      return a.textContent.localeCompare(b.textContent);
-    }).forEach(function(li) {
-      list.appendChild(li);
+    document.getElementById('total-count').textContent = "Total count: " + items.length;
+
+    buttonSort.addEventListener('click', function() {
+      items.sort(function(a, b) {
+        return a.textContent.localeCompare(b.textContent);
+      }).forEach(function(li) {
+        list.appendChild(li);
+      });
     });
-  });
-</script>
+
+    buttonReset.addEventListener('click', function() {
+      originalOrder.forEach(function(li) {
+        list.appendChild(li);
+      });
+    });
+  </script>
 </body>
 </html>

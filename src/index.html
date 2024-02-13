@@ -18,6 +18,7 @@
 
     gtag('config', 'G-NGCH8KPZG9');
   </script>
+
   <link rel="icon" href="/favicon.ico">
   <link href="screen.css" rel="stylesheet"/>
 
@@ -74,6 +75,17 @@
         <a href="#statement-from-sponsors-and-signatories-to-this-fact-sheet">
           Statement from sponsors and signatories to this fact sheet
         </a>
+        <ul>
+          <li>
+            <a href="#signed-by">Signed by</a>
+          </li>
+          <li>
+            <a href="#list-of-signatories">List of signatories</a>
+          </li>
+          <li>
+            <a href="#add-your-name">Add your name to the list</a>
+          </li>
+        </ul>
       </li>
       <li><a href="#additional-reading">Additional Reading</a></li>
     </ol>
@@ -527,11 +539,15 @@
       <p>In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the
         improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and
         misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree.</p>
-
+               
+       <h3 id="list-of-signatories">List of signatories</h3>
+       <p>As of today, <span id="total-count"></span> supporters have signed this fact sheet.</p>
+        <button id="sort-button" class="add-your-name">Sort List Alphabetically</button>
+        <button id="reset-button" class="add-your-name">Reset List</button>
     <!--//
       Add your name to this list in accordance with the guidance provided in the repository's README document
     //-->
-    <ol>
+    <ol id="signatories">
       <li>Karl Groves, Founder and President, Tenon.io</li>
       <li>Matt King, Chair, W3C ARIA Authoring Practices Task Force and W3C ARIA and Assistive Technologies Community Group</li>
       <li>Bill Dengler, totally blind computer science student and code contributor to the NVDA screen reader,
@@ -1384,7 +1400,8 @@
       <li>Charles Bauer, UX Designer</li>
       <li>Tzviya Siegman, Technical Governance Leader</li>
     </ol>
-    <p>
+    <h3 id="add-your-name"> Join the list:</h3>
+    <p>Add your name to the list by following the instruction published in our public repository on github.<p>
       <a class="add-your-name" href="https://github.com/karlgroves/overlayfactsheet/#endorse-this-statement">
         Add your name to this list
       </a>
@@ -1550,5 +1567,29 @@
         </ul>
   </div>
 </aside>
+<script>
+    var list = document.querySelector('#signatories');
+    var items = Array.from(list.getElementsByTagName('li'));
+    var buttonSort = document.getElementById('sort-button');
+    var buttonReset = document.getElementById('reset-button');
+
+    var originalOrder = items.slice();
+
+    document.getElementById('total-count').textContent = items.length;
+
+    buttonSort.addEventListener('click', function() {
+      items.sort(function(a, b) {
+        return a.textContent.localeCompare(b.textContent);
+      }).forEach(function(li) {
+        list.appendChild(li);
+      });
+    });
+
+    buttonReset.addEventListener('click', function() {
+      originalOrder.forEach(function(li) {
+        list.appendChild(li);
+      });
+    });
+  </script>
 </body>
 </html>

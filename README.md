@@ -29,6 +29,35 @@ Please do not add links in the endorsement section. This isn't an exercise in SE
 
 Please use the PR process described below, issuing your PR against the `develop` branch.
 
+### Edit content in an existing language or add a new language
+
+If you want to modify an existing language, simply go to the corresponding file in the `i18n/` folder, e.g. `i18n/en.yml` (for english) and modify the contents. If a translation key doesn't exist, it automatically switches to english content.
+
+If you want to add a new language, it's only a 2-step process:
+1. In the `hugo.toml` file, add the new language, e.g. spanish in third position
+```
+[languages]
+  [languages.en]
+    contentDir = 'i18n/en'
+    weight = 1
+    [languages.en.params]
+      languageName = 'english'
+      languageNameShort = 'en'
+  [languages.fr]
+    contentDir = 'i18n/fr'
+    weight = 2
+    [languages.fr.params]
+      languageName = 'français'
+      languageNameShort = 'fr'
+  [languages.es]
+    contentDir = 'i18n/es'
+    weight = 3
+    [languages.fr.params]
+      languageName = 'español'
+      languageNameShort = 'es'
+```
+2. In the `i18n/` folder, add a yml file with the language shortname, e.g. `i18n/es.yml` (if spanish), and translate each key in this file.
+
 ### Design and/or Code
 
 Contributions to the design and/ or code are encouraged!

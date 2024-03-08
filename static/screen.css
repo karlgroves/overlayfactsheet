@@ -152,6 +152,19 @@ a:focus {
 
 
 /* Utilities */
+.sr-only {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px); 
+  clip-path: inset(50%);  
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap;            
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -236,6 +249,36 @@ a:focus {
   font-weight: 400;
   letter-spacing: 0.05ch;
   margin-top: 0.5rem;
+}
+
+.lang {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.lang li {
+  display: inline-block;
+  margin: 0;
+  color: var(--color-gray-100);
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+.lang li:not(:last-child)::after {
+  content: "";
+  border-right: 1px solid var(--color-gray-100);
+  padding-right: .5rem;
+  margin-right: .25rem;
+}
+.lang a {
+  display: inline-block;
+  margin: 0;
+  color: var(--color-red-100);
+}
+.lang a:hover, .lang a:focus{
+  background: none;
 }
 
 .summary {
@@ -334,6 +377,16 @@ a:focus {
 
   .title {
     color: var(--color-gray-800);
+  }
+
+  .lang li {
+    color: var(--color-gray-800);
+  }
+  .lang li:not(:last-child)::after {
+    border-right-color: var(--color-gray-800);
+  }
+  .lang a {
+    color: var(--color-red-900);
   }
 
   .conformance-quote {

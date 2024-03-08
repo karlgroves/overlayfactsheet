@@ -1,34 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="{{ T "languageNameShort"}}">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Overlay Fact Sheet</title>
-  <meta name="description" content="An open letter about accessibility overlays.">
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <title>{{ T "title" | safeHTML}}</title>
+  <meta name="description" content="{{ T "metaDescription"}}">
+  {{/* Global site tag (gtag.js) - Google Analytics  */}}
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-NGCH8KPZG9"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
-
     function gtag() {
       dataLayer.push(arguments);
     }
-
     gtag('js', new Date());
-
     gtag('config', 'G-NGCH8KPZG9');
   </script>
   <link rel="icon" href="/favicon.ico">
-  <link href="screen.css" rel="stylesheet"/>
-
+  <link href="/screen.css" rel="stylesheet"/>
   <meta content="summary" name="twitter:card"/>
-  <meta content="Overlay Fact Sheet" name="twitter:title"/>
-  <meta content="An open letter about accessibility overlays." name="twitter:description"/>
-  <meta content="https://overlayfactsheet.com/og-twitter.png" name="twitter:image"/>
+  <meta content="{{ T "title"}}" name="twitter:title"/>
+  <meta content="{{ T "metaDescription"}}" name="twitter:description"/>
+  <meta content="/og-twitter.png" name="twitter:image"/>
 </head>
 
 <body>
-<a href="#main" class="skip-to-content-link">Skip to content</a>
+<a href="#main" class="skip-to-content-link">{{ T "skip" | safeHTML}}</a>
 <header class="header text-align-center">
   <svg aria-hidden="true" class="logo" height="120" width="120" viewBox="0 0 120 120"
        xmlns="http://www.w3.org/2000/svg">
@@ -36,61 +32,65 @@
       d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60S0 93.137 0 60 26.863 0 60 0zm4.167 26.667h-25c-6.904 0-12.5 5.596-12.5 12.5v25c0 6.903 5.596 12.5 12.5 12.5h4.166v4.166c0 6.904 5.597 12.5 12.5 12.5h25c6.904 0 12.5-5.596 12.5-12.5v-25c0-6.903-5.596-12.5-12.5-12.5h-4.166v-4.166c0-6.904-5.597-12.5-12.5-12.5zM80.833 47.5a8.343 8.343 0 018.334 8.333v25a8.343 8.343 0 01-8.334 8.334h-25a8.343 8.343 0 01-8.333-8.334v-4.166h16.667c6.903 0 12.5-5.597 12.5-12.5V47.5h4.166zM64.167 30.833a8.343 8.343 0 018.333 8.334v4.166H55.833c-6.903 0-12.5 5.597-12.5 12.5V72.5h-4.166a8.343 8.343 0 01-8.334-8.333v-25a8.343 8.343 0 018.334-8.334h25z"
       fill-rule="evenodd"/>
   </svg>
-  <h1 class="title">Overlay Fact Sheet</h1>
+  <h1 class="title" lang="en">{{ T "title" | safeHTML}}</h1>
+  <nav aria-label="{{ T "lang" | safeHTML}}">
+    <ul class="lang">
+      {{ $siteLanguages := site.Languages}}
+      {{ $pageLang := .Page.Lang}}
+      {{ range .Page.AllTranslations }}
+        {{ $translation := . }}
+        {{ range sort $siteLanguages "Weight" "asc" }}
+          {{ if eq $translation.Lang .Lang }}
+            {{ if eq $pageLang .Lang}}
+              <li>{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></li>
+            {{ else }}
+              <li><a href="{{ $translation.Permalink | relURL }}" lang="{{ .Params.languageNameShort }}">{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></a></li>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    </ul>
+  </nav>
 </header>
 <nav aria-labelledby="toc">
   <div class="container">
-    <h2 id="toc">Table of contents</h2>
+    <h2 id="toc">{{ T "tableContent" | safeHTML}}</h2>
     <ol>
       <li>
-        <a href="#what-is-a-web-accessibility-overlay">
-          What is a web accessibility overlay?
-        </a>
+        <a href="#what-is-a-web-accessibility-overlay">{{ T "topic01" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#strengths-and-weaknesses-of-overlay-widgets">
-          Strengths and weaknesses of overlay “widgets”
-        </a>
+        <a href="#strengths-and-weaknesses-of-overlay-widgets">{{ T "topic02" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#strengths-and-weaknesses-of-automated-repair">
-          Strengths and weaknesses of automated repair
-        </a>
+        <a href="#strengths-and-weaknesses-of-automated-repair">{{ T "topic03" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#fitness-for-achieving-compliance-with-accessibility-standards">
-          Fitness for achieving compliance with accessibility standards
-        </a>
+        <a href="#fitness-for-achieving-compliance-with-accessibility-standards">{{ T "topic04" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#privacy">Privacy of personal data</a>
+        <a href="#privacy">{{ T "topic05" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#in-their-own-words">In their own words</a></li>
+        <a href="#in-their-own-words">{{ T "topic06" | safeHTML}}</a></li>
       <li>
-        <a href="#conclusion">Conclusion</a>
+        <a href="#conclusion">{{ T "topic07" | safeHTML}}</a>
       </li>
       <li>
-        <a href="#statement-from-sponsors-and-signatories-to-this-fact-sheet">
-          Statement from sponsors and signatories to this fact sheet
-        </a>
+        <a href="#statement-from-sponsors-and-signatories-to-this-fact-sheet">{{ T "topic08" | safeHTML}}</a>
       </li>
-      <li><a href="#additional-reading">Additional Reading</a></li>
+      <li><a href="#additional-reading">{{ T "topic09" | safeHTML}}</a></li>
     </ol>
   </div>
 </nav>
 <main id="main">
   <div class="container">
-    <h2 id="what-is-a-web-accessibility-overlay">
-      What is a web accessibility overlay?
-    </h2>
-    <p class="summary">
-      Overlays are a broad term for technologies that aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website.</p>
-    <p>Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a>
-      and <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed.</p>
-    <p>Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability.</p>
-		<p>Some newer overlay products aim to fix any problems in the site's code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem.</p>
-		<p>Some examples of web accessibility overlays (by alphabetical order):</p>
+    <h2 id="what-is-a-web-accessibility-overlay">{{ T "topic01" | safeHTML}}</h2>
+    <p class="summary">{{ T "topic01p01" | safeHTML}}</p>
+    <p>{{ T "topic01p02" | safeHTML}}</p>
+    <p>{{ T "topic01p03" | safeHTML}}</p>
+		<p>{{ T "topic01p04" | safeHTML}}</p>
+		<p>{{ T "topic01p05" | safeHTML}}</p>
     <ul>
 	    <li>AccessiBe</li>
       <li>Accessibility Adapter</li>
@@ -99,6 +99,7 @@
       <li>Accessiway</li>
       <li>Adally</li>
       <li>Adapte Mon Web (Adapt my Web)</li>
+      <li>AdaptifY</li>
       <li>Allyable</li>
       <li>Alchemy*</li>
       <li>Amaze</li>
@@ -124,145 +125,64 @@
       <li>User1st</li>
       <li>UserWay</li>     
     </ul>
-    <p>*: denotes that these products are no longer developed or marketed.</p>
-    <p>Overlay products are sometimes white labelled (sold under other names), or re-branded for certain markets, so this is not a complete list of the type of products discussed on this page.</p>
+    <p>{{ T "topic01p06" | safeHTML}}</p>
+    <p>{{ T "topic01p07" | safeHTML}}</p>
 
-    <h2 id="strengths-and-weaknesses-of-overlay-widgets">
-      Strengths and weaknesses of overlay “widgets”
-    </h2>
-    <p class="summary">
-      Overlay widgets are unnecessary and are poorly placed in the technology stack.
-    </p>
-    <p>As stated above, some overlay products contain widgets which present a
-      series of controls that modify the presentation of the page they're on.
-      Depending on the product, those changes may do things like change the page
-      contrast, enlarge the size of the page's text, or perform other changes to
-      the page that are intended to improve the experience for users with
-      disabilities.</p>
-    <p>To laypersons, these features may seem beneficial, but their practical
-      value is largely overstated because the end users that these features claim
-      to serve will already have the necessary features on their computer, either
-      as a built-in feature or as an additional piece of software that the user
-      needs to access not only the Web but all software.</p>
-    <p>On this latter point, it is a mistake to believe that the features
-      provided by the overlay widget will be of much use by end users because if
-      those features were <strong>necessary</strong> to use the website, they'd be
-      needed for all websites that the user interacts with. Instead, the widget is 
-      —at best—redundant functionality with what the user already has.</p>
+    <h2 id="strengths-and-weaknesses-of-overlay-widgets">{{ T "topic02"}}</h2>
+    <p class="summary">{{ T "topic02p01" | safeHTML}}</p>
+    <p>{{ T "topic02p02" | safeHTML}}</p>
+    <p>{{ T "topic02p03" | safeHTML}}</p>
+    <p>{{ T "topic02p04" | safeHTML}}</p>
 
-    <h2 id="strengths-and-weaknesses-of-automated-repair">
-      Strengths and weaknesses of automated repair
-    </h2>
-    <p class="summary">
-      While some automated repair is possible, customers should be
-      discouraged from using an overlay as a long-term solution.
-    </p>
-    <p>Some overlay products have capabilities aimed at providing accessibility
-      repairs to the underlying page on which the overlay is added. These repairs
-      are applied when the page loads in the user's browser.</p>
-    <p>While it is true that a non-trivial array of accessibility problems can be
-      repaired in this manner, the nature, extent, and accuracy of such repair are
-      limited by a number of important factors:</p>
+    <h2 id="strengths-and-weaknesses-of-automated-repair">{{ T "topic03"}}</h2>
+    <p class="summary">{{ T "topic03p01" | safeHTML}}</p>
+    <p>{{ T "topic03p02" | safeHTML}}</p>
+    <p>{{ T "topic03p03" | safeHTML}}</p>
     <ul>
-      <li>Automated application of text alternatives for images is not
-        reliable
-      </li>
-      <li>Automated repair of field labels, error management, error handling, and
-        focus control on forms is not reliable
-      </li>
-      <li>Automated repair of keyboard access is not reliable</li>
-      <li>Modern, component-based user interfaces, such as those using ReactJS,
-        Angular, or Vue may change the state of all or some of the underlying page
-        independently of the overlay, rendering it unable to fix those
-        JavaScript-driven changes to content.
-      </li>
-      <li>Repairs to the page can either slow down page load times or cause
-        unexpected page changes for assistive technology users.
-      </li>
+      <li>{{ T "topic03p04" | safeHTML}}</li>
+      <li>{{ T "topic03p05" | safeHTML}}</li>
+      <li>{{ T "topic03p06" | safeHTML}}</li>
+      <li>{{ T "topic03p07" | safeHTML}}</li>
+      <li>{{ T "topic03p08" | safeHTML}}</li>
     </ul>
+    <p>{{ T "topic03p09" | safeHTML}}</p>
 
-    <p>In addition to the above, overlays do not repair content in Flash, Java,
-      Silverlight, PDF, HTML5 Canvas, SVG, or media files.</p>
-
-    <h2 id="fitness-for-achieving-compliance-with-accessibility-standards">
-      Fitness for achieving compliance with accessibility standards
-    </h2>
-    <p class="summary">While the use of an overlay may improve
-      compliance with a handful of provisions in major accessibility standards,
-      full compliance cannot be achieved with an overlay.</p>
-    <p>Among the many claims made by overlay vendors is the claim that the use of
-      their product will bring the site into compliance with accessibility
-      standards such as WCAG 2.x, related and derivative standards, and laws that
-      mandate compliance with those standards.</p>
-
-    <blockquote class="conformance-quote">
-      Conformance to a standard means that you meet or satisfy the
-      ‘requirements’ of the standard. In WCAG 2.0 the
-      ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need
-      to satisfy the Success Criteria, that is, there is no content which
-      violates the Success Criteria.
+    <h2 id="fitness-for-achieving-compliance-with-accessibility-standards">{{ T "topic04" | safeHTML}}</h2>
+    <p class="summary">{{ T "topic04p01" | safeHTML}}</p>
+    <p>{{ T "topic04p02" | safeHTML}}</p>
+    <blockquote class="conformance-quote">{{ T "topic04p03" | safeHTML}}
       <cite>
         <a href="https://www.w3.org/WAI/WCAG21/Understanding/conformance">Understanding
           WCAG 2.1: Understanding Conformance</a>
       </cite>
     </blockquote>
-
-    <p>Given that conformance is defined as meeting <strong>all</strong>
-      requirements of the standard, these products' documented inability to repair
-      all possible issues means that they cannot bring a website into compliance.
-      Products marketed with such claims should be viewed with significant
-      skepticism.</p>
+    <p>{{ T "topic04p04" | safeHTML}}</p>
   </div>
 
   <div class="container">
-    <h2 id="privacy">Privacy of personal data</h2>
-    <p class="summary">Adding an overlay to your site may run counter to end users' preference for privacy and may create risk of noncompliance with GDPR, UK GDPR, CCPA, et al.</p>
-
-    <p>Overlays that automatically enable certain settings, like those for screen reader or speech recognition users, do
-      so by detecting when an assistive technology is running on the device. This exposes the fact that the person using
-      the device at the time has a disability. In certain cases, like screen reader users where the majority are blind
-      or have low vision, it exposes even more detail about the nature of their disability. Like age, ethnic background,
-      or preferred gender, disability is sensitive personal information. It is not data that should be collected without
-      the informed consent of the person it belongs to.</p>
-
-    <p>Some overlays have been found to persist users' settings across sites which use the same overlay. This is done by
-      setting a cookie on the user's computer. When the user enables a setting for an overlay feature on one site, the
-      overlay will automatically turn on that feature on other sites. While the overlay company might think they're
-      doing good by the end user, the big privacy problem is that the user never opted in to be tracked and there's also no
-      ability to opt-out. Due to this lack of an opt-out (other than explicitly turning off that setting) this creates
-      General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) risk for the overlay customer.</p>
-
+    <h2 id="privacy">{{ T "topic05" | safeHTML}}</h2>
+    <p class="summary">{{ T "topic05p01" | safeHTML}}</p>
+    <p>{{ T "topic05p02" | safeHTML}}</p>
+    <p>{{ T "topic05p03" | safeHTML}}</p>
   </div>
 
   <div class="in-their-own-words">
     <div class="container">
-      <h2 id="in-their-own-words">In their own words</h2>
-      <p class="summary">
-        Many users with disabilities have expressed strong words of
-        dissatisfaction with overlay products. As shown below, overlays
-        themselves may have accessibility problems significant enough for users
-        to take steps to actively block overlays from appearing at all.
-      </p>
-      <p>Please note: while this section may mention specific vendors, these
-        comments are par-for-the-course when it comes to the user experience
-        provided by overlay widgets which have, in themselves, a pattern of
-        negatively impacting the user experience.</p>
+      <h2 id="in-their-own-words">{{ T "topic06" | safeHTML}}</h2>
+      <p class="summary">{{ T "topic06p01" | safeHTML}}</p>
+      <p>{{ T "topic06p02" | safeHTML}}</p>
     </div>
 
     <div class="quotes">
       <blockquote id="derekriemer" class="quote">
-        ...assuming your tool can do a good job making something accessible, it can
-        do an even better job making something accessible running directly on the
-        user's machine having access to machine code and machine APIs
+        {{ T "topic06t01" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/DerekRiemer/status/1365136025861775364">DerekRiemer</a>
         </cite>
       </blockquote>
 
       <blockquote id="wilfsplodnokit" class="quote">
-        ...I finally managed to gain access to my @NameCheap account by blocking
-        #AccessiBe in my Windows Hosts file. I should not need to do this to use
-        the Internet. AccessiBe needs to AccessiBeGone
+        {{ T "topic06t02" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/WilfSplodNokit/status/1365478393895153664">WilfSplodNokit</a>
@@ -270,56 +190,42 @@
       </blockquote>
 
       <blockquote id="geauxender" class="quote">
-        ...I know with 100% certainty, any site which has deployed an overlay in
-        the past year and a half has been less useable for both my wife and
-        me—both blind.
+        {{ T "topic06t03" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/GeauxEnder/status/1364943889132646408">GeauxEnder</a>
         </cite>
       </blockquote>
 
       <blockquote id="big_d01" class="quote">
-        ...Still a pain to even try reading the article on a mobile device
-        because of the constant interruption every few seconds. Considering
-        every site using your service also has this problem… Nope.
+        {{ T "topic06t04" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/Big_D01/status/1365187231829254144">Big_D01</a>
         </cite>
       </blockquote>
 
       <blockquote id="w9fyi" class="quote">
-        ...Making a webpage accessible does take work, and simply telling a
-        business they can install your plugin is absolutely foolish, you build,
-        and design accessibility in to a webpage using WCAG standards.
+        {{ T "topic06t05" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/w9fyi/status/1366019424415866880">w9fyi</a>
         </cite>
       </blockquote>
 
       <blockquote id="kevmarmol_ct" class="quote">
-        ...Suggesting one line of code is cheap so you should do it by inference
-        suggests disabled lives aren't worth investing in either. #a11y
+        {{ T "topic06t06" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/Kevmarmol_CT/status/1365005141594750986">Kevmarmol_CT</a>
         </cite>
       </blockquote>
 
       <blockquote id="eluberoff" class="quote">
-        @AccessiBe Just to demonstrate my good faith, here's a quick free audit
-        of https://t.co/1mQGCCtnIs. You capture &quot;tab&quot; which is the
-        standard way to navigate. There's no way to not enable your overlay if
-        I want to navigate the page. Once the overlay is enabled, wild things
-        happen.
+        {{ T "topic06t07" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/eluberoff/status/1366386598770839557">eluberoff</a>
         </cite>
       </blockquote>
 
       <blockquote id="turtlecatpurrz" class="quote">
-        #AccessiBe makes sites harder to use by getting in the way of browsing
-        and changing access barriers on a page, not fixing them. A student and I
-        came across an &quot;enhanced&quot; website and to my shame, we left
-        because navigating that mess was beyond my skills, on that day.
+        {{ T "topic06t08" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/turtlecatpurrz/status/1365099776207851523">turtlecatpurrz</a>
@@ -327,10 +233,7 @@
       </blockquote>
 
       <blockquote id="singingtigress" class="quote">
-        Accessibility overlays are not the answer, and AccessiBe is no exception.
-        As a screen reader user, numerous sites have become less usable for me
-        with this overlay. Discrediting reputable accessiblity professionals and
-        advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ
+        {{ T "topic06t09" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/SingingTigress/status/1364922970670583815">SingingTigress</a>
@@ -338,39 +241,28 @@
       </blockquote>
 
       <blockquote id="marcozehe" class="quote" lang="de">
-        An die Screen Reader nutzenden Follower: Vielleicht habt ihr schon von
-        #Accessibe gehört, einem Overlay, das behauptet, Seiten, in denen es
-        eingebunden ist, zugänglicher zu machen. Ich möchte nicht näher ins
-        Detail gehen. Kurz gesagt: Kompletter Blödsinn. Finger weg!
+        {{ T "topic06t10" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/MarcoZehe/status/1365587195596181507">MarcoZehe</a>
         </cite>
       </blockquote>
 
       <blockquote id="twithoff" class="quote">
-        Automated solutions which promise to make your site accessible can't. It
-        takes more than automation to achieve this requirement. You won't be safe
-        from liability. you will almost assuredly negatively impact your
-        customers with disabilities.
+        {{ T "topic06t11" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/twithoff/status/1364957890050686976">twithoff</a>
         </cite>
       </blockquote>
 
       <blockquote id="borrisinabox" class="quote">
-        Every time I go on a website and I hear the #accessiBe notification that
-        this site is adjusted to my screen reader, I know that my blocker isn't
-        working properly, and I'm in for a hellish experience on that particular website.
-        https://t.co/ZFzKMfUe0t
+        {{ T "topic06t12" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/BorrisInABox/status/1364295702696890370">BorrisInABox</a>
         </cite>
       </blockquote>
 
       <blockquote id="racheleditullio" class="quote">
-        I tried using this @AccessiBe site with VoiceOver in Chrome on iOS.
-        The 4-star rating is announced as &quot;unpronounceable&quot;
-        🤦‍♀️ https://t.co/f4MxQ2eLLP"
+        {{ T "topic06t13" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/racheleditullio/status/1365739183839588357">racheleditullio</a>
@@ -378,9 +270,7 @@
       </blockquote>
 
       <blockquote id="kit_flowerstorm" class="quote">
-        I wrote an email to their customer service detailing that I can not use
-        their site due to the overlay, but… I really am disappointed, but I hope
-        they listen. @Goodfair_ - please stop using AccessiBe.
+        {{ T "topic06t14" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/kit_flowerstorm/status/1364605580405575681">kit_flowerstorm</a>
@@ -388,67 +278,49 @@
       </blockquote>
 
       <blockquote id="atfarnum" class="quote">
-        I'm not an accessibility expert, just a screen reader user with decent
-        skills telling you that this thread is spot on and my experience with
-        #AccessiBe is that it makes sites with accessibility issues even harder
-        to work around. https://t.co/cfyrEqXwTy
+        {{ T "topic06t15" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/atfarnum/status/1365075850861887490">atfarnum</a>
         </cite>
       </blockquote>
 
       <blockquote id="smartudlab" class="quote">
-        ...If you are blind or low vision and rely on assistive technologies like
-        screen readers, you may have begun finding popular websites becoming less
-        usable… this page describes how to ban AccessiBe from ever reaching your
-        computer… https://t.co/qbiKvolizS
+        {{ T "topic06t16" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/smartudlab/status/1365651400638615559">smartudlab</a>
         </cite>
       </blockquote>
 
       <blockquote id="kellylford" class="quote">
-        OK, this seems very wrong to me. A local chain here named Fleet Farm is
-        now using AccessiBe. It makes a mess of the search for location feature.
-        This is what I now get on the start of the result page.
+        {{ T "topic06t17" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/kellylford/status/1363698942152757253">kellylford</a>
         </cite>
       </blockquote>
 
       <blockquote id="mhorspool" class="quote">
-        Thank goodness Firefox blocks their accessibility detection. For me,
-        focus jumps all over the place with #AccessiBe enabled. When it's
-        disabled, it behaves itself.
+        {{ T "topic06t18" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/mhorspool/status/1364983194546757634">mhorspool</a>
         </cite>
       </blockquote>
 
       <blockquote id="cswordpress" class="quote">
-        There are 0 automated tools that can tetect accessibility problems
-        accurately at anything above 30% of the time. 0. This is commonly known
-        by anyone who's been in this space for at least a week. #AccessiBe
+        {{ T "topic06t19" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/cswordpress/status/1365042078401576968">cswordpress</a>
         </cite>
       </blockquote>
 
       <blockquote id="wtbdavidg" class="quote">
-        There's a perfectly practical tool for making websites accessible. It's
-        called a programmer. The needs that matter in making a website accessible
-        are those of the users. If you can't meet those, then you can't meet the
-        basic costs of doing business.
+        {{ T "topic06t20" | safeHTML}}
         <cite>
           <a class="quote-source" href="https://twitter.com/WTBDavidG/status/1366074519086055425">WTBDavidG</a>
         </cite>
       </blockquote>
 
       <blockquote id="catchthesewords" class="quote">
-        When #AccessiBe is enabled, the page is flooded with headings. Lots of
-        heading level 2's. The title of each phone remains a heading in both
-        versions of the page, but with it enabled, things like cost, display, and
-        all the other components of the tables become headings as well.
+        {{ T "topic06t21" | safeHTML}}
         <cite>
           <a class="quote-source"
              href="https://twitter.com/CatchTheseWords/status/1364915942157922308">CatchTheseWords</a>
@@ -458,75 +330,37 @@
   </div>
 
   <div class="container">
-    <h2 id="conclusion">
-      Conclusion
-    </h2>
-    <p class="summary">
-      No overlay product on the market can cause a website to become fully
-      compliant with any existing accessibility standard and therefore cannot
-      eliminate legal risk.
-    </p>
-    <p>Accessibility on the Web is a big challenge, both for owners of websites
-      and for the users of those websites. The invention of novel approaches to
-      resolving this challenge is to be commended.</p>
-    <p>However, in the case of overlays—especially those which attempt to add
-      widgets that present assistive features—the challenge is not being met. Even
-      more problematic is the deceptive marketing provided by some overlay
-      vendors who promise that implementing their product will give their
-      customer's sites immediate compliance with laws and standards.</p>
-    <p>The ineffectiveness of overlays is something that has broad agreement among
-      accessibility practitioners, per the <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM
-        Survey of Web Accessibility Practitioners</a>
-      which found:</p>
-    <blockquote id="webaim-quote">A strong majority (67%) of respondents rate these tools as not at all or not very
-      effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very
-      effective, and only 2.4% rating them as very effective.
-    </blockquote>
-    <h2 id="statement-from-sponsors-and-signatories-to-this-fact-sheet">
-      Statement from sponsors and signatories to this fact sheet
-    </h2>
-    <p>As a result of the above information:</p>
+    <h2 id="conclusion">{{ T "topic07" | safeHTML}}</h2>
+    <p class="summary">{{ T "topic07p01" | safeHTML}}</p>
+    <p>{{ T "topic07p02" | safeHTML}}</p>
+    <p>{{ T "topic07p03" | safeHTML}}</p>
+    <p>{{ T "topic07p04" | safeHTML}}</p>
+    <blockquote id="webaim-quote">{{ T "topic07p05" | safeHTML}}</blockquote>
+
+    <h2 id="statement-from-sponsors-and-signatories-to-this-fact-sheet">{{ T "topic08" | safeHTML}}</h2>
+    <p>{{ T "topic08p01" | safeHTML}}</p>
     <ol>
-      <li>We will never advocate, recommend, or integrate an overlay which
-        deceptively markets itself as providing automated compliance with laws
-        or standards.
-      </li>
-      <li>We will always advocate for the remediation of accessibility issues at
-        the source of the original error.
-      </li>
-      <li>We will refuse to stay silent when overlay vendors use deception to
-        market their products.
-      </li>
-      <li>More specifically, we hereby advocate for the removal of web accessibility overlay and
-        encourage the site owners who've implemented these products to use more
-        robust, independent, and permanent strategies to making their sites
-        more accessible.
-      </li>
+      <li>{{ T "topic08p02" | safeHTML}}</li>
+      <li>{{ T "topic08p03" | safeHTML}}</li>
+      <li>{{ T "topic08p04" | safeHTML}}</li>
+      <li>{{ T "topic08p05" | safeHTML}}</li>
     </ol>
   </div>
 
   <div class="container">
-    <h3 id="signed-by">Signed by:</h3>
-      <p class="summary">Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them.
-      Such overlay claims are a textbook case of an attempt to <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslight</a> people to deflect criticism.</p>
-
-      <p>As of today, the signatories to the overlay factsheet include:</p>
+    <h3 id="signed-by">{{ T "topic08p06" | safeHTML}}</h3>
+      <p class="summary">{{ T "topic08p07" | safeHTML}}</p>
+      <p>{{ T "topic08p08" | safeHTML}}</p>
       <ul>
-        <li>Contributors and editors for <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr>,
-          and <abbr title="Hypertext Markup Language">HTML</abbr> specifications</li>
-        <li>Consultants from <abbr title="United States">US</abbr>, <abbr title="United Kingdom">UK</abbr>, <abbr title="Netherlands">NL</abbr>, <abbr title="Canada">CA</abbr>,
-          <abbr title="Japan">JP</abbr>, <abbr title="Germany">DE</abbr>, <abbr title="France">FR</abbr>,
-          <abbr title="Sweden">SE</abbr>, <abbr title="Norway">NO</abbr>, <abbr title="Belgium">BE</abbr>, <abbr title="Poland">PL</abbr>,
-          <abbr title="Australia">AU</abbr>, <abbr title="Denmark">DK</abbr>, <abbr title="Israel">IL</abbr>, <abbr title="Chile">CL</abbr> and more</li>
-        <li>Internal accessibility experts for companies like Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments</li>
-        <li>Internal accessibility experts from higher education institutions like Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT</li>
-        <li>Lawyers for the disabled</li>
-        <li>Contributors to assistive technology software such as JAWS and NVDA</li>
-        <li>Scores of end users with disabilities</li>
+        <li>{{ T "topic08p09" | safeHTML}}</li>
+        <li>{{ T "topic08p10" | safeHTML}}</li>
+        <li>{{ T "topic08p11" | safeHTML}}</li>
+        <li>{{ T "topic08p12" | safeHTML}}</li>
+        <li>{{ T "topic08p13" | safeHTML}}</li>
+        <li>{{ T "topic08p14" | safeHTML}}</li>
+        <li>{{ T "topic08p15" | safeHTML}}</li>
       </ul>
-      <p>In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the
-        improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and
-        misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree.</p>
+      <p>{{ T "topic08p16" | safeHTML}}</p>
 
     <!--//
       Add your name to this list in accordance with the guidance provided in the repository's README document
@@ -586,7 +420,7 @@
       <li>Dan Payne, Accessibility consultant</li>
       <li>Ben Tillyer</li>
       <li>Belinda Dow, Digital Accessibility Consultant</li>
-      <li>Matt Obee CPWA, Principal Designer for Accessibility, NearForm</li>
+      <li>Matt Obee CPWA, Staff Accessibility Designer, GitHub</li>
       <li>Florian Beijers, Accessibility Consultant, Developer, Screenreader User</li>
       <li>Donna Vitan, Design Systems Nerd</li>
       <li>Ruben Nic, Web Accessibility/Senior Engineer, Webflow</li>
@@ -1383,10 +1217,25 @@
       <li>Alex Stine, Accessibility Consultant and DevOps Engineer</li>
       <li>Charles Bauer, UX Designer</li>
       <li>Tzviya Siegman, Technical Governance Leader</li>
+      <li>Adrian Wegener, Accessibility Researcher, Karlsruhe Institute of Technology</li>
+      <li>Oliver Vaupel, WAS, ovau design studio</li>
+      <li>Meg Harding, CPACC – digital accessibility specialist</li>
+      <li>Syed Talha Mustafa, Website Accessibility Expert (ADA and Section 508)</li>
+      <li>Kurt Deutscher, Founder and Principal Consultant, NetRaising</li>
+      <li>Jackelyn Kjerstie Hayduk, Senior Experience Engineer & Certified Web Accessibility Specialist. Hero Digital</li>
+      <li>Sonia Margollé, web-developer</li>
+      <li>Ryan Williams, Lead Front End & Accessibility Engineer, Digital Commerce</li>
+      <li>Sambhavi Chandrashekar, Accessibility practitioner</li>
+      <li>Simon Jaeger, Accessibility Analyst, National Network for Equitable Library Service</li>
+      <li>Sara E. Temby, UX Accessibility Lead / SME, Microsoft</li>
+      <li>Andrea Mancini, Chief Experience Officer, Lascaux (Italy)</li>
+      <li>Kalicharan Pillai, CEO, Spectrum Technologies, Inc</li>
+      <li>KolaGayathri Pillai, CEO, Sattva Solutions, LLC</li>
+      <li>Craig Barrios, Web Development Enthusiast</li>
     </ol>
     <p>
       <a class="add-your-name" href="https://github.com/karlgroves/overlayfactsheet/#endorse-this-statement">
-        Add your name to this list
+        {{ T "addYourName" | safeHTML}}
       </a>
     </p>
   </div>
@@ -1394,7 +1243,7 @@
 
 <aside class="further-reading">
   <div class="container">
-    <h2 id="additional-reading">Additional Reading</h2>
+    <h2 id="additional-reading">{{ T "topic09"| safeHTML}}</h2>
     <ul>
       <li>
         <a href="https://www.nngroup.com/articles/screen-reader-users-on-mobile/">Challenges for Screen-Reader Users on Mobile</a>
@@ -1501,9 +1350,9 @@
       <li><a href="https://www.nbcnews.com/tech/innovation/blind-people-advocates-slam-company-claiming-make-websites-ada-compliant-n1266720">
         Blind people, advocates slam company claiming to make websites ADA compliant</a> <span class="further-reading-source">NBC News</span></li>
       <li><a href="https://www.forbes.com/sites/gusalexiou/2021/06/26/largest-us-blind-advocacy-group-bans-web-accessibility-overlay-giant-accessibe/?sh=6057fc125a15">
-        Largest U.S. Blind Advocacy Group Bans Web Accessibility Overlay Giant AccessiBe</a> <span class="further-reading-source">Forbes Magazine</span</li>
-        <li><a href="https://tink.uk/accessibe-and-data-protection/">AccessiBe and data protection?</a> <span class="further-reading-source">Léonie Watson</a></li>
-      <li><a href="https://www.lflegal.com/2021/11/overlay-legal-update/">Legal Update: Accessibility Overlay Edition</a> <span class="further-reading-source">Lainey Feingold</a></li>
+        Largest U.S. Blind Advocacy Group Bans Web Accessibility Overlay Giant AccessiBe</a> <span class="further-reading-source">Forbes Magazine</span></li>
+        <li><a href="https://tink.uk/accessibe-and-data-protection/">AccessiBe and data protection?</a> <span class="further-reading-source">Léonie Watson</li>
+      <li><a href="https://www.lflegal.com/2021/11/overlay-legal-update/">Legal Update: Accessibility Overlay Edition</a> <span class="further-reading-source">Lainey Feingold</li>
       <li><a href="https://overlayfalseclaims.com/">Truth in advertising does not exist for overlay vendors: False claims at the expense of customers and persons with disabilities.<span class="further-reading-source">Karl Groves and Michael Beck</span> </a> </li>
       <li>
         <a href="https://accessibleweb.com/web-accessibility-news/do-away-with-overlays/">Do Away with Overlays</a>
@@ -1541,9 +1390,9 @@
         <a href="https://www.nytimes.com/2022/07/13/technology/ai-web-accessibility.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DKDm8ZiPgYCIiG_EPKarskbtp2wDmRAdZKO7I0X_14z-teI10rSxWtptHMvqU5FBgPiND5WHIqjdWKVKok8DTuYy7peepzneO07lfZOzO-RKCJ0yE-d1k18Y9vfA753nwJz_zAE-Rly5Ipi6dac5N5RjgAYyGLuvP6WV4paJjdMEaqukRhUPpZWDrTgdeZ97oBFQ1SAl7MR3p7in0uvJIeYJhEefaicGNzPZb2kr4TCWd3LYa2B5ZXR4Pck7RisLGlugXZjNRJGDCbYdUTTQ5ATpvV&smid=url-share">For Blind Internet Users, the Fix Can Be Worse Than the Flaws</a>
         <span class="further-reading-source">New York Times</span>
       </li>
-        <li><a href="https://www.forbes.com/sites/gusalexiou/2021/10/28/why-automated-tools-alone-cant-make-your-website-accessible-and-legally-compliant/?sh=3a83983a364e">Why Automated Tools Alone Can’t Make Your Website Accessible And Legally Compliant</a><span class="further-reading-source">Forbes</span></li>  
-        <li><a href="https://karlgroves.com/the-overlay-personalization-farce/">The Overlay Personalization Farce</a><span class="further-reading-source">Karl Groves</span></li>  
-        <li><a href="https://adrianroselli.com/2023/02/audioeye-will-get-you-sued.html">AudioEye will get you sued</a><span class="further-reading-source">Adrian Roselli</span></li>
+        <li><a href="https://www.forbes.com/sites/gusalexiou/2021/10/28/why-automated-tools-alone-cant-make-your-website-accessible-and-legally-compliant/?sh=3a83983a364e">Why Automated Tools Alone Can’t Make Your Website Accessible And Legally Compliant</a> <span class="further-reading-source">Forbes</span></li>  
+        <li><a href="https://karlgroves.com/the-overlay-personalization-farce/">The Overlay Personalization Farce</a> <span class="further-reading-source">Karl Groves</span></li>  
+        <li><a href="https://adrianroselli.com/2023/02/audioeye-will-get-you-sued.html">AudioEye will get you sued</a> <span class="further-reading-source">Adrian Roselli</span></li>
         <li><a href="https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/">Accessibility overlays don’t guarantee compliance with European legislation</a>
         <span class="further-reading-source">The European Disability Forum (EDF) and International Association of Accessibility Professionals (IAAP)</span>
         </li>

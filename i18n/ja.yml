@@ -1,0 +1,174 @@
+- id: title
+  translation: "Overlay Fact Sheet"
+- id: metaDescription
+  translation: "An open letter about accessibility overlays."
+- id: skip
+  translation: "Skip to content"
+- id: lang
+  translation: "Switch language"
+- id: tableContent
+  translation: "Table of contents"
+- id: topic01
+  translation: "What is a web accessibility overlay?"
+- id: topic01p01
+  translation: "Overlays are a broad term for technologies that aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website."
+- id: topic01p02
+  translation: "Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> and <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed."
+- id: topic01p03
+  translation: "Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability."
+- id: topic01p04
+  translation: "Some newer overlay products aim to fix any problems in the site’s code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem."
+- id: topic01p05
+  translation: "Some examples of web accessibility overlays (by alphabetical order):"
+- id: topic01p06
+  translation: "*: denotes that these products are no longer developed or marketed."
+- id: topic01p07
+  translation: "Overlay products are sometimes white labelled (sold under other names), or re-branded for certain markets, so this is not a complete list of the type of products discussed on this page."
+- id: topic02
+  translation: "Strengths and weaknesses of overlay “widgets”"
+- id: topic02p01
+  translation: "Overlay widgets are unnecessary and are poorly placed in the technology stack."
+- id: topic02p02
+  translation: "As stated above, some overlay products contain widgets which present a series of controls that modify the presentation of the page they’re on. Depending on the product, those changes may do things like change the page contrast, enlarge the size of the page’s text, or perform other changes to the page that are intended to improve the experience for users with disabilities."
+- id: topic02p03
+  translation: "To laypersons, these features may seem beneficial, but their practical value is largely overstated because the end users that these features claim to serve will already have the necessary features on their computer, either as a built-in feature or as an additional piece of software that the user needs to access not only the Web but all software."
+- id: topic02p04
+  translation: "On this latter point, it is a mistake to believe that the features provided by the overlay widget will be of much use by end users because if those features were <strong>necessary</strong> to use the website, they’d be needed for all websites that the user interacts with. Instead, the widget is  —at best—redundant functionality with what the user already has."
+- id: topic03
+  translation: "Strengths and weaknesses of automated repair"
+- id: topic03p01
+  translation: "While some automated repair is possible, customers should be discouraged from using an overlay as a long-term solution."
+- id: topic03p02
+  translation: "Some overlay products have capabilities aimed at providing accessibility repairs to the underlying page on which the overlay is added. These repairs are applied when the page loads in the user’s browser."
+- id: topic03p03
+  translation: "While it is true that a non-trivial array of accessibility problems can be repaired in this manner, the nature, extent, and accuracy of such repair are limited by a number of important factors:"
+- id: topic03p04
+  translation: "Automated application of text alternatives for images is not reliable"
+- id: topic03p05
+  translation: "Automated repair of field labels, error management, error handling, and focus control on forms is not reliable"
+- id: topic03p06
+  translation: "Automated repair of keyboard access is not reliable"
+- id: topic03p07
+  translation: "Modern, component-based user interfaces, such as those using ReactJS, Angular, or Vue may change the state of all or some of the underlying page independently of the overlay, rendering it unable to fix those JavaScript-driven changes to content"
+- id: topic03p08
+  translation: "Repairs to the page can either slow down page load times or cause unexpected page changes for assistive technology users."
+- id: topic03p09
+  translation: "In addition to the above, overlays do not repair content in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, or media files."
+- id: topic04
+  translation: "Fitness for achieving compliance with accessibility standards"
+- id: topic04p01
+  translation: "While the use of an overlay may improve compliance with a handful of provisions in major accessibility standards, full compliance cannot be achieved with an overlay."
+- id: topic04p02
+  translation: "Among the many claims made by overlay vendors is the claim that the use of their product will bring the site into compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards."
+- id: topic04p03
+  translation: "Conformance to a standard means that you meet or satisfy the ‘requirements’ of the standard. In WCAG 2.0 the ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is, there is no content which violates the Success Criteria."
+- id: topic04p04
+  translation: "Given that conformance is defined as meeting all requirements of the standard, these products’ documented inability to repair <strong>all</strong> possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant skepticism."
+- id: topic05
+  translation: "Privacy of personal data"
+- id: topic05p01
+  translation: "Adding an overlay to your site may run counter to end users’ preference for privacy and may create risk of noncompliance with GDPR, UK GDPR, CCPA, et al."
+- id: topic05p02
+  translation: "Overlays that automatically enable certain settings, like those for screen reader or speech recognition users, do so by detecting when an assistive technology is running on the device. This exposes the fact that the person using the device at the time has a disability. In certain cases, like screen reader users where the majority are blind or have low vision, it exposes even more detail about the nature of their disability. Like age, ethnic background, or preferred gender, disability is sensitive personal information. It is not data that should be collected without the informed consent of the person it belongs to."
+- id: topic05p03
+  translation: "Some overlays have been found to persist users’ settings across sites which use the same overlay. This is done by setting a cookie on the user’s computer. When the user enables a setting for an overlay feature on one site, the overlay will automatically turn on that feature on other sites. While the overlay company might think they’re doing good by the end user, the big privacy problem is that the user never opted in to be tracked and there’s also no ability to opt-out. Due to this lack of an opt-out (other than explicitly turning off that setting) this creates General Data Protection Regulation (GDPR) and California Consumer Privacy Act (CCPA) risk for the overlay customer."
+- id: topic06
+  translation: "In their own words"
+- id: topic06p01
+  translation: "Many users with disabilities have expressed strong words of dissatisfaction with overlay products. As shown below, overlays themselves may have accessibility problems significant enough for users to take steps to actively block overlays from appearing at all."
+- id: topic06p02
+  translation: "Please note: while this section may mention specific vendors, these comments are par-for-the-course when it comes to the user experience provided by overlay widgets which have, in themselves, a pattern of negatively impacting the user experience."
+- id: topic06t01
+  translation: "...assuming your tool can do a good job making something accessible, it can do an even better job making something accessible running directly on the user’s machine having access to machine code and machine APIs"
+- id: topic06t02
+  translation: "...I finally managed to gain access to my @NameCheap account by blocking #AccessiBe in my Windows Hosts file. I should not need to do this to use the Internet. AccessiBe needs to AccessiBeGone"
+- id: topic06t03
+  translation: "...I know with 100% certainty, any site which has deployed an overlay in the past year and a half has been less useable for both my wife and me—both blind."
+- id: topic06t04
+  translation: "...Still a pain to even try reading the article on a mobile device because of the constant interruption every few seconds. Considering every site using your service also has this problem… Nope."
+- id: topic06t05
+  translation: "...Making a webpage accessible does take work, and simply telling a business they can install your plugin is absolutely foolish, you build, and design accessibility in to a webpage using WCAG standards."
+- id: topic06t06
+  translation: "...Suggesting one line of code is cheap so you should do it by inference suggests disabled lives aren’t worth investing in either. #a11y"
+- id: topic06t07
+  translation: "@AccessiBe Just to demonstrate my good faith, here’s a quick free audit of https://t.co/1mQGCCtnIs. You capture \"tab\" which is the standard way to navigate. There’s no way to not enable your overlay if I want to navigate the page. Once the overlay is enabled, wild things happen."
+- id: topic06t08
+  translation: "#AccessiBe makes sites harder to use by getting in the way of browsing and changing access barriers on a page, not fixing them. A student and I came across an \"enhanced\" website and to my shame, we left because navigating that mess was beyond my skills, on that day."
+- id: topic06t09
+  translation: "Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ"
+- id: topic06t10
+  translation: "To screen reader-using followers: You may have heard of #Accessibe, an overlay that claims to make pages in which it is embedded more accessible. I won’t go into any more detail. In short: complete nonsense. Hands off!"
+- id: topic06t11
+  translation: "Automated solutions which promise to make your site accessible can’t. It takes more than automation to achieve this requirement. You won’t be safe from liability. you will almost assuredly negatively impact your customers with disabilities."
+- id: topic06t12
+  translation: "Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader, I know that my blocker isn’t working properly, and I’m in for a hellish experience on that particular website. https://t.co/ZFzKMfUe0t"
+- id: topic06t13
+  translation: "I tried using this @AccessiBe site with VoiceOver in Chrome on iOS. The 4-star rating is announced as \"unpronounceable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+- id: topic06t14
+  translation: "I wrote an email to their customer service detailing that I can not use their site due to the overlay, but… I really am disappointed, but I hope they listen. @Goodfair_ - please stop using AccessiBe."
+- id: topic06t15
+  translation: "I’m not an accessibility expert, just a screen reader user with decent skills telling you that this thread is spot on and my experience with #AccessiBe is that it makes sites with accessibility issues even harder to work around. https://t.co/cfyrEqXwTy"
+- id: topic06t16
+  translation: "...If you are blind or low vision and rely on assistive technologies like screen readers, you may have begun finding popular websites becoming less usable… this page describes how to ban AccessiBe from ever reaching your computer… https://t.co/qbiKvolizS"
+- id: topic06t17
+  translation: "OK, this seems very wrong to me. A local chain here named Fleet Farm is now using AccessiBe. It makes a mess of the search for location feature. This is what I now get on the start of the result page."
+- id: topic06t18
+  translation: "Thank goodness Firefox blocks their accessibility detection. For me, focus jumps all over the place with #AccessiBe enabled. When it’s disabled, it behaves itself."
+- id: topic06t19
+  translation: "There are 0 automated tools that can tetect accessibility problems accurately at anything above 30% of the time. 0. This is commonly known by anyone who’s been in this space for at least a week. #AccessiBe"
+- id: topic06t20
+  translation: "There’s a perfectly practical tool for making websites accessible. It’s called a programmer. The needs that matter in making a website accessible are those of the users. If you can’t meet those, then you can’t meet the basic costs of doing business."
+- id: topic06t21
+  translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2’s. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
+- id: topic07
+  translation: "Conclusion"
+- id: topic07p01
+  translation: "No overlay product on the market can cause a website to become fully compliant with any existing accessibility standard and therefore cannot eliminate legal risk."
+- id: topic07p02
+  translation: "Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The invention of novel approaches to resolving this challenge is to be commended."
+- id: topic07p03
+  translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer’s sites immediate compliance with laws and standards."
+- id: topic07p04
+  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
+- id: topic07p05
+  translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
+- id: topic08
+  translation: "Statement from sponsors and signatories to this fact sheet"
+- id: topic08p01
+  translation: "As a result of the above information:"
+- id: topic08p02
+  translation: "We will never advocate, recommend, or integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards"
+- id: topic08p03
+  translation: "We will always advocate for the remediation of accessibility issues at the source of the original error"
+- id: topic08p04
+  translation: "We will refuse to stay silent when overlay vendors use deception to market their products"
+- id: topic08p05
+  translation: "More specifically, we hereby advocate for the removal of web accessibility overlay and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible"
+- id: topic08p06
+  translation: "Signed by:"
+- id: topic08p07
+  translation: "Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them. Such overlay claims are a textbook case of an attempt to <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> people to deflect criticism."
+- id: topic08p08
+  translation: "As of today, the signatories to the overlay factsheet include:"
+- id: topic08p09
+  translation: "Contributors and editors for <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+- id: topic08p10
+  translation: "Consultants from <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> and more"
+- id: topic08p11
+  translation: "Internal accessibility experts for companies like Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
+- id: topic08p12
+  translation: "Internal accessibility experts from higher education institutions like Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic08p13
+  translation: "Lawyers for the disabled"
+- id: topic08p14
+  translation: "Contributors to assistive technology software such as JAWS and NVDA"
+- id: topic08p15
+  translation: "Scores of end users with disabilities"
+- id: topic08p16
+  translation: "In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree."
+- id: topic09
+  translation: "Additional Reading"
+- id: addYourName
+  translation: "Add your name to this list"  
+        
+      

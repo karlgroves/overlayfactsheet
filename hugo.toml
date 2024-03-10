@@ -30,3 +30,9 @@ home = ['HTML']
     [languages.fr.params]
       languageName = 'français'
       languageNameShort = 'fr'
+  [languages.pt-br]
+    contentDir = 'i18n/pt-br'
+    weight = 3
+    [languages.pt-br.params]
+      languageName = 'português brasileiro'
+      languageNameShort = 'pt-br'

@@ -1,29 +1,29 @@
 - id: title
-  translation: "Overlay Fact Sheet"
+  translation: "オーバーレイ ファクトシート"
 - id: metaDescription
-  translation: "An open letter about accessibility overlays."
+  translation: "アクセシビリティ オーバーレイについての公開状（オープンレター）です。"
 - id: skip
-  translation: "Skip to content"
+  translation: "本文へ移動"
 - id: lang
-  translation: "Switch language"
+  translation: "言語を選択"
 - id: tableContent
-  translation: "Table of contents"
+  translation: "目次"
 - id: topic01
-  translation: "What is a web accessibility overlay?"
+  translation: "Webアクセシビリティ オーバーレイとは何ですか？"
 - id: topic01p01
-  translation: "Overlays are a broad term for technologies that aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website."
+  translation: "オーバーレイは、Webサイトのアクセシビリティを向上させることを目的とした技術の総称です。サードパーティのソースコード（多くはJavaScript）を読み込み、フロントエンドコードを改善します。"
 - id: topic01p02
-  translation: "Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> and <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed."
+  translation: "アクセシビリティの向上を謳うWebサイトのアドオン製品は、1990年代後半に登場した<a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a>や<a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>に遡ります。これらは、インストールされたWebサイトでテキストの読み上げ機能を追加するものでした。"
 - id: topic01p03
-  translation: "Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability."
+  translation: "その後、そのようなソフトウェアに機能を追加した類似製品が、市場に出回るようになりました。それらは、読みやすさを向上させるために、文字サイズや色などをユーザーの好みでコントロールするものです。"
 - id: topic01p04
-  translation: "Some newer overlay products aim to fix any problems in the site’s code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem."
+  translation: "最近のオーバーレイ製品のなかには、支援技術からのアクセスしやすさを妨げる問題を修正することを目的としているものがあります。この製品は、コードをスキャンし、自動的に問題の修復を試みるスクリプトをページに読み込みます。"
 - id: topic01p05
-  translation: "Some examples of web accessibility overlays (by alphabetical order):"
+  translation: "ebアクセシビリティ オーバーレイの例（アルファベット順）："
 - id: topic01p06
-  translation: "*: denotes that these products are no longer developed or marketed."
+  translation: "* すでに開発ないし販売されていない製品です"
 - id: topic01p07
-  translation: "Overlay products are sometimes white labelled (sold under other names), or re-branded for certain markets, so this is not a complete list of the type of products discussed on this page."
+  translation: "オーバーレイ製品は、特定の市場に向けホワイトラベル化（別名で販売）されたり、リブランディングされたりすることがあるため、このページが取り上げる類の製品すべてを網羅しているわけではありません。"
 - id: topic02
   translation: "Strengths and weaknesses of overlay “widgets”"
 - id: topic02p01
@@ -167,8 +167,8 @@
 - id: topic08p16
   translation: "In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree."
 - id: topic09
-  translation: "Additional Reading"
+  translation: "関連情報"
 - id: addYourName
-  translation: "Add your name to this list"  
+  translation: "署名する"  
         
       

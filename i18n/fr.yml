@@ -15,7 +15,7 @@
 - id: topic01p02
   translation: "Ce type d’outil qui prétend améliorer l’accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
 - id: topic01p03
-  translation: "Des produits similaires sont ensuite apparus sur le marché, ajoutant d’autres outils à leur logiciel. Ceux-ci permettent à l’utilisateur de contrôler des éléments tels que la taille et la couleur des polices afin d’améliorer la lisibilité."
+  translation: "Des produits similaires sont ensuite apparus sur le marché, ajoutant d’autres outils à leur logiciel. Ceux-ci permettent à l’internaute de contrôler des éléments tels que la taille et la couleur des polices afin d’améliorer la lisibilité."
 - id: topic01p04
   translation: "Certains outils de surcouche plus récents visent à résoudre les problèmes dans le code du site sauf que cela empêche les technologies d’assistance d’être utilisées facilement. Ils appliquent à la page un script qui analyse le code et tente automatiquement de résoudre le problème."
 - id: topic01p05
@@ -29,17 +29,17 @@
 - id: topic02p01
   translation: "Les outils de surcouche sont inutiles et mal placés dans la <i lang=\"en\">stack</i> technologique."
 - id: topic02p02
-  translation: "Comme indiqué ci-dessus, certains outils de surcouche contiennent des <i lang=\"en\">widgets</i> qui présentent une série de contrôles modifiant la présentation de la page sur laquelle ils se trouvent. Selon le produit, ces modifications peuvent avoir pour effet de changer le contraste de la page, d’agrandir la taille du texte de la page ou d’apporter d’autres changements à la page dans le but d’améliorer l’expérience des utilisateurs handicapés."
+  translation: "Comme indiqué ci-dessus, certains outils de surcouche contiennent des <i lang=\"en\">widgets</i> qui présentent une série de contrôles modifiant la présentation de la page sur laquelle ils se trouvent. Selon le produit, ces modifications peuvent avoir pour effet de changer le contraste de la page, d’agrandir la taille du texte de la page ou d’apporter d’autres changements à la page dans le but d’améliorer l’expérience des personnes handicapées."
 - id: topic02p03
-  translation: "Pour les néophytes, ces fonctions peuvent sembler bénéfiques, mais leur valeur ajoutée est largement exagérée parce que les utilisateurs finaux que ces fonctions prétendent servir disposent déjà des fonctions nécessaires sur leur ordinateur, soit en tant que fonction intégrée, soit en tant que logiciel supplémentaire dont l’utilisateur a besoin pour accéder non seulement au web, mais aussi à tous les logiciels."
+  translation: "Pour les néophytes, ces fonctions peuvent sembler bénéfiques, mais leur valeur ajoutée est largement exagérée parce que les internautes que ces fonctions prétendent servir disposent déjà des fonctions nécessaires sur leur ordinateur, soit en tant que fonction intégrée, soit en tant que logiciel supplémentaire dont la personne a besoin pour accéder non seulement au web, mais aussi à tous les logiciels."
 - id: topic02p04
-  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l’outil de surouche seront d’une grande utilité pour les utilisateurs finaux, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels l’utilisateur interagit. Au lieu de cela, l’outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que l’utilisateur possède déjà."
+  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l’outil de surouche seront d’une grande utilité pour les personnes concernées, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels ces internautes interagissent. Au lieu de cela, l’outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que les personnes qui visitent votre site possèdent déjà."
 - id: topic03
   translation: "Avantages et inconvénients de la correction automatisée"
 - id: topic03p01
-  translation: "Bien que certaines corrections automatisées soient possibles, il convient de décourager les clients d’utiliser un outil de surcouche comme solution à long terme."
+  translation: "Bien que certaines corrections automatisées soient possibles, il convient de décourager les commanditaires de sites web d’utiliser un outil de surcouche comme solution à long terme."
 - id: topic03p02
-  translation: "Certains outils de surcouche ont comme ambition de fournir des corrections d’accessibilité directement sur la page où l’outil a été ajouté. Ces corrections sont appliquées lorsque la page est chargée dans le navigateur de l’utilisateur."
+  translation: "Certains outils de surcouche ont comme ambition de fournir des corrections d’accessibilité directement sur la page où l’outil a été ajouté. Ces corrections sont appliquées lorsque la page est chargée dans le navigateur de la personne visitant le site."
 - id: topic03p03
   translation: "S’il est vrai qu’un ensemble de problèmes d’accessibilité, basique, peut être réparé de cette manière, la nature, l’étendue et la précision de ces corrections sont limitées par un certain nombre de facteurs importants&nbsp;:"
 - id: topic03p04
@@ -49,9 +49,9 @@
 - id: topic03p06
   translation: "La correction automatisée de l’accès au clavier n’est pas fiable"
 - id: topic03p07
-  translation: "Les interfaces utilisateur modernes basées sur des composants, telles que celles qui utilisent ReactJS, Angular ou Vue, peuvent modifier l’état de tout ou partie de la page indépendamment de l’outil de surcouche. Cela rend l’outil incapable de corriger ces changements de contenu pilotés par JavaScript"
+  translation: "Les interfaces d’utilisation modernes basées sur des composants, telles que celles qui utilisent ReactJS, Angular ou Vue, peuvent modifier l’état de tout ou partie de la page indépendamment de l’outil de surcouche. Cela rend l’outil incapable de corriger ces changements de contenu pilotés par JavaScript"
 - id: topic03p08
-  translation: "Les corrections de la page peuvent soit ralentir le temps de chargement de la page, soit provoquer des changements de page inattendus pour les utilisateurs de technologies d’assistance"
+  translation: "Les corrections de la page peuvent soit ralentir le temps de chargement de la page, soit provoquer des changements de page inattendus pour les personnes utilisant des technologies d’assistance"
 - id: topic03p09
   translation: "En outre, les outils de surcouche ne réparent pas le contenu des fichiers Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG ou des fichiers multimédias."
 - id: topic04
@@ -67,19 +67,19 @@
 - id: topic05
   translation: "Protection des données personnelles"
 - id: topic05p01
-  translation: "L’ajout d’un outil de surcouche à votre site peut aller à l’encontre des préférences des utilisateurs finaux en matière de protection de la vie privée et peut entraîner un risque de non-conformité avec le RGPD, le CCPA, etc."
+  translation: "L’ajout d’un outil de surcouche à votre site peut aller à l’encontre des préférences des internautes en matière de protection de la vie privée et peut entraîner un risque de non-conformité avec le RGPD, le CCPA, etc."
 - id: topic05p02
-  translation: "Les outils de surcouche qui activent automatiquement certains paramètres, comme ceux destinés aux utilisateurs de lecteurs d’écran ou de reconnaissance vocale, le font en détectant si une technologie d’assistance fonctionne sur l’appareil. Cela révèle que la personne qui utilise l’appareil à ce moment-là possède un handicap. Dans certains cas, comme celui des utilisateurs de lecteurs d’écran dont la majorité est aveugle ou malvoyante, cela révèle encore plus de détails sur la nature de leur handicap. Tout comme l’âge, l’origine ethnique ou le sexe, le handicap est une information personnelle sensible. Ce ne sont pas des données qui devraient être collectées sans le consentement éclairé de la personne à laquelle elles appartiennent."
+  translation: "Les outils de surcouche qui activent automatiquement certains paramètres, comme ceux destinés aux personnes utilisant des lecteurs d’écran ou de reconnaissance vocale, le font en détectant si une technologie d’assistance fonctionne sur l’appareil. Cela révèle que la personne qui utilise l’appareil à ce moment-là possède un handicap. Dans certains cas, comme celui des personnes utilisant des lecteurs d’écran dont la majorité est aveugle ou malvoyante, cela révèle encore plus de détails sur la nature de leur handicap. Tout comme l’âge, l’origine ethnique ou le sexe, le handicap est une information personnelle sensible. Ce ne sont pas des données qui devraient être collectées sans le consentement éclairé de la personne à laquelle elles appartiennent."
 - id: topic05p03
-  translation: "Il a été constaté que certains outils de surcouche conservent les paramètres des utilisateurs sur les sites qui utilisent la même outil de surcouche. Pour ce faire, un <i lang=\"en\">cookie</i> est installé sur l’ordinateur de l’utilisateur. Lorsque l’utilisateur active un paramètre dans un outil de surcouche, cet outil active automatiquement cette fonction sur d’autres sites. Bien que le vendeur d’outil de surcouche puisse penser qu’il s’agit d’une bonne chose pour l’utilisateur, au final le gros problème en matière de protection de la vie privée est que l’utilisateur n’a jamais accepté d’être suivi et qu’il n’y a pas non plus de possibilité de se désengager. En raison de cette absence de possibilité de retrait (autre que la désactivation explicite de ce paramètre), l’outil de surcouche court le risque d’être non conforme par rapport au règlement général sur la protection des données (RGPD) et de la loi californienne sur la protection de la vie privée des consommateurs (CCPA)."
+  translation: "Il a été constaté que certains outils de surcouche conservent les paramètres des personnes visitant les sites qui utilisent le même outil de surcouche. Pour ce faire, un <i lang=\"en\">cookie</i> est installé sur l’ordinateur des internautes. Lorsque la personne qui visite le site active un paramètre dans un outil de surcouche, cet outil active automatiquement cette fonction sur d’autres sites. Bien que les sociétés commercialisant des outils de surcouche puissent penser qu’il s’agit d’une bonne chose pour les internautes, au final le gros problème en matière de protection de la vie privée est que l’internaute n’a jamais accepté d’être suivi et qu’il n’y a pas non plus de possibilité de se désengager. En raison de cette absence de possibilité de retrait (autre que la désactivation explicite de ce paramètre), l’outil de surcouche court le risque d’être non conforme par rapport au règlement général sur la protection des données (RGPD) et de la loi californienne sur la protection de la vie privée des consommateurs et des consommatrices (CCPA)."
 - id: topic06
   translation: "Selon leurs propres mots"
 - id: topic06p01
-  translation: "De nombreux utilisateurs handicapés ont exprimé leur mécontentement à l’égard des outils de surcouche. Comme le montre les témoignages ci-dessous, les outils de surcouche peuvent présenter des problèmes d’accessibilité suffisamment importants pour que les utilisateurs prennent des mesures afin de bloquer activement l’apparition des ces outils."
+  translation: "De nombreuses personnes handicapées ont exprimé leur mécontentement à l’égard des outils de surcouche. Comme le montre les témoignages ci-dessous, les outils de surcouche peuvent présenter des problèmes d’accessibilité suffisamment importants pour que ces personnes prennent des mesures afin de bloquer activement l’apparition des ces outils."
 - id: topic06p02
-  translation: "Remarque&nbsp;: bien que cette section mentionne spécifiquement certains vendeurs d’outils de surcouche, ces témoignages s’appliquent également aux autres et s’accordent sur le fait que ces outils ont un impact négatif sur l’expérience de l’utilisateur."
+  translation: "Remarque&nbsp;: bien que cette section mentionne spécifiquement certaines sociétés commercialisant des outils de surcouche, ces témoignages s’appliquent également aux autres et s’accordent sur le fait que ces outils ont un impact négatif sur l’expérience d’utilisation."
 - id: topic06t01
-  translation: "...en supposant que votre outil puisse faire un bon travail pour rendre quelque chose accessible, il peut faire un travail encore meilleur pour rendre quelque chose accessible en fonctionnant directement sur la machine de l’utilisateur ayant accès au code machine et aux API de la machine."
+  translation: "...en supposant que votre outil puisse faire un bon travail pour rendre quelque chose accessible, il peut faire un travail encore meilleur pour rendre quelque chose accessible en fonctionnant directement sur la machine de l’internaute ayant accès au code machine et aux API de la machine."
 - id: topic06t02
   translation: "...j’ai finalement réussi à accéder à mon compte @NameCheap en bloquant #AccessiBe dans mon fichier Windows Hosts. Je ne devrais pas avoir besoin de faire cela pour utiliser l’Internet. AccessiBe doit être AccessiBeGone"
 - id: topic06t03
@@ -87,7 +87,7 @@
 - id: topic06t04
   translation: "...Il est toujours pénible d’essayer de lire l’article sur un appareil mobile à cause de l’interruption constante toutes les quelques secondes. Si l’on considère que tous les sites utilisant votre service ont également ce problème... Non."
 - id: topic06t05
-  translation: "...Rendre une page web accessible demande du travail, et dire simplement à une entreprise qu’elle peut installer votre plugin est absolument insensé, vous construisez et concevez l’accessibilité dans une page web en utilisant les normes WCAG."
+  translation: "...Rendre une page web accessible demande du travail, et dire simplement à une entreprise qu’elle peut installer votre extension est absolument insensé, vous construisez et concevez l’accessibilité dans une page web en utilisant les normes WCAG."
 - id: topic06t06
   translation: "...Suggérer qu’une ligne de code n’est pas chère et qu’il faut donc la faire suggère que les vies des handicapés ne valent pas la peine d’être investies non plus. #a11y"
 - id: topic06t07
@@ -125,9 +125,9 @@
 - id: topic07p01
   translation: "Aucun outil de surcouche sur le marché ne peut rendre un site web totalement conforme à une norme d’accessibilité existante et ne peut donc pas éliminer le risque juridique."
 - id: topic07p02
-  translation: "L’accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les utilisateurs de ces sites. L’invention de nouvelles approches pour résoudre ce problème doit être saluée."
+  translation: "L’accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les personnes visitant ces sites. L’invention de nouvelles approches pour résoudre ce problème doit être saluée."
 - id: topic07p03
-  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d’ajouter des gadgets présentant des fonctions d’assistance, le défi n’est pas relevé. Ce qui est encore plus problématique, c’est le marketing trompeur de certains vendeurs d’outil de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leurs clients de se conformer immédiatement aux lois et aux normes."
+  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d’ajouter des gadgets présentant des fonctions d’assistance, le défi n’est pas relevé. Ce qui est encore plus problématique, c’est le marketing trompeur de certaines sociétés commercialisant des outils de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leur clientèle de se conformer immédiatement aux lois et aux normes."
 - id: topic07p04
   translation: "L’inefficacité des outils de surcouche fait l’objet d’un large consensus parmi les professionnels de l’accessibilité, comme le montre l’enquête WebAIM sur les professionnels de l’accessibilité du Web&nbsp;:"
 - id: topic07p05
@@ -147,25 +147,25 @@
 - id: topic08p06
   translation: "Signé par&nbsp;:"
 - id: topic08p07
-  translation: "Certains vendeurs des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d’école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
+  translation: "Certaines sociétés commercialisant des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d’école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
 - id: topic08p08
   translation: "À ce jour, les signataires de la tribune contre les outils de surcouche d’accessibilité sont les suivants&nbsp;:"
 - id: topic08p09
-  translation: "Contributeurs et éditeurs pour les spécifications <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, et <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+  translation: "Contributeurs et contributrices, éditeurs et éditrices des spécifications <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, et <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
 - id: topic08p10
-  translation: "Consultants des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l’Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l’Australie, du Danemark, de l’Italie, du Luxembourg et d’autres pays encore."
+  translation: "Consultants et consultantes des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l’Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l’Australie, du Danemark, de l’Italie, du Luxembourg et d’autres pays encore."
 - id: topic08p11
-  translation: "Experts internes en accessibilité pour des entreprises telles que Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, et Pearson Assessments"
+  translation: "Experts et expertes internes en accessibilité pour des entreprises telles que Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, et Pearson Assessments"
 - id: topic08p12
-  translation: "Experts internes en accessibilité d’établissements d’enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
+  translation: "Experts et expertes internes en accessibilité d’établissements d’enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
 - id: topic08p13
-  translation: "Avocats pour les personnes handicapées"
+  translation: "Avocats et avocates représentant les personnes handicapées"
 - id: topic08p14
   translation: "Contributeurs aux lecteurs d’écrans tels que JAWS et NVDA"
 - id: topic08p15
-  translation: "Grand nombre d’utilisateurs finaux handicapés"
+  translation: "Un grand nombre d’utilisateurs et utilisatrices finaux handicapés"
 - id: topic08p16
-  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui sont des experts dans ce domaine et qui ont consacré leur carrière professionnelle à l’amélioration de l’accessibilité ou qui sont des utilisateurs finaux handicapés (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l’essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l’accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d’accord."
+  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui ont une expertise dans ce domaine et qui ont consacré leur carrière professionnelle à l’amélioration de l’accessibilité ou qui sont des personnes handicapées (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l’essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l’accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d’accord."
 - id: topic09
   translation: "Lectures complémentaires"
 - id: addYourName

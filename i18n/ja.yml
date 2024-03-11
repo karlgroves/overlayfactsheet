@@ -35,25 +35,25 @@
 - id: topic02p04
   translation: "従い、オーバーレイ ウィジェットの提供する機能がエンドユーザーに大いに役立つと考えるのは、間違いです。なぜなら、その機能がWebサイトを利用するために<strong>必要</strong>なものであるならば、ユーザーのアクセスするすべてのWebサイトで必要だからです。ウィジェットはせいぜい、ユーザーがすでに利用している機能の予備にすぎません。"
 - id: topic03
-  translation: "Strengths and weaknesses of automated repair"
+  translation: "自動的な修正の長所と短所"
 - id: topic03p01
-  translation: "While some automated repair is possible, customers should be discouraged from using an overlay as a long-term solution."
+  translation: "自動的な修正はある程度は可能ですが、長期的な解決策としてオーバーレイを使用することは控えるべきです。"
 - id: topic03p02
-  translation: "Some overlay products have capabilities aimed at providing accessibility repairs to the underlying page on which the overlay is added. These repairs are applied when the page loads in the user’s browser."
+  translation: "オーバーレイ製品のなかには、ページのアクセシビリティを修正することを目的とした機能を持つものがあります。その修正は、ユーザーがブラウザでページを読み込んだ際に適用されます。"
 - id: topic03p03
-  translation: "While it is true that a non-trivial array of accessibility problems can be repaired in this manner, the nature, extent, and accuracy of such repair are limited by a number of important factors:"
+  translation: "アクセシビリティに関わるさまざまな問題を、そのような方法で修復できることは確かですが、その種別や範囲、精度は、いくつかの重要な要素によって制限されます："
 - id: topic03p04
-  translation: "Automated application of text alternatives for images is not reliable"
+  translation: "画像の代替テキストの自動的な修正は信頼できません。"
 - id: topic03p05
-  translation: "Automated repair of field labels, error management, error handling, and focus control on forms is not reliable"
+  translation: "フォームにおけるラベルやエラー管理、エラー処理、フォーカス制御の自動的な修正は信頼できません。"
 - id: topic03p06
-  translation: "Automated repair of keyboard access is not reliable"
+  translation: "キーボードアクセスの自動的な修正は信頼できません。"
 - id: topic03p07
-  translation: "Modern, component-based user interfaces, such as those using ReactJS, Angular, or Vue may change the state of all or some of the underlying page independently of the overlay, rendering it unable to fix those JavaScript-driven changes to content"
+  translation: "ReactJSやAngular、Vueを使用しているような、モダンなコンポーネントベースのユーザーインターフェースは、オーバーレイとは無関係にページのすべてまたは一部の状態を変更する可能性があり、JavaScriptによってコンテンツに加えられた変更に対して修正することができません。"
 - id: topic03p08
-  translation: "Repairs to the page can either slow down page load times or cause unexpected page changes for assistive technology users."
+  translation: "自動的な修正が、ページの読み込みを遅くしたり、支援技術ユーザーにとって予期せぬ変更を引き起こす可能性があります。"
 - id: topic03p09
-  translation: "In addition to the above, overlays do not repair content in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, or media files."
+  translation: "上記に加えて、オーバーレイはFlashやJava、Silverlight、PDF、HTML5のCanvas、SVGまたはメディアファイルのコンテンツを修正しません。"
 - id: topic04
   translation: "Fitness for achieving compliance with accessibility standards"
 - id: topic04p01

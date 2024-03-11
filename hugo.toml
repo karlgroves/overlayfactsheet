@@ -42,3 +42,4 @@ home = ['HTML']
     [languages.ja.params]
       languageName = '日本語'
       languageNameShort = 'ja'
+

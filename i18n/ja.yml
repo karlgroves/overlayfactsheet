@@ -73,53 +73,53 @@
 - id: topic05p03
   translation: "オーバーレイのなかには、同じオーバーレイを使用しているサイト間でユーザーの設定を引き継ぐもののあることが知られています。これは、ユーザーのコンピューターにクッキーを設定することによって行われます。ユーザーが、あるサイトでオーバーレイのある機能を有効にすると、オーバーレイは自動的に他のサイトでもその機能を有効にします。オーバーレイベンダーは、エンドユーザーにとって良いことをしているつもりかもしれませんが、ユーザーが追跡されることをオプトインしておらず、またオプトアウトする機能もない点は、大きなプライバシー問題でしょう。（明示的にその設定を無効にする以外の）オプトアウトの欠如により、オーバーレイの顧客にはGDPRやCCPAに関連するリスクが生じます。"
 - id: topic06
-  translation: "In their own words"
+  translation: "生の声"
 - id: topic06p01
-  translation: "Many users with disabilities have expressed strong words of dissatisfaction with overlay products. As shown below, overlays themselves may have accessibility problems significant enough for users to take steps to actively block overlays from appearing at all."
+  translation: "多くの障害を持つユーザーが、オーバーレイ製品に強い不満を表明しています。以下に示すように、オーバーレイ自体にもアクセシビリティ上の問題があるようで、ユーザーが積極的にオーバーレイを表示させないようにすることもあります。"
 - id: topic06p02
-  translation: "Please note: while this section may mention specific vendors, these comments are par-for-the-course when it comes to the user experience provided by overlay widgets which have, in themselves, a pattern of negatively impacting the user experience."
+  translation: "ご注意：このセクションにおいて、特定のベンダーに言及する場合がありますが、オーバーレイ ウィジェットの提供するユーザー体験という点では、それらのコメントは一般的なものであり、ユーザー体験に悪影響を与えるパターンを言い表したものです。"
 - id: topic06t01
-  translation: "...assuming your tool can do a good job making something accessible, it can do an even better job making something accessible running directly on the user’s machine having access to machine code and machine APIs"
+  translation: "...そのツールが、アクセシブルにするための良い仕事ができると仮定したとして、ユーザーのデバイス上で直接動作し、デバイスのコードやAPIにアクセスしたほうが、より良い仕事ができます。"
 - id: topic06t02
-  translation: "...I finally managed to gain access to my @NameCheap account by blocking #AccessiBe in my Windows Hosts file. I should not need to do this to use the Internet. AccessiBe needs to AccessiBeGone"
+  translation: "...WindowsのHostsファイルで#AccessiBeをブロックすることで、ようやく@NameCheapアカウントにアクセスできるようになりました。インターネットを使うのに、こんなことをする必要はないはずです。AccessiBeは、AccessiBeGoneであるべきです。"
 - id: topic06t03
-  translation: "...I know with 100% certainty, any site which has deployed an overlay in the past year and a half has been less useable for both my wife and me—both blind."
+  translation: "...この1年半のあいだにオーバーレイを導入したサイトが、全盲である私と妻の二人にとって使い勝手が悪くなったことは、100%間違いありません。"
 - id: topic06t04
-  translation: "...Still a pain to even try reading the article on a mobile device because of the constant interruption every few seconds. Considering every site using your service also has this problem… Nope."
+  translation: "...いまだ数秒おきに邪魔が入るので、モバイル端末でその記事を読もうとすることさえ苦痛です。このサービスを利用しているすべてのサイトが、同じ問題を抱えているとすると...ありえません。"
 - id: topic06t05
-  translation: "...Making a webpage accessible does take work, and simply telling a business they can install your plugin is absolutely foolish, you build, and design accessibility in to a webpage using WCAG standards."
+  translation: "...Webページをアクセシブルにするのは手間がかかることであり、企業に対しプラグインのインストールを奨めるだけなんて、絶対にばかげています。アクセシブルなWebページは、WCAG標準を使ってデザインや制作をすべきです。"
 - id: topic06t06
-  translation: "...Suggesting one line of code is cheap so you should do it by inference suggests disabled lives aren’t worth investing in either. #a11y"
+  translation: "...安上がりで済むから、コードを1行埋め込んでオーバーレイを導入すべきと持ちかけるのは、障害者の生活は投資に値しないと言っているようなものです。#a11y"
 - id: topic06t07
-  translation: "@AccessiBe Just to demonstrate my good faith, here’s a quick free audit of https://t.co/1mQGCCtnIs. You capture \"tab\" which is the standard way to navigate. There’s no way to not enable your overlay if I want to navigate the page. Once the overlay is enabled, wild things happen."
+  translation: "@AccessiBe 私の誠意として、https://t.co/1mQGCCtnIs を無償で検証した結果を共有しましょう。標準的なナビゲーションである「タブ」にお気づきでしょう。私がこのページをナビゲートしたい場合、オーバーレイを無効にするほか方法はありません。オーバーレイを有効にすると、とんでもないことが起こります。"
 - id: topic06t08
-  translation: "#AccessiBe makes sites harder to use by getting in the way of browsing and changing access barriers on a page, not fixing them. A student and I came across an \"enhanced\" website and to my shame, we left because navigating that mess was beyond my skills, on that day."
+  translation: "#AccessiBeは、ページ上にある問題を修正するのではなく、ブラウジングを邪魔したり、その問題に変更を加えたりして、サイトを使いにくくします。ある生徒と私は「改良された」Webサイトに遭遇したけれど、恥ずかしながら、そのゴチャゴチャしたサイトをナビゲートするのは私の技量を超えていたので、その日は離脱しました。"
 - id: topic06t09
-  translation: "Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ"
+  translation: "アクセシビリティ オーバーレイは解決策ではなく、AccessiBeも例外ではありません。スクリーン・リーダーのユーザーである私にとって、オーバーレイのせいで多くのサイトが使いにくくなりました。評判の高いアクセシビリティの専門家や擁護者の信用を傷つけるとしても、この見解が揺らぐことはありません。https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
-  translation: "To screen reader-using followers: You may have heard of #Accessibe, an overlay that claims to make pages in which it is embedded more accessible. I won’t go into any more detail. In short: complete nonsense. Hands off!"
+  translation: "スクリーン・リーダーをお使いのフォロワーの皆さまへ：Accessibeをご存知でしょうか？埋め込まれたページをよりアクセシブルにすることを謳う、オーバーレイです。これ以上詳しくは説明しません。要するに、まったくナンセンスです。かかわらないほうがいい！"
 - id: topic06t11
-  translation: "Automated solutions which promise to make your site accessible can’t. It takes more than automation to achieve this requirement. You won’t be safe from liability. you will almost assuredly negatively impact your customers with disabilities."
+  translation: "自動的なソリューションでは、サイトをアクセシブルにすることを約束するのは不可能です。その要件を達成するには、自動化以上のものが必要です。責任を免れることはできません。障害を持つ顧客に悪影響を与えることは、ほぼ確実です。"
 - id: topic06t12
-  translation: "Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader, I know that my blocker isn’t working properly, and I’m in for a hellish experience on that particular website. https://t.co/ZFzKMfUe0t"
+  translation: "Webサイトにアクセスして、このサイトはスクリーン・リーダーに対応していますという #accessiBe の通知を聞くたび、私のブロッカーが正しく機能していないことを知り、そしてそのサイトで地獄のような体験をすることになります。https://t.co/ZFzKMfUe0t"
 - id: topic06t13
-  translation: "I tried using this @AccessiBe site with VoiceOver in Chrome on iOS. The 4-star rating is announced as \"unpronounceable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+  translation: "私はこの @AccessiBe をiOS上のVoiceOverとChromeで利用してみました。4つ星の評価は「発音できません」とアナウンスされました。🤦‍♀️ https://t.co/f4MxQ2eLLP"
 - id: topic06t14
-  translation: "I wrote an email to their customer service detailing that I can not use their site due to the overlay, but… I really am disappointed, but I hope they listen. @Goodfair_ - please stop using AccessiBe."
+  translation: "私はカスタマーサービスに、オーバーレイのせいでサイトを利用できないことを詳しく記したメールを送りましたが…私は本当にがっかりしていますが、話を聞いてもらえることを願っています。@Goodfair_ 、AccessiBeを使うのをやめてください。"
 - id: topic06t15
-  translation: "I’m not an accessibility expert, just a screen reader user with decent skills telling you that this thread is spot on and my experience with #AccessiBe is that it makes sites with accessibility issues even harder to work around. https://t.co/cfyrEqXwTy"
+  translation: "私はアクセシビリティの専門家ではなく、そこそこのスキルを持つスクリーンリーダー・ユーザーにすぎませんが、このスレッドが的確であることと、私が #AccessiBe について経験した限り、アクセシビリティの問題があるサイトをさらに扱いづらくしていることを、お伝えします。https://t.co/cfyrEqXwTy"
 - id: topic06t16
-  translation: "...If you are blind or low vision and rely on assistive technologies like screen readers, you may have begun finding popular websites becoming less usable… this page describes how to ban AccessiBe from ever reaching your computer… https://t.co/qbiKvolizS"
+  translation: "...全盲または弱視の方で、スクリーン・リーダーのような支援技術に頼っている方は、人気のあるウェブサイトが使いにくくなっていることに、気づき始めているかもしれません。このページでは、あなたのコンピューターでAccessiBeを利用しないための方法を説明します... https://t.co/qbiKvolizS"
 - id: topic06t17
-  translation: "OK, this seems very wrong to me. A local chain here named Fleet Farm is now using AccessiBe. It makes a mess of the search for location feature. This is what I now get on the start of the result page."
+  translation: "なるほど、確かにこれは私に向いていないようです。Fleet Farmという地元のチェーン店が、AccessiBeを使っています。そのおかげで、所在地の検索機能がめちゃくちゃになっています。検索結果ページの最初に、このようなものが表示されます。"
 - id: topic06t18
-  translation: "Thank goodness Firefox blocks their accessibility detection. For me, focus jumps all over the place with #AccessiBe enabled. When it’s disabled, it behaves itself."
+  translation: "Firefoxがアクセシビリティ検出をブロックしてくれるのは、ありがたいです。私の場合、#AccessiBe が有効だとフォーカスがあちこちに飛びます。無効にすると、期待通りに動作します。"
 - id: topic06t19
-  translation: "There are 0 automated tools that can tetect accessibility problems accurately at anything above 30% of the time. 0. This is commonly known by anyone who’s been in this space for at least a week. #AccessiBe"
+  translation: "目下、アクセシビリティの問題を30%以上の確率で正確に検出できる自動ツールはありません。このことは、少なくとも1週間以上この分野に携わっている人なら、誰でも知っていることです。#AccessiBe"
 - id: topic06t20
-  translation: "There’s a perfectly practical tool for making websites accessible. It’s called a programmer. The needs that matter in making a website accessible are those of the users. If you can’t meet those, then you can’t meet the basic costs of doing business."
+  translation: "Webサイトをアクセシブルにするための完全に実用的な手段があります。それはプログラマーです。Webサイトをアクセシブルにするうえで重要なのは、ユーザーのニーズでしょう。それを満たすことができなければ、ビジネスを行うための基本的なコストを満たすこともできません。"
 - id: topic06t21
-  translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2’s. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
+  translation: "#AccessiBe を有効にすると、ページは見出しで溢れかえります。レベル2の見出しが、たくさん現れるのです。各携帯電話の名称は、どちらの状態でも見出しのままですが、AccessiBeを有効にすると、表にあるコストやディスプレイ、その他のすべての見出しセルも、見出しになります。"
 - id: topic07
   translation: "Conclusion"
 - id: topic07p01

@@ -55,15 +55,15 @@
 - id: topic03p09
   translation: "上記に加えて、オーバーレイはFlashやJava、Silverlight、PDF、HTML5のCanvas、SVGまたはメディアファイルのコンテンツを修正しません。"
 - id: topic04
-  translation: "Fitness for achieving compliance with accessibility standards"
+  translation: "アクセシビリティ標準への適合性"
 - id: topic04p01
-  translation: "While the use of an overlay may improve compliance with a handful of provisions in major accessibility standards, full compliance cannot be achieved with an overlay."
+  translation: "オーバーレイを使用することで、主要なアクセシビリティ標準にある項目のごく一部に対する適合は改善されるかもしれませんが、すべての項目への適合をオーバーレイで達成することはできません。"
 - id: topic04p02
-  translation: "Among the many claims made by overlay vendors is the claim that the use of their product will bring the site into compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards."
+  translation: "オーバーレイベンダーによる多くの主張のなかには、自社製品を使用することでWCAG 2.xなどのアクセシビリティ標準や関連ないし派生の標準、またそれらの標準への準拠を義務付ける法律にWebサイトが準拠するというものがあります。"
 - id: topic04p03
-  translation: "Conformance to a standard means that you meet or satisfy the ‘requirements’ of the standard. In WCAG 2.0 the ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is, there is no content which violates the Success Criteria."
+  translation: "標準への適合とは、その標準の「要求事項」を満たしていることを意味します。WCAG 2.0では、「要求事項」とは達成基準のことです。WCAG 2.0に適合するには、その達成基準を満たす必要があります。それはつまり、達成基準に違反するコンテンツが存在しない状態にするということです。"
 - id: topic04p04
-  translation: "Given that conformance is defined as meeting all requirements of the standard, these products’ documented inability to repair <strong>all</strong> possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant skepticism."
+  translation: "適合という言葉が、標準にあるすべての要求事項を満たすことと定義されているのを踏まえるなら、これらの製品が問題かもしれない点<strong>すべて</strong>を修正できるわけではないとが記されている以上、Webサイトを適合させることはできないことを意味します。そのような謳い文句で販売されている製品は、かなり懐疑的に見るべきです。"
 - id: topic05
   translation: "Privacy of personal data"
 - id: topic05p01

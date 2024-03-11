@@ -121,17 +121,19 @@
 - id: topic06t21
   translation: "#AccessiBe を有効にすると、ページは見出しで溢れかえります。レベル2の見出しが、たくさん現れるのです。各携帯電話の名称は、どちらの状態でも見出しのままですが、AccessiBeを有効にすると、表にあるコストやディスプレイ、その他のすべての見出しセルも、見出しになります。"
 - id: topic07
-  translation: "Conclusion"
+  translation: "結論"
 - id: topic07p01
-  translation: "No overlay product on the market can cause a website to become fully compliant with any existing accessibility standard and therefore cannot eliminate legal risk."
+  translation: "市販されているどのオーバーレイ製品も、Webサイトを既存のどのアクセシビリティ標準にも完全に適合させることはできず、したがって法的リスクを排除することはできません。"
 - id: topic07p02
-  translation: "Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The invention of novel approaches to resolving this challenge is to be commended."
+  translation: "Webにおけるアクセシビリティは、サイトの所有者にとっても、そのユーザーにとっても、大きな課題です。この課題を解決するための斬新なアプローチの発明は、賞賛に値します。"
 - id: topic07p03
-  translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer’s sites immediate compliance with laws and standards."
+  translation: "しかしオーバーレイの場合、とりわけ支援機能を提供するウィジェットを追加する場合、その課題は解決していません。さらに問題なのは、一部のオーバーレイベンダーが行っている、自社の製品を導入すれば顧客のサイトが法律や標準に即座に準拠できると約束する、欺瞞的なマーケティングです。"
 - id: topic07p04
-  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
+  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:
+  
+  <a href="https://webaim.org/projects/practitionersurvey3/#overlay">Webアクセシビリティの実践者を対象にWebAIMが行った調査</a>によると、オーバーレイが効果的でないことは、広く合意されていることです："
 - id: topic07p05
-  translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
+  translation: "回答者の大多数（67%）が、これらのツールはまったく効果がないか、あまり効果がないと評価しています。障害のある回答者は、72%が「まったく効果がない」または「あまり効果がない」と評価し、「非常に効果がある」と評価したのはわずか2.4%でした。"
 - id: topic08
   translation: "Statement from sponsors and signatories to this fact sheet"
 - id: topic08p01

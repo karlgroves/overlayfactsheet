@@ -36,3 +36,10 @@ home = ['HTML']
     [languages.pt-br.params]
       languageName = 'português brasileiro'
       languageNameShort = 'pt-br'
+  [languages.ja]
+    contentDir = 'i18n/ja'
+    weight = 4
+    [languages.ja.params]
+      languageName = '日本語'
+      languageNameShort = 'ja'
+

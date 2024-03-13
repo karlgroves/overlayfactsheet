@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ T "languageNameShort"}}">
+<html lang="{{ .Site.Params.languageCode }}">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +32,7 @@
       d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60S0 93.137 0 60 26.863 0 60 0zm4.167 26.667h-25c-6.904 0-12.5 5.596-12.5 12.5v25c0 6.903 5.596 12.5 12.5 12.5h4.166v4.166c0 6.904 5.597 12.5 12.5 12.5h25c6.904 0 12.5-5.596 12.5-12.5v-25c0-6.903-5.596-12.5-12.5-12.5h-4.166v-4.166c0-6.904-5.597-12.5-12.5-12.5zM80.833 47.5a8.343 8.343 0 018.334 8.333v25a8.343 8.343 0 01-8.334 8.334h-25a8.343 8.343 0 01-8.333-8.334v-4.166h16.667c6.903 0 12.5-5.597 12.5-12.5V47.5h4.166zM64.167 30.833a8.343 8.343 0 018.333 8.334v4.166H55.833c-6.903 0-12.5 5.597-12.5 12.5V72.5h-4.166a8.343 8.343 0 01-8.334-8.333v-25a8.343 8.343 0 018.334-8.334h25z"
       fill-rule="evenodd"/>
   </svg>
-  <h1 class="title" lang="en">{{ T "title" | safeHTML}}</h1>
+  <h1 class="title">{{ T "title" | safeHTML}}</h1>
   <nav aria-label="{{ T "lang" | safeHTML}}">
     <ul class="lang">
       {{ $siteLanguages := site.Languages}}
@@ -44,7 +44,7 @@
             {{ if eq $pageLang .Lang}}
               <li>{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></li>
             {{ else }}
-              <li><a href="{{ $translation.Permalink | relURL }}" lang="{{ .Params.languageNameShort }}">{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></a></li>
+              <li><a href="{{ $translation.Permalink | relURL }}" lang="{{ .Params.languageCode }}">{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></a></li>
             {{ end }}
           {{ end }}
         {{ end }}

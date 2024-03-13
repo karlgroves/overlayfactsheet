@@ -43,18 +43,21 @@ If you want to add a new language, it's only a 2-step process:
     [languages.en.params]
       languageName = 'english'
       languageNameShort = 'en'
+      languageCode = 'en'
   [languages.fr]
     contentDir = 'i18n/fr'
     weight = 2
     [languages.fr.params]
       languageName = 'français'
       languageNameShort = 'fr'
+      languageCode 'fr'
   [languages.es]
     contentDir = 'i18n/es'
     weight = 3
     [languages.fr.params]
       languageName = 'español'
       languageNameShort = 'es'
+      languageCode = 'es'
 ```
 2. In the `i18n/` folder, add a yml file with the language shortname, e.g. `i18n/es.yml` (if spanish), and translate each key in this file.
 

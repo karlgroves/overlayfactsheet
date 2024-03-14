@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ T "languageNameShort"}}">
+<html lang="{{ .Site.Params.languageCode }}">
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,7 +32,7 @@
       d="M60 0c33.137 0 60 26.863 60 60s-26.863 60-60 60S0 93.137 0 60 26.863 0 60 0zm4.167 26.667h-25c-6.904 0-12.5 5.596-12.5 12.5v25c0 6.903 5.596 12.5 12.5 12.5h4.166v4.166c0 6.904 5.597 12.5 12.5 12.5h25c6.904 0 12.5-5.596 12.5-12.5v-25c0-6.903-5.596-12.5-12.5-12.5h-4.166v-4.166c0-6.904-5.597-12.5-12.5-12.5zM80.833 47.5a8.343 8.343 0 018.334 8.333v25a8.343 8.343 0 01-8.334 8.334h-25a8.343 8.343 0 01-8.333-8.334v-4.166h16.667c6.903 0 12.5-5.597 12.5-12.5V47.5h4.166zM64.167 30.833a8.343 8.343 0 018.333 8.334v4.166H55.833c-6.903 0-12.5 5.597-12.5 12.5V72.5h-4.166a8.343 8.343 0 01-8.334-8.333v-25a8.343 8.343 0 018.334-8.334h25z"
       fill-rule="evenodd"/>
   </svg>
-  <h1 class="title" lang="en">{{ T "title" | safeHTML}}</h1>
+  <h1 class="title">{{ T "title" | safeHTML}}</h1>
   <nav aria-label="{{ T "lang" | safeHTML}}">
     <ul class="lang">
       {{ $siteLanguages := site.Languages}}
@@ -44,7 +44,7 @@
             {{ if eq $pageLang .Lang}}
               <li>{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></li>
             {{ else }}
-              <li><a href="{{ $translation.Permalink | relURL }}" lang="{{ .Params.languageNameShort }}">{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></a></li>
+              <li><a href="{{ $translation.Permalink | relURL }}" lang="{{ .Params.languageCode }}">{{ .Params.languageNameShort }} <span class="sr-only">{{ .Params.languageName }}</span></a></li>
             {{ end }}
           {{ end }}
         {{ end }}
@@ -116,12 +116,10 @@
       <li>ReciteME</li>
       <li>RentCafe</li>
       <li>Sentinel*</li>
-      <li>Sogo</li>
       <li>TruAbilities</li>
       <li>True Accessibility</li>
       <li>UsableNet Assistive</li>
-      <li>User1st</li>
-      <li>UserWay</li>     
+      <li>UserWay</li>
     </ul>
     <p>{{ T "topic01p06" | safeHTML}}</p>
     <p>{{ T "topic01p07" | safeHTML}}</p>
@@ -1108,7 +1106,7 @@
       <li>Gareth Joyce, User Experience Designer and Accessibility Lead, Valtech</li>
       <li>Kai Kubasta, Accessibility Manager, Staffbase</li>
       <li>Aidan Jones, front-end developer and accessibility advocate</li>
-      <li>Aaron Gustafson, Principal Accessibility Innovation Strategist, Microsoft</li>  
+      <li>Aaron Gustafson, Principal Accessibility Innovation Strategist, Microsoft</li>
       <li>Deneb Pulsipher, Captain Accessible, SeaMonster Studios</li>
       <li>Charissa Ramirez, Accessibility Specialist</li>
       <li>Carolyn Chesler, Sr. Software Quality Engineer in Accessibility, BECU, CPAAC</li>
@@ -1127,7 +1125,7 @@
       <li>JoAnn Rautio, Digital Accessibility Coordinator, Minnesota IT Services</li>
       <li>Marie Destandau, lead front end developer</li>
       <li>Lee Ohnesorge ThinkTherapy designer and web developer</li>
-      <li>Keith Casebonne, Communications and Database Manager, Disability Rights Florida</li> 
+      <li>Keith Casebonne, Communications and Database Manager, Disability Rights Florida</li>
       <li>Misty Kienzynski, Indiana Affiliate State Treasurer, National Federation of the Blind</li>
       <li>David Gibson, President, Propeller Media Works/ Accessibility.Works</li>
       <li>Danny Lancaster, Accessibility Lead, Nexer Digital</li>
@@ -1230,6 +1228,7 @@
       <li>Kalicharan Pillai, CEO, Spectrum Technologies, Inc</li>
       <li>KolaGayathri Pillai, CEO, Sattva Solutions, LLC</li>
       <li>Craig Barrios, Web Development Enthusiast</li>
+      <li>Eduardo Gonçalves Pereira, Software Developer</li>
     </ol>
     <p>
       <a class="add-your-name" href="https://github.com/karlgroves/overlayfactsheet/#endorse-this-statement">
@@ -1246,7 +1245,7 @@
       <li>
         <a href="https://www.nngroup.com/articles/screen-reader-users-on-mobile/">Challenges for Screen-Reader Users on Mobile</a>
         <span class="further-reading-source">Tanner Kohler - Nielsen Norman Group</span>
-      </li>      
+      </li>
       <li>
         <a href="https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html">accessiBe will get you sued</a>
         <span class="further-reading-source">Adrian Roselli</span>
@@ -1388,8 +1387,8 @@
         <a href="https://www.nytimes.com/2022/07/13/technology/ai-web-accessibility.html?unlocked_article_code=AAAAAAAAAAAAAAAACEIPuomT1JKd6J17Vw1cRCfTTMQmqxCdw_PIxftm3iWka3DKDm8ZiPgYCIiG_EPKarskbtp2wDmRAdZKO7I0X_14z-teI10rSxWtptHMvqU5FBgPiND5WHIqjdWKVKok8DTuYy7peepzneO07lfZOzO-RKCJ0yE-d1k18Y9vfA753nwJz_zAE-Rly5Ipi6dac5N5RjgAYyGLuvP6WV4paJjdMEaqukRhUPpZWDrTgdeZ97oBFQ1SAl7MR3p7in0uvJIeYJhEefaicGNzPZb2kr4TCWd3LYa2B5ZXR4Pck7RisLGlugXZjNRJGDCbYdUTTQ5ATpvV&smid=url-share">For Blind Internet Users, the Fix Can Be Worse Than the Flaws</a>
         <span class="further-reading-source">New York Times</span>
       </li>
-        <li><a href="https://www.forbes.com/sites/gusalexiou/2021/10/28/why-automated-tools-alone-cant-make-your-website-accessible-and-legally-compliant/?sh=3a83983a364e">Why Automated Tools Alone Can’t Make Your Website Accessible And Legally Compliant</a> <span class="further-reading-source">Forbes</span></li>  
-        <li><a href="https://karlgroves.com/the-overlay-personalization-farce/">The Overlay Personalization Farce</a> <span class="further-reading-source">Karl Groves</span></li>  
+        <li><a href="https://www.forbes.com/sites/gusalexiou/2021/10/28/why-automated-tools-alone-cant-make-your-website-accessible-and-legally-compliant/?sh=3a83983a364e">Why Automated Tools Alone Can’t Make Your Website Accessible And Legally Compliant</a> <span class="further-reading-source">Forbes</span></li>
+        <li><a href="https://karlgroves.com/the-overlay-personalization-farce/">The Overlay Personalization Farce</a> <span class="further-reading-source">Karl Groves</span></li>
         <li><a href="https://adrianroselli.com/2023/02/audioeye-will-get-you-sued.html">AudioEye will get you sued</a> <span class="further-reading-source">Adrian Roselli</span></li>
         <li><a href="https://www.edf-feph.org/accessibility-overlays-dont-guarantee-compliance-with-european-legislation/">Accessibility overlays don’t guarantee compliance with European legislation</a>
         <span class="further-reading-source">The European Disability Forum (EDF) and International Association of Accessibility Professionals (IAAP)</span>

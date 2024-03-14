@@ -11,7 +11,7 @@
 - id: topic01
   translation: "Qu’est-ce qu’un outil de surcouche d’accessibilité&nbsp;?"
 - id: topic01p01
-  translation: "Un outil de surcouche est un terme générique désignant une technologie qui visent à améliorer l’accessibilité d’un site web. Il s’agit d’un code provenant d’un tiers (généralement en JavaScript) dont l’objectif est d’apporter des améliorations au code <i lang=\"en\">front</i> du site&nbsp;web."
+  translation: "Un outil de surcouche est un terme générique désignant une technologie qui vise à améliorer l’accessibilité d’un site web. Il s’agit d’un code provenant d’un tiers (généralement en JavaScript) dont l’objectif est d’apporter des améliorations au code <i lang=\"en\">front</i> du site&nbsp;web."
 - id: topic01p02
   translation: "Ce type d’outil qui prétend améliorer l’accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
 - id: topic01p03
@@ -33,7 +33,7 @@
 - id: topic02p03
   translation: "Pour les néophytes, ces fonctions peuvent sembler bénéfiques, mais leur valeur ajoutée est largement exagérée parce que les internautes que ces fonctions prétendent servir disposent déjà des fonctions nécessaires sur leur ordinateur, soit en tant que fonction intégrée, soit en tant que logiciel supplémentaire dont la personne a besoin pour accéder non seulement au web, mais aussi à tous les logiciels."
 - id: topic02p04
-  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l’outil de surouche seront d’une grande utilité pour les personnes concernées, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels ces internautes interagissent. Au lieu de cela, l’outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que les personnes qui visitent votre site possèdent déjà."
+  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l’outil de surcouche seront d’une grande utilité pour les personnes concernées, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels ces internautes interagissent. Au lieu de cela, l’outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que les personnes qui visitent votre site possèdent déjà."
 - id: topic03
   translation: "Avantages et inconvénients de la correction automatisée"
 - id: topic03p01

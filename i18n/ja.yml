@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "オーバーレイは、Webサイトのアクセシビリティを向上させることを目的とした技術の総称です。サードパーティのソースコード（多くはJavaScript）を読み込み、フロントエンドコードを改善します。"
 - id: topic01p02
-  translation: "アクセシビリティの向上を謳うWebサイトのアドオン製品は、1990年代後半に登場した<a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a>や<a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>に遡ります。これらは、インストールされたWebサイトにテキストの読み上げ機能を追加するものでした。"
+  translation: "アクセシビリティの向上を謳うWebサイトのアドオン製品は、1990年代後半に登場した<a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a>や<a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>に遡ります。これらは、インストールされたWebサイトにテキストの読み上げ機能を追加するものでした。"
 - id: topic01p03
   translation: "その後、そのようなソフトウェアに機能を追加した類似製品が、市場に出回るようになりました。それらは、読みやすさを向上させるために、ユーザーのニーズに基づき文字サイズや色などをコントロールするものです。"
 - id: topic01p04
@@ -129,7 +129,7 @@
 - id: topic07p03
   translation: "しかしオーバーレイの場合、とりわけ支援機能を提供するウィジェットを追加する場合、その課題は解決していません。さらに問題なのは、一部のオーバーレイ ベンダーが行っている、自社の製品を導入すれば顧客のサイトが法律や標準に即座に準拠できると約束する、欺瞞的なマーケティングです。"
 - id: topic07p04
-  translation: "<a href="https://webaim.org/projects/practitionersurvey3/#overlay">Webアクセシビリティの実践者を対象にWebAIMが行った調査</a>によると、オーバーレイが効果的でないことは、広く合意されていることです："
+  translation: "<a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Webアクセシビリティの実践者を対象にWebAIMが行った調査</a>によると、オーバーレイが効果的でないことは、広く合意されていることです："
 - id: topic07p05
   translation: "回答者の大多数（67%）が、これらのツールはまったく効果がないか、あまり効果がないと評価しています。障害のある回答者は、72%が「まったく効果がない」または「あまり効果がない」と評価し、「非常に効果がある」と評価したのはわずか2.4%でした。"
 - id: topic08
@@ -147,7 +147,7 @@
 - id: topic08p06
   translation: "署名"
 - id: topic08p07
-  translation: "一部のオーバーレイ ベンダーは、このファクトシートを、競合他社が自分たちの信用を失墜させるために作ったものと決めつけようとしています。そのような主張は、批判をそらすための<a href="https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0">ガスライティング</a>の典型です。"
+  translation: "一部のオーバーレイ ベンダーは、このファクトシートを、競合他社が自分たちの信用を失墜させるために作ったものと決めつけようとしています。そのような主張は、批判をそらすための<a href=\"https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">ガスライティング</a>の典型です。"
 - id: topic08p08
   translation: "今日現在、オーバーレイ ファクトシートに署名しているのは以下の通り："
 - id: topic08p09
@@ -169,6 +169,4 @@
 - id: topic09
   translation: "関連情報"
 - id: addYourName
-  translation: "署名する"  
-        
-      
+  translation: "署名する"   

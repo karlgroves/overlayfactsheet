@@ -19,7 +19,7 @@ Please note: The content of the Overlay Factsheet may change over time. Specific
 
 #### Harder, but more efficient
 
-Toward the bottom of the page in the `/src/index.html` file is a heading that says "Signed by".
+Toward the bottom of the page in the `/layouts/index.html` file is a heading that says "Signed by".
 
 Below that is an ordered list (`<ol>`);
 

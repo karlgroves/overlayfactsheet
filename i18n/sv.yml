@@ -1,0 +1,175 @@
+- id: title
+  translation: "Faktablad om överlägg"
+- id: metaDescription
+  translation: "Ett öppet brev om tillgänglighetsöverlägg."
+- id: skip
+  translation: "hoppa till innehållet"
+- id: lang
+  translation: "Byt språk"
+- id: tableContent
+  translation: "Innehållsförteckning"
+- id: topic01
+  translation: "Vad är ett webbtillgänglighetsöverlägg?"
+- id: topic01p01
+  translation: "Överlägg (accessibility overlays) är en bred term för teknik som syftar till att förbättra tillgängligheten för en webbplats. De tillämpar källkod från tredje part (vanligtvis JavaScript) för att göra förbättringar av gränssnittskoden för webbplatsen."
+- id: topic01p02
+  translation: "Webbplatstillägg som påstår sig förbättra tillgängligheten har funnits sedan slutet av 1990-talet, med produkter som <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> och <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. De lade till text-till-tal-funktioner på webbplatserna där de installerades."
+- id: topic01p03
+  translation: "Därefter kom liknande produkter ut på marknaden som lade till fler funktioner. Dessa ger användaren kontroll över saker som textstorlekar och färger för att förbättra läsbarheten."
+- id: topic01p04
+  translation: "Vissa nyare överläggsprodukter syftar till att åtgärda eventuella problem i webbplatsens kod som försvårar användning med hjälpmedel. De applicerar ett skript på sidan som skannar koden och försöker reparera problem automatiskt."
+- id: topic01p05
+  translation: "Några exempel på webbtillgänglighetsöverlägg (i alfabetisk ordning):"
+- id: topic01p06
+  translation: "*: anger att dessa produkter inte längre utvecklas eller marknadsförs."
+- id: topic01p07
+  translation: "Överläggsprodukter är ibland vitetiketterade (säljs under andra namn), eller ommärkta för vissa marknader, så detta är inte en komplett lista över den typ av produkter som diskuteras på den här sidan."
+- id: topic02
+  translation: "Styrkor och svagheter med överläggs-widgets"
+- id: topic02p01
+  translation: "Överläggswidgetar är onödiga och är dåligt placerade i teknikstacken."
+- id: topic02p02
+  translation: "Som nämnts ovan innehåller vissa överläggsprodukter funktioner som ändrar på sidans presentation. Det kan handla om att exempelvis ändra kontrasten, öka storleken på sidans text eller utföra andra ändringar på sidan för att förbättra upplevelsen för användare med funktionsnedsättning."
+- id: topic02p03
+  translation: "För lekmän kan dessa funktioner verka fördelaktiga, men deras praktiska värde är till stor del överskattat eftersom de användare som funktionerna sägs vara till för ändå har nödvändiga funktioner på sin dator - antingen inbyggt eller som mjukvara som användaren installerar för att komma åt inte bara webben utan all programvara."
+- id: topic02p04
+  translation: "Det är ett misstag att tro att överläggsswidgetens funktioner kommer att vara till stor nytta för slutanvändare. Om dessa funktioner var <strong>nödvändiga</strong> för att använda webbplatsen skulle de ju behövas för alla webbplatser som användaren interagerar med. Istället är widgeten — i bästa fall — redundant funktionalitet, alltså funktioner som användaren redan har."
+- id: topic03
+  translation: "Styrkor och svagheter med automatiserad reparation"
+- id: topic03p01
+  translation: "Även om viss automatiserad reparation är möjlig, bör kunder avrådas från att använda överlägg som en långsiktig lösning."
+- id: topic03p02
+  translation: "Vissa överläggsprodukter har funktioner som syftar till att reparera tillgänglighetsbrister på den underliggande sidan. Dessa reparationer utförs när sidan laddas i användarens webbläsare."
+- id: topic03p03
+  translation: "Även om det är sant att vissa tillgänglighetsproblem kan repareras på detta sätt, begränsas arten, omfattningen och noggrannheten av sådan reparation av ett antal viktiga faktorer:"
+- id: topic03p04
+  translation: "Automatisk generering av alternativtext för bilder är inte tillförlitlig"
+- id: topic03p05
+  translation: "Automatisk reparation av fältetiketter, felhantering, åtgärder av fel och fokuskontroll på formulär är inte tillförlitlig"
+- id: topic03p06
+  translation: "Automatisk reparation av tangentbordsåtkomst är inte tillförlitlig"
+- id: topic03p07
+  translation: "Moderna, komponentbaserade användargränssnitt, som de som använder ReactJS, Angular eller Vue kan ändra på hela eller en del av den underliggande sidan på ett sätt som gör att överlägget inte kan åtgärda brister i JavaScript-genererat innehåll"
+- id: topic03p08
+  translation: "Reparationer på sidan kan antingen sakta ner sidladdningstiderna eller orsaka oväntade sidändringar för personer som använder hjälpmedel."
+- id: topic03p09
+  translation: "Utöver ovanstående reparerar inte överlägg innehåll i Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG eller mediefiler."
+- id: topic04
+  translation: "Förmåga att uppnå överensstämmelse med tillgänglighetsstandarder"
+- id: topic04p01
+  translation: "Även om användning av ett överlägg kan förbättra efterlevnaden av en handfull bestämmelser i större tillgänglighetsstandarder, kan full överensstämmelse inte uppnås med en överlägg."
+- id: topic04p02
+  translation: "Ett av många påståenden som görs av överläggsleverantörer är att användningen av deras produkt kommer att göra att webbplatsen överensstämmer med tillgänglighetsstandarder som WCAG 2.x, relaterade och härledda standarder och lagar som kräver efterlevnad av dessa standarder."
+- id: topic04p03
+  translation: "Överensstämmelse med en standard innebär att du uppfyller standardens \"krav\". I WCAG 2.0 är \"kraven\" framgångskriterierna. För att uppfylla WCAG 2.0 måste du uppfylla framgångskriterierna, det får alltså inte finns innehåll som bryter mot framgångskriterierna."
+- id: topic04p04
+  translation: "Med tanke på att överensstämmelse definieras som att uppfylla alla krav i standarden, innebär dessa produkters dokumenterade oförmåga att reparera <strong>alla</strong> möjliga problem att de inte kan få en webbplats att överensstämma. Produkter som marknadsförs med sådana påståenden bör betraktas med stor skepsis."
+- id: topic05
+  translation: "Sekretess för personuppgifter"
+- id: topic05p01
+  translation: "Att lägga till ett överlägg på din webbplats kan strida mot slutanvändarnas preferenser för integritet och kan skapa risk för bristande efterlevnad av GDPR, UK GDPR, CCPA, et al."
+- id: topic05p02
+  translation: "Överlägg som automatiskt aktiverar vissa inställningar, exempelvis för skärmläsare eller taligenkänning, gör det genom att upptäcka när en hjälpmedelsteknik körs på enheten. Detta avslöjar att den som använder enheten har en funktionsnedsättning. I vissa fall avslöjas detaljer om vilken slags funktionsnedsättning personen har. Exempelvis vid skärmläsaranvändning, eftersom skärmläsar främst används av personer som är blinda eller har nedsatt syn. Precis som ålder, etnisk bakgrund eller föredraget kön är funktionsnedsättning en känslig personuppgift. Sådana ska inte samlas in utan informerat samtycke från den person som de tillhör."
+- id: topic05p03
+  translation: "Vissa överlägg har visat sig bevara användarnas inställningar mellan webbplatser som använder samma överlägg. Detta görs genom att sätta en cookie på användarens dator. När användaren aktiverar en inställning för en överäggsfunktion på en webbplats, kommer överlägget automatiskt att aktivera den funktionen även på andra webbplatser. Även om överläggsföretaget kanske tror att de gör något bra för slutanvändaren, är det stora integritetsproblemet att användaren aldrig valde att bli spårad och det finns heller ingen möjlighet att välja bort det. På grund av denna avsaknad av ett opt-out (annat än att uttryckligen stänga av den inställningen) innebär detta att den som använder ett sådant överlägg riskerar att bryta mot General Data Protection Regulation (GDPR) och California Consumer Privacy Act (CCPA)."
+- id: topic06
+  translation: "Med deras egna ord"
+- id: topic06p01
+  translation: "Många användare med funktionsnedsättning har uttryckt starkt missnöje med överläggsprodukter. Som visas nedan kan överlägg i sig ha tillgänglighetsproblem som är så stora att vissa användare aktivt blockerar överlägg från att visas överhuvudtaget."
+- id: topic06p02
+  translation: "Observera: även om det här avsnittet kan nämna specifika leverantörer, är de här kommentarerna självklarheter när det kommer till användarupplevelsen som tillhandahålls av överläggswidgetar som i sig har ett mönster som påverkar användarupplevelsen negativt."
+- id: topic06t01
+  translation: "...förutsatt att ditt verktyg kan göra ett bra jobb med att göra något tillgängligt, kan det göra ett ännu bättre jobb att göra något tillgängligt som körs direkt på användarens maskin som har tillgång till maskinkod och maskin-API:er"
+- id: topic06t02
+  translation: "...Jag lyckades äntligen få tillgång till mitt @NameCheap-konto genom att blockera #AccessiBe i min Windows Hosts-fil. Jag borde inte behöva göra detta för att använda Internet. AccessiBe borde heta AccessiBeGone"
+- id: topic06t03
+  translation: "..Jag vet med 100 % säkerhet, att alla webbplatser som har implementerat ett överlägg under det senaste ett och ett halvt året har varit mindre användbara för både min fru och mig – båda blinda."
+- id: topic06t04
+  translation: "..Det är fortfarande jobbigt att ens försöka läsa artikeln på en mobil enhet på grund av det ständiga avbrottet med några sekunders mellanrum. Med tanke på att varje webbplats som använder din tjänst också har detta problem... Nej."
+- id: topic06t05
+  translation: "...Att göra en webbsida tillgänglig kräver arbete, och att bara berätta för ett företag att de kan installera ditt plugin är helt dumt, du bygger och designar åtkomst till en webbsida med WCAG-standarder."
+- id: topic06t06
+  translation: "...Att föreslå en rad kod är billigt, så din slutledning tyder på att personer med funktionsnedsättnings liv inte heller är värt att investera i. #a11y"
+- id: topic06t07
+  translation: "@AccessiBe Bara för att visa min goda vilja, här är en snabb gratis granskning av https://t.co/1mQGCCtnIs. Du navigerar efter \"tab\" vilket är standardsättet att navigera på. Det finns inget sätt att inte aktivera ditt överlägg om jag vill navigera på sidan. När överlägget är aktiverat händer vilda saker."
+- id: topic06t08
+  translation: "#AccessiBe gör webbplatser svårare att använda genom att vara i vägen för att surfa och ändra åtkomstbarriärer på en sida, inte åtgärda dem. En student och jag kom in på en \"förbättrad\" webbplats och till min skam lämnade vi den eftersom det var bortom min förmåga att navigera i den röran den dagen."
+- id: topic06t09
+  translation: "Tillgänglighetsöverlägg är inte svaret, och AccessiBe är inget undantag. För mig som användare av skärmläsare har många webbplatser blivit mindre användbara med detta överlägg. Att misskreditera välrenommerade tillgänglighetsproffs och förespråkare kommer inte att påverka mig kring denna uppfattning. https://t.co/ZgFt8JtsbZ"
+- id: topic06t10
+  translation: "Till följare som använder skärmläsare: Du kanske har hört talas om #Accessibe, ett överlägg som påstår sig göra sidor där den är inbäddad mer tillgängliga. Jag kommer inte gå in på några mer detaljer. Kort sagt: fullständigt nonsens. Hands off!"
+- id: topic06t11
+  translation: "Automatiserade lösningar som lovar att göra din webbplats tillgänglig klarar inte detta. Det krävs mer än automatisering för att uppnå detta krav. Du kommer inte att undan ditt ansvar. Du kommer nästan säkert att påverka dina kunder med funktionsnedsättning negativt."
+- id: topic06t12
+  translation: "Varje gång jag går in på en webbplats och jag hör #accessiBe-meddelandet att den här webbplatsen är anpassad till min skärmläsare, vet jag att min blockerare inte fungerar som den ska, och jag får en helvetisk upplevelse på just den webbplatsen. https://t.co/ZFzKMfUe0t"
+- id: topic06t13
+  translation: "Jag försökte använda den här @AccessiBe-webbplatsen med VoiceOver i Chrome på iOS. Det 4-stjärniga betyget tillkännages som \"unpronounceable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+- id: topic06t14
+  translation: "Jag skrev ett e-postmeddelande till deras kundtjänst och berättade att jag inte kan använda deras sida på grund av överlägget, men... Jag är verkligen besviken, men jag hoppas att de lyssnar. @Goodfair_ - snälla sluta använda AccessiBe."
+- id: topic06t15
+  translation: "Jag är ingen tillgänglighetsexpert, bara en skärmläsareanvändare med anständiga kunskaper som säger att den här tråden är spot on, och min erfarenhet av #AccessiBe är att det gör webbplatser med tillgänglighetsproblem ännu svårare att komma runt. https://t.co/cfyrEqXwTy"
+- id: topic06t16
+  translation: "Om du är blind eller har nedsatt syn och förlitar dig på hjälpmedel som skärmläsare, kanske du har börjat hitta populära webbplatser som blir mindre användbara... den här sidan beskriver hur du förbjuder AccessiBe att någonsin nå din dator... https://t.co /qbiKvolizS"
+- id: topic06t17
+  translation: "Okej, det här verkar väldigt fel för mig. En lokal kedja här vid namn Fleet Farm använder nu AccessiBe. Det gör funktionen att söka efter en plat till en enda röra. Detta är vad jag nu får i början av resultatsidan."
+- id: topic06t18
+  translation: "Tack och lov blockerar Firefox deras tillgänglighetsdetektering. För mig hoppar fokus överallt med #AccessiBe aktiverat. När den är inaktiverad beter den sig som den ska."
+- id: topic06t19
+  translation: "Det finns 0 automatiserade verktyg som med precision kan upptäcka tillgänglighetsproblem vid något över 30 % av fallen. 0. Detta är allmänt känt av alla som har befunnit sig i denna värld i minst en vecka. #AccessiBe"
+- id: topic06t20
+  translation: "Det finns ett perfekt praktiskt verktyg för att göra webbplatser tillgängliga. Det kallas en programmerare. De behov som är viktiga för att göra en webbplats tillgänglig är användarnas. Om du inte kan möta dessa, kan du inte täcka de grundläggande kostnaderna för att göra affärer."
+- id: topic06t21
+  translation: "När #AccessiBe är aktiverat översvämmas sidan av rubriker. Många rubriker på nivå 2. Titeln på varje telefon förblir en rubrik i båda versionerna av sidan, men med den aktiverad blir saker som kostnad, skärm och alla andra komponenter i tabellerna också rubriker."
+- id: topic07
+  translation: "Slutsats"
+- id: topic07p01
+  translation: "Ingen överläggssprodukt på marknaden kan få en webbplats att bli helt kompatibel med någon befintlig tillgänglighetsstandard och kan därför inte eliminera juridisk risk."
+- id: topic07p02
+  translation: "Tillgänglighet på webben är en stor utmaning, både för ägare av webbplatser och för användare av dessa webbplatser. Uppfinnande av nya tillvägagångssätt för att lösa denna utmaning vore berömliga."
+- id: topic07p03
+  translation: "Men i fallet med överlägg – särskilt de som försöker lägga till widgets som har hjälpmedelsfunktioner – klarar inte utmaningen. Ännu mer problematisk är den vilseledande marknadsföringen från vissa överläggsleverantörer som lovar att implementeringen av deras produkt kommer att ge deras kunders webbplatser omedelbar överensstämmelse med lagar och standarder."
+- id: topic07p04
+  translation: "Ineffektiviteten hos överlägg är något som har bred enighet bland de som praktiserar tillgänglighet, enligt <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> som hittade:"
+- id: topic07p05
+  translation: "En stark majoritet (67 %) av de tillfrågade bedömer dessa verktyg som inte alls eller inte särskilt effektiva. Respondenter med funktionsnedsättning var ännu mindre positiva med 72 % som bedömde dem som inte alls eller inte särskilt effektiva, och endast 2,4 % bedömde dem som mycket effektiva."
+- id: topic08
+  translation: "Uttalande från sponsorer och undertecknare till detta faktablad"
+- id: topic08p01
+  translation: "Som en följa av ovanstående information:"
+- id: topic08p02
+  translation: "Vi kommer aldrig att förespråka, rekommendera eller integrera överlägg som bedrägligt marknadsför sig som att de tillhandahåller automatisk efterlevnad av lagar eller standarder"
+- id: topic08p03
+  translation: "Vi kommer alltid att förespråka åtgärdande av tillgänglighetsproblem vid källan till det ursprungliga felet"
+- id: topic08p04
+  translation: "Vi kommer att vägra att vara tysta när överläggsleverantörer marknadsför sina produkter på ett bedrägligt sätt"
+- id: topic08p05
+  translation: "Mer specifikt förespråkar vi härmed att webbtillgänglighetsöverlägg tas bort och uppmuntrar webbplatsägare som har implementerat dessa produkter att använda mer robusta, oberoende och permanenta strategier för att göra sina webbplatser mer tillgängliga"
+- id: topic08p06
+  translation: "Undertecknat av:"
+- id: topic08p07
+  translation: "Vissa överläggsleverantörer har försökt att utmåla överläggsfaktabladet som ett försök från sina konkurrenter att misskreditera dem. Sådana påståenden från överläggssidan är ett klassiskt exempel på försök till <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a> för att vilseleda människor från att ta del av kritik."
+- id: topic08p08
+  translation: "Från och med idag inkluderar undertecknarna av överläggsfaktabladet:"
+- id: topic08p09
+  translation: "Bidragande och redaktörer för <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr> och <abbr title=\"Hypertext Markup Language\">HTML</abbr>-specifikationer"
+- id: topic08p10
+  translation: "
+Konsulter från <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr >, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Tyskland\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sverige\">SE</abbr>, <abbr title= \"Norge\">NEJ</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Danmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title= \"Chile\">CL</abbr> med flera"
+- id: topic08p11
+  translation: "Interna tillgänglighetsexperter på företag som Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre , Sapient och Pearson Assessments"
+- id: topic08p12
+  translation: "Interna tillgänglighetsexperter från högre utbildningsinstitutioner som Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic08p13
+  translation: "Lawyers for the disabled"
+- id: topic08p14
+  translation: "Aktörer som bidrar till hjälpmedelsprogramvara som JAWS och NVDA"
+- id: topic08p15
+  translation: "Mängder av slutanvändare med funktionsnedsättning"
+- id: topic08p16
+  translation: "Kort sagt, listan över undertecknare nedan är personer som är experter på detta område &amp; har ägnat sina yrkeskarriärer åt att förbättra tillgängligheten eller är slutanvändare med funktionsnedsättning (eller både och). Att avfärda namnen nedan som &quot;konkurrenter&quot; är både felaktigt och missar poängen: överlägg är inte ett effektivt sätt att säkerställa tillgänglighet - något som alla personer nedan är överens om."
+- id: topic09
+  translation: "Ytterligare läsning"
+- id: addYourName
+  translation: "Lägg till ditt namn i den här listan"  
+        
+      

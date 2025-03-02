@@ -46,4 +46,11 @@ home = ['HTML']
       languageName = '日本語'
       languageNameShort = 'ja'
       languageCode = 'jp'
+  [languages.de]
+    contentDir = 'i18n/de'
+    weight = 5
+    [languages.de.params]
+      languageName = 'deutsch'
+      languageNameShort = 'de'
+      languageCode = 'de-de'
 

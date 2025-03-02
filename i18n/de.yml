@@ -93,8 +93,7 @@
 - id: topic06t07
   translation: "@AccessiBe Um meinen guten Willen zu zeigen, hier eine kurze, kostenlose Überprüfung von https://t.co/1mQGCCtnIs. Ihr belegt die \"Tabulator\"-Taste, die standardmäßig zur Navigation dient. Es gibt keinen Weg, das Overlay zu deaktivieren, wenn ich auf der Seite navigieren möchte. Sobald das Overlay aktiviert ist, passieren wilde Dinge."
 - id: topic06t08
-  translation: "AccessiBe erschwert die Nutzung von Webseiten. Es behindert das Surfen und verändert Zugangshürden, anstatt sie zu beseitigen. Ein Student und ich landeten auf einer „optimierten“ Webseite. Zu meiner Schande verließen wir die Seite, weil ich an diesem Tag nicht in der Lage war, in diesem Chaos zu navigieren.
-"
+  translation: "AccessiBe erschwert die Nutzung von Webseiten. Es behindert das Surfen und verändert Zugangshürden, anstatt sie zu beseitigen. Ein Student und ich landeten auf einer „optimierten“ Webseite. Zu meiner Schande verließen wir die Seite, weil ich an diesem Tag nicht in der Lage war, in diesem Chaos zu navigieren."
 - id: topic06t09
   translation: "Accessibility-Overlays sind nicht die Lösung, und AccessiBe bildet da keine Ausnahme. Als Nutzer eines Screenreaders habe ich festgestellt, dass viele Webseiten mit diesem Overlay weniger bedienbar für mich geworden sind. Die Diskreditierung seriöser Fachleute und Befürworter der Barrierefreiheit wird mich in dieser Hinsicht nicht umstimmen. https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
@@ -170,6 +169,5 @@
 - id: topic09
   translation: "Weitere Lektüre"
 - id: addYourName
-  translation: "Fügen Sie Ihren Namen zu dieser Liste hinzu"  
-        
-      
+  translation: "Fügen Sie Ihren Namen zu dieser Liste hinzu"
+

@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlay adalah istilah yang luas untuk teknologi yang bertujuan untuk meningkatkan aksesibilitas website. Teknologi ini menerapkan kode sumber pihak ketiga (biasanya JavaScript) untuk meningkatkan kode front-end situs web."
 - id: topic01p02
-  translation: "Produk add-on website yang mengeklaim dapat meningkatkan aksesibilitas sudah ada sejak akhir 1990-an dengan produk seperti <a href=\“https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\”>Readspeaker</a> dan <a href=\“https://en.wikipedia.org/wiki/BrowseAloud\”>Browsealoud</a>. Mereka menambahkan kemampuan text-to-speech ke website di mana tempat mereka dipasang."
+  translation: "Produk add-on website yang mengeklaim dapat meningkatkan aksesibilitas sudah ada sejak akhir 1990-an dengan produk seperti <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> dan <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Mereka menambahkan kemampuan text-to-speech ke website di mana tempat mereka dipasang."
 - id: topic01p03
   translation: "Kemudian produk-produk serupa muncul di pasaran yang menambahkan lebih banyak tools ke software mereka. Hal ini memungkinkan kontrol berbasis pengguna terhadap beberapa hal, seperti ukuran font dan warna untuk meningkatkan keterbacaan."
 - id: topic01p04
@@ -91,9 +91,9 @@
 - id: topic06t06
   translation: "...Menyarankan satu baris kode itu murah, jadi Anda harus melakukannya dengan menyimpulkan bahwa nyawa penyandang disabilitas juga tidak layak untuk diinvestasikan. #a11y"
 - id: topic06t07
-  translation: "@AccessiBe hanya untuk menunjukkan itikad baik saya, berikut ini adalah audit singkat dari https://t.co/1mQGCCtnIs. Anda menggunakan "tab" yang merupakan cara standar untuk menavigasi. Tidak ada cara untuk tidak mengaktifkan overlay jika saya ingin menavigasi halaman. Setelah overlay diaktifkan, hal-hal yang tidak terduga akan terjadi."
+  translation: "@AccessiBe hanya untuk menunjukkan itikad baik saya, berikut ini adalah audit singkat dari https://t.co/1mQGCCtnIs. Anda menggunakan \"tab\" yang merupakan cara standar untuk menavigasi. Tidak ada cara untuk tidak mengaktifkan overlay jika saya ingin menavigasi halaman. Setelah overlay diaktifkan, hal-hal yang tidak terduga akan terjadi."
 - id: topic06t08
-  translation: "#AccessiBe membuat situs website menjadi lebih sulit untuk digunakan dengan menghalangi penjelajahan dan mengubah hambatan akses pada sebuah halaman, bukan memperbaikinya. Saya dan seorang mahasiswa menemukan sebuah situs web yang "disempurnakan", dan yang memalukan adalah kami meninggalkannya karena kekacauan menavigasi itu di luar kemampuan saya saat itu."
+  translation: "#AccessiBe membuat situs website menjadi lebih sulit untuk digunakan dengan menghalangi penjelajahan dan mengubah hambatan akses pada sebuah halaman, bukan memperbaikinya. Saya dan seorang mahasiswa menemukan sebuah situs web yang \"disempurnakan\", dan yang memalukan adalah kami meninggalkannya karena kekacauan menavigasi itu di luar kemampuan saya saat itu."
 - id: topic06t09
   translation: "Overlay aksesibilitas bukanlah jawaban, tidak terkecuali AccessiBe. Sebagai pengguna pembaca layar, banyak situs yang menjadi kurang dapat digunakan oleh saya dengan overlay ini. Mendiskreditkan para profesional dan pendukung aksesibilitas yang bereputasi baik tidak akan mempengaruhi saya dalam pandangan ini. https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
@@ -103,7 +103,7 @@
 - id: topic06t12
   translation: "Setiap kali saya membuka sebuah situs web dan mendengar notifikasi #accessiBe bahwa situs ini telah disesuaikan dengan pembaca layar saya, saya tahu bahwa pemblokir saya tidak berfungsi dengan baik, dan saya akan mendapati pengalaman yang buruk di situs web tersebut. https://t.co/ZFzKMfUe0t"
 - id: topic06t13
-  translation: "Saya mencoba menggunakan situs @AccessiBe ini dengan VoiceOver di Chrome IOS. Peringkat bintang 4 dibaca sebagai "tidak dapat diucapkan" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+  translation: "Saya mencoba menggunakan situs @AccessiBe ini dengan VoiceOver di Chrome IOS. Peringkat bintang 4 dibaca sebagai \"tidak dapat diucapkan\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
 - id: topic06t14
   translation: "Saya menulis email ke layanan pelanggan mereka yang menjelaskan bahwa saya tidak bisa menggunakan situs mereka karena overlay, tetapi... Saya benar-benar kecewa, tetapi saya harap mereka mendengarkan. @Goodfair_ - tolong hentikan penggunaan AccessiBe."
 - id: topic06t15
@@ -165,7 +165,7 @@
 - id: topic08p15
   translation: "Para pengguna dengan disabilitas"
 - id: topic08p16
-  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai "pesaing" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
+  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai \"pesaing\" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
 - id: topic09
   translation: "Bacaan tambahan"
 - id: addYourName

@@ -53,3 +53,11 @@ home = ['HTML']
       languageName = 'id'
       languageNameShort = 'id'
       languageCode = 'id'
+  [languages.de]
+    contentDir = 'i18n/de'
+    weight = 5
+    [languages.de.params]
+      languageName = 'deutsch'
+      languageNameShort = 'de'
+      languageCode = 'de-de'
+

@@ -129,7 +129,7 @@
 - id: topic07p03
   translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
 - id: topic07p04
-  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>.:"
+  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>.:"
 - id: topic07p05
   translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic08
@@ -165,7 +165,7 @@
 - id: topic08p15
   translation: "Zahl der Endnutzer mit Behinderungen"
 - id: topic08p16
-  translation: "Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als "Wettbewerber" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig."
+  translation: "Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als \"Wettbewerber\" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig."
 - id: topic09
   translation: "Weitere Lektüre"
 - id: addYourName

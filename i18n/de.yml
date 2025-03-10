@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays sind ein breiter Begriff für Technologien, die die Zugänglichkeit einer Website verbessern sollen. Sie verwenden den Code von Drittanbietern (in der Regel JavaScript), um Verbesserungen am Front-End-Code der Website vorzunehmen."
 - id: topic01p02
-  translation: "Website-Zusatzprodukte, die den Anspruch erheben, die Zugänglichkeit zu verbessern, reichen bis in die späten 1990er Jahre zurück, als Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. die Website(s), auf denen sie installiert wurden, um Text-to-Speech-Funktionen erweiterten."
+  translation: 'Website-Zusatzprodukte, die den Anspruch erheben, die Zugänglichkeit zu verbessern, reichen bis in die späten 1990er Jahre zurück, als Produkte wie <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a> oder <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Die Website(s), auf denen sie installiert wurden, um Text-to-Speech-Funktionen erweiterten.'
 - id: topic01p03
   translation: "Dann kamen ähnliche Produkte auf den Markt, die ihrer Software weitere Funktionen hinzufügten. Diese ermöglichen die nutzerbasierte Steuerung von Dingen wie Schriftgrößen und Farben, um die Lesbarkeit zu verbessern."
 - id: topic01p04
@@ -55,7 +55,7 @@
 - id: topic03p09
   translation: "Zusätzlich zu den genannten Punkten reparieren Overlays keine Inhalte in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG oder Mediendateien."
 - id: topic04
-  translation: "Fitness zur Einhaltung der Barrierefreiheitsstandards"
+  translation: "Eignung zur Erreichung der Barrierefreiheitsstandards"
 - id: topic04p01
   translation: "Ein Overlay kann die Einhaltung einiger Bestimmungen in den wichtigsten Zugänglichkeitsstandards verbessern. Eine vollständige Einhaltung lässt sich jedoch nicht allein mit einem Overlay erreichen."
 - id: topic04p02
@@ -91,7 +91,7 @@
 - id: topic06t06
   translation: "...Wenn man sagt, dass eine Zeile Code billig ist und man es deshalb tun sollte, bedeutet das, dass es sich auch nicht lohnt, in das Leben von Behinderten zu investieren. #a11y"
 - id: topic06t07
-  translation: "@AccessiBe Um meinen guten Willen zu zeigen, hier eine kurze, kostenlose Überprüfung von https://t.co/1mQGCCtnIs. Ihr belegt die \"Tabulator\"-Taste, die standardmäßig zur Navigation dient. Es gibt keinen Weg, das Overlay zu deaktivieren, wenn ich auf der Seite navigieren möchte. Sobald das Overlay aktiviert ist, passieren wilde Dinge."
+  translation: '@AccessiBe Um meinen guten Willen zu zeigen, hier eine kurze, kostenlose Überprüfung von https://t.co/1mQGCCtnIs. Ihr belegt die "Tabulator"-Taste, die standardmäßig zur Navigation dient. Es gibt keinen Weg, das Overlay zu deaktivieren, wenn ich auf der Seite navigieren möchte. Sobald das Overlay aktiviert ist, passieren wilde Dinge.'
 - id: topic06t08
   translation: "AccessiBe erschwert die Nutzung von Webseiten. Es behindert das Surfen und verändert Zugangshürden, anstatt sie zu beseitigen. Ein Student und ich landeten auf einer „optimierten“ Webseite. Zu meiner Schande verließen wir die Seite, weil ich an diesem Tag nicht in der Lage war, in diesem Chaos zu navigieren."
 - id: topic06t09
@@ -103,7 +103,7 @@
 - id: topic06t12
   translation: "Jedes Mal, wenn ich eine Website besuche und die #accessiBe-Benachrichtigung höre, dass diese Seite an meinen Screenreader angepasst wurde, weiß ich, dass mein Blocker nicht richtig funktioniert. Eine höllische Erfahrung auf dieser speziellen Website steht mir bevor.. https://t.co/ZFzKMfUe0t"
 - id: topic06t13
-  translation: "Ich habe die Webseite @AccessiBe mit VoiceOver in Chrome auf iOS ausprobiert. Die 4-Sterne-Bewertung wurde angekündigt als \"unaussprechlich\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+  translation: 'Ich habe die Webseite @AccessiBe mit VoiceOver in Chrome auf iOS ausprobiert. Die 4-Sterne-Bewertung wurde angekündigt als "unaussprechlich" 🤦‍♀️ https://t.co/f4MxQ2eLLP'
 - id: topic06t14
   translation: "Ich habe eine E-Mail an den Kundenservice geschrieben. Ich erklärte, dass ich die Seite wegen dem Overlay nicht nutzen kann, aber... Ich bin wirklich enttäuscht, hoffe aber, dass man auf mich hört. @Goodfair_ - Bitte hört auf, AccessiBe zu verwenden."
 - id: topic06t15
@@ -129,7 +129,7 @@
 - id: topic07p03
   translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
 - id: topic07p04
-  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>.:"
+  translation: 'Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>.:'
 - id: topic07p05
   translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic08
@@ -147,13 +147,13 @@
 - id: topic08p06
   translation: "Unterschrieben von:"
 - id: topic08p07
-  translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
+  translation: 'Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslight</a> versucht, Kritik abzulenken.'
 - id: topic08p08
   translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets::"
 - id: topic08p09
-  translation: "Mitwirkende und Autoren der <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, und des <abbr title=\"Hypertext Markup Language\">HTML</abbr> Standards"
+  translation: 'Mitwirkende und Autoren der <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr>, und des <abbr title="Hypertext Markup Language">HTML</abbr> Standards'
 - id: topic08p10
-  translation: "Berater aus <abbr title=\"Vereinigten Staaten von Amerika\">USA</abbr>,  <abbr title=\"Vereinigtes Königreich\">UK</abbr>, <abbr title=\"Niederlande\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Deutschland\">DE</abbr>, <abbr title=\"Frankreich\">FR</abbr>, <abbr title=\"Schweden\">SE</abbr>, <abbr title=\"Norwegen\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Dänemark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> und weiteren"
+  translation: 'Berater aus <abbr title="Vereinigten Staaten von Amerika">USA</abbr>,  <abbr title="Vereinigtes Königreich">UK</abbr>, <abbr title="Niederlande">NL</abbr>, <abbr title="Kanada">CA</abbr>, <abbr title="Japan">JP</abbr>, <abbr title="Deutschland">DE</abbr>, <abbr title="Frankreich">FR</abbr>, <abbr title="Schweden">SE</abbr>, <abbr title="Norwegen">NO</abbr>, <abbr title="Belgien">BE</abbr>, <abbr title="Polen">PL</abbr>, <abbr title="Australien">AU</abbr>, <abbr title="Dänemark">DK</abbr>, <abbr title="Israel">IL</abbr>, <abbr title="Chile">CL</abbr> und weiteren'
 - id: topic08p11
   translation: "Interne Barrierefreiehitsexperten von Firmen wie Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
 - id: topic08p12
@@ -165,9 +165,8 @@
 - id: topic08p15
   translation: "Zahl der Endnutzer mit Behinderungen"
 - id: topic08p16
-  translation: "Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als \"Wettbewerber\" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig."
+  translation: 'Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als "Wettbewerber" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig.'
 - id: topic09
   translation: "Weitere Lektüre"
 - id: addYourName
   translation: "Fügen Sie Ihren Namen zu dieser Liste hinzu"
-

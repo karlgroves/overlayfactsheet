@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays sind ein breiter Begriff für Technologien, die die Zugänglichkeit einer Website verbessern sollen. Sie verwenden den Code von Drittanbietern (in der Regel JavaScript), um Verbesserungen am Front-End-Code der Website vorzunehmen."
 - id: topic01p02
-  translation: "Website-Zusatzprodukte, die den Anspruch erheben, die Zugänglichkeit zu verbessern, reichen bis in die späten 1990er Jahre zurück, als Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. die Website(s), auf denen sie installiert wurden, um Text-to-Speech-Funktionen erweiterten."
+  translation: "Website-Zusatzprodukte, die den Anspruch erheben, die Zugänglichkeit zu verbessern, reichen bis in die späten 1990er Jahre zurück, als Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Die Website(s), auf denen sie installiert wurden, um Text-to-Speech-Funktionen erweiterten."
 - id: topic01p03
   translation: "Dann kamen ähnliche Produkte auf den Markt, die ihrer Software weitere Funktionen hinzufügten. Diese ermöglichen die nutzerbasierte Steuerung von Dingen wie Schriftgrößen und Farben, um die Lesbarkeit zu verbessern."
 - id: topic01p04
@@ -55,7 +55,7 @@
 - id: topic03p09
   translation: "Zusätzlich zu den genannten Punkten reparieren Overlays keine Inhalte in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG oder Mediendateien."
 - id: topic04
-  translation: "Fitness zur Einhaltung der Barrierefreiheitsstandards"
+  translation: "Eignung zur Erreichung der Barrierefreiheitsstandards"
 - id: topic04p01
   translation: "Ein Overlay kann die Einhaltung einiger Bestimmungen in den wichtigsten Zugänglichkeitsstandards verbessern. Eine vollständige Einhaltung lässt sich jedoch nicht allein mit einem Overlay erreichen."
 - id: topic04p02

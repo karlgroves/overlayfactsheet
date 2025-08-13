@@ -60,4 +60,11 @@ home = ['HTML']
       languageName = 'deutsch'
       languageNameShort = 'de'
       languageCode = 'de-de'
+  [languages.nl]
+    contentDir = 'i18n/nl'
+    weight = 6
+    [languages.nl.params]
+      languageName = 'nederlands'
+      languageNameShort = 'nl'
+      languageCode = 'nl'
 

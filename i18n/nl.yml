@@ -1,0 +1,173 @@
+- id: title
+  translation: "Overlay Feitenblad"
+- id: metaDescription
+  translation: "Een open brief over toegankelijkheidsoverlays."
+- id: skip
+  translation: "Ga naar inhoud"
+- id: lang
+  translation: "Taal wijzigen"
+- id: tableContent
+  translation: "Inhoudsopgave"
+- id: topic01
+  translation: "Wat is een webtoegankelijkheidsoverlay?"
+- id: topic01p01
+  translation: "Overlays is een brede term voor technologieën die bedoeld zijn om de toegankelijkheid van een website te verbeteren. Ze passen externe broncode toe (meestal JavaScript) om verbeteringen aan te brengen in de front-endcode van de website."
+- id: topic01p02
+  translation: 'Website-add-ons die beweren de toegankelijkheid te verbeteren bestaan al sinds eind jaren negentig, met producten zoals <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a> en <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Ze voegden tekst-naar-spraakfuncties toe aan de website(s) waarop ze waren geïnstalleerd.'
+- id: topic01p03
+  translation: "Daarna kwamen soortgelijke producten op de markt die meer tools aan hun software toevoegden. Deze maken gebruikersgestuurde controle mogelijk over zaken als lettergrootte en kleuren om de leesbaarheid te verbeteren."
+- id: topic01p04
+  translation: "Sommige nieuwere overlayproducten proberen problemen in de code van de site op te lossen die het gebruik van ondersteunende technologie bemoeilijken. Ze voegen een script aan de pagina toe dat de code scant en automatisch probeert het probleem te repareren."
+- id: topic01p05
+  translation: "Enkele voorbeelden van webtoegankelijkheidsoverlays (in alfabetische volgorde):"
+- id: topic01p06
+  translation: "*: geeft aan dat deze producten niet langer worden ontwikkeld of op de markt gebracht."
+- id: topic01p07
+  translation: "Overlayproducten worden soms white label (onder andere namen verkocht) of opnieuw gelanceerd voor bepaalde markten, dus dit is geen volledige lijst van de soorten producten die op deze pagina worden besproken."
+- id: topic02
+  translation: "Sterke en zwakke punten van overlay-widgets"
+- id: topic02p01
+  translation: "Overlay-widgets zijn onnodig en bevinden zich op een ongunstige plaats in de technologiestack."
+- id: topic02p02
+  translation: "Zoals hierboven vermeld, bevatten sommige overlayproducten widgets met een reeks bedieningselementen die de presentatie van de pagina aanpassen. Afhankelijk van het product kunnen deze wijzigingen onder andere het contrast van de pagina veranderen, de tekst vergroten of andere aanpassingen doen die bedoeld zijn om de ervaring voor mensen met een beperking te verbeteren."
+- id: topic02p03
+  translation: "Voor leken lijken deze functies misschien nuttig, maar hun praktische waarde wordt sterk overschat omdat de eindgebruikers die deze functies zouden moeten helpen, deze functies al op hun computer hebben, hetzij ingebouwd, hetzij als extra software die nodig is om niet alleen het web, maar alle software te gebruiken."
+- id: topic02p04
+  translation: "In dat opzicht is het een vergissing om te denken dat de functies van de overlay-widget veel nut zullen hebben voor eindgebruikers, omdat als deze functies <strong>noodzakelijk</strong> waren om de website te gebruiken, ze nodig zouden zijn op alle websites waarmee de gebruiker werkt. De widget is dus – op zijn best – dubbelop met wat de gebruiker al heeft."
+- id: topic03
+  translation: "Sterke en zwakke punten van geautomatiseerde reparatie"
+- id: topic03p01
+  translation: "Hoewel enige geautomatiseerde reparatie mogelijk is, moeten klanten worden afgeraden om een overlay als een langetermijnoplossing te gebruiken."
+- id: topic03p02
+  translation: "Sommige overlayproducten kunnen toegankelijkheidsreparaties uitvoeren op de onderliggende pagina waarop de overlay is geplaatst. Deze reparaties worden toegepast wanneer de pagina in de browser van de gebruiker wordt geladen."
+- id: topic03p03
+  translation: "Hoewel het waar is dat een niet te verwaarlozen aantal toegankelijkheidsproblemen op deze manier kan worden verholpen, worden de aard, omvang en nauwkeurigheid van dergelijke reparaties beperkt door een aantal belangrijke factoren:"
+- id: topic03p04
+  translation: "Automatische toepassing van tekstalternatieven voor afbeeldingen is niet betrouwbaar"
+- id: topic03p05
+  translation: "Automatische reparatie van veldlabels, foutafhandeling en focusbeheer in formulieren is niet betrouwbaar"
+- id: topic03p06
+  translation: "Automatische reparatie van toetsenbordtoegang is niet betrouwbaar"
+- id: topic03p07
+  translation: "Moderne, componentgebaseerde gebruikersinterfaces, zoals die met ReactJS, Angular of Vue, kunnen de staat van (een deel van) de onderliggende pagina onafhankelijk van de overlay wijzigen, waardoor de overlay deze door JavaScript veroorzaakte wijzigingen niet kan herstellen"
+- id: topic03p08
+  translation: "Reparaties aan de pagina kunnen de laadtijd vertragen of onverwachte wijzigingen veroorzaken voor gebruikers van ondersteunende technologie."
+- id: topic03p09
+  translation: "Bovendien herstellen overlays geen inhoud in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG of mediabestanden."
+- id: topic04
+  translation: "Geschiktheid voor naleving van toegankelijkheidsstandaarden"
+- id: topic04p01
+  translation: "Hoewel het gebruik van een overlay de naleving van enkele onderdelen van belangrijke toegankelijkheidsnormen kan verbeteren, kan volledige naleving niet met een overlay worden bereikt."
+- id: topic04p02
+  translation: "Een van de vele beweringen van overlayleveranciers is dat hun product ervoor zorgt dat de site voldoet aan toegankelijkheidsnormen zoals WCAG 2.x en aanverwante standaarden en wetten die naleving daarvan verplichten."
+- id: topic04p03
+  translation: "Conformiteit met een standaard betekent dat je aan alle ‘vereisten’ van de standaard voldoet. In WCAG 2.0 zijn de ‘vereisten’ de Succescriteria. Om aan WCAG 2.0 te voldoen, moet je aan alle Succescriteria voldoen, dat wil zeggen: er mag geen inhoud zijn die deze schendt."
+- id: topic04p04
+  translation: "Aangezien conformiteit wordt gedefinieerd als het voldoen aan alle vereisten van de standaard, betekent de gedocumenteerde onmogelijkheid van deze producten om <strong>alle</strong> problemen te verhelpen dat ze een website niet volledig in overeenstemming kunnen brengen. Producten die met dergelijke claims worden verkocht, moeten met grote scepsis worden bekeken."
+- id: topic05
+  translation: "Privacy van persoonsgegevens"
+- id: topic05p01
+  translation: "Het toevoegen van een overlay aan je site kan indruisen tegen de voorkeur van eindgebruikers voor privacy en kan het risico op niet-naleving van GDPR, UK GDPR, CCPA enz. vergroten."
+- id: topic05p02
+  translation: "Overlays die automatisch bepaalde instellingen inschakelen, zoals voor schermlezer- of spraakherkenningsgebruikers, doen dit door te detecteren wanneer ondersteunende technologie actief is op het apparaat. Dit onthult dat de persoon op dat moment een beperking heeft. In bepaalde gevallen, zoals bij schermlezers waar de meerderheid blind of slechtziend is, wordt zelfs meer detail over de aard van de beperking onthuld. Net als leeftijd, etnische achtergrond of voorkeursgeslacht zijn beperkingen gevoelige persoonsgegevens. Deze gegevens mogen niet worden verzameld zonder de geïnformeerde toestemming van de eigenaar."
+- id: topic05p03
+  translation: "Sommige overlays slaan gebruikersinstellingen op over meerdere sites die dezelfde overlay gebruiken. Dit gebeurt door een cookie op de computer van de gebruiker te plaatsen. Wanneer de gebruiker een instelling inschakelt op één site, zal de overlay deze automatisch ook op andere sites activeren. Hoewel het bedrijf denkt hiermee goed te doen, is het grote privacyprobleem dat de gebruiker nooit heeft ingestemd met deze tracking en er geen mogelijkheid is om dit uit te schakelen, behalve door die instelling expliciet uit te zetten. Dit levert risico's op voor naleving van GDPR en CCPA voor de klant van de overlay."
+- id: topic06
+  translation: "In hun eigen woorden"
+- id: topic06p01
+  translation: "Veel mensen met een beperking hebben hun sterke ontevredenheid geuit over overlayproducten. Zoals hieronder blijkt, kunnen overlays zelf toegankelijkheidsproblemen hebben die zo groot zijn dat gebruikers stappen ondernemen om ze volledig te blokkeren."
+- id: topic06p02
+  translation: "Opmerking: hoewel deze sectie specifieke leveranciers kan noemen, zijn deze opmerkingen representatief voor de gebruikerservaring van overlay-widgets, die vaak een negatief effect hebben op de toegankelijkheid."
+- id: topic06t01
+  translation: "...als je tool in staat is iets toegankelijk te maken, kan het dat nog beter doen wanneer het direct op de computer van de gebruiker draait en toegang heeft tot machinecode en machine-API's"
+- id: topic06t02
+  translation: "...Ik kon eindelijk inloggen op mijn @NameCheap-account door #AccessiBe te blokkeren in mijn Windows Hosts-bestand. Dit zou ik niet hoeven te doen om het internet te gebruiken. AccessiBe moet AccessiBeGone worden"
+- id: topic06t03
+  translation: "...Ik weet met 100% zekerheid dat elke site die het afgelopen anderhalf jaar een overlay heeft gebruikt, minder bruikbaar is geworden voor zowel mijn vrouw als voor mij — beiden blind."
+- id: topic06t04
+  translation: "...Nog steeds een ellende om een artikel op mobiel te lezen door de constante onderbreking elke paar seconden. Aangezien elke site met jullie dienst dit probleem heeft... Nee bedankt."
+- id: topic06t05
+  translation: "...Een webpagina toegankelijk maken kost werk, en simpelweg zeggen dat een bedrijf jullie plugin kan installeren is volkomen dwaas. Je bouwt en ontwerpt toegankelijkheid in volgens WCAG-standaarden."
+- id: topic06t06
+  translation: "...Suggereer dat één regel code goedkoop is dus dat je het daarom moet doen, impliceert ook dat levens van mensen met een beperking het niet waard zijn om in te investeren. #a11y"
+- id: topic06t07
+  translation: '@AccessiBe Om mijn goede bedoelingen te tonen, hierbij een snelle gratis audit van https://t.co/1mQGCCtnIs. Jullie vangen "tab" af, de standaardmanier om te navigeren. Er is geen manier om jullie overlay uit te schakelen als ik de pagina wil navigeren. Zodra de overlay aanstaat, gebeuren er bizarre dingen.'
+- id: topic06t08
+  translation: '#AccessiBe maakt sites moeilijker te gebruiken door het browsen te hinderen en barrières op de pagina te wijzigen in plaats van ze op te lossen. Een student en ik kwamen op een zogenaamd "verbeterde" site en tot mijn schaamte zijn we vertrokken omdat het navigeren door die chaos die dag mijn vaardigheden te boven ging.'
+- id: topic06t09
+  translation: "Toegankelijkheidsoverlays zijn niet de oplossing, en AccessiBe vormt daarop geen uitzondering. Als schermlezergebruiker zijn talloze sites minder bruikbaar voor mij geworden met deze overlay. Het in diskrediet brengen van gerenommeerde toegankelijkheidsprofessionals zal mij niet overtuigen."
+- id: topic06t10
+  translation: "Aan schermlezergebruikers: jullie hebben misschien gehoord van #Accessibe, een overlay die beweert pagina’s toegankelijker te maken. Ik zal niet in detail treden. Kort gezegd: complete onzin. Afblijven!"
+- id: topic06t11
+  translation: "Geautomatiseerde oplossingen die beloven je site toegankelijk te maken, kunnen dat niet waarmaken. Er is meer nodig dan automatisering om dit te bereiken. Je bent niet gevrijwaard van aansprakelijkheid en je zult waarschijnlijk de ervaring van klanten met een beperking verslechteren."
+- id: topic06t12
+  translation: "Elke keer dat ik op een site kom en de #accessiBe-melding hoor dat de site is aangepast voor mijn schermlezer, weet ik dat mijn blocker niet goed werkt en ik een rampzalige ervaring tegemoet ga."
+- id: topic06t13
+  translation: 'Ik probeerde deze @AccessiBe-site te gebruiken met VoiceOver in Chrome op iOS. De 4-sterrenbeoordeling wordt aangekondigd als "onuitspreekbaar" 🤦‍♀️'
+- id: topic06t14
+  translation: "Ik heb hun klantenservice gemaild dat ik hun site niet kan gebruiken vanwege de overlay, maar... ik ben echt teleurgesteld, al hoop ik dat ze luisteren. @Goodfair_ - stop alsjeblieft met AccessiBe."
+- id: topic06t15
+  translation: "Ik ben geen toegankelijkheidsexpert, alleen een schermlezergebruiker met redelijke vaardigheden die zegt dat deze thread klopt en dat mijn ervaring met #AccessiBe is dat het sites met toegankelijkheidsproblemen nog moeilijker maakt."
+- id: topic06t16
+  translation: "...Als je blind of slechtziend bent en afhankelijk bent van ondersteunende technologie zoals schermlezers, merk je misschien dat populaire websites minder bruikbaar worden... deze pagina legt uit hoe je AccessiBe voor altijd kunt blokkeren."
+- id: topic06t17
+  translation: "Oké, dit lijkt me zeer fout. Een lokale keten hier, Fleet Farm, gebruikt nu AccessiBe. Het maakt een puinhoop van de zoekfunctie naar locaties. Dit krijg ik nu te zien bovenaan de resultatenpagina."
+- id: topic06t18
+  translation: "Gelukkig blokkeert Firefox hun toegankelijkheidsdetectie. Voor mij springt de focus alle kanten op met #AccessiBe ingeschakeld. Zonder werkt het normaal."
+- id: topic06t19
+  translation: "Er zijn nul geautomatiseerde tools die toegankelijkheidsproblemen meer dan 30% van de tijd accuraat kunnen detecteren. 0. Dit weet iedereen in dit vakgebied na minstens een week. #AccessiBe"
+- id: topic06t20
+  translation: "Er is een prima praktisch hulpmiddel om websites toegankelijk te maken. Dat heet een programmeur. De behoeften van gebruikers zijn bepalend voor toegankelijkheid. Als je daar niet aan kunt voldoen, voldoe je niet aan de basisvoorwaarden van zakendoen."
+- id: topic06t21
+  translation: "Wanneer #AccessiBe is ingeschakeld, wordt de pagina overspoeld met koppen. Heel veel koppen van niveau 2. De titel van elk toestel blijft in beide versies een kop, maar met AccessiBe worden ook dingen als prijs, scherm en andere onderdelen koppen."
+- id: topic07
+  translation: "Conclusie"
+- id: topic07p01
+  translation: "Geen enkel overlayproduct op de markt kan een website volledig laten voldoen aan bestaande toegankelijkheidsstandaarden en kan daarom geen juridisch risico wegnemen."
+- id: topic07p02
+  translation: "Toegankelijkheid op het web is een grote uitdaging, zowel voor eigenaren van websites als voor gebruikers. Nieuwe benaderingen om deze uitdaging op te lossen verdienen lof."
+- id: topic07p03
+  translation: "In het geval van overlays — vooral die met widgets die hulpmiddelen aanbieden — wordt de uitdaging echter niet opgelost. Nog problematischer is de misleidende marketing van sommige leveranciers die beloven dat hun product directe naleving oplevert."
+- id: topic07p04
+  translation: 'De ineffectiviteit van overlays wordt breed erkend door toegankelijkheidsexperts, volgens de <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM-enquête onder toegankelijkheidsprofessionals</a> waarin werd vastgesteld:'
+- id: topic07p05
+  translation: "Een ruime meerderheid (67%) beoordeelt deze tools als helemaal niet of niet erg effectief. Respondenten met een beperking waren nog kritischer: 72% vond ze helemaal niet of niet erg effectief, en slechts 2,4% vond ze zeer effectief."
+
+- id: topic08
+  translation: "Verklaring van sponsors en ondertekenaars van dit feitenblad"
+- id: topic08p01
+  translation: "Op basis van bovenstaande informatie:"
+- id: topic08p02
+  translation: "Wij zullen nooit een overlay aanbevelen of integreren die zichzelf misleidend op de markt brengt als automatische naleving van wet- of regelgeving."
+- id: topic08p03
+  translation: "Wij zullen altijd pleiten voor het oplossen van toegankelijkheidsproblemen bij de bron."
+- id: topic08p04
+  translation: "Wij zullen weigeren te zwijgen wanneer leveranciers misleiding gebruiken om hun overlay te verkopen."
+- id: topic08p05
+  translation: "Concreet pleiten wij voor het verwijderen van webtoegankelijkheidsoverlays en moedigen we site-eigenaren die deze producten hebben geïmplementeerd aan om robuustere, onafhankelijke en permanente strategieën te gebruiken."
+- id: topic08p06
+  translation: "Ondertekend door:"
+- id: topic08p07
+  translation: 'Sommige leveranciers hebben geprobeerd het overlay-feitenblad af te schilderen als een poging van concurrenten om hen te beschadigen. Dit is een schoolvoorbeeld van <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslighting</a> om kritiek af te leiden.'
+- id: topic08p08
+  translation: "Op dit moment omvatten de ondertekenaars van het feitenblad onder meer:"
+- id: topic08p09
+  translation: 'Bijdragers en redacteuren van <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr> en <abbr title="Hypertext Markup Language">HTML</abbr>-specificaties'
+- id: topic08p10
+  translation: 'Consultants uit <abbr title="Verenigde Staten">VS</abbr>, <abbr title="Verenigd Koninkrijk">VK</abbr>, <abbr title="Nederland">NL</abbr>, <abbr title="Canada">CA</abbr>, <abbr title="Japan">JP</abbr>, <abbr title="Duitsland">DE</abbr>, <abbr title="Frankrijk">FR</abbr>, <abbr title="Zweden">SE</abbr>, <abbr title="Noorwegen">NO</abbr>, <abbr title="België">BE</abbr>, <abbr title="Polen">PL</abbr>, <abbr title="Australië">AU</abbr>, <abbr title="Denemarken">DK</abbr>, <abbr title="Israël">IL</abbr>, <abbr title="Chili">CL</abbr> en meer'
+- id: topic08p11
+  translation: "Interne toegankelijkheidsexperts van bedrijven zoals Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient en Pearson Assessments"
+- id: topic08p12
+  translation: "Interne toegankelijkheidsexperts van onderwijsinstellingen zoals Syracuse, CSU, Hochschule der Medien Stuttgart, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic08p13
+  translation: "Advocaten voor mensen met een beperking"
+- id: topic08p14
+  translation: "Bijdragers aan ondersteunende technologie zoals JAWS en NVDA"
+- id: topic08p15
+  translation: "Tientallen eindgebruikers met een beperking"
+- id: topic08p16
+  translation: 'Kortom: de onderstaande ondertekenaars zijn experts in dit vakgebied of eindgebruikers met een beperking (of beide) die hun carrière hebben gewijd aan het verbeteren van toegankelijkheid. Hun namen afdoen als "concurrenten" is onjuist en mist de kern: overlays zijn geen effectieve manier om toegankelijkheid te garanderen — daarover zijn zij het allen eens.'
+- id: topic09
+  translation: "Aanvullende literatuur"
+- id: addYourName
+  translation: "Voeg je naam toe aan deze lijst"

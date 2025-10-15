@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays sind ein breiter Begriff für Technologien, die die Zugänglichkeit einer Website verbessern sollen. Sie verwenden den Code von Drittanbietern (in der Regel JavaScript), um Verbesserungen am Front-End-Code der Website vorzunehmen."
 - id: topic01p02
-  translation: "Website-Zusatzprodukte, die den Anspruch erheben, die Zugänglichkeit zu verbessern, reichen bis in die späten 1990er Jahre zurück, als Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Die Website(s), auf denen sie installiert wurden, um Text-to-Speech-Funktionen erweiterten."
+  translation: "Website Add-ons, die den Anspruch erheben, die Zugänglichkeit zu verbessern, gibt es bereits seit den späten 1990er Jahren. Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a> fügten den Websites, auf denen sie installiert wurden, Text-to-Speech-Funktionen hinzu."
 - id: topic01p03
   translation: "Dann kamen ähnliche Produkte auf den Markt, die ihrer Software weitere Funktionen hinzufügten. Diese ermöglichen die nutzerbasierte Steuerung von Dingen wie Schriftgrößen und Farben, um die Lesbarkeit zu verbessern."
 - id: topic01p04
@@ -27,11 +27,11 @@
 - id: topic02
   translation: "Stärken und Schwächen von Overlay “Widgets”"
 - id: topic02p01
-  translation: "Overlay-Widgets sind unnötig und im technischen Kontext schlecht platziert."
+  translation: "Overlay-Widgets sind unnötig und im technischen Kontext fehl am Platz."
 - id: topic02p02
-  translation: "Wie erwähnt, enthalten einige Overlay-Produkte Widgets, mit denen sich geöffnete Webseiten anpassen lasen. Je nach Produkt können diese  z. B. den Seitenkontrast anpassen, den Text auf der Seite vergrößern oder andere Änderungen an der Seite vornehmen, die das Erlebnis für Menschen mit Behinderungen verbessern sollen."
+  translation: "Wie erwähnt, enthalten einige Overlay-Produkte Widgets, mit denen sich geöffnete Webseiten anpassen lassen. Je nach Produkt können diese  z. B. den Seitenkontrast anpassen, den Text auf der Seite vergrößern oder andere Änderungen an der Seite vornehmen, die das Erlebnis für Menschen mit Behinderungen verbessern sollen."
 - id: topic02p03
-  translation: "Für Laien mögen diese Funktionen vorteilhaft erscheinen, aber ihr praktischer Wert wird weitgehend überbewertet, denn wer diese Funktionen benötigt, hat sie in aller Regel bereits auf seinem oder ihren Computer. Entweder als mitgelieferte Funktion im Browser oder Betriebssystem oder als zusätzliche Software, mit welcher nicht nur das Web, sondern alle Software bedient wird."
+  translation: "Für Laien mögen diese Funktionen vorteilhaft erscheinen, aber ihr praktischer Wert wird weitgehend überbewertet, denn wer diese Funktionen benötigt, hat sie in aller Regel bereits auf dem eigenen Computer. Entweder als mitgelieferte Funktion im Browser oder Betriebssystem oder als zusätzliche Software, mit der nicht nur das Web, sondern jegliche Software bedient werden kann."
 - id: topic02p04
   translation: "Es ist ein Irrtum zu glauben, dass die vom Overlay-Widget bereitgestellten Funktionen einen nennenswerten Zusatznutzen liefern, denn wenn diese Funktionen <strong>notwendig</strong> für die Nutzung der Website wären, würden sie für alle Websites benötigt, mit denen der Nutzer interagiert. Stattdessen ist das Widget - bestenfalls - eine redundante Funktionalität zu dem, was der Benutzer bereits hat."
 - id: topic03
@@ -43,13 +43,13 @@
 - id: topic03p03
   translation: "Obwohl man tatsächlich eine Vielzahl von Zugänglichkeitsproblemen auf diese Weise beheben kann, werden Art, Umfang und Genauigkeit solcher Reparaturen durch verschiedene wichtige Faktoren begrenzt:"
 - id: topic03p04
-  translation: "Die Automatische Bereitstellung von Textalternativen für Bilder ist unzuverlässig"
+  translation: "Die automatische Bereitstellung von Textalternativen für Bilder ist unzuverlässig"
 - id: topic03p05
-  translation: "Die automatische Korrektur von Beschriftungen, und der Umgang mit  Fehlern in Formularen ist nicht zuverlässig"
+  translation: "Die automatische Korrektur von Beschriftungen, und der Umgang mit Fehlern in Formularen ist nicht zuverlässig"
 - id: topic03p06
   translation: "die automatische Reparatur der Tastaturbedienbarkeit ist nicht zuverlässig"
 - id: topic03p07
-  translation: "Moderne, komponentenbasierte Benutzeroberflächen nutzen oft  ReactJS, Angular oder Vue. Diese können den Zustand der gesamten Seite oder einzelner Teile unabhängig von einem Overlay ändern. Das führt dazu, dass das Overlay diese durch JavaScript gesteuerten Änderungen nicht zuverlässig beheben kann."
+  translation: "Moderne, komponentenbasierte Benutzeroberflächen nutzen oft ReactJS, Angular oder Vue. Diese können den Zustand der gesamten Seite oder einzelner Teile unabhängig von einem Overlay ändern. Das führt dazu, dass das Overlay diese durch JavaScript gesteuerten Änderungen nicht zuverlässig beheben kann."
 - id: topic03p08
   translation: "Die Reparaturen können die Ladezeiten der Seite verlängern oder unerwartete Änderungen beim Einsatz von Hilfsmitteln verursachen."
 - id: topic03p09
@@ -63,13 +63,13 @@
 - id: topic04p03
   translation: "Die Einhaltung eines Standards bedeutet, dass die ‘Anforderungen‘ des Standards erfüllt werden. Bei WCAG 2.0 sind diese ‘Anforderungen‘ die Erfolgskriterien. Um den WCAG 2.0 zu entsprechen, muss jeder Inhalt die Erfolgskriterien erfüllen. Es darf also keinen Inhalt geben, der gegen diese Erfolgskriterien verstößt."
 - id: topic04p04
-  translation: "Konformität ist als Erfüllung aller Anforderungen des Standards definiert, weshalb die erwähnte Unvollständigkeit der behebbaren Probleme dazu führt, dass eine Website Overlays keine Konformität garantieren können. Produkte, die mit solchen Behauptungen vermarktet werden, sollten mit erheblichem Skepsis betrachtet werden."
+  translation: "Konformität ist als Erfüllung aller Anforderungen des Standards definiert, weshalb die erwähnte Unvollständigkeit der behebbaren Probleme dazu führt, dass eine Website Overlays keine Konformität garantieren können. Produkte, die mit solchen Behauptungen vermarktet werden, sollten mit erheblicher Skepsis betrachtet werden."
 - id: topic05
   translation: "Datenschutz und persönliche Daten"
 - id: topic05p01
   translation: "Das Hinzufügen eines Overlays auf einer Website könnte der Zustimmung zu Datenschutz-Optionen der Endbenutzer zuwiderlaufen. Es könnte zudem das Risiko erhöhen sich nicht an rechtliche Vorgaben der DSGVO und ihrer internationalen Pendants zu halten, wie UK GDPR, CCPA, et al."
 - id: topic05p02
-  translation: "Overlays aktivieren bestimmte Einstellungen, indem sie erkennen, ob eine Hilfsmittelverwendet werden. Dadurch wird offenbar, dass diese Person eine Behinderung hat. Besonders bei Screen-Reader-Nutzern, von denen die meisten blind oder sehbehindert sind, enthüllt dies sogar noch mehr Details über die Art ihrer Behinderung. Behinderung zählt, wie Alter, ethnischer Hintergrund oder bevorzugtes Geschlecht, zu sensiblen persönlichen Informationen. Diese Daten sollten nicht ohne die informierte Zustimmung der betroffenen Person gesammelt werden."
+  translation: "Overlays aktivieren bestimmte Einstellungen, indem sie erkennen, ob ein Hilfsmittel verwendet wird. Dadurch wird offenbar, dass diese Person eine Behinderung hat. Besonders bei Screen-Reader-Nutzern, von denen die meisten blind oder sehbehindert sind, enthüllt dies sogar noch mehr Details über die Art ihrer Behinderung. Behinderung zählt, wie Alter, ethnischer Hintergrund oder bevorzugtes Geschlecht, zu sensiblen persönlichen Informationen. Diese Daten sollten nicht ohne die informierte Zustimmung der betroffenen Person gesammelt werden."
 - id: topic05p03
   translation: "Einige Overlays speichern Nutzereinstellungen über mehrere Websites hinweg, die dasselbe Overlay nutzen. Sie setzen dazu ein Cookie auf dem Computer des Nutzers. Aktiviert der Nutzer einmal eine Overlay-Funktion, schaltet sich diese automatisch auch auf anderen Seiten ein. Obwohl das Unternehmen hinter dem Overlay glaubt, dem Nutzer einen Gefallen zu tun, besteht ein erhebliches Datenschutzproblem: Der Nutzer hat nie zugestimmt, über unterschiedliche Seiten hinweg verfolgt zu werden, und es gibt keine Möglichkeit, sich abzumelden. Wegen dieser fehlenden Abmeldemöglichkeit entsteht ein Risiko im Hinblick auf die Datenschutz-Grundverordnung (DSGVO) und den California Consumer Privacy Act (CCPA) für den Overlay-Kunden."
 - id: topic06
@@ -97,7 +97,7 @@
 - id: topic06t09
   translation: "Accessibility-Overlays sind nicht die Lösung, und AccessiBe bildet da keine Ausnahme. Als Nutzer eines Screenreaders habe ich festgestellt, dass viele Webseiten mit diesem Overlay weniger bedienbar für mich geworden sind. Die Diskreditierung seriöser Fachleute und Befürworter der Barrierefreiheit wird mich in dieser Hinsicht nicht umstimmen. https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
-  translation: "Für Menschen, die auf Vorlesesoftware angewiesen sind: Möglicherweise habt ihr von #Accessibe gehört. Das ist ein Overlay, das behauptet, Seiten in die es eingebttetist, zugänglicher zu machen. Ich werde nicht weiter ins Detail gehen. Kurz gesagt: totaler Unsinn. Finger weg!"
+  translation: "Für Menschen, die auf Vorlesesoftware angewiesen sind: Möglicherweise habt ihr von #Accessibe gehört. Das ist ein Overlay, das behauptet, Seiten, in die es eingebettet ist, zugänglicher zu machen. Ich werde nicht weiter ins Detail gehen. Kurz gesagt: totaler Unsinn. Finger weg!"
 - id: topic06t11
   translation: "Automatisierte Lösungen, die versprechen, Ihre Website barrierefrei zu machen, können dieses Versprechen nicht halten. Es braucht mehr als nur Automatisierung, um dieses Ziel zu erreichen. Sie sind nicht gegen Haftung geschützt.Sie werden mit ziemlicher Sicherheit negative Auswirkungen auf Ihre Kunden mit Behinderungen erzeugen."
 - id: topic06t12
@@ -129,7 +129,7 @@
 - id: topic07p03
   translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
 - id: topic07p04
-  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>.:"
+  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>:"
 - id: topic07p05
   translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic08
@@ -149,15 +149,15 @@
 - id: topic08p07
   translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
 - id: topic08p08
-  translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets::"
+  translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets:"
 - id: topic08p09
   translation: "Mitwirkende und Autoren der <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, und des <abbr title=\"Hypertext Markup Language\">HTML</abbr> Standards"
 - id: topic08p10
   translation: "Berater aus <abbr title=\"Vereinigten Staaten von Amerika\">USA</abbr>,  <abbr title=\"Vereinigtes Königreich\">UK</abbr>, <abbr title=\"Niederlande\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Deutschland\">DE</abbr>, <abbr title=\"Frankreich\">FR</abbr>, <abbr title=\"Schweden\">SE</abbr>, <abbr title=\"Norwegen\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Dänemark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> und weiteren"
 - id: topic08p11
-  translation: "Interne Barrierefreiehitsexperten von Firmen wie Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
+  translation: "Interne Barrierefreiheitsexperten von Firmen wie Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
 - id: topic08p12
-  translation: "Interne Barrierefreiehitsexperten von Hochschulen wie Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+  translation: "Interne Barrierefreiheitsexperten von Hochschulen wie Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
 - id: topic08p13
   translation: "Anwälte für Menschen mit Behinderungen"
 - id: topic08p14

@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays are a broad term for technologies that aim to improve the accessibility of a website. They apply third-party source code (typically JavaScript) to make improvements to the front-end code of the website."
 - id: topic01p02
-  translation: "Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> and <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed."
+  translation: "Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> and <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed."
 - id: topic01p03
   translation: "Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability."
 - id: topic01p04
@@ -95,13 +95,13 @@
 - id: topic06t08
   translation: "#AccessiBe makes sites harder to use by getting in the way of browsing and changing access barriers on a page, not fixing them. A student and I came across an \"enhanced\" website and to my shame, we left because navigating that mess was beyond my skills, on that day."
 - id: topic06t09
-  translation: "Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ"
+  translation: "Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates will not sway me on this view. https://web.archive.org/web/20251030*/https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
   translation: "To screen reader-using followers: You may have heard of #Accessibe, an overlay that claims to make pages in which it is embedded more accessible. I won't go into any more detail. In short: complete nonsense. Hands off!"
 - id: topic06t11
   translation: "Automated solutions which promise to make your site accessible can't. It takes more than automation to achieve this requirement. You won't be safe from liability. you will almost assuredly negatively impact your customers with disabilities."
 - id: topic06t12
-  translation: "Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader, I know that my blocker isn't working properly, and I'm in for a hellish experience on that particular website. https://t.co/ZFzKMfUe0t"
+  translation: "Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader, I know that my blocker isn't working properly, and I'm in for a hellish experience on that particular website. https://web.archive.org/web/20251030*/https://t.co/ZFzKMfUe0t"
 - id: topic06t13
   translation: "I tried using this @AccessiBe site with VoiceOver in Chrome on iOS. The 4-star rating is announced as \"unpronounceable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
 - id: topic06t14

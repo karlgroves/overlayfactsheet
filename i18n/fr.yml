@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Un outil de surcouche est un terme générique désignant une technologie qui vise à améliorer l'accessibilité d'un site web. Il s'agit d'un code provenant d'un tiers (généralement en JavaScript) dont l'objectif est d'apporter des améliorations au code <i lang=\"en\">front</i> du site&nbsp;web."
 - id: topic01p02
-  translation: "Ce type d'outil qui prétend améliorer l'accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
+  translation: "Ce type d'outil qui prétend améliorer l'accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://web.archive.org/web/20251030*/https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://web.archive.org/web/20251030*/https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
 - id: topic01p03
   translation: "Des produits similaires sont ensuite apparus sur le marché, ajoutant d'autres outils à leur logiciel. Ceux-ci permettent à l'internaute de contrôler des éléments tels que la taille et la couleur des polices afin d'améliorer la lisibilité."
 - id: topic01p04

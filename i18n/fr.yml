@@ -1,7 +1,7 @@
 - id: title
   translation: "Overlay Fact Sheet"
 - id: metaDescription
-  translation: "Une tribune sur les outils de surcouche d’accessibilité."
+  translation: "Une tribune sur les outils de surcouche d'accessibilité."
 - id: skip
   translation: "Aller au contenu"
 - id: lang
@@ -9,164 +9,164 @@
 - id: tableContent
   translation: "Sommaire"
 - id: topic01
-  translation: "Qu’est-ce qu’un outil de surcouche d’accessibilité&nbsp;?"
+  translation: "Qu'est-ce qu'un outil de surcouche d'accessibilité&nbsp;?"
 - id: topic01p01
-  translation: "Un outil de surcouche est un terme générique désignant une technologie qui vise à améliorer l’accessibilité d’un site web. Il s’agit d’un code provenant d’un tiers (généralement en JavaScript) dont l’objectif est d’apporter des améliorations au code <i lang=\"en\">front</i> du site&nbsp;web."
+  translation: "Un outil de surcouche est un terme générique désignant une technologie qui vise à améliorer l'accessibilité d'un site web. Il s'agit d'un code provenant d'un tiers (généralement en JavaScript) dont l'objectif est d'apporter des améliorations au code <i lang=\"en\">front</i> du site&nbsp;web."
 - id: topic01p02
-  translation: "Ce type d’outil qui prétend améliorer l’accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
+  translation: "Ce type d'outil qui prétend améliorer l'accessibilité existe depuis la fin des années 1990 avec des produits comme <a href=\"https://fr.wikipedia.org/wiki/ReadSpeaker\">Readspeaker</a> et <a href=\"https://fr.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Ils ajoutaient des fonctionnalités de synthèse vocale au(x) site(s) web sur lesquels ils étaient installés."
 - id: topic01p03
-  translation: "Des produits similaires sont ensuite apparus sur le marché, ajoutant d’autres outils à leur logiciel. Ceux-ci permettent à l’internaute de contrôler des éléments tels que la taille et la couleur des polices afin d’améliorer la lisibilité."
+  translation: "Des produits similaires sont ensuite apparus sur le marché, ajoutant d'autres outils à leur logiciel. Ceux-ci permettent à l'internaute de contrôler des éléments tels que la taille et la couleur des polices afin d'améliorer la lisibilité."
 - id: topic01p04
-  translation: "Certains outils de surcouche plus récents visent à résoudre les problèmes dans le code du site sauf que cela empêche les technologies d’assistance d’être utilisées facilement. Ils appliquent à la page un script qui analyse le code et tente automatiquement de résoudre le problème."
+  translation: "Certains outils de surcouche plus récents visent à résoudre les problèmes dans le code du site sauf que cela empêche les technologies d'assistance d'être utilisées facilement. Ils appliquent à la page un script qui analyse le code et tente automatiquement de résoudre le problème."
 - id: topic01p05
-  translation: "Quelques exemples d’outils de surcouche d’accessibilité au web (par ordre alphabétique)&nbsp;:"
+  translation: "Quelques exemples d'outils de surcouche d'accessibilité au web (par ordre alphabétique)&nbsp;:"
 - id: topic01p06
   translation: "* indique que ces produits ne sont plus développés ou commercialisés."
 - id: topic01p07
-  translation: "Les outils de surcouche sont parfois vendus en marque blanche (vendus sous d’autres noms) ou renommés pour certains marchés. Cette liste n’est donc pas exhaustive."
+  translation: "Les outils de surcouche sont parfois vendus en marque blanche (vendus sous d'autres noms) ou renommés pour certains marchés. Cette liste n'est donc pas exhaustive."
 - id: topic02
   translation: "Avantages et inconvénients de ces outils"
 - id: topic02p01
   translation: "Les outils de surcouche sont inutiles et mal placés dans la <i lang=\"en\">stack</i> technologique."
 - id: topic02p02
-  translation: "Comme indiqué ci-dessus, certains outils de surcouche contiennent des <i lang=\"en\">widgets</i> qui présentent une série de contrôles modifiant la présentation de la page sur laquelle ils se trouvent. Selon le produit, ces modifications peuvent avoir pour effet de changer le contraste de la page, d’agrandir la taille du texte de la page ou d’apporter d’autres changements à la page dans le but d’améliorer l’expérience des personnes handicapées."
+  translation: "Comme indiqué ci-dessus, certains outils de surcouche contiennent des <i lang=\"en\">widgets</i> qui présentent une série de contrôles modifiant la présentation de la page sur laquelle ils se trouvent. Selon le produit, ces modifications peuvent avoir pour effet de changer le contraste de la page, d'agrandir la taille du texte de la page ou d'apporter d'autres changements à la page dans le but d'améliorer l'expérience des personnes handicapées."
 - id: topic02p03
   translation: "Pour les néophytes, ces fonctions peuvent sembler bénéfiques, mais leur valeur ajoutée est largement exagérée parce que les internautes que ces fonctions prétendent servir disposent déjà des fonctions nécessaires sur leur ordinateur, soit en tant que fonction intégrée, soit en tant que logiciel supplémentaire dont la personne a besoin pour accéder non seulement au web, mais aussi à tous les logiciels."
 - id: topic02p04
-  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l’outil de surcouche seront d’une grande utilité pour les personnes concernées, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels ces internautes interagissent. Au lieu de cela, l’outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que les personnes qui visitent votre site possèdent déjà."
+  translation: "Sur ce dernier point, il est erroné de croire que les fonctionnalités fournies par l'outil de surcouche seront d'une grande utilité pour les personnes concernées, car si ces fonctionnalités étaient nécessaires pour utiliser le site web, elles seraient nécessaires pour tous les sites web avec lesquels ces internautes interagissent. Au lieu de cela, l'outil de surcouche est, au mieux, une fonctionnalité redondante avec ce que les personnes qui visitent votre site possèdent déjà."
 - id: topic03
   translation: "Avantages et inconvénients de la correction automatisée"
 - id: topic03p01
-  translation: "Bien que certaines corrections automatisées soient possibles, il convient de décourager les commanditaires de sites web d’utiliser un outil de surcouche comme solution à long terme."
+  translation: "Bien que certaines corrections automatisées soient possibles, il convient de décourager les commanditaires de sites web d'utiliser un outil de surcouche comme solution à long terme."
 - id: topic03p02
-  translation: "Certains outils de surcouche ont comme ambition de fournir des corrections d’accessibilité directement sur la page où l’outil a été ajouté. Ces corrections sont appliquées lorsque la page est chargée dans le navigateur de la personne visitant le site."
+  translation: "Certains outils de surcouche ont comme ambition de fournir des corrections d'accessibilité directement sur la page où l'outil a été ajouté. Ces corrections sont appliquées lorsque la page est chargée dans le navigateur de la personne visitant le site."
 - id: topic03p03
-  translation: "S’il est vrai qu’un ensemble de problèmes d’accessibilité, basique, peut être réparé de cette manière, la nature, l’étendue et la précision de ces corrections sont limitées par un certain nombre de facteurs importants&nbsp;:"
+  translation: "S'il est vrai qu'un ensemble de problèmes d'accessibilité, basique, peut être réparé de cette manière, la nature, l'étendue et la précision de ces corrections sont limitées par un certain nombre de facteurs importants&nbsp;:"
 - id: topic03p04
-  translation: "L’application automatisée d’alternatives textuelles pour les images n’est pas fiable"
+  translation: "L'application automatisée d'alternatives textuelles pour les images n'est pas fiable"
 - id: topic03p05
-  translation: "La correction automatisée des étiquettes de champ, de la gestion des erreurs et du contrôle du <i lang=\"en\">focus</i> sur les formulaires n’est pas fiable"
+  translation: "La correction automatisée des étiquettes de champ, de la gestion des erreurs et du contrôle du <i lang=\"en\">focus</i> sur les formulaires n'est pas fiable"
 - id: topic03p06
-  translation: "La correction automatisée de l’accès au clavier n’est pas fiable"
+  translation: "La correction automatisée de l'accès au clavier n'est pas fiable"
 - id: topic03p07
-  translation: "Les interfaces d’utilisation modernes basées sur des composants, telles que celles qui utilisent ReactJS, Angular ou Vue, peuvent modifier l’état de tout ou partie de la page indépendamment de l’outil de surcouche. Cela rend l’outil incapable de corriger ces changements de contenu pilotés par JavaScript"
+  translation: "Les interfaces d'utilisation modernes basées sur des composants, telles que celles qui utilisent ReactJS, Angular ou Vue, peuvent modifier l'état de tout ou partie de la page indépendamment de l'outil de surcouche. Cela rend l'outil incapable de corriger ces changements de contenu pilotés par JavaScript"
 - id: topic03p08
-  translation: "Les corrections de la page peuvent soit ralentir le temps de chargement de la page, soit provoquer des changements de page inattendus pour les personnes utilisant des technologies d’assistance"
+  translation: "Les corrections de la page peuvent soit ralentir le temps de chargement de la page, soit provoquer des changements de page inattendus pour les personnes utilisant des technologies d'assistance"
 - id: topic03p09
   translation: "En outre, les outils de surcouche ne réparent pas le contenu des fichiers Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG ou des fichiers multimédias."
 - id: topic04
-  translation: "Aptitude à se conformer aux normes d’accessibilité"
+  translation: "Aptitude à se conformer aux normes d'accessibilité"
 - id: topic04p01
-  translation: "L’utilisation d’un outil de surcouche peut améliorer la conformité en s’appuyant sur quelques exceptions des principales normes d’accessibilité, toutefois un outil de surcouche ne permet pas d’obtenir une conformité totale."
+  translation: "L'utilisation d'un outil de surcouche peut améliorer la conformité en s'appuyant sur quelques exceptions des principales normes d'accessibilité, toutefois un outil de surcouche ne permet pas d'obtenir une conformité totale."
 - id: topic04p02
-  translation: "Parmi les nombreuses affirmations des vendeurs d’outils de surcouche, il y a celle selon laquelle l’utilisation de leur produit rendra le site conforme aux normes d’accessibilité telles que WCAG 2.x, aux normes connexes et dérivées, et aux lois qui imposent le respect de ces normes."
+  translation: "Parmi les nombreuses affirmations des vendeurs d'outils de surcouche, il y a celle selon laquelle l'utilisation de leur produit rendra le site conforme aux normes d'accessibilité telles que WCAG 2.x, aux normes connexes et dérivées, et aux lois qui imposent le respect de ces normes."
 - id: topic04p03
-  translation: "La conformité à une norme signifie que vous répondez ou satisfaisez aux \"exigences\" de la norme. Dans les WCAG 2.0, les \"exigences\" sont les critères de succès. Pour se conformer aux WCAG 2.0, il faut satisfaire aux critères de succès, c’est-à-dire qu’il n’y a pas de contenu qui invalide les critères de succès."
+  translation: "La conformité à une norme signifie que vous répondez ou satisfaisez aux \"exigences\" de la norme. Dans les WCAG 2.0, les \"exigences\" sont les critères de succès. Pour se conformer aux WCAG 2.0, il faut satisfaire aux critères de succès, c'est-à-dire qu'il n'y a pas de contenu qui invalide les critères de succès."
 - id: topic04p04
-  translation: "Étant donné que la conformité est définie comme le respect de toutes les exigences de la norme, l’incapacité avérée de ces produits à résoudre tous les problèmes possibles signifie qu’ils ne peuvent pas rendre un site web conforme. Les produits commercialisés avec de telles allégations doivent être considérés avec beaucoup de scepticisme."
+  translation: "Étant donné que la conformité est définie comme le respect de toutes les exigences de la norme, l'incapacité avérée de ces produits à résoudre tous les problèmes possibles signifie qu'ils ne peuvent pas rendre un site web conforme. Les produits commercialisés avec de telles allégations doivent être considérés avec beaucoup de scepticisme."
 - id: topic05
   translation: "Protection des données personnelles"
 - id: topic05p01
-  translation: "L’ajout d’un outil de surcouche à votre site peut aller à l’encontre des préférences des internautes en matière de protection de la vie privée et peut entraîner un risque de non-conformité avec le RGPD, le CCPA, etc."
+  translation: "L'ajout d'un outil de surcouche à votre site peut aller à l'encontre des préférences des internautes en matière de protection de la vie privée et peut entraîner un risque de non-conformité avec le RGPD, le CCPA, etc."
 - id: topic05p02
-  translation: "Les outils de surcouche qui activent automatiquement certains paramètres, comme ceux destinés aux personnes utilisant des lecteurs d’écran ou de reconnaissance vocale, le font en détectant si une technologie d’assistance fonctionne sur l’appareil. Cela révèle que la personne qui utilise l’appareil à ce moment-là possède un handicap. Dans certains cas, comme celui des personnes utilisant des lecteurs d’écran dont la majorité est aveugle ou malvoyante, cela révèle encore plus de détails sur la nature de leur handicap. Tout comme l’âge, l’origine ethnique ou le sexe, le handicap est une information personnelle sensible. Ce ne sont pas des données qui devraient être collectées sans le consentement éclairé de la personne à laquelle elles appartiennent."
+  translation: "Les outils de surcouche qui activent automatiquement certains paramètres, comme ceux destinés aux personnes utilisant des lecteurs d'écran ou de reconnaissance vocale, le font en détectant si une technologie d'assistance fonctionne sur l'appareil. Cela révèle que la personne qui utilise l'appareil à ce moment-là possède un handicap. Dans certains cas, comme celui des personnes utilisant des lecteurs d'écran dont la majorité est aveugle ou malvoyante, cela révèle encore plus de détails sur la nature de leur handicap. Tout comme l'âge, l'origine ethnique ou le sexe, le handicap est une information personnelle sensible. Ce ne sont pas des données qui devraient être collectées sans le consentement éclairé de la personne à laquelle elles appartiennent."
 - id: topic05p03
-  translation: "Il a été constaté que certains outils de surcouche conservent les paramètres des personnes visitant les sites qui utilisent le même outil de surcouche. Pour ce faire, un <i lang=\"en\">cookie</i> est installé sur l’ordinateur des internautes. Lorsque la personne qui visite le site active un paramètre dans un outil de surcouche, cet outil active automatiquement cette fonction sur d’autres sites. Bien que les sociétés commercialisant des outils de surcouche puissent penser qu’il s’agit d’une bonne chose pour les internautes, au final le gros problème en matière de protection de la vie privée est que l’internaute n’a jamais accepté d’être suivi et qu’il n’y a pas non plus de possibilité de se désengager. En raison de cette absence de possibilité de retrait (autre que la désactivation explicite de ce paramètre), l’outil de surcouche court le risque d’être non conforme par rapport au règlement général sur la protection des données (RGPD) et de la loi californienne sur la protection de la vie privée des consommateurs et des consommatrices (CCPA)."
+  translation: "Il a été constaté que certains outils de surcouche conservent les paramètres des personnes visitant les sites qui utilisent le même outil de surcouche. Pour ce faire, un <i lang=\"en\">cookie</i> est installé sur l'ordinateur des internautes. Lorsque la personne qui visite le site active un paramètre dans un outil de surcouche, cet outil active automatiquement cette fonction sur d'autres sites. Bien que les sociétés commercialisant des outils de surcouche puissent penser qu'il s'agit d'une bonne chose pour les internautes, au final le gros problème en matière de protection de la vie privée est que l'internaute n'a jamais accepté d'être suivi et qu'il n'y a pas non plus de possibilité de se désengager. En raison de cette absence de possibilité de retrait (autre que la désactivation explicite de ce paramètre), l'outil de surcouche court le risque d'être non conforme par rapport au règlement général sur la protection des données (RGPD) et de la loi californienne sur la protection de la vie privée des consommateurs et des consommatrices (CCPA)."
 - id: topic06
   translation: "Selon leurs propres mots"
 - id: topic06p01
-  translation: "De nombreuses personnes handicapées ont exprimé leur mécontentement à l’égard des outils de surcouche. Comme le montre les témoignages ci-dessous, les outils de surcouche peuvent présenter des problèmes d’accessibilité suffisamment importants pour que ces personnes prennent des mesures afin de bloquer activement l’apparition des ces outils."
+  translation: "De nombreuses personnes handicapées ont exprimé leur mécontentement à l'égard des outils de surcouche. Comme le montre les témoignages ci-dessous, les outils de surcouche peuvent présenter des problèmes d'accessibilité suffisamment importants pour que ces personnes prennent des mesures afin de bloquer activement l'apparition des ces outils."
 - id: topic06p02
-  translation: "Remarque&nbsp;: bien que cette section mentionne spécifiquement certaines sociétés commercialisant des outils de surcouche, ces témoignages s’appliquent également aux autres et s’accordent sur le fait que ces outils ont un impact négatif sur l’expérience d’utilisation."
+  translation: "Remarque&nbsp;: bien que cette section mentionne spécifiquement certaines sociétés commercialisant des outils de surcouche, ces témoignages s'appliquent également aux autres et s'accordent sur le fait que ces outils ont un impact négatif sur l'expérience d'utilisation."
 - id: topic06t01
-  translation: "...en supposant que votre outil puisse faire un bon travail pour rendre quelque chose accessible, il peut faire un travail encore meilleur pour rendre quelque chose accessible en fonctionnant directement sur la machine de l’internaute ayant accès au code machine et aux API de la machine."
+  translation: "...en supposant que votre outil puisse faire un bon travail pour rendre quelque chose accessible, il peut faire un travail encore meilleur pour rendre quelque chose accessible en fonctionnant directement sur la machine de l'internaute ayant accès au code machine et aux API de la machine."
 - id: topic06t02
-  translation: "...j’ai finalement réussi à accéder à mon compte @NameCheap en bloquant #AccessiBe dans mon fichier Windows Hosts. Je ne devrais pas avoir besoin de faire cela pour utiliser l’Internet. AccessiBe doit être AccessiBeGone"
+  translation: "...j'ai finalement réussi à accéder à mon compte @NameCheap en bloquant #AccessiBe dans mon fichier Windows Hosts. Je ne devrais pas avoir besoin de faire cela pour utiliser l'Internet. AccessiBe doit être AccessiBeGone"
 - id: topic06t03
   translation: "...je sais avec une certitude absolue que tous les sites qui ont déployé un outil de surcouche depuis un an et demi ont été moins utilisables pour ma femme et moi, tous deux aveugles."
 - id: topic06t04
-  translation: "...Il est toujours pénible d’essayer de lire l’article sur un appareil mobile à cause de l’interruption constante toutes les quelques secondes. Si l’on considère que tous les sites utilisant votre service ont également ce problème... Non."
+  translation: "...Il est toujours pénible d'essayer de lire l'article sur un appareil mobile à cause de l'interruption constante toutes les quelques secondes. Si l'on considère que tous les sites utilisant votre service ont également ce problème... Non."
 - id: topic06t05
-  translation: "...Rendre une page web accessible demande du travail, et dire simplement à une entreprise qu’elle peut installer votre extension est absolument insensé, vous construisez et concevez l’accessibilité dans une page web en utilisant les normes WCAG."
+  translation: "...Rendre une page web accessible demande du travail, et dire simplement à une entreprise qu'elle peut installer votre extension est absolument insensé, vous construisez et concevez l'accessibilité dans une page web en utilisant les normes WCAG."
 - id: topic06t06
-  translation: "...Suggérer qu’une ligne de code n’est pas chère et qu’il faut donc la faire suggère que les vies des handicapés ne valent pas la peine d’être investies non plus. #a11y"
+  translation: "...Suggérer qu'une ligne de code n'est pas chère et qu'il faut donc la faire suggère que les vies des handicapés ne valent pas la peine d'être investies non plus. #a11y"
 - id: topic06t07
-  translation: "@AccessiBe Pour démontrer ma bonne foi, voici un rapide audit gratuit de https://t.co/1mQGCCtnIs. Vous capturez \"tab\" qui est la façon standard de naviguer. Il n’y a aucun moyen de ne pas activer votre outil si je veux naviguer sur la page. Une fois que l’outil est activé, il se passe des choses extraordinaires."
+  translation: "@AccessiBe Pour démontrer ma bonne foi, voici un rapide audit gratuit de https://t.co/1mQGCCtnIs. Vous capturez \"tab\" qui est la façon standard de naviguer. Il n'y a aucun moyen de ne pas activer votre outil si je veux naviguer sur la page. Une fois que l'outil est activé, il se passe des choses extraordinaires."
 - id: topic06t08
-  translation: "#AccessiBe rend les sites plus difficiles à utiliser en entravant la navigation et en modifiant les barrières d’accès sur une page, au lieu de les réparer. Un étudiant et moi sommes tombés sur un site web \"amélioré\" et, à ma grande honte, nous sommes partis parce que naviguer dans ce fouillis était au-delà de mes compétences, ce jour-là."
+  translation: "#AccessiBe rend les sites plus difficiles à utiliser en entravant la navigation et en modifiant les barrières d'accès sur une page, au lieu de les réparer. Un étudiant et moi sommes tombés sur un site web \"amélioré\" et, à ma grande honte, nous sommes partis parce que naviguer dans ce fouillis était au-delà de mes compétences, ce jour-là."
 - id: topic06t09
-  translation: "Les outils de surcouche d’accessibilité ne sont pas la solution, et AccessiBe ne fait pas exception à la règle. En tant qu’utilisateur d’un lecteur d’écran, de nombreux sites sont devenus moins utilisables pour moi avec cette surcouche. Le fait de discréditer des professionnels et des défenseurs de l’accessibilité réputés ne me fera pas changer d’avis. https://t.co/ZgFt8JtsbZ"
+  translation: "Les outils de surcouche d'accessibilité ne sont pas la solution, et AccessiBe ne fait pas exception à la règle. En tant qu'utilisateur d'un lecteur d'écran, de nombreux sites sont devenus moins utilisables pour moi avec cette surcouche. Le fait de discréditer des professionnels et des défenseurs de l'accessibilité réputés ne me fera pas changer d'avis. https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
-  translation: "À mes abonnés qui utilisent le lecteur d’écran&nbsp;: vous avez peut-être déjà entendu parler d’#Accessibe, un outil de surcouche qui prétend rendre plus accessibles les pages dans lesquelles il est intégré. Je ne veux pas entrer dans les détails. En bref&nbsp;: du grand n’importe quoi. Pas touche !"
+  translation: "À mes abonnés qui utilisent le lecteur d'écran&nbsp;: vous avez peut-être déjà entendu parler d'#Accessibe, un outil de surcouche qui prétend rendre plus accessibles les pages dans lesquelles il est intégré. Je ne veux pas entrer dans les détails. En bref&nbsp;: du grand n'importe quoi. Pas touche !"
 - id: topic06t11
-  translation: "Les solutions automatisées qui promettent de rendre votre site accessible ne le peuvent pas. Il faut plus que de l’automatisation pour répondre à cette exigence. Vous ne serez pas à l’abri d’une responsabilité. Vous aurez presque à coup sûr un impact négatif sur vos clients handicapés."
+  translation: "Les solutions automatisées qui promettent de rendre votre site accessible ne le peuvent pas. Il faut plus que de l'automatisation pour répondre à cette exigence. Vous ne serez pas à l'abri d'une responsabilité. Vous aurez presque à coup sûr un impact négatif sur vos clients handicapés."
 - id: topic06t12
-  translation: "Chaque fois que je vais sur un site web et que j’entends la notification #accessiBe indiquant que ce site est adapté à mon lecteur d’écran, je sais que mon bloqueur ne fonctionne pas correctement et que je vais vivre une expérience infernale sur ce site web particulier. "
+  translation: "Chaque fois que je vais sur un site web et que j'entends la notification #accessiBe indiquant que ce site est adapté à mon lecteur d'écran, je sais que mon bloqueur ne fonctionne pas correctement et que je vais vivre une expérience infernale sur ce site web particulier. "
 - id: topic06t13
-  translation: "J’ai essayé d’utiliser ce site @AccessiBe avec VoiceOver dans Chrome sur iOS. La note de 4 étoiles est annoncée comme \"imprononçable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+  translation: "J'ai essayé d'utiliser ce site @AccessiBe avec VoiceOver dans Chrome sur iOS. La note de 4 étoiles est annoncée comme \"imprononçable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
 - id: topic06t14
-  translation: "J’ai écrit un email à leur service client en détaillant que je ne peux pas utiliser leur site à cause de la surcouche, mais... Je suis vraiment déçue, mais j’espère qu’ils m’écouteront. @Goodfair_ - s’il vous plaît, arrêtez d’utiliser AccessiBe."
+  translation: "J'ai écrit un email à leur service client en détaillant que je ne peux pas utiliser leur site à cause de la surcouche, mais... Je suis vraiment déçue, mais j'espère qu'ils m'écouteront. @Goodfair_ - s'il vous plaît, arrêtez d'utiliser AccessiBe."
 - id: topic06t15
-  translation: "Je ne suis pas un expert en accessibilité, juste un utilisateur de lecteur d’écran avec des compétences décentes qui vous dit que ce fil est juste et que mon expérience avec #AccessiBe est qu’il rend les sites avec des problèmes d’accessibilité encore plus difficiles à contourner. https://t.co/cfyrEqXwTy"
+  translation: "Je ne suis pas un expert en accessibilité, juste un utilisateur de lecteur d'écran avec des compétences décentes qui vous dit que ce fil est juste et que mon expérience avec #AccessiBe est qu'il rend les sites avec des problèmes d'accessibilité encore plus difficiles à contourner. https://t.co/cfyrEqXwTy"
 - id: topic06t16
-  translation: "...Si vous êtes aveugle ou malvoyant et que vous utilisez des technologies d’assistance telles que les lecteurs d’écran, vous avez peut-être commencé à trouver des sites web populaires de moins en moins utilisables... cette page décrit comment interdire à AccessiBe d’atteindre votre ordinateur... https://t.co/qbiKvolizS"
+  translation: "...Si vous êtes aveugle ou malvoyant et que vous utilisez des technologies d'assistance telles que les lecteurs d'écran, vous avez peut-être commencé à trouver des sites web populaires de moins en moins utilisables... cette page décrit comment interdire à AccessiBe d'atteindre votre ordinateur... https://t.co/qbiKvolizS"
 - id: topic06t17
-  translation: "D’accord, cela me semble une mauvaise chose. Une chaîne locale, Fleet Farm, utilise désormais AccessiBe. La fonction de recherche d’emplacement n’est pas du tout adaptée. Voici ce que j’obtiens maintenant au début de la page de résultats."
+  translation: "D'accord, cela me semble une mauvaise chose. Une chaîne locale, Fleet Farm, utilise désormais AccessiBe. La fonction de recherche d'emplacement n'est pas du tout adaptée. Voici ce que j'obtiens maintenant au début de la page de résultats."
 - id: topic06t18
-  translation: "Heureusement que Firefox bloque leur détection de l’accessibilité. Pour moi, le focus saute partout lorsque #AccessiBe est activé. Lorsqu’il est désactivé, il se comporte de lui-même."
+  translation: "Heureusement que Firefox bloque leur détection de l'accessibilité. Pour moi, le focus saute partout lorsque #AccessiBe est activé. Lorsqu'il est désactivé, il se comporte de lui-même."
 - id: topic06t19
-  translation: "Il n’existe aucun outil automatisé capable de détecter avec précision les problèmes d’accessibilité dans plus de 30 % des cas. 0. Tous ceux qui travaillent dans ce domaine depuis au moins une semaine le savent. #AccessiBe"
+  translation: "Il n'existe aucun outil automatisé capable de détecter avec précision les problèmes d'accessibilité dans plus de 30 % des cas. 0. Tous ceux qui travaillent dans ce domaine depuis au moins une semaine le savent. #AccessiBe"
 - id: topic06t20
-  translation: "Il existe un outil parfaitement pratique pour rendre les sites web accessibles. Il s’agit d’un programmeur. Les besoins qui comptent pour rendre un site web accessible sont ceux des utilisateurs. Si vous ne pouvez pas répondre à ces besoins, vous ne pouvez pas faire face aux coûts de base de votre activité."
+  translation: "Il existe un outil parfaitement pratique pour rendre les sites web accessibles. Il s'agit d'un programmeur. Les besoins qui comptent pour rendre un site web accessible sont ceux des utilisateurs. Si vous ne pouvez pas répondre à ces besoins, vous ne pouvez pas faire face aux coûts de base de votre activité."
 - id: topic06t21
-  translation: "Lorsque #AccessiBe est activé, la page est inondée de titres. Beaucoup de titres de niveau 2. Le titre de chaque téléphone reste un titre dans les deux versions de la page, mais lorsqu’il est activé, des éléments tels que le coût, l’affichage et tous les autres composants des tableaux deviennent également des titres."
+  translation: "Lorsque #AccessiBe est activé, la page est inondée de titres. Beaucoup de titres de niveau 2. Le titre de chaque téléphone reste un titre dans les deux versions de la page, mais lorsqu'il est activé, des éléments tels que le coût, l'affichage et tous les autres composants des tableaux deviennent également des titres."
 - id: topic07
   translation: "Conclusion"
 - id: topic07p01
-  translation: "Aucun outil de surcouche sur le marché ne peut rendre un site web totalement conforme à une norme d’accessibilité existante et ne peut donc pas éliminer le risque juridique."
+  translation: "Aucun outil de surcouche sur le marché ne peut rendre un site web totalement conforme à une norme d'accessibilité existante et ne peut donc pas éliminer le risque juridique."
 - id: topic07p02
-  translation: "L’accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les personnes visitant ces sites. L’invention de nouvelles approches pour résoudre ce problème doit être saluée."
+  translation: "L'accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les personnes visitant ces sites. L'invention de nouvelles approches pour résoudre ce problème doit être saluée."
 - id: topic07p03
-  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d’ajouter des gadgets présentant des fonctions d’assistance, le défi n’est pas relevé. Ce qui est encore plus problématique, c’est le marketing trompeur de certaines sociétés commercialisant des outils de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leur clientèle de se conformer immédiatement aux lois et aux normes."
+  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d'ajouter des gadgets présentant des fonctions d'assistance, le défi n'est pas relevé. Ce qui est encore plus problématique, c'est le marketing trompeur de certaines sociétés commercialisant des outils de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leur clientèle de se conformer immédiatement aux lois et aux normes."
 - id: topic07p04
-  translation: "L’inefficacité des outils de surcouche fait l’objet d’un large consensus parmi les professionnels de l’accessibilité, comme le montre l’enquête WebAIM sur les professionnels de l’accessibilité du Web&nbsp;:"
+  translation: "L'inefficacité des outils de surcouche fait l'objet d'un large consensus parmi les professionnels de l'accessibilité, comme le montre l'enquête WebAIM sur les professionnels de l'accessibilité du Web&nbsp;:"
 - id: topic07p05
-  translation: "Une forte majorité (67 %) des personnes interrogées estiment que ces outils ne sont pas du tout ou pas très efficaces. Les répondants handicapés sont encore moins favorables, 72 % d’entre eux estimant qu’ils ne sont pas du tout ou pas très efficaces, et seulement 2,4 % qu’ils sont très efficaces."
+  translation: "Une forte majorité (67 %) des personnes interrogées estiment que ces outils ne sont pas du tout ou pas très efficaces. Les répondants handicapés sont encore moins favorables, 72 % d'entre eux estimant qu'ils ne sont pas du tout ou pas très efficaces, et seulement 2,4 % qu'ils sont très efficaces."
 - id: topic08
   translation: "Déclaration des sponsors et des signataires de cette tribune"
 - id: topic08p01
   translation: "En conséquence des informations ci-dessus&nbsp;:"
 - id: topic08p02
-  translation: "Nous ne préconiserons, ne recommanderons ni n’intégrerons jamais un outil de surcouche qui se présente de manière trompeuse comme fournissant une conformité automatisée aux lois ou aux normes"
+  translation: "Nous ne préconiserons, ne recommanderons ni n'intégrerons jamais un outil de surcouche qui se présente de manière trompeuse comme fournissant une conformité automatisée aux lois ou aux normes"
 - id: topic08p03
-  translation: "Nous préconiserons toujours la résolution des problèmes d’accessibilité à la source de l’erreur initiale"
+  translation: "Nous préconiserons toujours la résolution des problèmes d'accessibilité à la source de l'erreur initiale"
 - id: topic08p04
-  translation: "Nous refuserons de rester silencieux lorsque les vendeurs d’outil de surcouche utilisent la tromperie pour commercialiser leurs produits"
+  translation: "Nous refuserons de rester silencieux lorsque les vendeurs d'outil de surcouche utilisent la tromperie pour commercialiser leurs produits"
 - id: topic08p05
-  translation: "Plus spécifiquement, nous plaidons par la présente pour la suppression des outils de surcouches d’accessibilité du web et encourageons les propriétaires de sites qui ont mis en œuvre ces produits à utiliser des stratégies plus robustes, indépendantes et permanentes pour rendre leurs sites plus accessibles."
+  translation: "Plus spécifiquement, nous plaidons par la présente pour la suppression des outils de surcouches d'accessibilité du web et encourageons les propriétaires de sites qui ont mis en œuvre ces produits à utiliser des stratégies plus robustes, indépendantes et permanentes pour rendre leurs sites plus accessibles."
 - id: topic08p06
   translation: "Signé par&nbsp;:"
 - id: topic08p07
-  translation: "Certaines sociétés commercialisant des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d’école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
+  translation: "Certaines sociétés commercialisant des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d'école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
 - id: topic08p08
-  translation: "À ce jour, les signataires de la tribune contre les outils de surcouche d’accessibilité sont les suivants&nbsp;:"
+  translation: "À ce jour, les signataires de la tribune contre les outils de surcouche d'accessibilité sont les suivants&nbsp;:"
 - id: topic08p09
   translation: "Contributeurs et contributrices, éditeurs et éditrices des spécifications <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, et <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
 - id: topic08p10
-  translation: "Consultants et consultantes des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l’Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l’Australie, du Danemark, de l’Italie, du Luxembourg et d’autres pays encore."
+  translation: "Consultants et consultantes des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l'Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l'Australie, du Danemark, de l'Italie, du Luxembourg et d'autres pays encore."
 - id: topic08p11
   translation: "Experts et expertes internes en accessibilité pour des entreprises telles que Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, et Pearson Assessments"
 - id: topic08p12
-  translation: "Experts et expertes internes en accessibilité d’établissements d’enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
+  translation: "Experts et expertes internes en accessibilité d'établissements d'enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
 - id: topic08p13
   translation: "Avocats et avocates représentant les personnes handicapées"
 - id: topic08p14
-  translation: "Contributeurs aux lecteurs d’écrans tels que JAWS et NVDA"
+  translation: "Contributeurs aux lecteurs d'écrans tels que JAWS et NVDA"
 - id: topic08p15
-  translation: "Un grand nombre d’utilisateurs et utilisatrices finaux handicapés"
+  translation: "Un grand nombre d'utilisateurs et utilisatrices finaux handicapés"
 - id: topic08p16
-  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui ont une expertise dans ce domaine et qui ont consacré leur carrière professionnelle à l’amélioration de l’accessibilité ou qui sont des personnes handicapées (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l’essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l’accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d’accord."
+  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui ont une expertise dans ce domaine et qui ont consacré leur carrière professionnelle à l'amélioration de l'accessibilité ou qui sont des personnes handicapées (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l'essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l'accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d'accord."
 - id: topic09
   translation: "Lectures complémentaires"
 - id: addYourName
-  translation: "Ajoutez votre nom à cette liste" 
+  translation: "Ajoutez votre nom à cette liste"

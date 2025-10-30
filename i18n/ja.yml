@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "オーバーレイは、Webサイトのアクセシビリティを向上させることを目的とした技術の総称です。サードパーティのソースコード（多くはJavaScript）を読み込み、フロントエンドコードを改善します。"
 - id: topic01p02
-  translation: "アクセシビリティの向上を謳うWebサイトのアドオン製品は、1990年代後半に登場した<a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a>や<a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>に遡ります。これらは、インストールされたWebサイトにテキストの読み上げ機能を追加するものでした。"
+  translation: "アクセシビリティの向上を謳うWebサイトのアドオン製品は、1990年代後半に登場した<a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a>や<a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>に遡ります。これらは、インストールされたWebサイトにテキストの読み上げ機能を追加するものでした。"
 - id: topic01p03
   translation: "その後、そのようなソフトウェアに機能を追加した類似製品が、市場に出回るようになりました。それらは、読みやすさを向上させるために、ユーザーのニーズに基づき文字サイズや色などをコントロールするものです。"
 - id: topic01p04
@@ -169,4 +169,4 @@
 - id: topic09
   translation: "関連情報"
 - id: addYourName
-  translation: "署名する"   
+  translation: "署名する"

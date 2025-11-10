@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "hugo --gc --minify -b https://teodorachiosa.github.io/overlayfactsheet/",
+    "build": "hugo --gc --minify",
     "start": "hugo server"
   },
   "dependencies": {

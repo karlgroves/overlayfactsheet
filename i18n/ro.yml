@@ -77,7 +77,7 @@
 - id: topic06p01
   translation: "Mulți utilizatori cu dizabilități și-au exprimat nemulțumirea față de produsele de tip overlay. După cum se observă în cele ce urmează, overlay-urile în sine pot avea probleme de accesibilitate semnificativ de importante astfel încât utilizatorii iau în mod activ măsuri de blocare a overlay-urilor. pentru ca acestea să nu mai apară."
 - id: topic06p02
-  translation: "Notă: Deși această secțiune face referire în mod specific la anumite companii care comercializează widgeturi de tip overlay, aceste postări se referă la experiența tipică a utilizatorului, indiferent de overlay, și denotă faptul că acest tip de produse impactează în mod negativ și repetat experiența utilizatorului."
+  translation: "Notă: Deși această secțiune face referire în mod specific la anumite companii care comercializează widgeturi de tip overlay, aceste postări se referă la experiența tipică a utilizatorului, indiferent de overlay, și denotă faptul că acest tip de produs are un impact negativ constant asupra experienței utilizatorului."
 - id: topic06t01
   translation: "...assuming your tool can do a good job making something accessible, it can do an even better job making something accessible running directly on the user’s machine having access to machine code and machine APIs"
 - id: topic06t02

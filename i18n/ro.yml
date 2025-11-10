@@ -61,7 +61,7 @@
 - id: topic04p02
   translation: "Printre numeroasele afirmații făcute de furnizorii de overlay-uri se regăsește și afirmația că utilizarea produsului lor va aduce site-ul în conformitate cu standardele de accesibilitate, precum WCAG 2.x, standardele înrudite și derivate și legile care impun conformitatea cu aceste standarde."
 - id: topic04p03
-  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” standardului (<i lang=\"en\">‘requirements’</i>). În WCAG 2.0, „cerințele” sunt criteriile de succes (<i lang=\"en\">success criteria</i>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți Criteriile de Succes, adică să nu existe conținut care să încalce Criteriile de Succes."
+  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” standardului (<i lang=\"en\">‘requirements’</i>). În WCAG 2.0, „cerințele” sunt criteriile de succes (<i lang=\"en\">success criteria</i>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți criteriile de succes, adică să nu existe conținut care să încalce criteriile de succes."
 - id: topic04p04
   translation: "Considerând definiția conformității ca fiind îndeplinirea tuturor cerințelor standardului, incapacitatea acestor produse overlay de a remedia <strong>toate</strong> problemele posibile denotă faptul că overlay-urile nu pot aduce site-ul în conformitate. Produsele comercializate cu astfel de afirmații ar trebui privite cu un scepticism semnificativ."
 - id: topic05

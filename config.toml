@@ -67,4 +67,11 @@ home = ['HTML']
       languageName = 'nederlands'
       languageNameShort = 'nl'
       languageCode = 'nl'
+  [languages.ro]
+    contentDir = 'i18n/ro'
+    weight = 7
+    [languages.ro.params]
+      languageName = 'română'
+      languageNameShort = 'ro'
+      languageCode = 'ro'
 

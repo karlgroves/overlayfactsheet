@@ -23,51 +23,51 @@
 - id: topic01p06
   translation: "*: semnifică faptul că aceste produse nu mai sunt dezvoltate sau comercializate."
 - id: topic01p07
-  translation: "Produsele de tip overlay sunt câteodată produse white-label (același produs este vândut sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip discutate în această pagină."
+  translation: "Produsele de tip overlay sunt câteodată produse white-label (vândute sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip, discutate în această pagină."
 - id: topic02
   translation: "Punctele forte și punctele slabe ale widgeturilor overlay"
 - id: topic02p01
-  translation: "Widgeturile overlay sunt inutile și nu își au locul în stiva de tehnologii."
+  translation: "Widgeturile overlay sunt inutile și sunt plasate inadecvat în stiva de tehnologii."
 - id: topic02p02
-  translation: "As stated above, some overlay products contain widgets which present a series of controls that modify the presentation of the page they’re on. Depending on the product, those changes may do things like change the page contrast, enlarge the size of the page’s text, or perform other changes to the page that are intended to improve the experience for users with disabilities."
+  translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii menite să îmbunătățească experiența utilizatorilor cu dizabilități."
 - id: topic02p03
-  translation: "To laypersons, these features may seem beneficial, but their practical value is largely overstated because the end users that these features claim to serve will already have the necessary features on their computer, either as a built-in feature or as an additional piece of software that the user needs to access not only the Web but all software."
+  translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrata, fie sub forma unui program pe care utilizatorul îl folosește nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
 - id: topic02p04
-  translation: "On this latter point, it is a mistake to believe that the features provided by the overlay widget will be of much use by end users because if those features were <strong>necessary</strong> to use the website, they’d be needed for all websites that the user interacts with. Instead, the widget is  —at best—redundant functionality with what the user already has."
+  translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturi overlay vor fi de mare folos utilizatorilor, întrucât dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
 - id: topic03
-  translation: "Strengths and weaknesses of automated repair"
+  translation: "Puncte forte și puncte slabe pentru remedierea automată"
 - id: topic03p01
-  translation: "While some automated repair is possible, customers should be discouraged from using an overlay as a long-term solution."
+  translation: "Deși remedierea automată este posibilă într-o anumită măsură, clienții trebuie descurajați din a folosi un overlay drept soluție pe termen lung."
 - id: topic03p02
-  translation: "Some overlay products have capabilities aimed at providing accessibility repairs to the underlying page on which the overlay is added. These repairs are applied when the page loads in the user’s browser."
+  translation: "Unele produse overlay au capabilități menite să ofere remedieri de accesibilitate pe pagina pe care este adăugat overlay-ul. Aceste remedieri se aplică atunci când pagina este încărcată în browserul utilizatorului."
 - id: topic03p03
-  translation: "While it is true that a non-trivial array of accessibility problems can be repaired in this manner, the nature, extent, and accuracy of such repair are limited by a number of important factors:"
+  translation: "Deși este adevărat că o serie de probleme non-triviale de accesibilitate pot fi remediate în acest fel, natura, amploarea, și acuratețea acestor remedieri sunt limitate de un număr de factori importanți:"
 - id: topic03p04
-  translation: "Automated application of text alternatives for images is not reliable"
+  translation: "Aplicarea automată a alternativelor text pentru imagini nu este fiabilă"
 - id: topic03p05
-  translation: "Automated repair of field labels, error management, error handling, and focus control on forms is not reliable"
+  translation: "Remedierea automată în cazul etichetelor câmpurilor de formular, gestionarea erorilor, tratarea erorilor, și evidențierea focusului în câmpurile de formular, nu este fiabilă"
 - id: topic03p06
-  translation: "Automated repair of keyboard access is not reliable"
+  translation: "Remedierea automată a accesului cu tastatura nu este fiabilă"
 - id: topic03p07
-  translation: "Modern, component-based user interfaces, such as those using ReactJS, Angular, or Vue may change the state of all or some of the underlying page independently of the overlay, rendering it unable to fix those JavaScript-driven changes to content"
+  translation: "Interfețele de utilizator moderne, bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular, sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript"
 - id: topic03p08
-  translation: "Repairs to the page can either slow down page load times or cause unexpected page changes for assistive technology users."
+  translation: "Remedierile aplicate paginii pot încetini timpul de încărcare al paginii sau pot cauza schimbări neașteptate pentru utilizatorii de tehnologie asistivă."
 - id: topic03p09
-  translation: "In addition to the above, overlays do not repair content in Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, or media files."
+  translation: "În plus, overlay-urile nu remediază conținut Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, sau fișiere multimedia."
 - id: topic04
-  translation: "Fitness for achieving compliance with accessibility standards"
+  translation: "Capacitatea de a respecta standardele de accesibilitate"
 - id: topic04p01
-  translation: "While the use of an overlay may improve compliance with a handful of provisions in major accessibility standards, full compliance cannot be achieved with an overlay."
+  translation: "Deși utilizarea unui overlay poate îmbunătăți conformitatea cu o parte din prevederile din standardele majore de accesibilitate, conformitatea deplină nu poate fi atinsă cu un overlay."
 - id: topic04p02
-  translation: "Among the many claims made by overlay vendors is the claim that the use of their product will bring the site into compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards."
+  translation: "Printre numeroasele afirmații făcute de furnizorii de overlay-uri se regăsește și afirmația că utilizarea produsului lor va aduce site-ul în conformitate cu standardele de accesibilitate, precum WCAG 2.x, standardele înrudite și derivate și legile care impun conformitatea cu aceste standarde."
 - id: topic04p03
-  translation: "Conformance to a standard means that you meet or satisfy the ‘requirements’ of the standard. In WCAG 2.0 the ‘requirements’ are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is, there is no content which violates the Success Criteria."
+  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” (<span lang=\"en\">‘requirements’</span>) standardului. În WCAG 2.0, „cerințele” sunt Criteriile de Succes (<span lang=\"en\">Success Criteria</span>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți Criteriile de succes, adică să nu există conținut care să încalce Criteriile de succes."
 - id: topic04p04
-  translation: "Given that conformance is defined as meeting all requirements of the standard, these products’ documented inability to repair <strong>all</strong> possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant skepticism."
+  translation: "Considerând definiția conformității ca fiind îndeplinirea tuturor cerințelor standardului, incapacitatea acestor produse overlay de a remedia <strong>toate</strong> probleme posibile denotă faptul că overlay-urile nu pot aduce site-ul în conformitate. Produsele comercializate cu astfel de afirmații ar trebui privite cu un scepticism semnificativ."
 - id: topic05
-  translation: "Privacy of personal data"
+  translation: "Confidențialitatea datelor personale"
 - id: topic05p01
-  translation: "Adding an overlay to your site may run counter to end users’ preference for privacy and may create risk of noncompliance with GDPR, UK GDPR, CCPA, et al."
+  translation: "Adăugarea unui overlay to your site may run counter to end users’ preference for privacy and may create risk of noncompliance with GDPR, UK GDPR, CCPA, et al."
 - id: topic05p02
   translation: "Overlays that automatically enable certain settings, like those for screen reader or speech recognition users, do so by detecting when an assistive technology is running on the device. This exposes the fact that the person using the device at the time has a disability. In certain cases, like screen reader users where the majority are blind or have low vision, it exposes even more detail about the nature of their disability. Like age, ethnic background, or preferred gender, disability is sensitive personal information. It is not data that should be collected without the informed consent of the person it belongs to."
 - id: topic05p03

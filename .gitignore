@@ -24,3 +24,4 @@ tramp
 .\#*
 
 /node_modules/
+/public

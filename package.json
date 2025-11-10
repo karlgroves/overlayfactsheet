@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "build": "hugo -b https://teodorachiosa.github.io/overlayfactsheet/",
+    "build": "hugo -b https://teodorachiosa.github.io/",
     "start": "hugo server"
   },
   "dependencies": {

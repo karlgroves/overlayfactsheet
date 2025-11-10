@@ -49,9 +49,9 @@
 - id: topic03p06
   translation: "Remedierea automată a accesului cu tastatura nu este fiabilă"
 - id: topic03p07
-  translation: "Interfețele de utilizator moderne, bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular, sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript"
+  translation: "Interfețele de utilizator moderne bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular, sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript"
 - id: topic03p08
-  translation: "Remedierile aplicate paginii pot încetini timpul de încărcare al paginii sau pot cauza schimbări neașteptate pentru utilizatorii de tehnologie asistivă."
+  translation: "Remedierile aplicate paginilor pot încetini timpul de încărcare al acestora sau pot cauza schimbări neașteptate pentru utilizatorii de tehnologie asistivă."
 - id: topic03p09
   translation: "În plus, overlay-urile nu remediază conținut Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, sau fișiere multimedia."
 - id: topic04

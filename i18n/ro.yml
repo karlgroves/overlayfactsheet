@@ -79,11 +79,11 @@
 - id: topic06p02
   translation: "Notă: Deși această secțiune face referire în mod specific la anumite companii care comercializează widgeturi de tip overlay, aceste postări se referă la experiența tipică a utilizatorului, indiferent de overlay, și denotă faptul că acest tip de produs are constant un impact negativ asupra experienței utilizatorului."
 - id: topic06t01
-  translation: "...assuming your tool can do a good job making something accessible, it can do an even better job making something accessible running directly on the user’s machine having access to machine code and machine APIs"
+  translation: "...presupunând că soft-ul tău se pricepe să facă ceva accesibil, s-ar putea pricepe și mai bine să facă ceva accesibil prin rularea direct pe dispozitivul utilizatorului care are acces la codul și la API-urile acelui dispozitiv"
 - id: topic06t02
-  translation: "...I finally managed to gain access to my @NameCheap account by blocking #AccessiBe in my Windows Hosts file. I should not need to do this to use the Internet. AccessiBe needs to AccessiBeGone"
+  translation: "...Am reușit într-un final să accesez contul meu de @NameCheap prin blocarea lui #AccessiBe în fișierul meu de Windows Hosts. Nu ar trebui să fiu nevoit să fac asta pentru a putea utiliza internetul. AccessiBe trebuie să fie AccessiBeGone"
 - id: topic06t03
-  translation: "...I know with 100% certainty, any site which has deployed an overlay in the past year and a half has been less useable for both my wife and me—both blind."
+  translation: "...Sunt 100% sigur că, orice site care a și-a adăugat un overlay în ultimul an și jumătate a deveni mai puțin utilizabil pentru mine și soția mea, amândoi fiind orbi."
 - id: topic06t04
   translation: "...Still a pain to even try reading the article on a mobile device because of the constant interruption every few seconds. Considering every site using your service also has this problem… Nope."
 - id: topic06t05

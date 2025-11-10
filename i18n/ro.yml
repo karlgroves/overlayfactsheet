@@ -121,11 +121,11 @@
 - id: topic06t21
   translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2’s. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
 - id: topic07
-  translation: "Conclusion"
+  translation: "Concluzie"
 - id: topic07p01
-  translation: "No overlay product on the market can cause a website to become fully compliant with any existing accessibility standard and therefore cannot eliminate legal risk."
+  translation: "Nici un produs de tip overlay disponibil pe piață nu poate face un site web să devină pe deplin conform cu nici un standard de accesibilitate și, prin urmare, nu poate elimina riscul din punct de vedere legal."
 - id: topic07p02
-  translation: "Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The invention of novel approaches to resolving this challenge is to be commended."
+  translation: "Accesibilitatea web este o mare provocare, atât pentru proprietarii de site-uri web, cât și pentru utilizatorii acelor site-uri. Invenția unor abordări noi pentru rezolvarea acestei provocări este de lăudat."
 - id: topic07p03
   translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer’s sites immediate compliance with laws and standards."
 - id: topic07p04
@@ -165,7 +165,7 @@
 - id: topic08p15
   translation: "Scores of end users with disabilities"
 - id: topic08p16
-  translation: "Pe scurt, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree."
+  translation: "Pe scurt, lista de semnături de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Tratarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
 - id: topic09
   translation: "Lectură suplimentară"
 - id: addYourName

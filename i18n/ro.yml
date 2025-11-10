@@ -57,13 +57,13 @@
 - id: topic04
   translation: "Capacitatea de a respecta standardele de accesibilitate"
 - id: topic04p01
-  translation: "Deși utilizarea unui overlay poate îmbunătăți conformitatea cu o parte din prevederile din standardele majore de accesibilitate, conformitatea deplină nu poate fi atinsă cu un overlay."
+  translation: "Deși utilizarea unui overlay poate îmbunătăți conformitatea cu o parte din prevederile din standardele majore de accesibilitate, conformitatea deplină nu poate fi obținută cu un overlay."
 - id: topic04p02
   translation: "Printre numeroasele afirmații făcute de furnizorii de overlay-uri se regăsește și afirmația că utilizarea produsului lor va aduce site-ul în conformitate cu standardele de accesibilitate, precum WCAG 2.x, standardele înrudite și derivate și legile care impun conformitatea cu aceste standarde."
 - id: topic04p03
-  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” (<span lang=\"en\">‘requirements’</span>) standardului. În WCAG 2.0, „cerințele” sunt Criteriile de Succes (<span lang=\"en\">Success Criteria</span>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți Criteriile de succes, adică să nu există conținut care să încalce Criteriile de succes."
+  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” (<span lang=\"en\">‘requirements’</span>) standardului. În WCAG 2.0, „cerințele” sunt Criteriile de Succes (<span lang=\"en\">Success Criteria</span>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți Criteriile de Succes, adică să nu existe conținut care să încalce Criteriile de Succes."
 - id: topic04p04
-  translation: "Considerând definiția conformității ca fiind îndeplinirea tuturor cerințelor standardului, incapacitatea acestor produse overlay de a remedia <strong>toate</strong> probleme posibile denotă faptul că overlay-urile nu pot aduce site-ul în conformitate. Produsele comercializate cu astfel de afirmații ar trebui privite cu un scepticism semnificativ."
+  translation: "Considerând definiția conformității ca fiind îndeplinirea tuturor cerințelor standardului, incapacitatea acestor produse overlay de a remedia <strong>toate</strong> problemele posibile denotă faptul că overlay-urile nu pot aduce site-ul în conformitate. Produsele comercializate cu astfel de afirmații ar trebui privite cu un scepticism semnificativ."
 - id: topic05
   translation: "Confidențialitatea datelor personale"
 - id: topic05p01

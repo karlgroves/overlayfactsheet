@@ -7,7 +7,7 @@ defaultContentLanguage = 'en'
 # Renders the default content language in subdir, e.g. /. The root directory / will redirect to /
 defaultContentLanguageInSubdir = 'true'
 
-relativeURLs = 'true'
+relativeURLs = 'false'
 
 disableKinds = ['taxonomy', 'term']
 

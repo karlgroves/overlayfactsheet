@@ -17,13 +17,13 @@
 - id: topic01p03
   translation: "Apoi au apărut pe piață produse similare care au adăugat funcționalități suplimentare propriului software. Acestea ofereau utilizatorilor opțiuni ce permit schimbarea dimensiunii textului sau schimbarea culorilor, pentru a îmbunătăți lizibilitatea."
 - id: topic01p04
-  translation: "Unele produse overlay mai noi vizează remedierea oricăror probleme din codul site-ului care împiedică utilizarea cu ușurință a tehnologiei asistive. Acestea aplică pe pagină un script care scanează codul și încearcă să repare automat problemele găsite."
+  translation: "Unele produse overlay mai noi vizează remedierea oricăror probleme din codul site-ului care ar putea împiedica utilizarea cu ușurință a tehnologiei asistive. Acestea aplică pe pagină un script care scanează codul și încearcă să repare automat problemele găsite."
 - id: topic01p05
   translation: "Exemple de overlay-uri pentru accesibilitatea site-urilor: (în ordine alfabetică):"
 - id: topic01p06
-  translation: "*: semnifică faptul că aceste produse nu mai sunt dezvoltate sau comercializate."
+  translation: "*: denotă faptul că aceste produse nu mai sunt dezvoltate sau comercializate."
 - id: topic01p07
-  translation: "Produsele de tip overlay sunt câteodată produse white-label (vândute sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip, discutate în această pagină."
+  translation: "Produsele de tip overlay sunt câteodată produse white-label (vândute sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip discutate în această pagină."
 - id: topic02
   translation: "Punctele forte și punctele slabe ale widgeturilor overlay"
 - id: topic02p01
@@ -31,11 +31,11 @@
 - id: topic02p02
   translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii menite să îmbunătățească experiența utilizatorilor cu dizabilități."
 - id: topic02p03
-  translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrata, fie sub forma unui program pe care utilizatorul îl folosește nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
+  translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrată, fie sub forma unui program pe care utilizatorul îl folosește, nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
 - id: topic02p04
   translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturi overlay vor fi de mare folos utilizatorilor, întrucât dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
 - id: topic03
-  translation: "Puncte forte și puncte slabe pentru remedierea automată"
+  translation: "Punctele forte și punctele slabe ale remedierii automate"
 - id: topic03p01
   translation: "Deși remedierea automată este posibilă într-o anumită măsură, clienții trebuie descurajați din a folosi un overlay drept soluție pe termen lung."
 - id: topic03p02

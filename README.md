@@ -1,4 +1,4 @@
-Informații de bază despre overlay-uri: traducere în liba romănă.
+Informații de bază despre overlay-uri: traducere în limba romănă.
 
 ---
 

@@ -25,7 +25,7 @@
 - id: topic01p07
   translation: "Produsele de tip overlay sunt câteodată produse white-label (vândute sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip discutate în această pagină."
 - id: topic02
-  translation: "Punctele forte și punctele slabe ale widgeturilor overlay"
+  translation: "Avantajele și dezavantajele widgeturilor overlay"
 - id: topic02p01
   translation: "Widgeturile overlay sunt inutile și sunt plasate inadecvat în stiva de tehnologii."
 - id: topic02p02
@@ -35,17 +35,17 @@
 - id: topic02p04
   translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturi overlay vor fi de mare folos utilizatorilor, întrucât dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
 - id: topic03
-  translation: "Punctele forte și punctele slabe ale remedierii automate"
+  translation: "Avantajele și dezavantajele remedierii automate"
 - id: topic03p01
   translation: "Deși remedierea automată este posibilă într-o anumită măsură, clienții trebuie descurajați din a folosi un overlay drept soluție pe termen lung."
 - id: topic03p02
-  translation: "Unele produse overlay au capabilități menite să ofere remedieri de accesibilitate pe pagina pe care este adăugat overlay-ul. Aceste remedieri se aplică atunci când pagina este încărcată în browserul utilizatorului."
+  translation: "Unele produse overlay au funcționalități menite să ofere remedieri de accesibilitate pe pagina pe care este adăugat overlay-ul. Aceste remedieri se aplică atunci când pagina este încărcată în browserul utilizatorului."
 - id: topic03p03
   translation: "Deși este adevărat că o serie de probleme non-triviale de accesibilitate pot fi remediate în acest fel, natura, amploarea, și acuratețea acestor remedieri sunt limitate de un număr de factori importanți:"
 - id: topic03p04
   translation: "Aplicarea automată a alternativelor text pentru imagini nu este fiabilă"
 - id: topic03p05
-  translation: "Remedierea automată în cazul etichetelor câmpurilor de formular, gestionarea erorilor, tratarea erorilor, și evidențierea focusului în câmpurile de formular, nu este fiabilă"
+  translation: "Remedierea automată în cazul etichetelor câmpurilor de formular, gestionarea erorilor, tratarea erorilor, și controlul focusului în câmpurile de formular, nu este fiabilă"
 - id: topic03p06
   translation: "Remedierea automată a accesului cu tastatura nu este fiabilă"
 - id: topic03p07

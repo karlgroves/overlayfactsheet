@@ -1,4 +1,4 @@
-baseURL = 'https://overlayfactsheet.com/'
+baseURL = 'https://teodorachiosa.github.io/overlayfactsheet/'
 title = 'Overlay Fact Sheet'
 
 # Site language. Available translations in the theme’s `/i18n` directory.

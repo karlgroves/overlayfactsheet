@@ -67,7 +67,7 @@
 - id: topic05
   translation: "Confidențialitatea datelor personale"
 - id: topic05p01
-  translation: "Adăugarea unui overlay în propriu site poate veni împotriva preferințelor utilizatorilor de a avea confidențialitate și poate crea riscul de nerespectare a RGPD, <i lang=\"en\">UK GDPR</i>, <i lang=\"en\">CCPA</i>, ș.a.m.d."
+  translation: "Adăugarea unui overlay în propriu site poate contracara preferințele utilizatorilor de a avea confidențialitate și poate crea riscul de nerespectare a RGPD, <i lang=\"en\">UK GDPR</i>, <i lang=\"en\">CCPA</i>, ș.a.m.d."
 - id: topic05p02
   translation: "Overlay-urile care activează automat anumite setări, cum ar fi cele pentru cititorul de ecran (<i lang=\"en\">screen reader</i>) sau utilizatorii de recunoaștere a vorbirii (<i lang=\"en\">speech recognition</i>), fac acest lucru prin detectarea tehnologiilor de asistență ce rulează pe dispozitivul utilizatorului. Acest lucru expune faptul că persoana care folosește dispozitivul în acel moment are o dizabilitate. În anumite cazuri, cum ar fi utilizatorii de cititoare de ecran în care majoritatea sunt orbi sau au vedere scăzută, expune și mai multe detalii despre natura dizabilității lor. La fel ca vârsta, originea etnică sau genul preferat, dizabilitățile sunt informații personale confidențiale. Acestea nu sunt date care ar trebui colectate fără consimțământul informat al persoanei căreia îi aparțin."
 - id: topic05p03

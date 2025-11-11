@@ -1,4 +1,4 @@
-baseURL = 'https://teodorachiosa.github.io/overlayfactsheet/'
+baseURL = 'https://overlayfactsheet.com/'
 title = 'Overlay Fact Sheet'
 
 # Site language. Available translations in the theme’s `/i18n` directory.
@@ -7,7 +7,7 @@ defaultContentLanguage = 'en'
 # Renders the default content language in subdir, e.g. /. The root directory / will redirect to /
 defaultContentLanguageInSubdir = 'true'
 
-relativeURLs = 'false'
+relativeURLs = 'true'
 
 disableKinds = ['taxonomy', 'term']
 

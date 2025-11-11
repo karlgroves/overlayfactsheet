@@ -151,19 +151,19 @@
 - id: topic08p08
   translation: "Până la momentul acesta, acest document include următoarele semnături:"
 - id: topic08p09
-  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și specificațiile <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
 - id: topic08p10
-  translation: "Consultants from <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> and more"
+  translation: "Consultanți din Statele Unite ale Americii, Regatul Unit, Olanda, Canada, Japonia, Germania, Franța, Suedia, Norvegia, Belgia, Polonia, Australia, Danemarca, Israel, Chile și altele"
 - id: topic08p11
-  translation: "Internal accessibility experts for companies like Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
+  translation: "Experți în accesibilitate pentru companii precum Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, și Pearson Assessments"
 - id: topic08p12
-  translation: "Internal accessibility experts from higher education institutions like Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+  translation: "Experți în accesibilitate din instituții educaționale superioare precum Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
 - id: topic08p13
-  translation: "Lawyers for the disabled"
+  translation: "Avocați pentru persoanele cu dizabilități"
 - id: topic08p14
-  translation: "Contributors to assistive technology software such as JAWS and NVDA"
+  translation: "Contribuitori la tehnologii asistive precum JAWS și NVDA"
 - id: topic08p15
-  translation: "Scores of end users with disabilities"
+  translation: "O multitudine de persoane cu dizabilități"
 - id: topic08p16
   translation: "Pe scurt, lista de semnături de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Tratarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
 - id: topic09

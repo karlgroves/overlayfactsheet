@@ -127,7 +127,7 @@
 - id: topic07p02
   translation: "Accesibilitatea web este o mare provocare, atât pentru proprietarii de site-uri web, cât și pentru utilizatorii acelor site-uri. Invenția unor abordări noi pentru rezolvarea acestei provocări este de lăudat."
 - id: topic07p03
-  translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer’s sites immediate compliance with laws and standards."
+  translation: "Însă, overlay-urilor, mai ales cele care încearcă să adauge widgeturi care prezintă funcționalități asistive, nu fac față provocării. Și mai problematice sunt tacticile de marketing înșelătoare practicate de vânzătorii de overlay-uri, care promit că implementarea produsului lor în site-uri va oferi clienților conformare instantă cu legile și standardele de accesibilitate."
 - id: topic07p04
   translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
 - id: topic07p05

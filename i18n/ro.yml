@@ -27,13 +27,13 @@
 - id: topic02
   translation: "Avantajele și dezavantajele widgeturilor overlay"
 - id: topic02p01
-  translation: "Widgeturile overlay sunt inutile și sunt plasate inadecvat în stiva de tehnologii."
+  translation: "Widgeturile overlay sunt inutile și sunt plasate necorespunzător în stiva de tehnologii."
 - id: topic02p02
   translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii menite să îmbunătățească experiența utilizatorilor cu dizabilități."
 - id: topic02p03
   translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrată, fie sub forma unui program pe care utilizatorul îl folosește, nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
 - id: topic02p04
-  translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturi overlay vor fi de mare folos utilizatorilor, întrucât dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
+  translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturile overlay vor fi de mare folos utilizatorilor, deoarece dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
 - id: topic03
   translation: "Avantajele și dezavantajele remedierii automate"
 - id: topic03p01
@@ -49,7 +49,7 @@
 - id: topic03p06
   translation: "Remedierea automată a accesului cu tastatura nu este fiabilă"
 - id: topic03p07
-  translation: "Interfețele de utilizator moderne bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular, sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript"
+  translation: "Interfețele de utilizator moderne bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare, nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript."
 - id: topic03p08
   translation: "Remedierile aplicate paginilor pot încetini timpul de încărcare al acestora sau pot cauza schimbări neașteptate pentru utilizatorii de tehnologie asistivă."
 - id: topic03p09
@@ -69,7 +69,7 @@
 - id: topic05p01
   translation: "Adăugarea unui overlay în propriu site poate contracara preferințele utilizatorilor de a avea confidențialitate și poate crea riscul de nerespectare a RGPD, <i lang=\"en\">UK GDPR</i>, <i lang=\"en\">CCPA</i>, ș.a.m.d."
 - id: topic05p02
-  translation: "Overlay-urile care activează automat anumite setări, cum ar fi cele pentru cititorul de ecran (<i lang=\"en\">screen reader</i>) sau utilizatorii de recunoaștere a vorbirii (<i lang=\"en\">speech recognition</i>), fac acest lucru prin detectarea tehnologiilor de asistență ce rulează pe dispozitivul utilizatorului. Acest lucru expune faptul că persoana care folosește dispozitivul în acel moment are o dizabilitate. În anumite cazuri, cum ar fi utilizatorii de cititoare de ecran în care majoritatea sunt orbi sau au vedere scăzută, sunt expuse și mai multe detalii despre natura dizabilității lor. La fel ca vârsta, originea etnică sau genul preferat, dizabilitățile sunt informații personale confidențiale. Acestea nu sunt date care ar trebui colectate fără consimțământul informat al persoanei căreia îi aparțin."
+  translation: "Overlay-urile care activează automat anumite setări, cum ar fi cele pentru cititorul de ecran (<i lang=\"en\">screen reader</i>) sau utilizatorii de recunoaștere a vorbirii (<i lang=\"en\">speech recognition</i>), fac acest lucru prin detectarea tehnologiilor de asistență ce rulează pe dispozitivul utilizatorului. Acest lucru dezvăluie faptul că persoana care folosește dispozitivul în acel moment are o dizabilitate. În anumite cazuri, cum ar fi utilizatorii de cititoare de ecran în care majoritatea sunt orbi sau au vedere scăzută, sunt expuse și mai multe detalii despre natura dizabilității lor. La fel ca vârsta, originea etnică sau genul preferat, dizabilitățile sunt informații personale confidențiale. Acestea nu sunt date care ar trebui colectate fără consimțământul informat al persoanei căreia îi aparțin."
 - id: topic05p03
   translation: "S-a constatat că unele overlay-uri păstrează setările utilizatorilor de la un site la altul atunci când acestea folosesc același overlay. Acest lucru se face prin setarea unui <i lang=\"en\">cookie</i> pe calculatorul utilizatorului. Când utilizatorul activează o setare pentru o funcționalitate de overlay pe un site, overlay-ul va activa automat acea funcționalitate și pe alte site-uri. Deși compania de overlay se gândește că vine în ajutorul utilizatorului, problema importantă de confidențialitate este că utilizatorul nu a consimțit să fie urmărit și, de asemenea, utilizatorul nu are opțiunea de a renunța la acest comportament al overlay-lului. Din cauza acestei lipse de opțiuni de renunțare (alta decât dezactivarea explicită a acelei setări), compania de overlay riscă nerespectarea Regulamentului General privind Protecția Datelor (RGPD) și <i lang=\"en\">California Consumer Privacy Act (CCPA)</i>."
 - id: topic06
@@ -87,7 +87,7 @@
 - id: topic06t04
   translation: "...Încă e o bătaie de cap să încerc să citesc articolul pe telefon din cauza întreruperii continue la fiecare secundă. Luând în considerare că toate site-urile care folosesc serviciul tău au aceeași problemă… Nup."
 - id: topic06t05
-  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă trebuie să îi faci designul și implementarea prin utilizarea standardelor <i lang=\"en\">WCAG></i>."
+  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă, trebuie să îi faci designul și implementarea respectând standardele <i lang=\"en\">WCAG></i>."
 - id: topic06t06
   translation: "...A sugera că trebuie să adaugi o linie de cod fiindcă e o metodă necostisitoare, prin deducție, sugerează că nici viețile persoanelor cu dizabilități nu merită investiții. #accesibilitate"
 - id: topic06t07
@@ -165,7 +165,7 @@
 - id: topic08p15
   translation: "O multitudine de persoane cu dizabilități"
 - id: topic08p16
-  translation: "Pe scurt, lista de semnături de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Tratarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
+  translation: "Pe scurt, lista de semnături de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Etichetarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
 - id: topic09
   translation: "Lectură suplimentară"
 - id: addYourName

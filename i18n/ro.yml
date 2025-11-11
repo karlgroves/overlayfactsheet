@@ -129,9 +129,9 @@
 - id: topic07p03
   translation: "Însă, overlay-urilor, mai ales cele care încearcă să adauge widgeturi care prezintă funcționalități asistive, nu fac față provocării. Și mai problematice sunt tacticile de marketing înșelătoare practicate de vânzătorii de overlay-uri, care promit că implementarea produsului lor în site-uri va oferi clienților conformare instantă cu legile și standardele de accesibilitate."
 - id: topic07p04
-  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
+  translation: "Specialiștii în accesibilitate sunt pe deplin de acord că overlay-urilor sunt ineficiente, așa cum ilustrează și <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Chestionarul WebAIM pentru Specialiștii în Accesibilitate Web</i></a> care spune că:"
 - id: topic07p05
-  translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
+  translation: "O mare majoritate (67%) a participanților consideră aceste instrumente ca fiind deloc sau foarte puțin eficiente. Participanții cu dizabilități au avut opinii și mai puțin favorabile față de overlay-uri, 72% considerând aceste instrumente ca fiind deloc sau foarte puțin eficiente, și numai 2.4% considerându-le foarte eficiente."
 - id: topic08
   translation: "Declarația sponsorilor și a semnatarilor acestui document"
 - id: topic08p01

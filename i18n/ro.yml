@@ -87,7 +87,7 @@
 - id: topic06t04
   translation: "...Încă e o bătaie de cap să încerc să citesc articolul pe telefon din cauza întreruperii continue la fiecare secundă. Luând în considerare că toate site-urile care folosesc serviciul tău au aceeași problemă… Nup."
 - id: topic06t05
-  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă, trebuie să îi faci designul și implementarea respectând standardele <i lang=\"en\">WCAG></i>."
+  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă, trebuie să îi faci designul și implementarea respectând standardele <i lang=\"en\">WCAG</i>."
 - id: topic06t06
   translation: "...A sugera că trebuie să adaugi o linie de cod fiindcă e o metodă necostisitoare, prin deducție, sugerează că nici viețile persoanelor cu dizabilități nu merită investiții. #accesibilitate"
 - id: topic06t07

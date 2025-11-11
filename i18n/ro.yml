@@ -29,7 +29,7 @@
 - id: topic02p01
   translation: "Widgeturile overlay sunt inutile și sunt plasate necorespunzător în stiva de tehnologii."
 - id: topic02p02
-  translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii menite să îmbunătățească experiența utilizatorilor cu dizabilități."
+  translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii, menite să îmbunătățească experiența utilizatorilor cu dizabilități."
 - id: topic02p03
   translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrată, fie sub forma unui program pe care utilizatorul îl folosește, nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
 - id: topic02p04

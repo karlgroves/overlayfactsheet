@@ -85,41 +85,41 @@
 - id: topic06t03
   translation: "...Sunt 100% sigur că, orice site care și-a pus un overlay în ultimul an și jumătate a deveni mai puțin utilizabil pentru mine și soția mea, amândoi fiind orbi."
 - id: topic06t04
-  translation: "...Still a pain to even try reading the article on a mobile device because of the constant interruption every few seconds. Considering every site using your service also has this problem… Nope."
+  translation: "...Încă e o bătaie de cap să încerc să citesc articolul pe telefon din cauza întreruperii continue la fiecare secundă. Luând în considerare că toate site-urile care folosesc serviciul tău au aceeași problemă… Nup."
 - id: topic06t05
-  translation: "...Making a webpage accessible does take work, and simply telling a business they can install your plugin is absolutely foolish, you build, and design accessibility in to a webpage using WCAG standards."
+  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă trebuie să îi faci designul și implementarea prin utilizarea standardelor <i lang=\"en\">WCAG></i>."
 - id: topic06t06
-  translation: "...Suggesting one line of code is cheap so you should do it by inference suggests disabled lives aren’t worth investing in either. #a11y"
+  translation: "...A sugera că trebuie să adaugi o linie de cod fiindcă e o metodă necostisitoare, prin deducție, sugerează că nici viețile persoanelor cu dizabilități nu merită investiții. #accesibilitate"
 - id: topic06t07
-  translation: "@AccessiBe Just to demonstrate my good faith, here’s a quick free audit of https://t.co/1mQGCCtnIs. You capture \"tab\" which is the standard way to navigate. There’s no way to not enable your overlay if I want to navigate the page. Once the overlay is enabled, wild things happen."
+  translation: "@AccessiBe Ca să arăt că sunt cinstit, las aici o analiză făcută pe gratis pentru https://t.co/1mQGCCtnIs. Prindeți interacțiunile pe tasta \"tab\", ceea ce reprezintă modul standard de navigare cu tastatura. Nu există nici o cale să nu activez overly-ul vostru dacă vreau să navighez prin pagină. Odată ce overlay-ul este activ, se întâmplă lucruri ciudate."
 - id: topic06t08
-  translation: "#AccessiBe makes sites harder to use by getting in the way of browsing and changing access barriers on a page, not fixing them. A student and I came across an \"enhanced\" website and to my shame, we left because navigating that mess was beyond my skills, on that day."
+  translation: "#AccessiBe face site-urile mai greu de folosit fiindcă stă în calea modul în care navighezi pe web și schimbă barierele de acces dintr-o pagină, nu fixează probleme. Un student de-al meu și cu mine am găsit un site \"îmbunătățit\" și, spre rușinea mea, am părăsit acel site fiindcă navigarea lui era peste competențele mele în ziua aceea."
 - id: topic06t09
-  translation: "Accessibility overlays are not the answer, and AccessiBe is no exception. As a screen reader user, numerous sites have become less usable for me with this overlay. Discrediting reputable accessiblity professionals and advocates will not sway me on this view. https://t.co/ZgFt8JtsbZ"
+  translation: "Overlay-urile de accesibilitate nu sunt soluția, și AccessiBe nu e o excepție. Ca utilizator de cititor de ecran, multe site-uri au devenit mai puțin utilizabile din cauza acestui overlay. Discreditare profesioniștilor  în accesibilitate de renume și a susținătorilor lor nu-mi va schimba părerea. https://t.co/ZgFt8JtsbZ"
 - id: topic06t10
-  translation: "To screen reader-using followers: You may have heard of #Accessibe, an overlay that claims to make pages in which it is embedded more accessible. I won’t go into any more detail. In short: complete nonsense. Hands off!"
+  translation: "Mesaj pentru urmăritorii mei utilizatori de cititor de ecran: Poate ați auzit de #Accessibe, un overlay care promite că face paginile în care este integrat mai accesibile. Nu voi da detalii. Pe scurt: o absurditate completă. Nu vă bateți capul cu ei!"
 - id: topic06t11
-  translation: "Automated solutions which promise to make your site accessible can’t. It takes more than automation to achieve this requirement. You won’t be safe from liability. you will almost assuredly negatively impact your customers with disabilities."
+  translation: "Soluțiile automate care promit că vă vor face site-urile accesibile, nu pot face acest lucru. E nevoie de mai mult decât automatizare pentru a obține acest rezultat. Ele nu vă scutesc de răspunderi. Veți impacta aproape cu siguranță în mod negativ utilizatorii cu dizabilități."
 - id: topic06t12
-  translation: "Every time I go on a website and I hear the #accessiBe notification that this site is adjusted to my screen reader, I know that my blocker isn’t working properly, and I’m in for a hellish experience on that particular website. https://t.co/ZFzKMfUe0t"
+  translation: "De fiecare dată când vizitez un site și aud notificarea #accessiBe cum că site-ul a fost ajustat pentru citiorul meu de ecran, știu că blocker-ul meu nu merge bine, și că urmează să am o experiență infernală pe acel site. https://t.co/ZFzKMfUe0t"
 - id: topic06t13
-  translation: "I tried using this @AccessiBe site with VoiceOver in Chrome on iOS. The 4-star rating is announced as \"unpronounceable\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+  translation: "Am încercat să folosesc un site cu @AccessiBe și VoiceOver în Chrome pe iOS. Un rating de 4 stele a fost anunțat ca \"nu se poate pronunța\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
 - id: topic06t14
-  translation: "I wrote an email to their customer service detailing that I can not use their site due to the overlay, but… I really am disappointed, but I hope they listen. @Goodfair_ - please stop using AccessiBe."
+  translation: "Am trimis un mail spre serviciul clienții în care am detaliat că nu pot folosit site-ul lor din cauza overlay-ului, dar… chiar sunt dezamăgită, dar sper să mă asculte. @Goodfair_ - te rog nu mai folosi AccessiBe."
 - id: topic06t15
-  translation: "I’m not an accessibility expert, just a screen reader user with decent skills telling you that this thread is spot on and my experience with #AccessiBe is that it makes sites with accessibility issues even harder to work around. https://t.co/cfyrEqXwTy"
+  translation: "Nu sunt expert în accesibilitate, sunt doar un utilizator de cititor de ecran cu abilități decente spunându-ți că toate mesajele din această conversație reprezintă fix și experiența mea cu #AccessiBe și anume că face site-urile cu probleme de accesibilitate și mai greu de utilizat. https://t.co/cfyrEqXwTy"
 - id: topic06t16
-  translation: "...If you are blind or low vision and rely on assistive technologies like screen readers, you may have begun finding popular websites becoming less usable… this page describes how to ban AccessiBe from ever reaching your computer… https://t.co/qbiKvolizS"
+  translation: "...Dacă ești orb sau ai vedere parțială și depinzi de tehnologii asistive precum cititoare de ecran, poate ai început să observi că unele site-uri populare au devenit mai puțin accesibile… această pagină descrie cum se poate bloca AccessiBe din a ajunge vreodată la calculatorul tău… https://t.co/qbiKvolizS"
 - id: topic06t17
-  translation: "OK, this seems very wrong to me. A local chain here named Fleet Farm is now using AccessiBe. It makes a mess of the search for location feature. This is what I now get on the start of the result page."
+  translation: "OK, asta mi se pare foarte greșit. Un lanț local de magazine numit Fleet Farm folosesc acum AccessiBe. Dă complet peste cap funcționalitatea de găsire a locației. Asta primesc acum la începutul paginii de rezultate."
 - id: topic06t18
-  translation: "Thank goodness Firefox blocks their accessibility detection. For me, focus jumps all over the place with #AccessiBe enabled. When it’s disabled, it behaves itself."
+  translation: "Slavă Domnului că Firefox blochează detecția automată de accesibilitate. În cazul meu, focusul sare peste tot cu #AccessiBe activat. Când e dezactivat, se comportă normal."
 - id: topic06t19
-  translation: "There are 0 automated tools that can tetect accessibility problems accurately at anything above 30% of the time. 0. This is commonly known by anyone who’s been in this space for at least a week. #AccessiBe"
+  translation: "Nu există niciun instrument de accesibilitate automată capabil să detecteze problemele de accesibilitate în mai mult de 30% din cazuri. Zero. Lucrul ăsta îl cunoaște oricine e în domeniul ăsta de măcar o săptămână. #AccessiBe"
 - id: topic06t20
-  translation: "There’s a perfectly practical tool for making websites accessible. It’s called a programmer. The needs that matter in making a website accessible are those of the users. If you can’t meet those, then you can’t meet the basic costs of doing business."
+  translation: "Există un instrument extrem de practic care te ajută să faci un site accesibil. Se cheamă un programator. Nevoile care contează în ceea ce privește accesibilitatea sunt cele ale utilizatorilor. Dacă nu poți satisface acele nevoi, atunci nu-ți permiți costul standard de a avea un business."
 - id: topic06t21
-  translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2’s. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
+  translation: "Când #AccessiBe e activat, pagina este plină de titluri de structură. Foarte multe titluri de nivelul 2. Titlul fiecărui telefon rămâne un titlu în ambele versiuni ale paginii. Dar când overlay-ul este activat, elemente precum costul, afișajul și toate celelalte componente ale tabelelor devin, de asemenea, titluri."
 - id: topic07
   translation: "Concluzie"
 - id: topic07p01
@@ -133,7 +133,7 @@
 - id: topic07p05
   translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
 - id: topic08
-  translation: "Statement from sponsors and signatories to this fact sheet"
+  translation: "Declarația sponsorilor și a semnatarilor acestui document"
 - id: topic08p01
   translation: "As a result of the above information:"
 - id: topic08p02
@@ -145,7 +145,7 @@
 - id: topic08p05
   translation: "More specifically, we hereby advocate for the removal of web accessibility overlay and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible"
 - id: topic08p06
-  translation: "Signed by:"
+  translation: "Semnat de către:"
 - id: topic08p07
   translation: "Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them. Such overlay claims are a textbook case of an attempt to <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> people to deflect criticism."
 - id: topic08p08

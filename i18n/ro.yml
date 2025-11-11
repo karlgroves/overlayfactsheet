@@ -135,23 +135,23 @@
 - id: topic08
   translation: "Declarația sponsorilor și a semnatarilor acestui document"
 - id: topic08p01
-  translation: "As a result of the above information:"
+  translation: "Ca și concluzie a celor menționate mai devreme:"
 - id: topic08p02
-  translation: "We will never advocate, recommend, or integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards"
+  translation: "Nu vom susține, recomanda, sau integra niciodată un overlay care își face reclamă înșelătoare și care pretinde conformare automată cu legi și standarde"
 - id: topic08p03
-  translation: "We will always advocate for the remediation of accessibility issues at the source of the original error"
+  translation: "Vom susține întotdeauna remedierea problemelor de accesibilitate la sursa erorii originale"
 - id: topic08p04
-  translation: "We will refuse to stay silent when overlay vendors use deception to market their products"
+  translation: "Vom refuza să rămânem tăcuți atunci când vânzătorii de overlay-uri utilizează tactici înșelătoare pentru a face reclamă propriilor produse"
 - id: topic08p05
-  translation: "More specifically, we hereby advocate for the removal of web accessibility overlay and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible"
+  translation: "Mai exact, prin cele menționate, susținem înlăturarea overlay-urilor pentru accesibilitatea web și îi încurajăm pe proprietarii site-urilor care au implementat aceste produse la ei pe site să folosească strategii mai robuste, independente și permanente pentru a face site-urile mai accesibile"
 - id: topic08p06
   translation: "Semnat de către:"
 - id: topic08p07
-  translation: "Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them. Such overlay claims are a textbook case of an attempt to <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> people to deflect criticism."
+  translation: "Unii vânzători de overlay-uri au încercat să sugereze că acest document este un efort al competitorilor de a îi discredita. Acest lucru este în mod clar o încercare de <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a>, pentru a evita critica."
 - id: topic08p08
-  translation: "As of today, the signatories to the overlay factsheet include:"
+  translation: "Până la momentul acesta, acest document include următoarele semnături:"
 - id: topic08p09
-  translation: "Contributors and editors for <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
 - id: topic08p10
   translation: "Consultants from <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> and more"
 - id: topic08p11

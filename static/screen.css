@@ -122,6 +122,17 @@ ul {
   margin-left: 2rem;
 }
 
+.overlay-list {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+@media screen and (max-width: 40rem) {
+  .overlay-list {
+    columns: 1;
+  }
+}
+
 ol {
   margin-top: var(--vertical-rhythm);
   margin-left: 3rem;

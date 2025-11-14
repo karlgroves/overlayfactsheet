@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays sind ein breiter Begriff für Technologien, die die Zugänglichkeit einer Website verbessern sollen. Sie verwenden den Code von Drittanbietern (in der Regel JavaScript), um Verbesserungen am Front-End-Code der Website vorzunehmen."
 - id: topic01p02
-  translation: "Website Add-ons, die den Anspruch erheben, die Zugänglichkeit zu verbessern, gibt es bereits seit den späten 1990er Jahren. Produkte wie <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a> fügten den Websites, auf denen sie installiert wurden, Text-to-Speech-Funktionen hinzu."
+  translation: "Website Add-ons, die den Anspruch erheben, die Zugänglichkeit zu verbessern, gibt es bereits seit den späten 1990er Jahren. Produkte wie <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> oder <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a> fügten den Websites, auf denen sie installiert wurden, Text-to-Speech-Funktionen hinzu."
 - id: topic01p03
   translation: "Dann kamen ähnliche Produkte auf den Markt, die ihrer Software weitere Funktionen hinzufügten. Diese ermöglichen die nutzerbasierte Steuerung von Dingen wie Schriftgrößen und Farben, um die Lesbarkeit zu verbessern."
 - id: topic01p04
@@ -129,7 +129,7 @@
 - id: topic07p03
   translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
 - id: topic07p04
-  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>:"
+  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://web.archive.org/web/20251030*/https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>:"
 - id: topic07p05
   translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic08
@@ -147,7 +147,7 @@
 - id: topic08p06
   translation: "Unterschrieben von:"
 - id: topic08p07
-  translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
+  translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
 - id: topic08p08
   translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets:"
 - id: topic08p09

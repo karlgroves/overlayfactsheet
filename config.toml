@@ -1,7 +1,7 @@
 baseURL = 'https://overlayfactsheet.com/'
 title = 'Overlay Fact Sheet'
 
-# Site language. Available translations in the theme’s `/i18n` directory.
+# Site language. Available translations in the theme's `/i18n` directory.
 defaultContentLanguage = 'en'
 
 # Renders the default content language in subdir, e.g. /. The root directory / will redirect to /
@@ -67,4 +67,11 @@ home = ['HTML']
       languageName = 'nederlands'
       languageNameShort = 'nl'
       languageCode = 'nl'
+  [languages.ro]
+    contentDir = 'i18n/ro'
+    weight = 7
+    [languages.ro.params]
+      languageName = 'română'
+      languageNameShort = 'ro'
+      languageCode = 'ro'
 

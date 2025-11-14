@@ -1,0 +1,174 @@
+- id: title
+  translation: "Document cu informații esențiale despre overlay-uri"
+- id: metaDescription
+  translation: "O scrisoare deschisă despre overlay-uri de accesibilitate"
+- id: skip
+  translation: "Sari la conținut"
+- id: lang
+  translation: "Schimbă limba"
+- id: tableContent
+  translation: "Cuprins"
+- id: topic01
+  translation: "Ce este un overlay de accesibilitate?"
+- id: topic01p01
+  translation: "„Overlay” este un termen generic atribuit tehnologiilor care vizează îmbunătățirea accesibilității unui site web. Aceste tehnologii aplică cod sursă extern (de obicei JavaScript) pentru a aduce îmbunătățiri codului front-end al site-ului."
+- id: topic01p02
+  translation: "Add-on-uri pentru site-uri care pretind că îmbunătățesc accesibilitatea datează de la sfârșitul anilor 1990, cu produse precum <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> și <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Acestea adăugau funcționalități de sintetizare vocală pe site-urile pe care erau instalate."
+- id: topic01p03
+  translation: "Apoi au apărut pe piață produse similare care au adăugat funcționalități suplimentare propriului software. Acestea ofereau utilizatorilor opțiuni ce permit schimbarea dimensiunii textului sau schimbarea culorilor, pentru a îmbunătăți lizibilitatea."
+- id: topic01p04
+  translation: "Unele produse overlay mai noi vizează remedierea oricăror probleme din codul site-ului care ar putea împiedica utilizarea cu ușurință a tehnologiei asistive. Acestea aplică pe pagină un script care scanează codul și încearcă să repare automat problemele găsite."
+- id: topic01p05
+  translation: "Exemple de overlay-uri pentru accesibilitatea site-urilor: (în ordine alfabetică):"
+- id: topic01p06
+  translation: "*: denotă faptul că aceste produse nu mai sunt dezvoltate sau comercializate."
+- id: topic01p07
+  translation: "Produsele de tip overlay sunt câteodată produse white-label (vândute sub denumiri diferite), sau rebranduite pentru anumite piețe. Prin urmare aceasta nu este o listă completă a produselor de acest tip discutate în această pagină."
+- id: topic02
+  translation: "Avantajele și dezavantajele widgeturilor overlay"
+- id: topic02p01
+  translation: "Widgeturile overlay sunt inutile și sunt plasate necorespunzător în stiva de tehnologii."
+- id: topic02p02
+  translation: "După cum s-a menționat mai sus, unele produse de tip overlay conțin widget-uri care prezintă o serie de controale ce modifică prezentarea paginii pe care se află. În funcție de produs, aceste modificări pot avea ca efect: schimbarea contrastului paginii, mărirea dimensiunii textului paginii sau efectuarea altor modificări ale paginii, menite să îmbunătățească experiența utilizatorilor cu dizabilități."
+- id: topic02p03
+  translation: "Pentru persoanele în necunoștință de cauză, aceste funcționalități par benefice, dar valoarea lor practică este supraevaluată. Utilizatorii vizați de aceste funcționalități vor avea deja funcționalitățile necesare pe calculatorul lor, fie ca o funcționalitate integrată, fie sub forma unui program pe care utilizatorul îl folosește, nu numai pentru a accesa site-uri web, ci și pentru a utiliza alte programe."
+- id: topic02p04
+  translation: "Referitor la acest ultim aspect, este greșit să credem că aceste funcționalități oferite de widgeturile overlay vor fi de mare folos utilizatorilor, deoarece dacă aceste funcționalități erau <strong>necesare</strong> pentru a putea utiliza un site, ar fi fost necesare pentru toate site-urile cu care utilizatorul interacționează. De fapt, widgetul oferă, în cel mai bun caz, funcționalitate redundantă comparativ cu ce folosește deja utilizatorul."
+- id: topic03
+  translation: "Avantajele și dezavantajele remedierii automate"
+- id: topic03p01
+  translation: "Deși remedierea automată este posibilă într-o anumită măsură, clienții trebuie descurajați din a folosi un overlay drept soluție pe termen lung."
+- id: topic03p02
+  translation: "Unele produse overlay au funcționalități menite să ofere remedieri de accesibilitate pe pagina pe care este adăugat overlay-ul. Aceste remedieri se aplică atunci când pagina este încărcată în browserul utilizatorului."
+- id: topic03p03
+  translation: "Deși este adevărat că o serie de probleme non-triviale de accesibilitate pot fi remediate în acest fel, natura, amploarea, și acuratețea acestor remedieri sunt limitate de un număr de factori importanți:"
+- id: topic03p04
+  translation: "Aplicarea automată a alternativelor text pentru imagini nu este fiabilă"
+- id: topic03p05
+  translation: "Remedierea automată în cazul etichetelor câmpurilor de formular, gestionarea erorilor și controlul focusului în câmpurile de formular, nu este fiabilă"
+- id: topic03p06
+  translation: "Remedierea automată a accesului cu tastatura nu este fiabilă"
+- id: topic03p07
+  translation: "Interfețele de utilizator moderne bazate pe componente, cum sunt cele ce utilizează ReactJS, Angular sau Vue, pot schimba oricând starea întregii pagini sau a unei porțiuni din pagină, independent de overlay. Prin urmare, nu mai este posibil ca overlay-ul să remedieze aceste schimbări de conținut cauzate de codul JavaScript."
+- id: topic03p08
+  translation: "Remedierile aplicate paginilor pot încetini timpul de încărcare al acestora sau pot cauza schimbări neașteptate pentru utilizatorii de tehnologie asistivă."
+- id: topic03p09
+  translation: "În plus, overlay-urile nu remediază conținut Flash, Java, Silverlight, PDF, HTML5 Canvas, SVG, sau fișiere multimedia."
+- id: topic04
+  translation: "Capacitatea de a respecta standardele de accesibilitate"
+- id: topic04p01
+  translation: "Deși utilizarea unui overlay poate îmbunătăți conformitatea cu o parte din prevederile din standardele majore de accesibilitate, conformitatea deplină nu poate fi obținută cu un overlay."
+- id: topic04p02
+  translation: "Printre numeroasele afirmații făcute de furnizorii de overlay-uri se regăsește și afirmația că utilizarea produsului lor va aduce site-ul în conformitate cu standardele de accesibilitate, precum WCAG 2.x, standardele înrudite și derivate și legile care impun conformitatea cu aceste standarde."
+- id: topic04p03
+  translation: "Conformitatea cu un standard înseamnă îndeplinirea sau satisfacerea „cerințelor” standardului (<i lang=\"en\">‘requirements’</i>). În WCAG 2.0, „cerințele” sunt criteriile de succes (<i lang=\"en\">success criteria</i>). Pentru a vă conforma cu WCAG 2.0, trebuie să îndepliniți criteriile de succes, adică să nu existe conținut care să încalce criteriile de succes."
+- id: topic04p04
+  translation: "Considerând definiția conformității ca fiind îndeplinirea tuturor cerințelor standardului, incapacitatea acestor produse overlay de a remedia <strong>toate</strong> problemele posibile, denotă faptul că overlay-urile nu pot aduce site-ul în conformitate. Produsele comercializate cu astfel de afirmații ar trebui privite cu un scepticism semnificativ."
+- id: topic05
+  translation: "Confidențialitatea datelor personale"
+- id: topic05p01
+  translation: "Adăugarea unui overlay în propriu site poate contracara preferințele utilizatorilor de a avea confidențialitate și poate crea riscul de nerespectare a RGPD, <i lang=\"en\">UK GDPR</i>, <i lang=\"en\">CCPA</i>, ș.a.m.d."
+- id: topic05p02
+  translation: "Overlay-urile care activează automat anumite setări, cum ar fi cele pentru cititorul de ecran (<i lang=\"en\">screen reader</i>) sau utilizatorii de recunoaștere a vorbirii (<i lang=\"en\">speech recognition</i>), fac acest lucru prin detectarea tehnologiilor de asistență ce rulează pe dispozitivul utilizatorului. Acest lucru dezvăluie faptul că persoana care folosește dispozitivul în acel moment are o dizabilitate. În anumite cazuri, cum ar fi utilizatorii de cititoare de ecran în care majoritatea sunt orbi sau au vedere scăzută, sunt expuse și mai multe detalii despre natura dizabilității lor. La fel ca vârsta, originea etnică sau genul preferat, dizabilitățile sunt informații personale confidențiale. Acestea nu sunt date care ar trebui colectate fără consimțământul informat al persoanei căreia îi aparțin."
+- id: topic05p03
+  translation: "S-a constatat că unele overlay-uri păstrează setările utilizatorilor de la un site la altul atunci când acestea folosesc același overlay. Acest lucru se face prin setarea unui <i lang=\"en\">cookie</i> pe calculatorul utilizatorului. Când utilizatorul activează o setare pentru o funcționalitate de overlay pe un site, overlay-ul va activa automat acea funcționalitate și pe alte site-uri. Deși compania de overlay se gândește că vine în ajutorul utilizatorului, problema importantă de confidențialitate este că utilizatorul nu a consimțit să fie urmărit și, de asemenea, utilizatorul nu are opțiunea de a renunța la acest comportament al overlay-lului. Din cauza acestei lipse de opțiuni de renunțare (alta decât dezactivarea explicită a acelei setări), compania de overlay riscă nerespectarea Regulamentului General privind Protecția Datelor (RGPD) și <i lang=\"en\">California Consumer Privacy Act (CCPA)</i>."
+- id: topic06
+  translation: "Cu propriile lor cuvinte"
+- id: topic06p01
+  translation: "Mulți utilizatori cu dizabilități și-au exprimat nemulțumirea față de produsele de tip overlay. După cum se observă în cele ce urmează, overlay-urile în sine pot avea probleme de accesibilitate semnificative, astfel încât utilizatorii iau în mod activ măsuri de blocare a overlay-urilor pentru ca acestea să nu mai apară."
+- id: topic06p02
+  translation: "Notă: Deși această secțiune face referire în mod specific la anumite companii care comercializează widgeturi de tip overlay, aceste postări se referă la experiența tipică a unui utilizator, indiferent de overlay, și denotă faptul că acest tip de produs are constant un impact negativ asupra experienței utilizatorului."
+- id: topic06t01
+  translation: "...presupunând că soft-ul tău se pricepe să facă ceva accesibil, s-ar putea pricepe și mai bine să facă ceva accesibil prin rularea direct pe dispozitivul utilizatorului care are acces la codul și la API-urile acelui dispozitiv"
+- id: topic06t02
+  translation: "...Am reușit într-un final să accesez contul meu de @NameCheap prin blocarea lui #AccessiBe în fișierul meu de Windows Hosts. Nu ar trebui să fiu nevoit să fac asta pentru a putea utiliza internetul. AccessiBe trebuie să fie AccessiBeGone"
+- id: topic06t03
+  translation: "...Sunt 100% sigur că, orice site care și-a pus un overlay în ultimul an și jumătate a devenit mai puțin utilizabil pentru mine și soția mea, amândoi fiind orbi."
+- id: topic06t04
+  translation: "...Încă e o bătaie de cap să încerc să citesc articolul pe telefon din cauza întreruperii continue la fiecare secundă. Luând în considerare că toate site-urile care folosesc serviciul tău au aceeași problemă… Nup."
+- id: topic06t05
+  translation: "...Îmbunătățirea accesibilității unei pagini web presupune muncă, dar să spui unui business că pur și simplu poate instala un plugin, e absolut stupid. Pentru ca o pagină web să fie accesibilă, trebuie să îi faci designul și implementarea respectând standardele <i lang=\"en\">WCAG</i>."
+- id: topic06t06
+  translation: "...A sugera că trebuie să adaugi o linie de cod fiindcă e o metodă necostisitoare, prin deducție, sugerează că nici viețile persoanelor cu dizabilități nu merită investiții. #accesibilitate"
+- id: topic06t07
+  translation: "@AccessiBe Ca să arăt că sunt cinstit, las aici o analiză făcută pe gratis pentru https://t.co/1mQGCCtnIs. Prindeți interacțiunile pe tasta \"tab\", ceea ce reprezintă modul standard de navigare cu tastatura. Nu există nici o cale să nu activez overly-ul vostru dacă vreau să navighez prin pagină. Odată ce overlay-ul este activ, se întâmplă lucruri ciudate."
+- id: topic06t08
+  translation: "#AccessiBe face site-urile mai greu de folosit fiindcă stă în calea modului în care navighezi pe web și schimbă barierele de acces dintr-o pagină, nu fixează probleme. Un student de-al meu și cu mine am găsit un site \"îmbunătățit\" și, spre rușinea mea, am părăsit acel site fiindcă navigarea lui era peste competențele mele în ziua aceea."
+- id: topic06t09
+  translation: "Overlay-urile de accesibilitate nu sunt soluția, și AccessiBe nu e o excepție. Ca utilizator de cititor de ecran, multe site-uri au devenit mai puțin utilizabile din cauza acestui overlay. Discreditarea profesioniștilor de renume în accesibilitate și a susținătorilor lor nu-mi va schimba părerea. https://t.co/ZgFt8JtsbZ"
+- id: topic06t10
+  translation: "Mesaj pentru urmăritorii mei utilizatori de cititor de ecran: Poate ați auzit de #Accessibe, un overlay care promite că face paginile în care este integrat mai accesibile. Nu voi da detalii. Pe scurt: o absurditate completă. Nu vă bateți capul cu ei!"
+- id: topic06t11
+  translation: "Soluțiile automate care promit că vă vor face site-urile accesibile, nu pot face acest lucru. E nevoie de mai mult decât automatizare pentru a obține acest rezultat. Ele nu vă scutesc de răspundere. Veți impacta aproape cu siguranță în mod negativ utilizatorii cu dizabilități."
+- id: topic06t12
+  translation: "De fiecare dată când vizitez un site și aud notificarea #accessiBe cum că site-ul a fost ajustat pentru citiorul meu de ecran, știu că blocker-ul meu nu merge bine, și că urmează să am o experiență infernală pe acel site. https://t.co/ZFzKMfUe0t"
+- id: topic06t13
+  translation: "Am încercat să folosesc un site cu @AccessiBe și VoiceOver în Chrome pe iOS. Un rating de 4 stele a fost anunțat ca \"nu se poate pronunța\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+- id: topic06t14
+  translation: "Am trimis un mail spre serviciul clienții în care am detaliat că nu pot folosit site-ul lor din cauza overlay-ului, dar… chiar sunt dezamăgită, dar sper să mă asculte. @Goodfair_ - te rog nu mai folosi AccessiBe."
+- id: topic06t15
+  translation: "Nu sunt expert în accesibilitate, sunt doar un utilizator de cititor de ecran cu abilități decente spunându-ți că toate mesajele din această conversație reprezintă fix și experiența mea cu #AccessiBe și anume că face site-urile cu probleme de accesibilitate și mai greu de utilizat. https://t.co/cfyrEqXwTy"
+- id: topic06t16
+  translation: "...Dacă ești orb sau ai vedere parțială și depinzi de tehnologii asistive precum cititoare de ecran, poate ai început să observi că unele site-uri populare au devenit mai puțin accesibile… această pagină descrie cum se poate bloca AccessiBe din a ajunge vreodată la calculatorul tău… https://t.co/qbiKvolizS"
+- id: topic06t17
+  translation: "OK, asta mi se pare foarte greșit. Un lanț local de magazine numit Fleet Farm folosesc acum AccessiBe. Dă complet peste cap funcționalitatea de găsire a locației. Asta primesc acum la începutul paginii de rezultate."
+- id: topic06t18
+  translation: "Slavă Domnului că Firefox blochează detecția automată de accesibilitate. În cazul meu, focusul sare peste tot cu #AccessiBe activat. Când e dezactivat, se comportă normal."
+- id: topic06t19
+  translation: "Nu există niciun instrument de accesibilitate automată capabil să detecteze problemele de accesibilitate în mai mult de 30% din cazuri. Zero. Lucrul ăsta îl cunoaște oricine e în domeniul ăsta de măcar o săptămână. #AccessiBe"
+- id: topic06t20
+  translation: "Există un instrument extrem de practic care te ajută să faci un site accesibil. Se cheamă un programator. Nevoile care contează în ceea ce privește accesibilitatea sunt cele ale utilizatorilor. Dacă nu poți satisface acele nevoi, atunci nu-ți permiți costul standard de a avea o afacere."
+- id: topic06t21
+  translation: "Când #AccessiBe e activat, pagina este plină de titluri de structură. Foarte multe titluri de nivelul 2. Titlul fiecărui telefon rămâne un titlu în ambele versiuni ale paginii. Dar când overlay-ul este activat, elemente precum costul, afișajul și toate celelalte componente ale tabelelor devin, de asemenea, titluri."
+- id: topic07
+  translation: "Concluzie"
+- id: topic07p01
+  translation: "Nici un produs de tip overlay disponibil pe piață nu poate face un site web să devină pe deplin conform cu nici un standard de accesibilitate și, prin urmare, nu poate elimina riscul juridic."
+- id: topic07p02
+  translation: "Accesibilitatea web este o mare provocare, atât pentru proprietarii de site-uri web, cât și pentru utilizatorii acelor site-uri. Invenția unor abordări noi pentru rezolvarea acestei provocări este de lăudat."
+- id: topic07p03
+  translation: "Însă, overlay-urilor, mai ales cele care încearcă să adauge widgeturi care prezintă funcționalități asistive, nu fac față provocării. Și mai problematice sunt tacticile de marketing înșelătoare practicate de vânzătorii de overlay-uri, care promit că implementarea produsului lor în site-uri va oferi clienților conformare instantă cu legile și standardele de accesibilitate."
+- id: topic07p04
+  translation: "Specialiștii în accesibilitate sunt pe deplin de acord că overlay-urile sunt ineficiente, așa cum ilustrează și <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Chestionarul WebAIM pentru Specialiștii în Accesibilitate Web</i></a> care spune că:"
+- id: topic07p05
+  translation: "O mare majoritate (67%) a participanților consideră aceste instrumente ca fiind deloc sau foarte puțin eficiente. Participanții cu dizabilități au avut opinii și mai puțin favorabile față de overlay-uri, 72% considerând aceste instrumente ca fiind deloc sau foarte puțin eficiente, și numai 2.4% considerându-le foarte eficiente."
+- id: topic08
+  translation: "Declarația sponsorilor și a semnatarilor acestui document"
+- id: topic08p01
+  translation: "Ca și concluzie a celor menționate mai devreme:"
+- id: topic08p02
+  translation: "Nu vom susține, recomanda, sau integra niciodată un overlay care își face reclamă înșelătoare și care pretinde conformare automată cu legi și standarde"
+- id: topic08p03
+  translation: "Vom susține întotdeauna remedierea problemelor de accesibilitate la sursa erorii originale"
+- id: topic08p04
+  translation: "Vom refuza să rămânem tăcuți atunci când vânzătorii de overlay-uri utilizează tactici înșelătoare pentru a face reclamă propriilor produse"
+- id: topic08p05
+  translation: "Mai exact, prin cele menționate, susținem înlăturarea overlay-urilor pentru accesibilitatea web și îi încurajăm pe proprietarii site-urilor care au implementat aceste produse la ei pe site să folosească strategii mai robuste, independente și permanente pentru a face site-urile mai accesibile"
+- id: topic08p06
+  translation: "Semnat de către:"
+- id: topic08p07
+  translation: "Unii vânzători de overlay-uri au încercat să sugereze că acest document este un efort al competitorilor de a îi discredita. Acest lucru este în mod clar o încercare de <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a>, pentru a evita critica."
+- id: topic08p08
+  translation: "Până în momentul de față, acest document include următoarele semnături:"
+- id: topic08p09
+  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și specificațiile <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic08p10
+  translation: "Consultanți din Statele Unite ale Americii, Regatul Unit, Olanda, Canada, Japonia, Germania, Franța, Suedia, Norvegia, Belgia, Polonia, Australia, Danemarca, Israel, Chile și altele"
+- id: topic08p11
+  translation: "Experți în accesibilitate pentru companii precum Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, și Pearson Assessments"
+- id: topic08p12
+  translation: "Experți în accesibilitate din instituții educaționale superioare precum Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic08p13
+  translation: "Avocați pentru persoanele cu dizabilități"
+- id: topic08p14
+  translation: "Contribuitori la tehnologii asistive precum JAWS și NVDA"
+- id: topic08p15
+  translation: "O multitudine de persoane cu dizabilități"
+- id: topic08p16
+  translation: "Pe scurt, lista de semnatari de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Etichetarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
+- id: topic09
+  translation: "Lectură suplimentară"
+- id: addYourName
+  translation: "Adaugă numele tău la această listă"  
+        
+      

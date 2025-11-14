@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "\"Overlay\" é um termo amplo para tecnologias que visam melhorar a acessibilidade de um site. Elas aplicam código-fonte de terceiros (normalmente JavaScript) para fazer melhorias no código de front-end do site."
 - id: topic01p02
-  translation: "Os produtos complementares para sites que alegam melhorar a acessibilidade remontam ao final da década de 1990, com produtos como <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> e <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Eles adicionavam recursos de conversão de texto em fala (text-to-speech) ao(s) site(s) em que foram instalados."
+  translation: "Os produtos complementares para sites que alegam melhorar a acessibilidade remontam ao final da década de 1990, com produtos como <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> e <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Eles adicionavam recursos de conversão de texto em fala (text-to-speech) ao(s) site(s) em que foram instalados."
 - id: topic01p03
   translation: "Em seguida, surgiram no mercado produtos semelhantes que acrescentaram mais ferramentas ao software. Eles permitem que o usuário controle itens como tamanhos de fonte e cores para melhorar a legibilidade."
 - id: topic01p04

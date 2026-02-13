@@ -1,0 +1,88 @@
+name: PR Check
+
+on:
+  pull_request:
+    branches: [main, develop]
+
+permissions:
+  contents: read
+
+jobs:
+  validate-workflows:
+    name: Validate GitHub Actions Workflows
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Validate workflow syntax
+        run: |
+          echo "Validating GitHub Actions workflow files..."
+          errors=0
+
+          for f in .github/workflows/*.yml .github/workflows/*.yaml; do
+            [ -f "$f" ] || continue
+            echo "Checking $f..."
+
+            # Basic YAML syntax check
+            if ! python3 -c "import yaml; yaml.safe_load(open('$f'))" 2>/dev/null; then
+              echo "ERROR: Invalid YAML in $f"
+              errors=$((errors + 1))
+            fi
+
+            # Check for required 'on' and 'jobs' keys
+            if ! grep -q '^on:' "$f" && ! grep -q "^'on':" "$f" && ! grep -q '^"on":' "$f"; then
+              echo "WARNING: Missing 'on' trigger in $f"
+            fi
+
+            if ! grep -q '^jobs:' "$f"; then
+              echo "WARNING: Missing 'jobs' section in $f"
+            fi
+          done
+
+          if [ $errors -gt 0 ]; then
+            echo "Found $errors workflow file(s) with errors"
+            exit 1
+          fi
+
+          echo "All workflow files are valid"
+
+  ci-check:
+    name: CI Readiness Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Detect project type
+        id: detect
+        run: |
+          if [ -f "package.json" ]; then
+            echo "type=node" >> $GITHUB_OUTPUT
+          elif [ -f "requirements.txt" ] || [ -f "pyproject.toml" ]; then
+            echo "type=python" >> $GITHUB_OUTPUT
+          else
+            echo "type=other" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Setup Node.js
+        if: steps.detect.outputs.type == 'node'
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'lts/*'
+          cache: 'npm'
+
+      - name: Install dependencies
+        if: steps.detect.outputs.type == 'node'
+        run: npm ci --ignore-scripts
+        continue-on-error: true
+
+      - name: Run lint check
+        if: steps.detect.outputs.type == 'node'
+        run: npm run lint --if-present
+        continue-on-error: true
+
+      - name: Run tests
+        if: steps.detect.outputs.type == 'node'
+        run: npm test --if-present
+        continue-on-error: true

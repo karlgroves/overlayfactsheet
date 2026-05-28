@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlay adalah istilah yang luas untuk teknologi yang bertujuan untuk meningkatkan aksesibilitas website. Teknologi ini menerapkan kode sumber pihak ketiga (biasanya JavaScript) untuk meningkatkan kode front-end situs web."
 - id: topic01p02
-  translation: "Produk add-on website yang mengeklaim dapat meningkatkan aksesibilitas sudah ada sejak akhir 1990-an dengan produk seperti <a href=\"https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> dan <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Mereka menambahkan kemampuan text-to-speech ke website di mana tempat mereka dipasang."
+  translation: "Produk add-on website yang mengeklaim dapat meningkatkan aksesibilitas sudah ada sejak akhir 1990-an dengan produk seperti <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> dan <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. Mereka menambahkan kemampuan text-to-speech ke website di mana tempat mereka dipasang."
 - id: topic01p03
   translation: "Kemudian produk-produk serupa muncul di pasaran yang menambahkan lebih banyak tools ke software mereka. Hal ini memungkinkan kontrol berbasis pengguna terhadap beberapa hal, seperti ukuran font dan warna untuk meningkatkan keterbacaan."
 - id: topic01p04

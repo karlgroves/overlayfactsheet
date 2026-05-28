@@ -13,7 +13,7 @@
 - id: topic01p01
   translation: "Overlays is een brede term voor technologieën die bedoeld zijn om de toegankelijkheid van een website te verbeteren. Ze passen externe broncode toe (meestal JavaScript) om verbeteringen aan te brengen in de front-endcode van de website."
 - id: topic01p02
-  translation: 'Website-add-ons die beweren de toegankelijkheid te verbeteren bestaan al sinds eind jaren negentig, met producten zoals <a href="https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a> en <a href="https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Ze voegden tekst-naar-spraakfuncties toe aan de website(s) waarop ze waren geïnstalleerd.'
+  translation: 'Website-add-ons die beweren de toegankelijkheid te verbeteren bestaan al sinds eind jaren negentig, met producten zoals <a href="https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker">Readspeaker</a> en <a href="https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/BrowseAloud">Browsealoud</a>. Ze voegden tekst-naar-spraakfuncties toe aan de website(s) waarop ze waren geïnstalleerd.'
 - id: topic01p03
   translation: "Daarna kwamen soortgelijke producten op de markt die meer tools aan hun software toevoegden. Deze maken gebruikersgestuurde controle mogelijk over zaken als lettergrootte en kleuren om de leesbaarheid te verbeteren."
 - id: topic01p04
@@ -61,7 +61,7 @@
 - id: topic04p02
   translation: "Een van de vele beweringen van overlayleveranciers is dat hun product ervoor zorgt dat de site voldoet aan toegankelijkheidsnormen zoals WCAG 2.x en aanverwante standaarden en wetten die naleving daarvan verplichten."
 - id: topic04p03
-  translation: "Conformiteit met een standaard betekent dat je aan alle ‘vereisten’ van de standaard voldoet. In WCAG 2.0 zijn de ‘vereisten’ de Succescriteria. Om aan WCAG 2.0 te voldoen, moet je aan alle Succescriteria voldoen, dat wil zeggen: er mag geen inhoud zijn die deze schendt."
+  translation: "Conformiteit met een standaard betekent dat je aan alle ‘vereisten' van de standaard voldoet. In WCAG 2.0 zijn de ‘vereisten' de Succescriteria. Om aan WCAG 2.0 te voldoen, moet je aan alle Succescriteria voldoen, dat wil zeggen: er mag geen inhoud zijn die deze schendt."
 - id: topic04p04
   translation: "Aangezien conformiteit wordt gedefinieerd als het voldoen aan alle vereisten van de standaard, betekent de gedocumenteerde onmogelijkheid van deze producten om <strong>alle</strong> problemen te verhelpen dat ze een website niet volledig in overeenstemming kunnen brengen. Producten die met dergelijke claims worden verkocht, moeten met grote scepsis worden bekeken."
 - id: topic05
@@ -97,7 +97,7 @@
 - id: topic06t09
   translation: "Toegankelijkheidsoverlays zijn niet de oplossing, en AccessiBe vormt daarop geen uitzondering. Als schermlezergebruiker zijn talloze sites minder bruikbaar voor mij geworden met deze overlay. Het in diskrediet brengen van gerenommeerde toegankelijkheidsprofessionals zal mij niet overtuigen."
 - id: topic06t10
-  translation: "Aan schermlezergebruikers: jullie hebben misschien gehoord van #Accessibe, een overlay die beweert pagina’s toegankelijker te maken. Ik zal niet in detail treden. Kort gezegd: complete onzin. Afblijven!"
+  translation: "Aan schermlezergebruikers: jullie hebben misschien gehoord van #Accessibe, een overlay die beweert pagina's toegankelijker te maken. Ik zal niet in detail treden. Kort gezegd: complete onzin. Afblijven!"
 - id: topic06t11
   translation: "Geautomatiseerde oplossingen die beloven je site toegankelijk te maken, kunnen dat niet waarmaken. Er is meer nodig dan automatisering om dit te bereiken. Je bent niet gevrijwaard van aansprakelijkheid en je zult waarschijnlijk de ervaring van klanten met een beperking verslechteren."
 - id: topic06t12

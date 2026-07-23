@@ -45,7 +45,7 @@ home = ['HTML']
     [languages.ja.params]
       languageName = '日本語'
       languageNameShort = 'ja'
-      languageCode = 'jp'
+      languageCode = 'ja'
   [languages.id]
     contentDir = 'i18n/id'
     weight = 5

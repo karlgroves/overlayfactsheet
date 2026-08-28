@@ -24,6 +24,3 @@ tramp
 .\#*
 
 /node_modules/
-
-# Claude Code documentation
-CLAUDE.md

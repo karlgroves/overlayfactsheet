@@ -148,15 +148,17 @@ blockquote {
 
 a {
   color: var(--color-red-700);
+  text-decoration-color: currentColor;
   transition:
   150ms background-color ease-in-out,
-  150ms color ease-in-out;
+  150ms color ease-in-out,
+  150ms text-decoration-color ease-in-out;
 }
 
 a:hover,
 a:focus {
   background-color: var(--color-red-100);
-  text-decoration: none;
+  text-decoration-color: transparent;
 }
 
 

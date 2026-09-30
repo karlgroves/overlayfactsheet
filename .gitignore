@@ -25,5 +25,5 @@ tramp
 
 /node_modules/
 
-# Claude Code documentation
-CLAUDE.md
+# Python bytecode from .github/scripts tests
+__pycache__/

@@ -54,6 +54,13 @@ jobs:
       - name: Build
         run: hugo --gc --minify
 
+      # The release workflow only runs on main; catch a broken notes script on
+      # the PR instead.
+      - name: Test release notes script
+        run: |
+          python3 -c 'import yaml' 2>/dev/null || python3 -m pip install --break-system-packages pyyaml
+          python3 -m unittest discover -s .github/scripts
+
       # Hugo can exit 0 while producing an empty or partial site, so assert the
       # output actually exists for every configured language.
       - name: Verify build output

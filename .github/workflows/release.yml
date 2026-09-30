@@ -1,0 +1,116 @@
+name: Release
+
+# Every content change that reaches production gets a GitHub release (#877),
+# and the release notes are the fact sheet's changelog (#879). The changelog
+# lives only here, on the Releases page -- it is deliberately not added to the
+# website.
+#
+# People who signed the fact sheet can follow content changes without getting
+# a notification for every new signature: Watch -> Custom -> Releases.
+on:
+  push:
+    branches: [main]
+    # Only what ends up on the published page. Tooling, README and workflow
+    # changes never cut a release.
+    paths:
+      - 'i18n/**'
+      - 'layouts/**'
+      - 'static/**'
+      - 'config.toml'
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Release even if only signatories changed since the last release'
+        type: boolean
+        default: false
+
+# Creating a tag and release needs write access to repo contents.
+permissions:
+  contents: write
+
+# Never cancel a release half-way. GitHub keeps at most one run waiting behind
+# it and cancels older waiting runs; nothing is lost, because each release is
+# diffed against the previous release tag, not against its own push.
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Tag and release content changes
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # The notes diff against the previous release tag, so history and
+          # tags are both needed.
+          fetch-depth: 0
+          fetch-tags: true
+
+      - name: Ensure PyYAML
+        run: python3 -c 'import yaml' 2>/dev/null || python3 -m pip install --break-system-packages pyyaml
+
+      # Diff against the last release rather than the previous push, so
+      # signature-only pushes (which don't release) roll into the next release.
+      - name: Find the previous release
+        id: base
+        env:
+          BEFORE: ${{ github.event.before }}
+        run: |
+          base="$(git describe --tags --abbrev=0 --match 'v[0-9]*' HEAD 2>/dev/null || true)"
+          if [ -z "$base" ]; then
+            # First release: fall back to the state before this push.
+            if [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ] \
+              && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+              base="$BEFORE"
+            else
+              base="$(git rev-parse HEAD^)"
+            fi
+          fi
+          echo "base=$base" >> "$GITHUB_OUTPUT"
+          echo "Previous release: $base"
+
+      # Date-based tags suit a document better than semver: v2026.09.29, then
+      # v2026.09.29.2 for a second release the same day.
+      - name: Choose a tag
+        id: tag
+        run: |
+          stem="v$(date -u +%Y.%m.%d)"
+          tag="$stem"
+          n=2
+          while git rev-parse -q --verify "refs/tags/$tag" >/dev/null; do
+            tag="$stem.$n"
+            n=$((n + 1))
+          done
+          echo "tag=$tag" >> "$GITHUB_OUTPUT"
+          echo "title=Fact sheet update, $(date -u '+%-d %B %Y')" >> "$GITHUB_OUTPUT"
+
+      - name: Write release notes
+        id: notes
+        env:
+          BASE: ${{ steps.base.outputs.base }}
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: >
+          python3 .github/scripts/release_notes.py
+          --base "$BASE"
+          --head HEAD
+          --repo "$GITHUB_REPOSITORY"
+          --tag "$TAG"
+          --output "$RUNNER_TEMP/notes.md"
+
+      - name: Skip signature-only changes
+        if: steps.notes.outputs.substantive != 'true' && !inputs.force
+        env:
+          BASE: ${{ steps.base.outputs.base }}
+        run: |
+          echo "::notice::Only signatories changed since $BASE; no release. They will appear in the next release's notes."
+
+      - name: Create release
+        if: steps.notes.outputs.substantive == 'true' || inputs.force
+        env:
+          GH_TOKEN: ${{ github.token }}
+          TAG: ${{ steps.tag.outputs.tag }}
+          TITLE: ${{ steps.tag.outputs.title }}
+        run: gh release create "$TAG" --target "$GITHUB_SHA" --title "$TITLE" --notes-file "$RUNNER_TEMP/notes.md"

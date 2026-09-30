@@ -71,9 +71,9 @@
 - id: topic05p02
   translation: "Automated accessibility testing tools are a common way for customers to check the claims made by overlay vendors. These tools can only report on the page they are given. If an overlay detects that a testing tool is running and alters the page in response, the tool evaluates a page that users do not receive, and may report fewer problems than actually exist."
 - id: topic05p03
-  translation: "In 2020, <a href=\"https://web.archive.org/web/20251030*/https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html\">Adrian Roselli documented</a> that accessiBe's code detected WebAIM's WAVE accessibility checker and altered the page when WAVE was activated. WebAIM responded by adding a warning to WAVE that accessiBe may temporarily modify content when WAVE is activated, interfering with the accuracy of its results."
+  translation: "In 2020, <a href=\"https://web.archive.org/web/20251030*/https://adrianroselli.com/2020/06/accessibe-will-get-you-sued.html\">Adrian Roselli documented</a> that accessiBe's code detected WebAIM's WAVE accessibility checker and altered the page when WAVE was activated. WAVE itself warned that the accessiBe integration may temporarily modify content when WAVE is activated, interfering with the accuracy of its results."
 - id: topic05p04
-  translation: "In June 2023, <a href=\"https://web.archive.org/web/20251030*/https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh\">WAVE began warning</a> that its results may be manipulated on pages that use UserWay or accessiBe. Later that month, WebAIM removed the warning from UserWay pages after UserWay removed the code that changed page content when WAVE was activated."
+  translation: "In June 2023, WebAIM <a href=\"https://web.archive.org/web/20251030*/https://chromewebstore.google.com/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh\">updated WAVE</a> to inform users that its results may be manipulated on pages that use UserWay or accessiBe. Later that month, it removed the warning from UserWay pages after UserWay removed the code that changed page content when WAVE was activated."
 - id: topic05p05
   translation: "Customers should keep this in mind before relying on automated test results as evidence that an overlay has made their site compliant."
 - id: topic06

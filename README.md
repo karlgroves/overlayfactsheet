@@ -10,6 +10,8 @@ A non-biased, community-driven, fact-based information sheet aimed at educating 
 
 Please note: The content of the Overlay Factsheet may change over time. Specifically, content may be added, edited, or removed to provide additional clarity, additional evidence, or other changes in keeping with the goal of sharing facts on overlays. Please understand this before requesting your signature be added. These changes are and will be made in a good faith effort to continue to raise awareness of overlays, their traits, strengths, and weaknesses.  Please be sure to "Watch" this repo to review if any of the changes are consequential enough to change your endorsement.
 
+Every content change published to the site is tagged as a [release](https://github.com/karlgroves/overlayfactsheet/releases), and each release's notes serve as the changelog: they show which passages changed (word by word, in every language), which further reading was added or removed, and who signed. To be notified of content changes without a notification for every new signature, choose **Watch → Custom → Releases**. Changes that only add or remove signatures don't create a release on their own; they're listed in the next release's notes.
+
 
 #### EASY:  If the whole PR thing is something you're not comfortable with you can do one of three things:
 

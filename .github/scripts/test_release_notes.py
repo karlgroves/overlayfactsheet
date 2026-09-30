@@ -153,6 +153,114 @@ class BuildNotesTest(unittest.TestCase):
         self.assertEqual(notes.count("<details>"), notes.count("</details>"))
 
 
+class RenumberTest(unittest.TestCase):
+    """Inserting a section renames every later key; that isn't a rewrite."""
+
+    BEFORE = """- id: topic04
+  translation: "Compliance"
+- id: topic05
+  translation: "Privacy of personal data"
+- id: topic05p01
+  translation: "Overlays may expose disability status."
+- id: topic06
+  translation: "Conclusion"
+- id: topic06p01
+  translation: "No overlay makes a site compliant."
+"""
+    TEMPLATE = """<h2>{{ T "topic04" }}</h2>
+<h2 id="privacy">{{ T "topic05" }}</h2><p>{{ T "topic05p01" }}</p>
+<h2 id="conclusion">{{ T "topic06" }}</h2><p>{{ T "topic06p01" }}</p>
+"""
+
+    @staticmethod
+    def shift(text):
+        return text.replace("topic06", "topic07").replace("topic05", "topic06")
+
+    def test_renumbering_alone_is_not_substantive(self):
+        head_en = self.shift(self.BEFORE)
+        substantive, notes = rn.build_notes(
+            files(template=self.TEMPLATE, en=self.BEFORE),
+            files(template=self.shift(self.TEMPLATE), en=head_en),
+            [],
+        )
+        self.assertFalse(substantive)
+        self.assertNotIn("Page template", notes)
+        self.assertNotIn("~~", notes)
+        self.assertIn("Renumbered, wording unchanged: `topic05` → `topic06` (2 passages), "
+                      "`topic06` → `topic07` (2 passages)", notes)
+
+    def test_inserted_section_reports_only_the_new_passages(self):
+        inserted = '- id: topic05\n  translation: "Testing tools"\n- id: topic05p01\n  translation: "Some overlays alter pages."\n'
+        head_en = self.shift(self.BEFORE).replace('- id: topic06\n', inserted + '- id: topic06\n', 1)
+        head_tpl = self.shift(self.TEMPLATE).replace(
+            '<h2 id="privacy">', '<h2 id="testing">{{ T "topic05" }}</h2><p>{{ T "topic05p01" }}</p>\n<h2 id="privacy">'
+        )
+        substantive, notes = rn.build_notes(
+            files(template=self.TEMPLATE, en=self.BEFORE), files(template=head_tpl, en=head_en), []
+        )
+        self.assertTrue(substantive)
+        self.assertIn("`topic05p01` — Testing tools (new)", notes)
+        self.assertIn("Page template", notes)
+        self.assertNotIn("~~", notes)
+        self.assertNotIn("(removed)", notes)
+
+    def test_renumbered_and_reworded_passage_is_diffed_against_its_old_key(self):
+        before = rn.parse_translations(self.BEFORE)
+        after = rn.parse_translations(self.shift(self.BEFORE).replace("may expose", "can reveal"))
+        added, removed, changed, renumbered, relocated = rn.translation_changes(before, after)
+        self.assertEqual((added, removed, relocated), ([], [], []))
+        self.assertEqual(changed, [("topic05p01", "topic06p01")])
+        self.assertIn(("topic05", "topic06"), renumbered)
+
+        substantive, notes = rn.build_notes(
+            files(en=self.BEFORE), files(en=self.shift(self.BEFORE).replace("may expose", "can reveal")), []
+        )
+        self.assertTrue(substantive)
+        self.assertIn("`topic06p01` — Privacy of personal data (was `topic05p01`)", notes)
+        self.assertIn("Overlays ~~may~~ **can** ~~expose~~ **reveal** disability status.", notes)
+
+    def test_inserted_section_and_reworded_renumbered_passage(self):
+        # The new topic05p01 must not be paired with the old topic05p01, whose
+        # section moved to topic06 and was reworded at the same time.
+        inserted = '- id: topic05\n  translation: "Testing tools"\n- id: topic05p01\n  translation: "Some overlays alter pages."\n'
+        head_en = (
+            self.shift(self.BEFORE)
+            .replace("may expose", "can reveal")
+            .replace("- id: topic06\n", inserted + "- id: topic06\n", 1)
+        )
+        _, notes = rn.build_notes(files(en=self.BEFORE), files(en=head_en), [])
+        self.assertIn("`topic05p01` — Testing tools (new)  \n  Some overlays alter pages.", notes)
+        self.assertIn("`topic06p01` — Privacy of personal data (was `topic05p01`)  \n"
+                      "  Overlays ~~may~~ **can** ~~expose~~ **reveal** disability status.", notes)
+        self.assertNotIn("(removed)", notes)
+
+    def test_swapped_paragraphs_are_a_visible_change(self):
+        before = self.BEFORE + '- id: topic06p02\n  translation: "Test with real users."\n'
+        after = before.replace("No overlay makes a site compliant.", "@@").replace(
+            "Test with real users.", "No overlay makes a site compliant.").replace("@@", "Test with real users.")
+        substantive, notes = rn.build_notes(files(en=before), files(en=after), [])
+        self.assertTrue(substantive)
+        self.assertIn("`topic06p01` — Conclusion (moved from `topic06p02`; wording unchanged)", notes)
+        self.assertNotIn("Renumbered", notes)
+
+    def test_duplicate_text_does_not_mislead_the_renumbering(self):
+        before = {"topic05p01": "Same.", "topic06p01": "Same.", "topic06p02": "Other."}
+        after = {"topic06p01": "Same.", "topic07p01": "Same.", "topic07p02": "Other."}
+        added, removed, changed, renumbered, relocated = rn.translation_changes(before, after)
+        self.assertEqual((added, removed, changed, relocated), ([], [], [], []))
+        self.assertEqual(rn.section_renames(renumbered), {"topic07": "topic06"})
+        self.assertEqual(sorted(renumbered), [("topic06p01", "topic07p01"), ("topic06p02", "topic07p02")])
+
+    def test_other_languages_say_renumbered_only(self):
+        head = self.shift(self.BEFORE)
+        _, notes = rn.build_notes(
+            files(en=self.BEFORE, **{"i18n/fr.yml": self.BEFORE}),
+            files(en=head, **{"i18n/fr.yml": head}),
+            [],
+        )
+        self.assertIn("<summary>français (fr) — renumbered only</summary>", notes)
+
+
 class MainTest(unittest.TestCase):
     """Runs the script against a real git history, as the workflow does."""
 

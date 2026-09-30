@@ -1,7 +1,9 @@
 """Tests for release_notes.py. Run: python3 -m unittest discover .github/scripts"""
 
 import os
+import subprocess
 import sys
+import tempfile
 import unittest
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -62,6 +64,10 @@ class ParseTemplateTest(unittest.TestCase):
         # The <ul> of topic08 bullets before the signatory <ol> is not the list.
         self.assertIn("topic08p09", parsed["rest"])
 
+    def test_duplicate_entries_are_counted(self):
+        self.assertEqual(rn.list_changes(["A", "B"], ["A", "B", "A"]), (["A"], []))
+        self.assertEqual(rn.list_changes(["A", "A", "B"], ["A", "B"]), ([], ["A"]))
+
     def test_missing_file(self):
         self.assertEqual(rn.parse_template(None)["signatories"], [])
 
@@ -77,6 +83,12 @@ class WordDiffTest(unittest.TestCase):
 
     def test_escapes_markdown(self):
         self.assertEqual(rn.word_diff("x", "*y*"), "~~x~~ **\\*y\\***")
+
+    def test_diffs_unspaced_scripts_by_character(self):
+        self.assertEqual(
+            rn.word_diff("テキストの読み上げ機能", "テキストの音声読み上げ機能"),
+            "テキストの **音声** 読み上げ機能",
+        )
 
     def test_keeps_issue_references_linkable(self):
         self.assertEqual(rn.md_escape("Add name (#1337)"), "Add name (#1337)")
@@ -136,6 +148,84 @@ class BuildNotesTest(unittest.TestCase):
         _, notes = rn.build_notes(files(), files(), many, compare_url="https://example/compare")
         self.assertLessEqual(len(notes), rn.MAX_NOTES + 200)
         self.assertTrue(notes.rstrip().endswith("https://example/compare"))
+        # The cut lands inside the collapsed commit list; it must be closed or
+        # the diff link ends up hidden inside it.
+        self.assertEqual(notes.count("<details>"), notes.count("</details>"))
+
+
+class MainTest(unittest.TestCase):
+    """Runs the script against a real git history, as the workflow does."""
+
+    def setUp(self):
+        self._cwd = os.getcwd()
+        self._tmp = tempfile.TemporaryDirectory()
+        os.chdir(self._tmp.name)
+        self.git("init", "-q")
+        os.makedirs("layouts")
+        os.makedirs("i18n")
+        self.write("layouts/index.html", TEMPLATE)
+        self.write("i18n/en.yml", EN)
+        self.write("config.toml", CONFIG)
+        self.commit("initial")
+        self.git("tag", "v2026.01.01")
+
+    def tearDown(self):
+        os.chdir(self._cwd)
+        self._tmp.cleanup()
+
+    def git(self, *args):
+        env = dict(
+            os.environ,
+            GIT_AUTHOR_NAME="t",
+            GIT_AUTHOR_EMAIL="t@example.com",
+            GIT_COMMITTER_NAME="t",
+            GIT_COMMITTER_EMAIL="t@example.com",
+        )
+        subprocess.run(["git", "-c", "commit.gpgsign=false", "-c", "tag.gpgsign=false", *args],
+                       check=True, capture_output=True, env=env)
+
+    def write(self, path, content):
+        with open(path, "w", encoding="utf-8") as fh:
+            fh.write(content)
+
+    def commit(self, message):
+        self.git("add", "layouts/index.html", "i18n/en.yml", "config.toml")
+        self.git("commit", "-q", "-m", message)
+
+    def run_main(self):
+        out = os.path.join(self._tmp.name, "gh-output")
+        open(out, "w").close()
+        os.environ["GITHUB_OUTPUT"] = out
+        try:
+            rn.main(["--base", "v2026.01.01", "--repo", "o/r", "--tag", "v2026.02.02",
+                     "--output", "notes.md"])
+        finally:
+            del os.environ["GITHUB_OUTPUT"]
+        with open(out, encoding="utf-8") as fh:
+            flag = fh.read()
+        with open("notes.md", encoding="utf-8") as fh:
+            return flag, fh.read()
+
+    def test_signatures_roll_into_the_next_text_release(self):
+        self.write("layouts/index.html", TEMPLATE.replace("<li>Ada Lovelace, self</li>",
+                                                          "<li>Ada Lovelace, self</li><li>Alan Turing, self</li>"))
+        self.commit("Add Alan Turing")
+        flag, _ = self.run_main()
+        self.assertEqual(flag, "substantive=false\n")
+
+        self.write("i18n/en.yml", EN.replace("term.", "category."))
+        self.commit("Reword topic01p01")
+        flag, notes = self.run_main()
+        self.assertEqual(flag, "substantive=true\n")
+        # Unchanged en.yml/config.toml context is loaded on both sides, so the
+        # section heading resolves and English isn't reported as a new language.
+        self.assertIn("#### english (en)", notes)
+        self.assertIn("`topic01p01` — What is an overlay?", notes)
+        self.assertNotIn("New translation", notes)
+        # The signature from the earlier, unreleased push is still listed.
+        self.assertIn("Alan Turing, self", notes)
+        self.assertIn("Reword topic01p01", notes)
+        self.assertIn("https://github.com/o/r/compare/v2026.01.01...v2026.02.02", notes)
 
 
 if __name__ == "__main__":

@@ -30,6 +30,7 @@ import re
 import subprocess
 import sys
 import tomllib
+from collections import Counter
 
 import yaml
 
@@ -137,12 +138,25 @@ def language_names(config_source):
 # Diffing
 
 
+def _missing_from(items, reference):
+    """Entries of items not matched in reference, counting duplicates."""
+    remaining = Counter(reference)
+    missing = []
+    for item in items:
+        if remaining[item]:
+            remaining[item] -= 1
+        else:
+            missing.append(item)
+    return missing
+
+
 def list_changes(before, after):
-    """Entries added to / removed from a list, preserving order."""
-    before_set, after_set = set(before), set(after)
-    added = [x for x in after if x not in before_set]
-    removed = [x for x in before if x not in after_set]
-    return added, removed
+    """Entries added to / removed from a list, preserving order.
+
+    Compared as multisets, so a second copy of an existing entry (someone
+    signing twice) shows up as added rather than disappearing.
+    """
+    return _missing_from(after, before), _missing_from(before, after)
 
 
 def translation_changes(before, after):
@@ -161,19 +175,28 @@ def md_escape(text):
     return _MD_SPECIAL.sub(r"\\\1", text)
 
 
+# Scripts written without spaces between words (Japanese, Chinese). Each of
+# these characters is its own diff token; otherwise a one-word edit in a
+# Japanese passage would strike out and re-add the entire passage.
+_CJK = "\u3000-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff\uff00-\uffef"
+_TOKEN = re.compile(rf"\s+|[{_CJK}]|[^\s{_CJK}]+")
+
+
 def word_diff(old, new):
     """Render old -> new as markdown: ~~removed~~ and **added** words."""
-    a, b = old.split(), new.split()
+    a, b = _TOKEN.findall(old), _TOKEN.findall(new)
     out = []
     for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
         if op == "equal":
-            out.append(md_escape(" ".join(a[i1:i2])))
+            out.append(md_escape("".join(a[i1:i2])))
             continue
-        if op in ("delete", "replace"):
-            out.append(f"~~{md_escape(' '.join(a[i1:i2]))}~~")
-        if op in ("insert", "replace"):
-            out.append(f"**{md_escape(' '.join(b[j1:j2]))}**")
-    return " ".join(out)
+        # Spaces around each marker keep the emphasis delimiters valid even
+        # next to CJK punctuation; the collapse below removes any doubles.
+        if op in ("delete", "replace") and "".join(a[i1:i2]).strip():
+            out.append(f" ~~{md_escape(''.join(a[i1:i2]).strip())}~~ ")
+        if op in ("insert", "replace") and "".join(b[j1:j2]).strip():
+            out.append(f" **{md_escape(''.join(b[j1:j2]).strip())}** ")
+    return re.sub(r"\s+", " ", "".join(out)).strip()
 
 
 # --------------------------------------------------------------------------
@@ -305,7 +328,11 @@ def build_notes(base_files, head_files, commits, *, compare_url=None):
     notes = "\n\n".join(parts) + "\n"
     if len(notes) > MAX_NOTES:
         cut = notes.rfind("\n", 0, MAX_NOTES)
-        notes = notes[:cut] + "\n\n…notes truncated; see the full diff.\n"
+        notes = notes[:cut]
+        # Close any collapsed section the cut landed in, or the notice and
+        # the diff link below would be hidden inside it.
+        notes += "\n\n</details>" * (notes.count("<details>") - notes.count("</details>"))
+        notes += "\n\n…notes truncated; see the full diff.\n"
         if compare_url:
             notes += f"\n**Full diff:** {compare_url}\n"
     return substantive, notes

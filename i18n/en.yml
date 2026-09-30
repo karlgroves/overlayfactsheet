@@ -15,7 +15,7 @@
 - id: topic01p02
   translation: "Website add-on products claiming to improve accessibility go back to the late 1990s with products like <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Hoya_Corporation#ReadSpeaker\">Readspeaker</a> and <a href=\"https://en.wikipedia.org/wiki/BrowseAloud\">Browsealoud</a>. They added text-to-speech capabilities to the website(s) on which they were installed."
 - id: topic01p03
-  translation: "Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes and colors to improve readability."
+  translation: "Then similar products came to market that added more tools to their software. These allow user-based control of things like font-sizes to improve readability, and page colors to improve contrast."
 - id: topic01p04
   translation: "Some newer overlay products aim to fix any problems in the site's code that are preventing assistive technology from being used easily. They apply a script to the page which scans the code and automatically attempts to repair the problem."
 - id: topic01p05

@@ -137,9 +137,9 @@
 - id: topic08p01
   translation: "An overlay is not a neutral addition to a website. It can leave existing barriers in place and add new ones, so it should not be treated as a safe first step."
 - id: topic08p02
-  translation: "Whether an overlay improves a particular website depends on that website. Its automated repairs may address some of the site's actual problems, none of them, or make some of them worse. The only way to know is to test the site with and without the overlay, including with assistive technologies. That is the same testing needed to find and fix the problems directly."
+  translation: "Whether an overlay improves a particular website depends on that website. Any automated repairs it applies may address some of the site's actual problems, none of them, or make some of them worse. The only way to know is to test the site with and without the overlay, including with assistive technologies. That is the same testing needed to find and fix the problems directly."
 - id: topic08p03
-  translation: "The display and reading features that overlay widgets offer are already available to users through their operating system, browser, or assistive technology, where they work on every website and follow each person's own preferences."
+  translation: "As described above, the display and reading features that overlay widgets offer are also available to users through their operating system, browser, browser extensions, or assistive technology, where they work on every website and follow each person's own preferences."
 - id: topic08p04
   translation: "Instead of adding an overlay, site owners can address the barriers themselves:"
 - id: topic08p05

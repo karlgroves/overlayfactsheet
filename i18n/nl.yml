@@ -120,54 +120,54 @@
   translation: "Er is een prima praktisch hulpmiddel om websites toegankelijk te maken. Dat heet een programmeur. De behoeften van gebruikers zijn bepalend voor toegankelijkheid. Als je daar niet aan kunt voldoen, voldoe je niet aan de basisvoorwaarden van zakendoen."
 - id: topic07t21
   translation: "Wanneer #AccessiBe is ingeschakeld, wordt de pagina overspoeld met koppen. Heel veel koppen van niveau 2. De titel van elk toestel blijft in beide versies een kop, maar met AccessiBe worden ook dingen als prijs, scherm en andere onderdelen koppen."
-- id: topic08
+- id: topic09
   translation: "Conclusie"
-- id: topic08p01
+- id: topic09p01
   translation: "Geen enkel overlayproduct op de markt kan een website volledig laten voldoen aan bestaande toegankelijkheidsstandaarden en kan daarom geen juridisch risico wegnemen."
-- id: topic08p02
+- id: topic09p02
   translation: "Toegankelijkheid op het web is een grote uitdaging, zowel voor eigenaren van websites als voor gebruikers. Nieuwe benaderingen om deze uitdaging op te lossen verdienen lof."
-- id: topic08p03
+- id: topic09p03
   translation: "In het geval van overlays — vooral die met widgets die hulpmiddelen aanbieden — wordt de uitdaging echter niet opgelost. Nog problematischer is de misleidende marketing van sommige leveranciers die beloven dat hun product directe naleving oplevert."
-- id: topic08p04
+- id: topic09p04
   translation: 'De ineffectiviteit van overlays wordt breed erkend door toegankelijkheidsexperts, volgens de <a href="https://webaim.org/projects/practitionersurvey3/#overlay">WebAIM-enquête onder toegankelijkheidsprofessionals</a> waarin werd vastgesteld:'
-- id: topic08p05
+- id: topic09p05
   translation: "Een ruime meerderheid (67%) beoordeelt deze tools als helemaal niet of niet erg effectief. Respondenten met een beperking waren nog kritischer: 72% vond ze helemaal niet of niet erg effectief, en slechts 2,4% vond ze zeer effectief."
 
-- id: topic09
-  translation: "Verklaring van sponsors en ondertekenaars van dit feitenblad"
-- id: topic09p01
-  translation: "Op basis van bovenstaande informatie:"
-- id: topic09p02
-  translation: "Wij zullen nooit een overlay aanbevelen of integreren die zichzelf misleidend op de markt brengt als automatische naleving van wet- of regelgeving."
-- id: topic09p03
-  translation: "Wij zullen altijd pleiten voor het oplossen van toegankelijkheidsproblemen bij de bron."
-- id: topic09p04
-  translation: "Wij zullen weigeren te zwijgen wanneer leveranciers misleiding gebruiken om hun overlay te verkopen."
-- id: topic09p05
-  translation: "Concreet pleiten wij voor het verwijderen van webtoegankelijkheidsoverlays en moedigen we site-eigenaren die deze producten hebben geïmplementeerd aan om robuustere, onafhankelijke en permanente strategieën te gebruiken."
-- id: topic09p06
-  translation: "Ondertekend door:"
-- id: topic09p07
-  translation: 'Sommige leveranciers hebben geprobeerd het overlay-feitenblad af te schilderen als een poging van concurrenten om hen te beschadigen. Dit is een schoolvoorbeeld van <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslighting</a> om kritiek af te leiden.'
-- id: topic09p08
-  translation: "Op dit moment omvatten de ondertekenaars van het feitenblad onder meer:"
-- id: topic09p09
-  translation: 'Bijdragers en redacteuren van <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr> en <abbr title="Hypertext Markup Language">HTML</abbr>-specificaties'
-- id: topic09p10
-  translation: 'Consultants uit <abbr title="Verenigde Staten">VS</abbr>, <abbr title="Verenigd Koninkrijk">VK</abbr>, <abbr title="Nederland">NL</abbr>, <abbr title="Canada">CA</abbr>, <abbr title="Japan">JP</abbr>, <abbr title="Duitsland">DE</abbr>, <abbr title="Frankrijk">FR</abbr>, <abbr title="Zweden">SE</abbr>, <abbr title="Noorwegen">NO</abbr>, <abbr title="België">BE</abbr>, <abbr title="Polen">PL</abbr>, <abbr title="Australië">AU</abbr>, <abbr title="Denemarken">DK</abbr>, <abbr title="Israël">IL</abbr>, <abbr title="Chili">CL</abbr> en meer'
-- id: topic09p11
-  translation: "Interne toegankelijkheidsexperts van bedrijven zoals Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient en Pearson Assessments"
-- id: topic09p12
-  translation: "Interne toegankelijkheidsexperts van onderwijsinstellingen zoals Syracuse, CSU, Hochschule der Medien Stuttgart, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Advocaten voor mensen met een beperking"
-- id: topic09p14
-  translation: "Bijdragers aan ondersteunende technologie zoals JAWS en NVDA"
-- id: topic09p15
-  translation: "Tientallen eindgebruikers met een beperking"
-- id: topic09p16
-  translation: 'Kortom: de onderstaande ondertekenaars zijn experts in dit vakgebied of eindgebruikers met een beperking (of beide) die hun carrière hebben gewijd aan het verbeteren van toegankelijkheid. Hun namen afdoen als "concurrenten" is onjuist en mist de kern: overlays zijn geen effectieve manier om toegankelijkheid te garanderen — daarover zijn zij het allen eens.'
 - id: topic10
+  translation: "Verklaring van sponsors en ondertekenaars van dit feitenblad"
+- id: topic10p01
+  translation: "Op basis van bovenstaande informatie:"
+- id: topic10p02
+  translation: "Wij zullen nooit een overlay aanbevelen of integreren die zichzelf misleidend op de markt brengt als automatische naleving van wet- of regelgeving."
+- id: topic10p03
+  translation: "Wij zullen altijd pleiten voor het oplossen van toegankelijkheidsproblemen bij de bron."
+- id: topic10p04
+  translation: "Wij zullen weigeren te zwijgen wanneer leveranciers misleiding gebruiken om hun overlay te verkopen."
+- id: topic10p05
+  translation: "Concreet pleiten wij voor het verwijderen van webtoegankelijkheidsoverlays en moedigen we site-eigenaren die deze producten hebben geïmplementeerd aan om robuustere, onafhankelijke en permanente strategieën te gebruiken."
+- id: topic10p06
+  translation: "Ondertekend door:"
+- id: topic10p07
+  translation: 'Sommige leveranciers hebben geprobeerd het overlay-feitenblad af te schilderen als een poging van concurrenten om hen te beschadigen. Dit is een schoolvoorbeeld van <a href="https://en.wikipedia.org/wiki/Gaslighting">gaslighting</a> om kritiek af te leiden.'
+- id: topic10p08
+  translation: "Op dit moment omvatten de ondertekenaars van het feitenblad onder meer:"
+- id: topic10p09
+  translation: 'Bijdragers en redacteuren van <abbr title="Web Content Accessibility Guidelines">WCAG</abbr>, <abbr title="Accessible Rich Internet Applications">ARIA</abbr> en <abbr title="Hypertext Markup Language">HTML</abbr>-specificaties'
+- id: topic10p10
+  translation: 'Consultants uit <abbr title="Verenigde Staten">VS</abbr>, <abbr title="Verenigd Koninkrijk">VK</abbr>, <abbr title="Nederland">NL</abbr>, <abbr title="Canada">CA</abbr>, <abbr title="Japan">JP</abbr>, <abbr title="Duitsland">DE</abbr>, <abbr title="Frankrijk">FR</abbr>, <abbr title="Zweden">SE</abbr>, <abbr title="Noorwegen">NO</abbr>, <abbr title="België">BE</abbr>, <abbr title="Polen">PL</abbr>, <abbr title="Australië">AU</abbr>, <abbr title="Denemarken">DK</abbr>, <abbr title="Israël">IL</abbr>, <abbr title="Chili">CL</abbr> en meer'
+- id: topic10p11
+  translation: "Interne toegankelijkheidsexperts van bedrijven zoals Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient en Pearson Assessments"
+- id: topic10p12
+  translation: "Interne toegankelijkheidsexperts van onderwijsinstellingen zoals Syracuse, CSU, Hochschule der Medien Stuttgart, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Advocaten voor mensen met een beperking"
+- id: topic10p14
+  translation: "Bijdragers aan ondersteunende technologie zoals JAWS en NVDA"
+- id: topic10p15
+  translation: "Tientallen eindgebruikers met een beperking"
+- id: topic10p16
+  translation: 'Kortom: de onderstaande ondertekenaars zijn experts in dit vakgebied of eindgebruikers met een beperking (of beide) die hun carrière hebben gewijd aan het verbeteren van toegankelijkheid. Hun namen afdoen als "concurrenten" is onjuist en mist de kern: overlays zijn geen effectieve manier om toegankelijkheid te garanderen — daarover zijn zij het allen eens.'
+- id: topic11
   translation: "Aanvullende literatuur"
 - id: addYourName
   translation: "Voeg je naam toe aan deze lijst"

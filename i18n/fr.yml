@@ -120,53 +120,53 @@
   translation: "Il existe un outil parfaitement pratique pour rendre les sites web accessibles. Il s'agit d'un programmeur. Les besoins qui comptent pour rendre un site web accessible sont ceux des utilisateurs. Si vous ne pouvez pas répondre à ces besoins, vous ne pouvez pas faire face aux coûts de base de votre activité."
 - id: topic07t21
   translation: "Lorsque #AccessiBe est activé, la page est inondée de titres. Beaucoup de titres de niveau 2. Le titre de chaque téléphone reste un titre dans les deux versions de la page, mais lorsqu'il est activé, des éléments tels que le coût, l'affichage et tous les autres composants des tableaux deviennent également des titres."
-- id: topic08
-  translation: "Conclusion"
-- id: topic08p01
-  translation: "Aucun outil de surcouche sur le marché ne peut rendre un site web totalement conforme à une norme d'accessibilité existante et ne peut donc pas éliminer le risque juridique."
-- id: topic08p02
-  translation: "L'accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les personnes visitant ces sites. L'invention de nouvelles approches pour résoudre ce problème doit être saluée."
-- id: topic08p03
-  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d'ajouter des gadgets présentant des fonctions d'assistance, le défi n'est pas relevé. Ce qui est encore plus problématique, c'est le marketing trompeur de certaines sociétés commercialisant des outils de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leur clientèle de se conformer immédiatement aux lois et aux normes."
-- id: topic08p04
-  translation: "L'inefficacité des outils de surcouche fait l'objet d'un large consensus parmi les professionnels de l'accessibilité, comme le montre l'enquête WebAIM sur les professionnels de l'accessibilité du Web&nbsp;:"
-- id: topic08p05
-  translation: "Une forte majorité (67 %) des personnes interrogées estiment que ces outils ne sont pas du tout ou pas très efficaces. Les répondants handicapés sont encore moins favorables, 72 % d'entre eux estimant qu'ils ne sont pas du tout ou pas très efficaces, et seulement 2,4 % qu'ils sont très efficaces."
 - id: topic09
-  translation: "Déclaration des sponsors et des signataires de cette tribune"
+  translation: "Conclusion"
 - id: topic09p01
-  translation: "En conséquence des informations ci-dessus&nbsp;:"
+  translation: "Aucun outil de surcouche sur le marché ne peut rendre un site web totalement conforme à une norme d'accessibilité existante et ne peut donc pas éliminer le risque juridique."
 - id: topic09p02
-  translation: "Nous ne préconiserons, ne recommanderons ni n'intégrerons jamais un outil de surcouche qui se présente de manière trompeuse comme fournissant une conformité automatisée aux lois ou aux normes"
+  translation: "L'accessibilité sur le web est un défi de taille, tant pour les propriétaires de sites web que pour les personnes visitant ces sites. L'invention de nouvelles approches pour résoudre ce problème doit être saluée."
 - id: topic09p03
-  translation: "Nous préconiserons toujours la résolution des problèmes d'accessibilité à la source de l'erreur initiale"
+  translation: "Toutefois, dans le cas des outils de surcouche, en particulier celles qui tentent d'ajouter des gadgets présentant des fonctions d'assistance, le défi n'est pas relevé. Ce qui est encore plus problématique, c'est le marketing trompeur de certaines sociétés commercialisant des outils de surcouche qui promettent que la mise en œuvre de leur produit permettra aux sites de leur clientèle de se conformer immédiatement aux lois et aux normes."
 - id: topic09p04
-  translation: "Nous refuserons de rester silencieux lorsque les vendeurs d'outil de surcouche utilisent la tromperie pour commercialiser leurs produits"
+  translation: "L'inefficacité des outils de surcouche fait l'objet d'un large consensus parmi les professionnels de l'accessibilité, comme le montre l'enquête WebAIM sur les professionnels de l'accessibilité du Web&nbsp;:"
 - id: topic09p05
-  translation: "Plus spécifiquement, nous plaidons par la présente pour la suppression des outils de surcouches d'accessibilité du web et encourageons les propriétaires de sites qui ont mis en œuvre ces produits à utiliser des stratégies plus robustes, indépendantes et permanentes pour rendre leurs sites plus accessibles."
-- id: topic09p06
-  translation: "Signé par&nbsp;:"
-- id: topic09p07
-  translation: "Certaines sociétés commercialisant des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d'école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
-- id: topic09p08
-  translation: "À ce jour, les signataires de la tribune contre les outils de surcouche d'accessibilité sont les suivants&nbsp;:"
-- id: topic09p09
-  translation: "Contributeurs et contributrices, éditeurs et éditrices des spécifications <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, et <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
-- id: topic09p10
-  translation: "Consultants et consultantes des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l'Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l'Australie, du Danemark, de l'Italie, du Luxembourg et d'autres pays encore."
-- id: topic09p11
-  translation: "Experts et expertes internes en accessibilité pour des entreprises telles que Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, et Pearson Assessments"
-- id: topic09p12
-  translation: "Experts et expertes internes en accessibilité d'établissements d'enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
-- id: topic09p13
-  translation: "Avocats et avocates représentant les personnes handicapées"
-- id: topic09p14
-  translation: "Contributeurs aux lecteurs d'écrans tels que JAWS et NVDA"
-- id: topic09p15
-  translation: "Un grand nombre d'utilisateurs et utilisatrices finaux handicapés"
-- id: topic09p16
-  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui ont une expertise dans ce domaine et qui ont consacré leur carrière professionnelle à l'amélioration de l'accessibilité ou qui sont des personnes handicapées (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l'essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l'accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d'accord."
+  translation: "Une forte majorité (67 %) des personnes interrogées estiment que ces outils ne sont pas du tout ou pas très efficaces. Les répondants handicapés sont encore moins favorables, 72 % d'entre eux estimant qu'ils ne sont pas du tout ou pas très efficaces, et seulement 2,4 % qu'ils sont très efficaces."
 - id: topic10
+  translation: "Déclaration des sponsors et des signataires de cette tribune"
+- id: topic10p01
+  translation: "En conséquence des informations ci-dessus&nbsp;:"
+- id: topic10p02
+  translation: "Nous ne préconiserons, ne recommanderons ni n'intégrerons jamais un outil de surcouche qui se présente de manière trompeuse comme fournissant une conformité automatisée aux lois ou aux normes"
+- id: topic10p03
+  translation: "Nous préconiserons toujours la résolution des problèmes d'accessibilité à la source de l'erreur initiale"
+- id: topic10p04
+  translation: "Nous refuserons de rester silencieux lorsque les vendeurs d'outil de surcouche utilisent la tromperie pour commercialiser leurs produits"
+- id: topic10p05
+  translation: "Plus spécifiquement, nous plaidons par la présente pour la suppression des outils de surcouches d'accessibilité du web et encourageons les propriétaires de sites qui ont mis en œuvre ces produits à utiliser des stratégies plus robustes, indépendantes et permanentes pour rendre leurs sites plus accessibles."
+- id: topic10p06
+  translation: "Signé par&nbsp;:"
+- id: topic10p07
+  translation: "Certaines sociétés commercialisant des outils de surcouche ont tenté de présenter cette tribune comme une tentative de leurs concurrents de les discréditer. De telles affirmations sont un cas d'école de tentative de <a href=\"https://fr.wikipedia.org/wiki/Gaslighting\" lang=\"en\">gaslighting</a> pour détourner les critiques."
+- id: topic10p08
+  translation: "À ce jour, les signataires de la tribune contre les outils de surcouche d'accessibilité sont les suivants&nbsp;:"
+- id: topic10p09
+  translation: "Contributeurs et contributrices, éditeurs et éditrices des spécifications <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, et <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic10p10
+  translation: "Consultants et consultantes des États-Unis, du Royaume-Uni, des Pays-Bas, de la Californie, du Japon, de l'Allemagne, de la France, de la Suède, de la Norvège, de la Belgique, de la Pologne, de l'Australie, du Danemark, de l'Italie, du Luxembourg et d'autres pays encore."
+- id: topic10p11
+  translation: "Experts et expertes internes en accessibilité pour des entreprises telles que Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, et Pearson Assessments"
+- id: topic10p12
+  translation: "Experts et expertes internes en accessibilité d'établissements d'enseignement supérieur tels que Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University et MIT"
+- id: topic10p13
+  translation: "Avocats et avocates représentant les personnes handicapées"
+- id: topic10p14
+  translation: "Contributeurs aux lecteurs d'écrans tels que JAWS et NVDA"
+- id: topic10p15
+  translation: "Un grand nombre d'utilisateurs et utilisatrices finaux handicapés"
+- id: topic10p16
+  translation: "En bref, la liste des signataires ci-dessous est composée de personnes qui ont une expertise dans ce domaine et qui ont consacré leur carrière professionnelle à l'amélioration de l'accessibilité ou qui sont des personnes handicapées (ou les deux). Considérer les noms énumérés ci-dessous comme des \"concurrents\" est à la fois inexact et ne tient pas compte de l'essentiel&nbsp;: les outils de surcouche ne sont pas un moyen efficace de garantir l'accessibilité - un point sur lequel toutes les personnes énumérées ci-dessous sont d'accord."
+- id: topic11
   translation: "Lectures complémentaires"
 - id: addYourName
   translation: "Ajoutez votre nom à cette liste"

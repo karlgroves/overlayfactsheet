@@ -120,53 +120,53 @@
   translation: "Ada alat yang sangat praktis untuk membuat situs web dapat diakses. Alat ini disebut programmer. Kebutuhan yang penting dalam membuat situs web dapat diakses adalah kebutuhan pengguna. Jika Anda tidak dapat memenuhi kebutuhan tersebut, maka Anda tidak dapat memenuhi hal mendasar dalam menjalankan bisnis."
 - id: topic07t21
   translation: "Ketika #AccessiBe diaktifkan, halaman website dipenuhi dengan judul. Banyak sekali judul level 2. Judul di setiap ponsel tetap menjadi judul di kedua versi halaman website, tetapi dengan mengaktifkannya, hal-hal seperti biaya, tampilan, dan semua komponen lain dari tabel juga menjadi judul."
-- id: topic08
-  translation: "Simpulan"
-- id: topic08p01
-  translation: "Tidak ada produk overlay di pasaran yang dapat membuat situs website menjadi sepenuhnya sesuai dengan standar aksesibilitas dan oleh karena itu tidak dapat menghilangkan risiko pelanggaran hukum."
-- id: topic08p02
-  translation: "Aksesibilitas di website merupakan tantangan besar, baik bagi pemilik maupun pengguna website tersebut. Penemuan pendekatan baru untuk menyelesaikan tantangan ini patut dipuji."
-- id: topic08p03
-  translation: "Namun, dalam kasus overlay-terutama yang mencoba untuk menambahkan widget yang menyajikan fitur-fitur yang membantu-tantangannya tidak terpenuhi. Yang lebih bermasalah lagi adalah pemasaran yang menipu yang disediakan oleh beberapa vendor overlay, yang menjanjikan bahwa mengimplementasikan produk mereka akan membuat website pelanggan mereka mematuhi hukum dan standar."
-- id: topic08p04
-  translation: "Ketidakefektifan overlay adalah sesuatu yang disepakati secara luas di antara para praktisi aksesibilitas, sesuai dengan <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> menyatakan bahwa:"
-- id: topic08p05
-  translation: "Mayoritas responden (67%) menilai bahwa alat bantu ini sama sekali tidak atau kurang efektif. Responden penyandang disabilitas bahkan kurang menyukai alat bantu ini. 72% dari mereka menilai alat bantu ini tidak atau kurang efektif, dan hanya 2,4% yang menilai alat bantu ini sangat efektif."
 - id: topic09
-  translation: "Pernyataan dari para pendukung dan penandatangan fact sheet ini"
+  translation: "Simpulan"
 - id: topic09p01
-  translation: "Sebagaimana informasi di atas:"
+  translation: "Tidak ada produk overlay di pasaran yang dapat membuat situs website menjadi sepenuhnya sesuai dengan standar aksesibilitas dan oleh karena itu tidak dapat menghilangkan risiko pelanggaran hukum."
 - id: topic09p02
-  translation: "Kami tidak akan pernah menganjurkan, merekomendasikan, atau mengintegrasikan overlay yang menipu dan memasarkan produknya sendiri sebagai alat yang secara otomatis mematuhi ketentuan hukum atau standar"
+  translation: "Aksesibilitas di website merupakan tantangan besar, baik bagi pemilik maupun pengguna website tersebut. Penemuan pendekatan baru untuk menyelesaikan tantangan ini patut dipuji."
 - id: topic09p03
-  translation: "Kami akan selalu mengadvokasi perbaikan masalah aksesibilitas dengan sumber kesalahan aslinya"
+  translation: "Namun, dalam kasus overlay-terutama yang mencoba untuk menambahkan widget yang menyajikan fitur-fitur yang membantu-tantangannya tidak terpenuhi. Yang lebih bermasalah lagi adalah pemasaran yang menipu yang disediakan oleh beberapa vendor overlay, yang menjanjikan bahwa mengimplementasikan produk mereka akan membuat website pelanggan mereka mematuhi hukum dan standar."
 - id: topic09p04
-  translation: "Kami tidak akan tinggal diam ketika vendor overlay melakukan penipuan untuk memasarkan produk mereka"
+  translation: "Ketidakefektifan overlay adalah sesuatu yang disepakati secara luas di antara para praktisi aksesibilitas, sesuai dengan <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> menyatakan bahwa:"
 - id: topic09p05
-  translation: "Lebih spesifik lagi, dengan ini kami mengadvokasi penghapusan overlay aksesibilitas website dan mendorong pemilik situs yang telah menerapkan produk ini untuk menggunakan cara yang lebih kuat, independen, dan permanen untuk membuat situs mereka lebih mudah diakses"
-- id: topic09p06
-  translation: "Ditandatangani oleh:"
-- id: topic09p07
-  translation: "Beberapa vendor overlay telah mencoba untuk membingkai fact sheet overlay sebagai upaya pesaing mereka untuk mendiskreditkan mereka. Klaim overlay semacam itu adalah contoh kasus tentang upaya dalam <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">memanipulasi</a> orang untuk meredam kritik."
-- id: topic09p08
-  translation: "Saat ini, para penandatangan fact sheet ini meliputi:"
-- id: topic09p09
-  translation: "Kontributor dan editor <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, dan <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
-- id: topic09p10
-  translation: "Konsultan dari <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> dan lainnya"
-- id: topic09p11
-  translation: "Pakar aksesibilitas internal untuk perusahaan seperti Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, dan Pearson Assessments"
-- id: topic09p12
-  translation: "Pakar aksesibilitas internal dari institusi pendidikan tinggi seperti Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Pengacara untuk penyandang disabilitas"
-- id: topic09p14
-  translation: "Kontributor software teknologi bantu seperti JAWS dan NVDA"
-- id: topic09p15
-  translation: "Para pengguna dengan disabilitas"
-- id: topic09p16
-  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai \"pesaing\" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
+  translation: "Mayoritas responden (67%) menilai bahwa alat bantu ini sama sekali tidak atau kurang efektif. Responden penyandang disabilitas bahkan kurang menyukai alat bantu ini. 72% dari mereka menilai alat bantu ini tidak atau kurang efektif, dan hanya 2,4% yang menilai alat bantu ini sangat efektif."
 - id: topic10
+  translation: "Pernyataan dari para pendukung dan penandatangan fact sheet ini"
+- id: topic10p01
+  translation: "Sebagaimana informasi di atas:"
+- id: topic10p02
+  translation: "Kami tidak akan pernah menganjurkan, merekomendasikan, atau mengintegrasikan overlay yang menipu dan memasarkan produknya sendiri sebagai alat yang secara otomatis mematuhi ketentuan hukum atau standar"
+- id: topic10p03
+  translation: "Kami akan selalu mengadvokasi perbaikan masalah aksesibilitas dengan sumber kesalahan aslinya"
+- id: topic10p04
+  translation: "Kami tidak akan tinggal diam ketika vendor overlay melakukan penipuan untuk memasarkan produk mereka"
+- id: topic10p05
+  translation: "Lebih spesifik lagi, dengan ini kami mengadvokasi penghapusan overlay aksesibilitas website dan mendorong pemilik situs yang telah menerapkan produk ini untuk menggunakan cara yang lebih kuat, independen, dan permanen untuk membuat situs mereka lebih mudah diakses"
+- id: topic10p06
+  translation: "Ditandatangani oleh:"
+- id: topic10p07
+  translation: "Beberapa vendor overlay telah mencoba untuk membingkai fact sheet overlay sebagai upaya pesaing mereka untuk mendiskreditkan mereka. Klaim overlay semacam itu adalah contoh kasus tentang upaya dalam <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">memanipulasi</a> orang untuk meredam kritik."
+- id: topic10p08
+  translation: "Saat ini, para penandatangan fact sheet ini meliputi:"
+- id: topic10p09
+  translation: "Kontributor dan editor <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, dan <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+- id: topic10p10
+  translation: "Konsultan dari <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> dan lainnya"
+- id: topic10p11
+  translation: "Pakar aksesibilitas internal untuk perusahaan seperti Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, dan Pearson Assessments"
+- id: topic10p12
+  translation: "Pakar aksesibilitas internal dari institusi pendidikan tinggi seperti Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Pengacara untuk penyandang disabilitas"
+- id: topic10p14
+  translation: "Kontributor software teknologi bantu seperti JAWS dan NVDA"
+- id: topic10p15
+  translation: "Para pengguna dengan disabilitas"
+- id: topic10p16
+  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai \"pesaing\" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
+- id: topic11
   translation: "Bacaan tambahan"
 - id: addYourName
   translation: "Tambahkan nama Anda pada daftar berikut"

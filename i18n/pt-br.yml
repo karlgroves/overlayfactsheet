@@ -120,53 +120,53 @@
   translation: "Existe uma ferramenta perfeitamente prática para tornar os sites acessíveis. Ela se chama programador. As necessidades que importam para tornar um site acessível são as dos usuários. Se você não puder atendê-las, não poderá arcar com os custos básicos de seu negócio."
 - id: topic07t21
   translation: "Quando o #AccessiBe está ativado, a página é inundada com cabeçalhos. Muitos cabeçalhos de nível 2. O título de cada telefone continua sendo um título em ambas as versões da página mas, com ele ativado, itens como custo, exibição e todos os outros componentes das tabelas também se tornam títulos."
-- id: topic08
-  translation: "Conclusão"
-- id: topic08p01
-  translation: "Nenhum produto de overlay no mercado pode fazer com que um site se torne totalmente compatível com qualquer padrão de acessibilidade existente e, portanto, não pode eliminar riscos legais."
-- id: topic08p02
-  translation: "A acessibilidade na Web é um grande desafio, tanto para os proprietários de sites quanto para os usuários desses sites. A invenção de novas abordagens para resolver esse desafio deve ser comemorada."
-- id: topic08p03
-  translation: "No entanto, no caso de overlays —especialmente aqueles que tentam adicionar ferramentas que apresentam recursos assistivos— o desafio não está sendo cumprido. Ainda mais problemático é o marketing enganoso oferecido por alguns fornecedores de overlays que prometem que a implementação de seus produtos proporcionará aos sites de seus clientes conformidade imediata com leis e padrões."
-- id: topic08p04
-  translation: "A ineficácia dos overlays é algo que tem amplo consenso entre os profissionais de acessibilidade, de acordo com a <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Pesquisa WebAIM com profissionais de acessibilidade da Web (em inglês)</a> que constatou:"
-- id: topic08p05
-  translation: "Uma grande maioria (67%) dos entrevistados classifica essas ferramentas como nada ou pouco eficazes. Os entrevistados com deficiência foram ainda menos favoráveis, com 72% classificando-as como nem um pouco ou pouco eficazes, e apenas 2,4% classificando-as como muito eficazes."
 - id: topic09
-  translation: "Declaração dos apoiadores e signatários deste informativo"
+  translation: "Conclusão"
 - id: topic09p01
-  translation: "Como resultado das informações acima:"
+  translation: "Nenhum produto de overlay no mercado pode fazer com que um site se torne totalmente compatível com qualquer padrão de acessibilidade existente e, portanto, não pode eliminar riscos legais."
 - id: topic09p02
-  translation: "Jamais defenderemos, recomendaremos ou integraremos um overlay que, de forma enganosa, comercialize a si mesmo como se estivesse fornecendo conformidade automatizada com leis ou padrões."
+  translation: "A acessibilidade na Web é um grande desafio, tanto para os proprietários de sites quanto para os usuários desses sites. A invenção de novas abordagens para resolver esse desafio deve ser comemorada."
 - id: topic09p03
-  translation: "Sempre defenderemos a correção dos problemas de acessibilidade na fonte do erro original."
+  translation: "No entanto, no caso de overlays —especialmente aqueles que tentam adicionar ferramentas que apresentam recursos assistivos— o desafio não está sendo cumprido. Ainda mais problemático é o marketing enganoso oferecido por alguns fornecedores de overlays que prometem que a implementação de seus produtos proporcionará aos sites de seus clientes conformidade imediata com leis e padrões."
 - id: topic09p04
-  translation: "Nós nos recusaremos a ficar em silêncio quando os fornecedores de overlay usarem de enganação para comercializar seus produtos."
+  translation: "A ineficácia dos overlays é algo que tem amplo consenso entre os profissionais de acessibilidade, de acordo com a <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Pesquisa WebAIM com profissionais de acessibilidade da Web (em inglês)</a> que constatou:"
 - id: topic09p05
-  translation: "Mais especificamente, defendemos a remoção dos overlays de acessibilidade da Web e incentivamos os proprietários de sites que utilizaram esses produtos a usar estratégias mais robustas, independentes e permanentes para tornar seus sites mais acessíveis."
-- id: topic09p06
-  translation: "Assinado por:"
-- id: topic09p07
-  translation: "Alguns fornecedores de overlay tentaram enquadrar este informativo como um esforço de seus concorrentes para descreditá-los. Essas alegações dos overlays são um caso típico de uma tentativa de <a href=\"https://pt.wikipedia.org/wiki/Gaslighting\">gaslighting</a> para desviar as críticas."
-- id: topic09p08
-  translation: "Até o momento, os signatários desse documento incluem:"
-- id: topic09p09
-  translation: "Contribuidores e editores das especificações <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, e <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
-- id: topic09p10
-  translation: "Consultores dos Estados Unidos, Reino Unido, Países Baixos, Canadá, Japão, Alemanha, França, Suécia, Noruega, Bélgica, Polônia, Áustria, Dinamarca, Israel, Chile e mais"
-- id: topic09p11
-  translation: "Especialistas em acessibilidade de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient e Pearson Assessments"
-- id: topic09p12
-  translation: "Especialistas em acessibilidade de instituições de ensino superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University e MIT"
-- id: topic09p13
-  translation: "Advogados para pessoas com deficiência"
-- id: topic09p14
-  translation: "Contribuidores de software de tecnologia assistiva, como JAWS e NVDA"
-- id: topic09p15
-  translation: "Muitos usuários finais com deficiência"
-- id: topic09p16
-  translation: "Em resumo, a lista de signatários abaixo é composta por pessoas que são especialistas nesse campo e dedicaram suas carreiras profissionais ao aprimoramento da acessibilidade ou são usuários finais com deficiência (ou ambos). Considerar os nomes listados abaixo como \"concorrentes\" não só é impreciso como também perde o foco: overlays não são um meio eficaz de garantir a acessibilidade — um ponto em que todas as pessoas abaixo concordam."
+  translation: "Uma grande maioria (67%) dos entrevistados classifica essas ferramentas como nada ou pouco eficazes. Os entrevistados com deficiência foram ainda menos favoráveis, com 72% classificando-as como nem um pouco ou pouco eficazes, e apenas 2,4% classificando-as como muito eficazes."
 - id: topic10
+  translation: "Declaração dos apoiadores e signatários deste informativo"
+- id: topic10p01
+  translation: "Como resultado das informações acima:"
+- id: topic10p02
+  translation: "Jamais defenderemos, recomendaremos ou integraremos um overlay que, de forma enganosa, comercialize a si mesmo como se estivesse fornecendo conformidade automatizada com leis ou padrões."
+- id: topic10p03
+  translation: "Sempre defenderemos a correção dos problemas de acessibilidade na fonte do erro original."
+- id: topic10p04
+  translation: "Nós nos recusaremos a ficar em silêncio quando os fornecedores de overlay usarem de enganação para comercializar seus produtos."
+- id: topic10p05
+  translation: "Mais especificamente, defendemos a remoção dos overlays de acessibilidade da Web e incentivamos os proprietários de sites que utilizaram esses produtos a usar estratégias mais robustas, independentes e permanentes para tornar seus sites mais acessíveis."
+- id: topic10p06
+  translation: "Assinado por:"
+- id: topic10p07
+  translation: "Alguns fornecedores de overlay tentaram enquadrar este informativo como um esforço de seus concorrentes para descreditá-los. Essas alegações dos overlays são um caso típico de uma tentativa de <a href=\"https://pt.wikipedia.org/wiki/Gaslighting\">gaslighting</a> para desviar as críticas."
+- id: topic10p08
+  translation: "Até o momento, os signatários desse documento incluem:"
+- id: topic10p09
+  translation: "Contribuidores e editores das especificações <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, e <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic10p10
+  translation: "Consultores dos Estados Unidos, Reino Unido, Países Baixos, Canadá, Japão, Alemanha, França, Suécia, Noruega, Bélgica, Polônia, Áustria, Dinamarca, Israel, Chile e mais"
+- id: topic10p11
+  translation: "Especialistas em acessibilidade de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient e Pearson Assessments"
+- id: topic10p12
+  translation: "Especialistas em acessibilidade de instituições de ensino superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University e MIT"
+- id: topic10p13
+  translation: "Advogados para pessoas com deficiência"
+- id: topic10p14
+  translation: "Contribuidores de software de tecnologia assistiva, como JAWS e NVDA"
+- id: topic10p15
+  translation: "Muitos usuários finais com deficiência"
+- id: topic10p16
+  translation: "Em resumo, a lista de signatários abaixo é composta por pessoas que são especialistas nesse campo e dedicaram suas carreiras profissionais ao aprimoramento da acessibilidade ou são usuários finais com deficiência (ou ambos). Considerar os nomes listados abaixo como \"concorrentes\" não só é impreciso como também perde o foco: overlays não são um meio eficaz de garantir a acessibilidade — um ponto em que todas as pessoas abaixo concordam."
+- id: topic11
   translation: "Leituras adicionais"
 - id: addYourName
   translation: "Adicione seu nome a essa lista"

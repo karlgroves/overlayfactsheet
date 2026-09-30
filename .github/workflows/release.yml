@@ -28,7 +28,9 @@ on:
 permissions:
   contents: write
 
-# Never cancel a release half-way; queue the next one behind it instead.
+# Never cancel a release half-way. GitHub keeps at most one run waiting behind
+# it and cancels older waiting runs; nothing is lost, because each release is
+# diffed against the previous release tag, not against its own push.
 concurrency:
   group: release
   cancel-in-progress: false
@@ -100,8 +102,10 @@ jobs:
 
       - name: Skip signature-only changes
         if: steps.notes.outputs.substantive != 'true' && !inputs.force
+        env:
+          BASE: ${{ steps.base.outputs.base }}
         run: |
-          echo "::notice::Only signatories changed since ${{ steps.base.outputs.base }}; no release. They will appear in the next release's notes."
+          echo "::notice::Only signatories changed since $BASE; no release. They will appear in the next release's notes."
 
       - name: Create release
         if: steps.notes.outputs.substantive == 'true' || inputs.force

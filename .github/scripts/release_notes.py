@@ -179,16 +179,32 @@ def section_renames(moved):
         (old_section, old_rest), (new_section, new_rest) = _split_key(old_key), _split_key(new_key)
         if old_section and new_section and old_section != new_section and old_rest == new_rest:
             votes[new_section][old_section] += 1
-    return {new: counts.most_common(1)[0][0] for new, counts in votes.items()}
+
+    def rank(new_section, vote):
+        # Most votes wins; a tie (possible when passages share identical
+        # text) goes to the nearest section, since insertions shift by one.
+        old_section, count = vote
+        return count, -abs(_section_number(new_section) - _section_number(old_section))
+
+    return {new: max(counts.items(), key=lambda vote: rank(new, vote))[0] for new, counts in votes.items()}
+
+
+def _section_number(section):
+    return int(section[len("topic"):])
 
 
 def translation_changes(before, after):
     """Compare two translation maps.
 
-    Returns (added, removed, changed, moved). changed and moved are lists of
-    (old key, new key) pairs: changed passages have new wording, moved ones
-    have identical wording under a new key. Without this, renumbering the
-    sections would report every later passage as rewritten.
+    Returns (added, removed, changed, renumbered, relocated), the last three
+    as lists of (old key, new key) pairs:
+
+    - changed: new wording, possibly under a renumbered key.
+    - renumbered: identical wording, key changed only because its section was
+      renumbered. Invisible to readers. Without this, inserting a section
+      would report every later passage as rewritten.
+    - relocated: identical wording under a key the renumbering doesn't
+      explain, e.g. two paragraphs swapping places. Readers see a reorder.
     """
     old = {k: v for k, v in before.items() if after.get(k) != v}
     new = {k: v for k, v in after.items() if before.get(k) != v}
@@ -203,18 +219,34 @@ def translation_changes(before, after):
             moved.append((old_key, key))
             del new[key], old[old_key]
 
-    # A passage renumbered *and* reworded: pair it with its old key through
-    # the section renumbering, falling back to the same key.
     renames = section_renames(moved)
+    renumbered, relocated = [], []
+    for old_key, key in moved:
+        section, rest = _split_key(key)
+        expected = renames[section] + rest if section in renames else None
+        # With duplicated text the match may come from a different copy; it's
+        # still a renumbering if the expected source key held this text.
+        if expected and (expected == old_key or before.get(expected) == after[key]):
+            renumbered.append((expected, key))
+        else:
+            relocated.append((old_key, key))
+
+    # A passage renumbered *and* reworded: pair it with its old key through
+    # the section renumbering. Only fall back to the same key when that key's
+    # section didn't itself move; otherwise a newly inserted section would be
+    # paired with the reworded passage that used to hold its number.
+    moved_away = {old_section for new_section, old_section in renames.items() if old_section != new_section}
     changed = []
     for key in list(new):
         section, rest = _split_key(key)
-        candidates = ([renames[section] + rest] if section in renames else []) + [key]
+        candidates = [renames[section] + rest] if section in renames else []
+        if section not in moved_away:
+            candidates.append(key)
         old_key = next((c for c in candidates if c in old), None)
         if old_key:
             changed.append((old_key, key))
             del new[key], old[old_key]
-    return list(new), list(old), changed, moved
+    return list(new), list(old), changed, renumbered, relocated
 
 
 # "#" is left alone so "#1234" still autolinks to the pull request; every
@@ -267,31 +299,21 @@ def describe_key(key, english):
     return f"`{key}` — {md_escape(section)}" if section else f"`{key}`"
 
 
-def _renumbered_lines(moved):
-    """'topic05 → topic06 (4 passages)' lines for passages that only moved."""
-    groups = Counter()
-    lines = []
-    for old_key, new_key in moved:
-        (old_section, old_rest), (new_section, new_rest) = _split_key(old_key), _split_key(new_key)
-        if old_section and new_section and old_rest == new_rest:
-            groups[(old_section, new_section)] += 1
-        else:
-            lines.append(f"- `{new_key}` (was `{old_key}`; wording unchanged)")
-    grouped = [
-        f"`{old}` → `{new}` ({n} passage{'s' if n != 1 else ''})"
-        for (old, new), n in sorted(groups.items())
-    ]
-    if grouped:
-        lines.insert(0, "- Renumbered, wording unchanged: " + ", ".join(grouped))
-    return lines
+def _renumbered_lines(renumbered):
+    """One 'topic05 → topic06 (4 passages), …' line for renumbered passages."""
+    groups = Counter((_split_key(old)[0], _split_key(new)[0]) for old, new in renumbered)
+    if not groups:
+        return []
+    grouped = [f"`{old}` → `{new}` ({n} passage{'s' if n != 1 else ''})" for (old, new), n in sorted(groups.items())]
+    return ["- Renumbered, wording unchanged: " + ", ".join(grouped)]
 
 
 def key_renames(base_files, head_files):
     """Old section -> new section, as inferred from the English translation."""
     before = parse_translations(base_files.get(f"{I18N_DIR}en.yml"))
     after = parse_translations(head_files.get(f"{I18N_DIR}en.yml"))
-    moved = translation_changes(before, after)[3]
-    return {old: new for new, old in section_renames(moved).items()}
+    renumbered = translation_changes(before, after)[3]
+    return {old: new for new, old in section_renames(renumbered).items()}
 
 
 def text_section(base_files, head_files, names):
@@ -315,7 +337,7 @@ def text_section(base_files, head_files, names):
         after = parse_translations(head_files.get(path))
         if before == after:
             continue
-        added, removed, changed, moved = translation_changes(before, after)
+        added, removed, changed, renumbered, relocated = translation_changes(before, after)
         label = names.get(code, code)
         lines = []
         if path not in base_files:
@@ -334,10 +356,12 @@ def text_section(base_files, head_files, names):
                 lines.append(f"- {describe_key(key, english)} (new)  \n  {md_escape(plain_text(after[key]))}")
             for key in removed:
                 lines.append(f"- {describe_key(key, english)} (removed)")
-            lines += _renumbered_lines(moved)
+            for old_key, key in relocated:
+                lines.append(f"- {describe_key(key, english)} (moved from `{old_key}`; wording unchanged)")
+            lines += _renumbered_lines(renumbered)
         if not lines:
             continue
-        passages = len(added) + len(removed) + len(changed)
+        passages = len(added) + len(removed) + len(changed) + len(relocated)
         reworded = reworded or passages > 0 or path not in base_files or path not in head_files
         body = "\n".join(lines)
         if code == "en":

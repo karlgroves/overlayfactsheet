@@ -64,109 +64,109 @@
   translation: "A conformidade com um padrão significa que você atende ou satisfaz os \"requisitos\" do padrão. Na WCAG 2.0, os \"requisitos\" são os Critérios de Sucesso. Para estar em conformidade com a WCAG 2.0, você precisa satisfazer os Critérios de Sucesso, ou seja, não há conteúdo que viole os Critérios de Sucesso."
 - id: topic04p04
   translation: "Como a conformidade é definida como o cumprimento de todos os requisitos da norma, a incapacidade documentada desses produtos de reparar <strong>todos</strong> os problemas possíveis significa que eles não podem levar um site à conformidade. Os produtos comercializados com tais alegações devem ser vistos com bastante ceticismo."
-- id: topic05
-  translation: "Privacidade de dados pessoais"
-- id: topic05p01
-  translation: "Adicionar um overlay ao seu site pode ir contra a preferência dos usuários finais por privacidade e pode criar risco de não conformidade com o GDPR, o GDPR do Reino Unido, a CCPA, etc."
-- id: topic05p02
-  translation: "Overlays que ativam automaticamente determinadas configurações, como aquelas para usuários de leitores de tela ou de reconhecimento de voz, fazem isso detectando quando uma tecnologia assistiva está em execução no dispositivo. Isso expõe o fato de que a pessoa que está usando o dispositivo no momento tem uma deficiência. Em certos casos, como o de usuários de leitores de tela em que a maioria é cega ou tem baixa visão, isso expõe ainda mais detalhes sobre a natureza da deficiência. Assim como idade, origem étnica ou gênero preferido, a deficiência é uma informação pessoal sensível. Não são dados que devam ser coletados sem o consentimento explícito da pessoa a quem pertencem."
-- id: topic05p03
-  translation: "Descobriu-se que alguns overlays mantêm as configurações dos usuários em sites que usam o mesmo overlay. Isso é feito por meio da configuração de um cookie no computador do usuário. Quando o usuário ativa uma configuração para um recurso de overlay em um site, o overlay ativará automaticamente esse recurso em outros sites. Embora a empresa do overlay possa pensar que está fazendo algo de bom para o usuário final, o grande problema de privacidade é que o usuário nunca optou por ser rastreado e também não há a possibilidade de optar por não ser. Devido a essa falta de opção de desativação (além de desativar explicitamente essa configuração), isso cria risco em relação ao Regulamento Geral de Proteção de Dados (GDPR) e à Lei de Privacidade do Consumidor da Califórnia (CCPA) para o cliente do overlay."
 - id: topic06
-  translation: "Nas palavras deles"
+  translation: "Privacidade de dados pessoais"
 - id: topic06p01
-  translation: "Muitos usuários com deficiência expressaram fortes palavras de insatisfação com os produtos de overlay. Conforme mostrado abaixo, os próprios overlays podem ter problemas de acessibilidade significativos o suficiente para que os usuários tomem medidas para impedir ativamente que apareçam."
+  translation: "Adicionar um overlay ao seu site pode ir contra a preferência dos usuários finais por privacidade e pode criar risco de não conformidade com o GDPR, o GDPR do Reino Unido, a CCPA, etc."
 - id: topic06p02
-  translation: "Observação: embora esta seção possa mencionar fornecedores específicos, esses comentários são comuns quando se trata da experiência do usuário fornecida por ferramentas de overlay que, por si só, têm um padrão de impacto negativo na experiência do usuário."
-- id: topic06t01
-  translation: "...supondo que a sua ferramenta possa fazer um bom trabalho tornando algo acessível, ela pode fazer um trabalho ainda melhor tornando algo acessível executando diretamente na máquina do usuário com acesso ao código da máquina e às APIs da máquina."
-- id: topic06t02
-  translation: "...finalmente consegui obter acesso à minha conta na @NameCheap bloqueando o #AccessiBe em meu arquivo de hosts do Windows. Eu não deveria precisar fazer isso para usar a Internet. O AccessiBe precisa desaparecer."
-- id: topic06t03
-  translation: "...sei com 100% de certeza que qualquer site que tenha implantado um overlay no último ano e meio tem sido menos utilizável tanto para minha esposa quanto para mim —ambos cegos."
-- id: topic06t04
-  translation: "...Ainda é uma dor de cabeça tentar ler o artigo em um dispositivo móvel devido à interrupção constante a cada poucos segundos. Considerando que todos os sites que usam seu serviço também têm esse problema... Não."
-- id: topic06t05
-  translation: "...Tornar uma página da Web acessível requer trabalho, e simplesmente dizer a uma empresa que ela pode instalar seu plug-in é absolutamente ridículo; você constrói e projeta a acessibilidade em uma página da Web usando os padrões WCAG"
-- id: topic06t06
-  translation: "...Sugerir que uma linha de código é barata e, portanto, você deve usá-la, sugere, por inferência, que também não vale a pena investir nas vida de pessoas com deficiência. #a11y"
-- id: topic06t07
-  translation: "@AccessiBe Apenas para demonstrar minha boa fé, aqui está uma rápida auditoria gratuita do site https://t.co/1mQGCCtnIs. Vocês capturam a tecla \"tab\", que é a maneira padrão de navegar. Não há como não ativar seu overlay se eu quiser navegar na página. Uma vez que o overlay é ativado, acontecem coisas inusitadas."
-- id: topic06t08
-  translation: "O #AccessiBe torna os sites mais difíceis de usar, atrapalhando a navegação e alterando as barreiras de acesso em uma página, e não as corrigindo. Um aluno e eu nos deparamos com um site \"aprimorado\" e, para minha vergonha, fomos embora porque navegar naquela bagunça estava além das minhas habilidades, naquele dia."
-- id: topic06t09
-  translation: "Os overlays de acessibilidade não são a resposta, e o AccessiBe não é exceção. Como usuário de leitor de tela, vários sites se tornaram menos utilizáveis para mim com esse overlay. Descreditar profissionais e defensores respeitáveis da acessibilidade não me fará mudar de opinião. https://t.co/ZgFt8JtsbZ "
-- id: topic06t10
-  translation: "Aos seguidores que usam leitores de tela: Vocês já devem ter ouvido falar do #Accessibe, um overlay que alega tornar mais acessíveis as páginas nas quais ele está incorporado. Não entrarei em mais detalhes. Resumindo: um completo absurdo. Não toque nisso!"
-- id: topic06t11
-  translation: "As soluções automatizadas que prometem tornar seu site acessível não são capazes disso. É preciso mais do que automação para atender a esse requisito. Você não estará a salvo de responsabilidades e, com certeza, terá um impacto negativo sobre seus clientes com deficiência"
-- id: topic06t12
-  translation: "Toda vez que entro em um site e ouço a notificação do #accessiBe de que esse site está ajustado ao meu leitor de tela, sei que meu bloqueador não está funcionando corretamente e que terei uma experiência infernal nesse site em particular. https://t.co/ZFzKMfUe0t"
-- id: topic06t13
-  translation: "Tentei usar esse site com @AccessiBe com o VoiceOver no Chrome no iOS. A classificação de 4 estrelas é anunciada como \"impronunciável\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
-- id: topic06t14
-  translation: "Escrevi um e-mail para o atendimento ao cliente detalhando que não posso usar o site devido ao overlay, mas... estou realmente decepcionado, mas espero que me ouçam. @Goodfair_ - por favor, pare de usar o AccessiBe."
-- id: topic06t15
-  translation: "Não sou especialista em acessibilidade, apenas um usuário de leitor de tela com habilidades suficientes para dizer que este tópico está correto e que minha experiência com o #AccessiBe é que ele torna os sites com problemas de acessibilidade ainda mais difíceis de contornar. https://t.co/cfyrEqXwTy"
-- id: topic06t16
-  translation: "...Se você é cego ou tem baixa visão e depende de tecnologias de assistência, como leitores de tela, pode ter começado a perceber que sites populares estão se tornando menos utilizáveis... essa página descreve como proibir que o AccessiBe chegue ao seu computador... https://t.co/qbiKvolizS"
-- id: topic06t17
-  translation: "OK, isso parece muito errado para mim. Uma rede local chamada Fleet Farm está usando o AccessiBe. Isso bagunça o recurso de pesquisa por localização. É isso que recebo agora no início da página de resultados."
-- id: topic06t18
-  translation: "Graças a Deus o Firefox bloqueia sua detecção de acessibilidade. Para mim, o foco salta para todos os lados com o #AccessiBe ativado. Quando está desativado, ele se comporta."
-- id: topic06t19
-  translation: "Existem 0 ferramentas automatizadas que podem detectar problemas de acessibilidade com precisão em mais de 30% das vezes. 0. Isso é comumente conhecido por qualquer pessoa que esteja nesse espaço por pelo menos uma semana. #AccessiBe "
-- id: topic06t20
-  translation: "Existe uma ferramenta perfeitamente prática para tornar os sites acessíveis. Ela se chama programador. As necessidades que importam para tornar um site acessível são as dos usuários. Se você não puder atendê-las, não poderá arcar com os custos básicos de seu negócio."
-- id: topic06t21
-  translation: "Quando o #AccessiBe está ativado, a página é inundada com cabeçalhos. Muitos cabeçalhos de nível 2. O título de cada telefone continua sendo um título em ambas as versões da página mas, com ele ativado, itens como custo, exibição e todos os outros componentes das tabelas também se tornam títulos."
+  translation: "Overlays que ativam automaticamente determinadas configurações, como aquelas para usuários de leitores de tela ou de reconhecimento de voz, fazem isso detectando quando uma tecnologia assistiva está em execução no dispositivo. Isso expõe o fato de que a pessoa que está usando o dispositivo no momento tem uma deficiência. Em certos casos, como o de usuários de leitores de tela em que a maioria é cega ou tem baixa visão, isso expõe ainda mais detalhes sobre a natureza da deficiência. Assim como idade, origem étnica ou gênero preferido, a deficiência é uma informação pessoal sensível. Não são dados que devam ser coletados sem o consentimento explícito da pessoa a quem pertencem."
+- id: topic06p03
+  translation: "Descobriu-se que alguns overlays mantêm as configurações dos usuários em sites que usam o mesmo overlay. Isso é feito por meio da configuração de um cookie no computador do usuário. Quando o usuário ativa uma configuração para um recurso de overlay em um site, o overlay ativará automaticamente esse recurso em outros sites. Embora a empresa do overlay possa pensar que está fazendo algo de bom para o usuário final, o grande problema de privacidade é que o usuário nunca optou por ser rastreado e também não há a possibilidade de optar por não ser. Devido a essa falta de opção de desativação (além de desativar explicitamente essa configuração), isso cria risco em relação ao Regulamento Geral de Proteção de Dados (GDPR) e à Lei de Privacidade do Consumidor da Califórnia (CCPA) para o cliente do overlay."
 - id: topic07
-  translation: "Conclusão"
+  translation: "Nas palavras deles"
 - id: topic07p01
-  translation: "Nenhum produto de overlay no mercado pode fazer com que um site se torne totalmente compatível com qualquer padrão de acessibilidade existente e, portanto, não pode eliminar riscos legais."
+  translation: "Muitos usuários com deficiência expressaram fortes palavras de insatisfação com os produtos de overlay. Conforme mostrado abaixo, os próprios overlays podem ter problemas de acessibilidade significativos o suficiente para que os usuários tomem medidas para impedir ativamente que apareçam."
 - id: topic07p02
-  translation: "A acessibilidade na Web é um grande desafio, tanto para os proprietários de sites quanto para os usuários desses sites. A invenção de novas abordagens para resolver esse desafio deve ser comemorada."
-- id: topic07p03
-  translation: "No entanto, no caso de overlays —especialmente aqueles que tentam adicionar ferramentas que apresentam recursos assistivos— o desafio não está sendo cumprido. Ainda mais problemático é o marketing enganoso oferecido por alguns fornecedores de overlays que prometem que a implementação de seus produtos proporcionará aos sites de seus clientes conformidade imediata com leis e padrões."
-- id: topic07p04
-  translation: "A ineficácia dos overlays é algo que tem amplo consenso entre os profissionais de acessibilidade, de acordo com a <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Pesquisa WebAIM com profissionais de acessibilidade da Web (em inglês)</a> que constatou:"
-- id: topic07p05
-  translation: "Uma grande maioria (67%) dos entrevistados classifica essas ferramentas como nada ou pouco eficazes. Os entrevistados com deficiência foram ainda menos favoráveis, com 72% classificando-as como nem um pouco ou pouco eficazes, e apenas 2,4% classificando-as como muito eficazes."
+  translation: "Observação: embora esta seção possa mencionar fornecedores específicos, esses comentários são comuns quando se trata da experiência do usuário fornecida por ferramentas de overlay que, por si só, têm um padrão de impacto negativo na experiência do usuário."
+- id: topic07t01
+  translation: "...supondo que a sua ferramenta possa fazer um bom trabalho tornando algo acessível, ela pode fazer um trabalho ainda melhor tornando algo acessível executando diretamente na máquina do usuário com acesso ao código da máquina e às APIs da máquina."
+- id: topic07t02
+  translation: "...finalmente consegui obter acesso à minha conta na @NameCheap bloqueando o #AccessiBe em meu arquivo de hosts do Windows. Eu não deveria precisar fazer isso para usar a Internet. O AccessiBe precisa desaparecer."
+- id: topic07t03
+  translation: "...sei com 100% de certeza que qualquer site que tenha implantado um overlay no último ano e meio tem sido menos utilizável tanto para minha esposa quanto para mim —ambos cegos."
+- id: topic07t04
+  translation: "...Ainda é uma dor de cabeça tentar ler o artigo em um dispositivo móvel devido à interrupção constante a cada poucos segundos. Considerando que todos os sites que usam seu serviço também têm esse problema... Não."
+- id: topic07t05
+  translation: "...Tornar uma página da Web acessível requer trabalho, e simplesmente dizer a uma empresa que ela pode instalar seu plug-in é absolutamente ridículo; você constrói e projeta a acessibilidade em uma página da Web usando os padrões WCAG"
+- id: topic07t06
+  translation: "...Sugerir que uma linha de código é barata e, portanto, você deve usá-la, sugere, por inferência, que também não vale a pena investir nas vida de pessoas com deficiência. #a11y"
+- id: topic07t07
+  translation: "@AccessiBe Apenas para demonstrar minha boa fé, aqui está uma rápida auditoria gratuita do site https://t.co/1mQGCCtnIs. Vocês capturam a tecla \"tab\", que é a maneira padrão de navegar. Não há como não ativar seu overlay se eu quiser navegar na página. Uma vez que o overlay é ativado, acontecem coisas inusitadas."
+- id: topic07t08
+  translation: "O #AccessiBe torna os sites mais difíceis de usar, atrapalhando a navegação e alterando as barreiras de acesso em uma página, e não as corrigindo. Um aluno e eu nos deparamos com um site \"aprimorado\" e, para minha vergonha, fomos embora porque navegar naquela bagunça estava além das minhas habilidades, naquele dia."
+- id: topic07t09
+  translation: "Os overlays de acessibilidade não são a resposta, e o AccessiBe não é exceção. Como usuário de leitor de tela, vários sites se tornaram menos utilizáveis para mim com esse overlay. Descreditar profissionais e defensores respeitáveis da acessibilidade não me fará mudar de opinião. https://t.co/ZgFt8JtsbZ "
+- id: topic07t10
+  translation: "Aos seguidores que usam leitores de tela: Vocês já devem ter ouvido falar do #Accessibe, um overlay que alega tornar mais acessíveis as páginas nas quais ele está incorporado. Não entrarei em mais detalhes. Resumindo: um completo absurdo. Não toque nisso!"
+- id: topic07t11
+  translation: "As soluções automatizadas que prometem tornar seu site acessível não são capazes disso. É preciso mais do que automação para atender a esse requisito. Você não estará a salvo de responsabilidades e, com certeza, terá um impacto negativo sobre seus clientes com deficiência"
+- id: topic07t12
+  translation: "Toda vez que entro em um site e ouço a notificação do #accessiBe de que esse site está ajustado ao meu leitor de tela, sei que meu bloqueador não está funcionando corretamente e que terei uma experiência infernal nesse site em particular. https://t.co/ZFzKMfUe0t"
+- id: topic07t13
+  translation: "Tentei usar esse site com @AccessiBe com o VoiceOver no Chrome no iOS. A classificação de 4 estrelas é anunciada como \"impronunciável\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+- id: topic07t14
+  translation: "Escrevi um e-mail para o atendimento ao cliente detalhando que não posso usar o site devido ao overlay, mas... estou realmente decepcionado, mas espero que me ouçam. @Goodfair_ - por favor, pare de usar o AccessiBe."
+- id: topic07t15
+  translation: "Não sou especialista em acessibilidade, apenas um usuário de leitor de tela com habilidades suficientes para dizer que este tópico está correto e que minha experiência com o #AccessiBe é que ele torna os sites com problemas de acessibilidade ainda mais difíceis de contornar. https://t.co/cfyrEqXwTy"
+- id: topic07t16
+  translation: "...Se você é cego ou tem baixa visão e depende de tecnologias de assistência, como leitores de tela, pode ter começado a perceber que sites populares estão se tornando menos utilizáveis... essa página descreve como proibir que o AccessiBe chegue ao seu computador... https://t.co/qbiKvolizS"
+- id: topic07t17
+  translation: "OK, isso parece muito errado para mim. Uma rede local chamada Fleet Farm está usando o AccessiBe. Isso bagunça o recurso de pesquisa por localização. É isso que recebo agora no início da página de resultados."
+- id: topic07t18
+  translation: "Graças a Deus o Firefox bloqueia sua detecção de acessibilidade. Para mim, o foco salta para todos os lados com o #AccessiBe ativado. Quando está desativado, ele se comporta."
+- id: topic07t19
+  translation: "Existem 0 ferramentas automatizadas que podem detectar problemas de acessibilidade com precisão em mais de 30% das vezes. 0. Isso é comumente conhecido por qualquer pessoa que esteja nesse espaço por pelo menos uma semana. #AccessiBe "
+- id: topic07t20
+  translation: "Existe uma ferramenta perfeitamente prática para tornar os sites acessíveis. Ela se chama programador. As necessidades que importam para tornar um site acessível são as dos usuários. Se você não puder atendê-las, não poderá arcar com os custos básicos de seu negócio."
+- id: topic07t21
+  translation: "Quando o #AccessiBe está ativado, a página é inundada com cabeçalhos. Muitos cabeçalhos de nível 2. O título de cada telefone continua sendo um título em ambas as versões da página mas, com ele ativado, itens como custo, exibição e todos os outros componentes das tabelas também se tornam títulos."
 - id: topic08
-  translation: "Declaração dos apoiadores e signatários deste informativo"
+  translation: "Conclusão"
 - id: topic08p01
-  translation: "Como resultado das informações acima:"
+  translation: "Nenhum produto de overlay no mercado pode fazer com que um site se torne totalmente compatível com qualquer padrão de acessibilidade existente e, portanto, não pode eliminar riscos legais."
 - id: topic08p02
-  translation: "Jamais defenderemos, recomendaremos ou integraremos um overlay que, de forma enganosa, comercialize a si mesmo como se estivesse fornecendo conformidade automatizada com leis ou padrões."
+  translation: "A acessibilidade na Web é um grande desafio, tanto para os proprietários de sites quanto para os usuários desses sites. A invenção de novas abordagens para resolver esse desafio deve ser comemorada."
 - id: topic08p03
-  translation: "Sempre defenderemos a correção dos problemas de acessibilidade na fonte do erro original."
+  translation: "No entanto, no caso de overlays —especialmente aqueles que tentam adicionar ferramentas que apresentam recursos assistivos— o desafio não está sendo cumprido. Ainda mais problemático é o marketing enganoso oferecido por alguns fornecedores de overlays que prometem que a implementação de seus produtos proporcionará aos sites de seus clientes conformidade imediata com leis e padrões."
 - id: topic08p04
-  translation: "Nós nos recusaremos a ficar em silêncio quando os fornecedores de overlay usarem de enganação para comercializar seus produtos."
+  translation: "A ineficácia dos overlays é algo que tem amplo consenso entre os profissionais de acessibilidade, de acordo com a <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Pesquisa WebAIM com profissionais de acessibilidade da Web (em inglês)</a> que constatou:"
 - id: topic08p05
-  translation: "Mais especificamente, defendemos a remoção dos overlays de acessibilidade da Web e incentivamos os proprietários de sites que utilizaram esses produtos a usar estratégias mais robustas, independentes e permanentes para tornar seus sites mais acessíveis."
-- id: topic08p06
-  translation: "Assinado por:"
-- id: topic08p07
-  translation: "Alguns fornecedores de overlay tentaram enquadrar este informativo como um esforço de seus concorrentes para descreditá-los. Essas alegações dos overlays são um caso típico de uma tentativa de <a href=\"https://pt.wikipedia.org/wiki/Gaslighting\">gaslighting</a> para desviar as críticas."
-- id: topic08p08
-  translation: "Até o momento, os signatários desse documento incluem:"
-- id: topic08p09
-  translation: "Contribuidores e editores das especificações <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, e <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
-- id: topic08p10
-  translation: "Consultores dos Estados Unidos, Reino Unido, Países Baixos, Canadá, Japão, Alemanha, França, Suécia, Noruega, Bélgica, Polônia, Áustria, Dinamarca, Israel, Chile e mais"
-- id: topic08p11
-  translation: "Especialistas em acessibilidade de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient e Pearson Assessments"
-- id: topic08p12
-  translation: "Especialistas em acessibilidade de instituições de ensino superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University e MIT"
-- id: topic08p13
-  translation: "Advogados para pessoas com deficiência"
-- id: topic08p14
-  translation: "Contribuidores de software de tecnologia assistiva, como JAWS e NVDA"
-- id: topic08p15
-  translation: "Muitos usuários finais com deficiência"
-- id: topic08p16
-  translation: "Em resumo, a lista de signatários abaixo é composta por pessoas que são especialistas nesse campo e dedicaram suas carreiras profissionais ao aprimoramento da acessibilidade ou são usuários finais com deficiência (ou ambos). Considerar os nomes listados abaixo como \"concorrentes\" não só é impreciso como também perde o foco: overlays não são um meio eficaz de garantir a acessibilidade — um ponto em que todas as pessoas abaixo concordam."
+  translation: "Uma grande maioria (67%) dos entrevistados classifica essas ferramentas como nada ou pouco eficazes. Os entrevistados com deficiência foram ainda menos favoráveis, com 72% classificando-as como nem um pouco ou pouco eficazes, e apenas 2,4% classificando-as como muito eficazes."
 - id: topic09
+  translation: "Declaração dos apoiadores e signatários deste informativo"
+- id: topic09p01
+  translation: "Como resultado das informações acima:"
+- id: topic09p02
+  translation: "Jamais defenderemos, recomendaremos ou integraremos um overlay que, de forma enganosa, comercialize a si mesmo como se estivesse fornecendo conformidade automatizada com leis ou padrões."
+- id: topic09p03
+  translation: "Sempre defenderemos a correção dos problemas de acessibilidade na fonte do erro original."
+- id: topic09p04
+  translation: "Nós nos recusaremos a ficar em silêncio quando os fornecedores de overlay usarem de enganação para comercializar seus produtos."
+- id: topic09p05
+  translation: "Mais especificamente, defendemos a remoção dos overlays de acessibilidade da Web e incentivamos os proprietários de sites que utilizaram esses produtos a usar estratégias mais robustas, independentes e permanentes para tornar seus sites mais acessíveis."
+- id: topic09p06
+  translation: "Assinado por:"
+- id: topic09p07
+  translation: "Alguns fornecedores de overlay tentaram enquadrar este informativo como um esforço de seus concorrentes para descreditá-los. Essas alegações dos overlays são um caso típico de uma tentativa de <a href=\"https://pt.wikipedia.org/wiki/Gaslighting\">gaslighting</a> para desviar as críticas."
+- id: topic09p08
+  translation: "Até o momento, os signatários desse documento incluem:"
+- id: topic09p09
+  translation: "Contribuidores e editores das especificações <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, e <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic09p10
+  translation: "Consultores dos Estados Unidos, Reino Unido, Países Baixos, Canadá, Japão, Alemanha, França, Suécia, Noruega, Bélgica, Polônia, Áustria, Dinamarca, Israel, Chile e mais"
+- id: topic09p11
+  translation: "Especialistas em acessibilidade de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient e Pearson Assessments"
+- id: topic09p12
+  translation: "Especialistas em acessibilidade de instituições de ensino superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University e MIT"
+- id: topic09p13
+  translation: "Advogados para pessoas com deficiência"
+- id: topic09p14
+  translation: "Contribuidores de software de tecnologia assistiva, como JAWS e NVDA"
+- id: topic09p15
+  translation: "Muitos usuários finais com deficiência"
+- id: topic09p16
+  translation: "Em resumo, a lista de signatários abaixo é composta por pessoas que são especialistas nesse campo e dedicaram suas carreiras profissionais ao aprimoramento da acessibilidade ou são usuários finais com deficiência (ou ambos). Considerar os nomes listados abaixo como \"concorrentes\" não só é impreciso como também perde o foco: overlays não são um meio eficaz de garantir a acessibilidade — um ponto em que todas as pessoas abaixo concordam."
+- id: topic10
   translation: "Leituras adicionais"
 - id: addYourName
   translation: "Adicione seu nome a essa lista"

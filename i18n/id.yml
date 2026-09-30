@@ -64,109 +64,109 @@
   translation: "Kesesuaian terhadap suatu standar berarti Anda memenuhi atau memenuhi 'persyaratan' standar tersebut. Dalam WCAG 2.0, 'persyaratan' adalah Kriteria Keberhasilan. Untuk memenuhi WCAG 2.0, Anda harus memenuhi Kriteria Keberhasilan, yaitu tidak ada konten yang melanggar Kriteria Keberhasilan."
 - id: topic04p04
   translation: "Mengingat bahwa kesesuaian didefinisikan sebagai memenuhi semua persyaratan standar, ketidakmampuan produk ini yang terdokumentasi untuk memperbaiki semua masalah yang mungkin terjadi berarti bahwa produk ini tidak dapat membuat situs web menjadi sesuai kriteria. Produk yang dipasarkan dengan klaim seperti itu harus dicurigai."
-- id: topic05
-  translation: "Privasi data personal"
-- id: topic05p01
-  translation: "Menambahkan overlay ke situs Anda mungkin bertentangan dengan preferensi pengguna terhadap privasi dan dapat menimbulkan risiko ketidakpatuhan terhadap GDPR, GDPR UK, CCPA, dan lainnya."
-- id: topic05p02
-  translation: "Overlay yang secara otomatis mengaktifkan pengaturan tertentu, seperti pengaturan untuk pengguna pembaca layar atau pengenalan suara, melakukannya dengan mendeteksi teknologi bantu pada perangkat pengguna. Hal ini menunjukkan fakta bahwa orang yang menggunakan perangkat pada saat itu memiliki disabilitas. Dalam kasus tertentu, seperti pengguna pembaca layar yang mayoritas penyandang disabilitas netra atau memiliki low vision, hal ini mengungkap lebih banyak detail tentang ragam disabilitas mereka. Seperti halnya usia, latar belakang etnis, atau jenis kelamin, dan disabilitas adalah informasi pribadi yang sensitif. Data ini tidak boleh dikumpulkan tanpa persetujuan dari pemiliknya."
-- id: topic05p03
-  translation: "Beberapa overlay telah ditemukan untuk mempertahankan pengaturan pengguna di seluruh situs yang menggunakan overlay yang sama. Hal ini dilakukan dengan mengatur cookie pada komputer pengguna. Ketika pengguna mengaktifkan pengaturan untuk fitur overlay di satu situs, overlay akan secara otomatis mengaktifkan fitur tersebut di situs-situs lain. Meskipun perusahaan overlay mungkin berpikir bahwa mereka melakukan hal yang baik bagi pengguna, masalah privasi yang besar adalah bahwa pengguna tidak pernah memilih untuk dilacak dan juga tidak ada kemampuan untuk menolak. Karena tidak adanya pilihan untuk menolak (selain secara eksplisit mematikan pengaturan tersebut), hal ini menimbulkan risiko General Data Protection Regulation (GDPR) dan Undang-Undang Privasi Konsumen California (CCPA) bagi pelanggan overlay."
 - id: topic06
-  translation: "Pendapat mereka"
+  translation: "Privasi data personal"
 - id: topic06p01
-  translation: "Banyak pengguna dengan disabilitas yang menyatakan ketidakpuasannya terhadap produk overlay. Seperti yang ditunjukkan di bawah ini, overlay itu mungkin memiliki masalah aksesibilitas yang cukup signifikan sehingga pengguna perlu mengambil langkah untuk secara aktif memblokir overlay agar tidak muncul sama sekali."
+  translation: "Menambahkan overlay ke situs Anda mungkin bertentangan dengan preferensi pengguna terhadap privasi dan dapat menimbulkan risiko ketidakpatuhan terhadap GDPR, GDPR UK, CCPA, dan lainnya."
 - id: topic06p02
-  translation: "Harap diperhatikan: meskipun bagian ini mungkin menyebutkan vendor tertentu, komentar ini adalah hal yang wajar dalam hal pengalaman pengguna yang disediakan oleh widget overlay yang, dengan sendirinya, memiliki pola yang berdampak negatif pada pengalaman pengguna."
-- id: topic06t01
-  translation: "...dengan asumsi alat Anda dapat melakukan pekerjaan yang baik dalam membuat sesuatu yang dapat diakses, alat ini dapat melakukan pekerjaan yang lebih baik lagi dalam membuat sesuatu yang dapat diakses yang berjalan langsung di mesin pengguna yang memiliki akses ke kode mesin dan API mesin"
-- id: topic06t02
-  translation: "...Saya akhirnya berhasil mendapatkan akses ke akun @NameCheap saya dengan memblokir #AccessiBe pada berkas Windows Host saya. Seharusnya saya tidak perlu melakukan hal ini untuk menggunakan Internet. AccessiBe perlu menjadi AccessiBeGone"
-- id: topic06t03
-  translation: "...Saya tahu 100%, situs mana pun yang telah menggunakan overlay dalam satu setengah tahun terakhir ini menjadi kurang dapat digunakan oleh saya dan istri saya-keduanya penyandang disabilitas netra."
-- id: topic06t04
-  translation: "...Masih sangat menyebalkan untuk mencoba membaca artikel di perangkat seluler karena gangguan konstan setiap beberapa detik. Mengingat setiap situs yang menggunakan layanan Anda juga memiliki masalah ini... Tidak."
-- id: topic06t05
-  translation: "...Membuat sebuah halaman web dapat diakses memang membutuhkan kerja keras, dan hanya memberi tahu sebuah urusan bahwa mereka dapat menginstal plugin Anda adalah hal yang sangat bodoh, Anda harus membuat dan mendesain aksesibilitas ke dalam sebuah halaman web dengan menggunakan standar WCAG."
-- id: topic06t06
-  translation: "...Menyarankan satu baris kode itu murah, jadi Anda harus melakukannya dengan menyimpulkan bahwa nyawa penyandang disabilitas juga tidak layak untuk diinvestasikan. #a11y"
-- id: topic06t07
-  translation: "@AccessiBe hanya untuk menunjukkan itikad baik saya, berikut ini adalah audit singkat dari https://t.co/1mQGCCtnIs. Anda menggunakan \"tab\" yang merupakan cara standar untuk menavigasi. Tidak ada cara untuk tidak mengaktifkan overlay jika saya ingin menavigasi halaman. Setelah overlay diaktifkan, hal-hal yang tidak terduga akan terjadi."
-- id: topic06t08
-  translation: "#AccessiBe membuat situs website menjadi lebih sulit untuk digunakan dengan menghalangi penjelajahan dan mengubah hambatan akses pada sebuah halaman, bukan memperbaikinya. Saya dan seorang mahasiswa menemukan sebuah situs web yang \"disempurnakan\", dan yang memalukan adalah kami meninggalkannya karena kekacauan menavigasi itu di luar kemampuan saya saat itu."
-- id: topic06t09
-  translation: "Overlay aksesibilitas bukanlah jawaban, tidak terkecuali AccessiBe. Sebagai pengguna pembaca layar, banyak situs yang menjadi kurang dapat digunakan oleh saya dengan overlay ini. Mendiskreditkan para profesional dan pendukung aksesibilitas yang bereputasi baik tidak akan mempengaruhi saya dalam pandangan ini. https://t.co/ZgFt8JtsbZ"
-- id: topic06t10
-  translation: "Untuk pengguna pembaca layar: Anda mungkin pernah mendengar tentang #Accessibe, sebuah overlay yang mengklaim dapat membuat halaman yang disematkan menjadi lebih mudah diakses. Saya tidak akan membahasnya lebih lanjut. Singkatnya: omong kosong belaka. Angkat tangan!"
-- id: topic06t11
-  translation: "Solusi otomatis yang menjanjikan untuk membuat situs Anda dapat diakses itu tidak berfungsi. Dibutuhkan lebih dari sekadar otomatisasi untuk memenuhi persyaratan ini. Anda tidak akan lepas dari tanggung jawab. Anda hampir pasti akan memberikan dampak negatif pada pelanggan Anda yang penyandang disabilitas."
-- id: topic06t12
-  translation: "Setiap kali saya membuka sebuah situs web dan mendengar notifikasi #accessiBe bahwa situs ini telah disesuaikan dengan pembaca layar saya, saya tahu bahwa pemblokir saya tidak berfungsi dengan baik, dan saya akan mendapati pengalaman yang buruk di situs web tersebut. https://t.co/ZFzKMfUe0t"
-- id: topic06t13
-  translation: "Saya mencoba menggunakan situs @AccessiBe ini dengan VoiceOver di Chrome IOS. Peringkat bintang 4 dibaca sebagai \"tidak dapat diucapkan\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
-- id: topic06t14
-  translation: "Saya menulis email ke layanan pelanggan mereka yang menjelaskan bahwa saya tidak bisa menggunakan situs mereka karena overlay, tetapi... Saya benar-benar kecewa, tetapi saya harap mereka mendengarkan. @Goodfair_ - tolong hentikan penggunaan AccessiBe."
-- id: topic06t15
-  translation: "Saya bukan ahli aksesibilitas, hanya seorang pengguna pembaca layar dengan kemampuan yang cukup baik yang mengatakan bahwa utas ini sangat tepat dan pengalaman saya dengan #AccessiBe membuat situs-situs yang memiliki masalah aksesibilitas menjadi lebih sulit untuk diatasi. https://t.co/cfyrEqXwTy"
-- id: topic06t16
-  translation: "...Jika Anda seorang penyandang disabilitas netra atau low vision dan bergantung pada teknologi bantu seperti pembaca layar, Anda mungkin mulai menemukan situs web populer menjadi kurang dapat digunakan... halaman ini menjelaskan cara memblokir AccessiBe agar tidak dapat masuk ke komputer Anda… https://t.co/qbiKvolizS"
-- id: topic06t17
-  translation: "Oke, ini tampaknya sangat salah buat saya. Sebuah jaringan lokal di sini bernama Fleet Farm sekarang menggunakan AccessiBe. Ini membuat fitur pencarian lokasi menjadi berantakan. Inilah yang sekarang saya dapatkan pada awal halaman hasil."
-- id: topic06t18
-  translation: "Syukurlah Firefox memblokir pendeteksi aksesibilitas mereka. Bagi saya, fokus melompat ke mana-mana jika #AccessiBe diaktifkan. Apabila dinonaktifkan, maka fokus akan bekerja dengan sendirinya."
-- id: topic06t19
-  translation: "Tidak ada alat otomatis yang dapat mendeteksi masalah aksesibilitas secara akurat di atas 30% saat ini. Nol. Hal ini umumnya diketahui oleh siapa pun yang telah berada di sini setidaknya selama seminggu. #AccessiBe"
-- id: topic06t20
-  translation: "Ada alat yang sangat praktis untuk membuat situs web dapat diakses. Alat ini disebut programmer. Kebutuhan yang penting dalam membuat situs web dapat diakses adalah kebutuhan pengguna. Jika Anda tidak dapat memenuhi kebutuhan tersebut, maka Anda tidak dapat memenuhi hal mendasar dalam menjalankan bisnis."
-- id: topic06t21
-  translation: "Ketika #AccessiBe diaktifkan, halaman website dipenuhi dengan judul. Banyak sekali judul level 2. Judul di setiap ponsel tetap menjadi judul di kedua versi halaman website, tetapi dengan mengaktifkannya, hal-hal seperti biaya, tampilan, dan semua komponen lain dari tabel juga menjadi judul."
+  translation: "Overlay yang secara otomatis mengaktifkan pengaturan tertentu, seperti pengaturan untuk pengguna pembaca layar atau pengenalan suara, melakukannya dengan mendeteksi teknologi bantu pada perangkat pengguna. Hal ini menunjukkan fakta bahwa orang yang menggunakan perangkat pada saat itu memiliki disabilitas. Dalam kasus tertentu, seperti pengguna pembaca layar yang mayoritas penyandang disabilitas netra atau memiliki low vision, hal ini mengungkap lebih banyak detail tentang ragam disabilitas mereka. Seperti halnya usia, latar belakang etnis, atau jenis kelamin, dan disabilitas adalah informasi pribadi yang sensitif. Data ini tidak boleh dikumpulkan tanpa persetujuan dari pemiliknya."
+- id: topic06p03
+  translation: "Beberapa overlay telah ditemukan untuk mempertahankan pengaturan pengguna di seluruh situs yang menggunakan overlay yang sama. Hal ini dilakukan dengan mengatur cookie pada komputer pengguna. Ketika pengguna mengaktifkan pengaturan untuk fitur overlay di satu situs, overlay akan secara otomatis mengaktifkan fitur tersebut di situs-situs lain. Meskipun perusahaan overlay mungkin berpikir bahwa mereka melakukan hal yang baik bagi pengguna, masalah privasi yang besar adalah bahwa pengguna tidak pernah memilih untuk dilacak dan juga tidak ada kemampuan untuk menolak. Karena tidak adanya pilihan untuk menolak (selain secara eksplisit mematikan pengaturan tersebut), hal ini menimbulkan risiko General Data Protection Regulation (GDPR) dan Undang-Undang Privasi Konsumen California (CCPA) bagi pelanggan overlay."
 - id: topic07
-  translation: "Simpulan"
+  translation: "Pendapat mereka"
 - id: topic07p01
-  translation: "Tidak ada produk overlay di pasaran yang dapat membuat situs website menjadi sepenuhnya sesuai dengan standar aksesibilitas dan oleh karena itu tidak dapat menghilangkan risiko pelanggaran hukum."
+  translation: "Banyak pengguna dengan disabilitas yang menyatakan ketidakpuasannya terhadap produk overlay. Seperti yang ditunjukkan di bawah ini, overlay itu mungkin memiliki masalah aksesibilitas yang cukup signifikan sehingga pengguna perlu mengambil langkah untuk secara aktif memblokir overlay agar tidak muncul sama sekali."
 - id: topic07p02
-  translation: "Aksesibilitas di website merupakan tantangan besar, baik bagi pemilik maupun pengguna website tersebut. Penemuan pendekatan baru untuk menyelesaikan tantangan ini patut dipuji."
-- id: topic07p03
-  translation: "Namun, dalam kasus overlay-terutama yang mencoba untuk menambahkan widget yang menyajikan fitur-fitur yang membantu-tantangannya tidak terpenuhi. Yang lebih bermasalah lagi adalah pemasaran yang menipu yang disediakan oleh beberapa vendor overlay, yang menjanjikan bahwa mengimplementasikan produk mereka akan membuat website pelanggan mereka mematuhi hukum dan standar."
-- id: topic07p04
-  translation: "Ketidakefektifan overlay adalah sesuatu yang disepakati secara luas di antara para praktisi aksesibilitas, sesuai dengan <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> menyatakan bahwa:"
-- id: topic07p05
-  translation: "Mayoritas responden (67%) menilai bahwa alat bantu ini sama sekali tidak atau kurang efektif. Responden penyandang disabilitas bahkan kurang menyukai alat bantu ini. 72% dari mereka menilai alat bantu ini tidak atau kurang efektif, dan hanya 2,4% yang menilai alat bantu ini sangat efektif."
+  translation: "Harap diperhatikan: meskipun bagian ini mungkin menyebutkan vendor tertentu, komentar ini adalah hal yang wajar dalam hal pengalaman pengguna yang disediakan oleh widget overlay yang, dengan sendirinya, memiliki pola yang berdampak negatif pada pengalaman pengguna."
+- id: topic07t01
+  translation: "...dengan asumsi alat Anda dapat melakukan pekerjaan yang baik dalam membuat sesuatu yang dapat diakses, alat ini dapat melakukan pekerjaan yang lebih baik lagi dalam membuat sesuatu yang dapat diakses yang berjalan langsung di mesin pengguna yang memiliki akses ke kode mesin dan API mesin"
+- id: topic07t02
+  translation: "...Saya akhirnya berhasil mendapatkan akses ke akun @NameCheap saya dengan memblokir #AccessiBe pada berkas Windows Host saya. Seharusnya saya tidak perlu melakukan hal ini untuk menggunakan Internet. AccessiBe perlu menjadi AccessiBeGone"
+- id: topic07t03
+  translation: "...Saya tahu 100%, situs mana pun yang telah menggunakan overlay dalam satu setengah tahun terakhir ini menjadi kurang dapat digunakan oleh saya dan istri saya-keduanya penyandang disabilitas netra."
+- id: topic07t04
+  translation: "...Masih sangat menyebalkan untuk mencoba membaca artikel di perangkat seluler karena gangguan konstan setiap beberapa detik. Mengingat setiap situs yang menggunakan layanan Anda juga memiliki masalah ini... Tidak."
+- id: topic07t05
+  translation: "...Membuat sebuah halaman web dapat diakses memang membutuhkan kerja keras, dan hanya memberi tahu sebuah urusan bahwa mereka dapat menginstal plugin Anda adalah hal yang sangat bodoh, Anda harus membuat dan mendesain aksesibilitas ke dalam sebuah halaman web dengan menggunakan standar WCAG."
+- id: topic07t06
+  translation: "...Menyarankan satu baris kode itu murah, jadi Anda harus melakukannya dengan menyimpulkan bahwa nyawa penyandang disabilitas juga tidak layak untuk diinvestasikan. #a11y"
+- id: topic07t07
+  translation: "@AccessiBe hanya untuk menunjukkan itikad baik saya, berikut ini adalah audit singkat dari https://t.co/1mQGCCtnIs. Anda menggunakan \"tab\" yang merupakan cara standar untuk menavigasi. Tidak ada cara untuk tidak mengaktifkan overlay jika saya ingin menavigasi halaman. Setelah overlay diaktifkan, hal-hal yang tidak terduga akan terjadi."
+- id: topic07t08
+  translation: "#AccessiBe membuat situs website menjadi lebih sulit untuk digunakan dengan menghalangi penjelajahan dan mengubah hambatan akses pada sebuah halaman, bukan memperbaikinya. Saya dan seorang mahasiswa menemukan sebuah situs web yang \"disempurnakan\", dan yang memalukan adalah kami meninggalkannya karena kekacauan menavigasi itu di luar kemampuan saya saat itu."
+- id: topic07t09
+  translation: "Overlay aksesibilitas bukanlah jawaban, tidak terkecuali AccessiBe. Sebagai pengguna pembaca layar, banyak situs yang menjadi kurang dapat digunakan oleh saya dengan overlay ini. Mendiskreditkan para profesional dan pendukung aksesibilitas yang bereputasi baik tidak akan mempengaruhi saya dalam pandangan ini. https://t.co/ZgFt8JtsbZ"
+- id: topic07t10
+  translation: "Untuk pengguna pembaca layar: Anda mungkin pernah mendengar tentang #Accessibe, sebuah overlay yang mengklaim dapat membuat halaman yang disematkan menjadi lebih mudah diakses. Saya tidak akan membahasnya lebih lanjut. Singkatnya: omong kosong belaka. Angkat tangan!"
+- id: topic07t11
+  translation: "Solusi otomatis yang menjanjikan untuk membuat situs Anda dapat diakses itu tidak berfungsi. Dibutuhkan lebih dari sekadar otomatisasi untuk memenuhi persyaratan ini. Anda tidak akan lepas dari tanggung jawab. Anda hampir pasti akan memberikan dampak negatif pada pelanggan Anda yang penyandang disabilitas."
+- id: topic07t12
+  translation: "Setiap kali saya membuka sebuah situs web dan mendengar notifikasi #accessiBe bahwa situs ini telah disesuaikan dengan pembaca layar saya, saya tahu bahwa pemblokir saya tidak berfungsi dengan baik, dan saya akan mendapati pengalaman yang buruk di situs web tersebut. https://t.co/ZFzKMfUe0t"
+- id: topic07t13
+  translation: "Saya mencoba menggunakan situs @AccessiBe ini dengan VoiceOver di Chrome IOS. Peringkat bintang 4 dibaca sebagai \"tidak dapat diucapkan\" 🤦‍♀️ https://t.co/f4MxQ2eLLP"
+- id: topic07t14
+  translation: "Saya menulis email ke layanan pelanggan mereka yang menjelaskan bahwa saya tidak bisa menggunakan situs mereka karena overlay, tetapi... Saya benar-benar kecewa, tetapi saya harap mereka mendengarkan. @Goodfair_ - tolong hentikan penggunaan AccessiBe."
+- id: topic07t15
+  translation: "Saya bukan ahli aksesibilitas, hanya seorang pengguna pembaca layar dengan kemampuan yang cukup baik yang mengatakan bahwa utas ini sangat tepat dan pengalaman saya dengan #AccessiBe membuat situs-situs yang memiliki masalah aksesibilitas menjadi lebih sulit untuk diatasi. https://t.co/cfyrEqXwTy"
+- id: topic07t16
+  translation: "...Jika Anda seorang penyandang disabilitas netra atau low vision dan bergantung pada teknologi bantu seperti pembaca layar, Anda mungkin mulai menemukan situs web populer menjadi kurang dapat digunakan... halaman ini menjelaskan cara memblokir AccessiBe agar tidak dapat masuk ke komputer Anda… https://t.co/qbiKvolizS"
+- id: topic07t17
+  translation: "Oke, ini tampaknya sangat salah buat saya. Sebuah jaringan lokal di sini bernama Fleet Farm sekarang menggunakan AccessiBe. Ini membuat fitur pencarian lokasi menjadi berantakan. Inilah yang sekarang saya dapatkan pada awal halaman hasil."
+- id: topic07t18
+  translation: "Syukurlah Firefox memblokir pendeteksi aksesibilitas mereka. Bagi saya, fokus melompat ke mana-mana jika #AccessiBe diaktifkan. Apabila dinonaktifkan, maka fokus akan bekerja dengan sendirinya."
+- id: topic07t19
+  translation: "Tidak ada alat otomatis yang dapat mendeteksi masalah aksesibilitas secara akurat di atas 30% saat ini. Nol. Hal ini umumnya diketahui oleh siapa pun yang telah berada di sini setidaknya selama seminggu. #AccessiBe"
+- id: topic07t20
+  translation: "Ada alat yang sangat praktis untuk membuat situs web dapat diakses. Alat ini disebut programmer. Kebutuhan yang penting dalam membuat situs web dapat diakses adalah kebutuhan pengguna. Jika Anda tidak dapat memenuhi kebutuhan tersebut, maka Anda tidak dapat memenuhi hal mendasar dalam menjalankan bisnis."
+- id: topic07t21
+  translation: "Ketika #AccessiBe diaktifkan, halaman website dipenuhi dengan judul. Banyak sekali judul level 2. Judul di setiap ponsel tetap menjadi judul di kedua versi halaman website, tetapi dengan mengaktifkannya, hal-hal seperti biaya, tampilan, dan semua komponen lain dari tabel juga menjadi judul."
 - id: topic08
-  translation: "Pernyataan dari para pendukung dan penandatangan fact sheet ini"
+  translation: "Simpulan"
 - id: topic08p01
-  translation: "Sebagaimana informasi di atas:"
+  translation: "Tidak ada produk overlay di pasaran yang dapat membuat situs website menjadi sepenuhnya sesuai dengan standar aksesibilitas dan oleh karena itu tidak dapat menghilangkan risiko pelanggaran hukum."
 - id: topic08p02
-  translation: "Kami tidak akan pernah menganjurkan, merekomendasikan, atau mengintegrasikan overlay yang menipu dan memasarkan produknya sendiri sebagai alat yang secara otomatis mematuhi ketentuan hukum atau standar"
+  translation: "Aksesibilitas di website merupakan tantangan besar, baik bagi pemilik maupun pengguna website tersebut. Penemuan pendekatan baru untuk menyelesaikan tantangan ini patut dipuji."
 - id: topic08p03
-  translation: "Kami akan selalu mengadvokasi perbaikan masalah aksesibilitas dengan sumber kesalahan aslinya"
+  translation: "Namun, dalam kasus overlay-terutama yang mencoba untuk menambahkan widget yang menyajikan fitur-fitur yang membantu-tantangannya tidak terpenuhi. Yang lebih bermasalah lagi adalah pemasaran yang menipu yang disediakan oleh beberapa vendor overlay, yang menjanjikan bahwa mengimplementasikan produk mereka akan membuat website pelanggan mereka mematuhi hukum dan standar."
 - id: topic08p04
-  translation: "Kami tidak akan tinggal diam ketika vendor overlay melakukan penipuan untuk memasarkan produk mereka"
+  translation: "Ketidakefektifan overlay adalah sesuatu yang disepakati secara luas di antara para praktisi aksesibilitas, sesuai dengan <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> menyatakan bahwa:"
 - id: topic08p05
-  translation: "Lebih spesifik lagi, dengan ini kami mengadvokasi penghapusan overlay aksesibilitas website dan mendorong pemilik situs yang telah menerapkan produk ini untuk menggunakan cara yang lebih kuat, independen, dan permanen untuk membuat situs mereka lebih mudah diakses"
-- id: topic08p06
-  translation: "Ditandatangani oleh:"
-- id: topic08p07
-  translation: "Beberapa vendor overlay telah mencoba untuk membingkai fact sheet overlay sebagai upaya pesaing mereka untuk mendiskreditkan mereka. Klaim overlay semacam itu adalah contoh kasus tentang upaya dalam <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">memanipulasi</a> orang untuk meredam kritik."
-- id: topic08p08
-  translation: "Saat ini, para penandatangan fact sheet ini meliputi:"
-- id: topic08p09
-  translation: "Kontributor dan editor <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, dan <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
-- id: topic08p10
-  translation: "Konsultan dari <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> dan lainnya"
-- id: topic08p11
-  translation: "Pakar aksesibilitas internal untuk perusahaan seperti Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, dan Pearson Assessments"
-- id: topic08p12
-  translation: "Pakar aksesibilitas internal dari institusi pendidikan tinggi seperti Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic08p13
-  translation: "Pengacara untuk penyandang disabilitas"
-- id: topic08p14
-  translation: "Kontributor software teknologi bantu seperti JAWS dan NVDA"
-- id: topic08p15
-  translation: "Para pengguna dengan disabilitas"
-- id: topic08p16
-  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai \"pesaing\" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
+  translation: "Mayoritas responden (67%) menilai bahwa alat bantu ini sama sekali tidak atau kurang efektif. Responden penyandang disabilitas bahkan kurang menyukai alat bantu ini. 72% dari mereka menilai alat bantu ini tidak atau kurang efektif, dan hanya 2,4% yang menilai alat bantu ini sangat efektif."
 - id: topic09
+  translation: "Pernyataan dari para pendukung dan penandatangan fact sheet ini"
+- id: topic09p01
+  translation: "Sebagaimana informasi di atas:"
+- id: topic09p02
+  translation: "Kami tidak akan pernah menganjurkan, merekomendasikan, atau mengintegrasikan overlay yang menipu dan memasarkan produknya sendiri sebagai alat yang secara otomatis mematuhi ketentuan hukum atau standar"
+- id: topic09p03
+  translation: "Kami akan selalu mengadvokasi perbaikan masalah aksesibilitas dengan sumber kesalahan aslinya"
+- id: topic09p04
+  translation: "Kami tidak akan tinggal diam ketika vendor overlay melakukan penipuan untuk memasarkan produk mereka"
+- id: topic09p05
+  translation: "Lebih spesifik lagi, dengan ini kami mengadvokasi penghapusan overlay aksesibilitas website dan mendorong pemilik situs yang telah menerapkan produk ini untuk menggunakan cara yang lebih kuat, independen, dan permanen untuk membuat situs mereka lebih mudah diakses"
+- id: topic09p06
+  translation: "Ditandatangani oleh:"
+- id: topic09p07
+  translation: "Beberapa vendor overlay telah mencoba untuk membingkai fact sheet overlay sebagai upaya pesaing mereka untuk mendiskreditkan mereka. Klaim overlay semacam itu adalah contoh kasus tentang upaya dalam <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">memanipulasi</a> orang untuk meredam kritik."
+- id: topic09p08
+  translation: "Saat ini, para penandatangan fact sheet ini meliputi:"
+- id: topic09p09
+  translation: "Kontributor dan editor <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, dan <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+- id: topic09p10
+  translation: "Konsultan dari <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> dan lainnya"
+- id: topic09p11
+  translation: "Pakar aksesibilitas internal untuk perusahaan seperti Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, dan Pearson Assessments"
+- id: topic09p12
+  translation: "Pakar aksesibilitas internal dari institusi pendidikan tinggi seperti Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic09p13
+  translation: "Pengacara untuk penyandang disabilitas"
+- id: topic09p14
+  translation: "Kontributor software teknologi bantu seperti JAWS dan NVDA"
+- id: topic09p15
+  translation: "Para pengguna dengan disabilitas"
+- id: topic09p16
+  translation: "Singkatnya, daftar penandatangan di bawah ini adalah orang-orang yang ahli dalam bidang ini & telah mendedikasikan karir profesional mereka untuk peningkatan aksesibilitas atau pengalaman pengguna dengan disabilitas (atau keduanya). Menganggap nama-nama yang tercantum di bawah ini sebagai \"pesaing\" adalah tidak akurat dan melewatkan intinya: overlay bukanlah cara yang efektif untuk memastikan aksesibilitas-hal yang disetujui oleh semua orang di bawah ini."
+- id: topic10
   translation: "Bacaan tambahan"
 - id: addYourName
   translation: "Tambahkan nama Anda pada daftar berikut"

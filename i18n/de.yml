@@ -120,53 +120,53 @@
   translation: "Es gibt ein äußerst praktisches Werkzeug, um Websites zugänglich zu machen: einen Programmierer. Die Bedürfnisse, die bei der Zugänglichkeit einer Website zählen, sind die der Nutzer. Wenn man diese nicht erfüllt, kann man die grundlegenden Geschäftskosten nicht decken."
 - id: topic07t21
   translation: "Wenn #AccessiBe aktiviert ist, überschwemmen Überschriften die Seite. Viele Überschriften auf der Ebene 2. Der Titel jedes Telefons bleibt in beiden Versionen der Seite eine Überschrift. Mit Aktivierung werden jedoch auch Angaben wie Preis, Display und alle anderen Bestandteile der Tabellen zu Überschriften."
-- id: topic08
-  translation: "Schlussfolgerung"
-- id: topic08p01
-  translation: "Kein vorhandenes Overlay-Produkt kann eine Website vollständig mit bestehenden Barrierefreiheitsstandards in Einklang bringen. Daher kann es das rechtliche Risiko nicht beseitigen."
-- id: topic08p02
-  translation: "Die Zugänglichkeit im Web stellt sowohl für Webseitenbetreiber als auch für deren Nutzer eine große Herausforderung dar. Neue Ansätze zur Lösung dieses Problems verdienen Anerkennung."
-- id: topic08p03
-  translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
-- id: topic08p04
-  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://web.archive.org/web/20251030*/https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>:"
-- id: topic08p05
-  translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic09
-  translation: "Erklärung von Sponsoren und Unterzeichnern dieses Fact Sheets"
+  translation: "Schlussfolgerung"
 - id: topic09p01
-  translation: "In Anbetracht der oben genannten Informationen:"
+  translation: "Kein vorhandenes Overlay-Produkt kann eine Website vollständig mit bestehenden Barrierefreiheitsstandards in Einklang bringen. Daher kann es das rechtliche Risiko nicht beseitigen."
 - id: topic09p02
-  translation: "Wir werden niemals ein Overlay unterstützen, empfehlen oder integrieren, das sich fälschlicherweise als automatisierte Lösung zur Einhaltung von Gesetzen oder Standards präsentiert."
+  translation: "Die Zugänglichkeit im Web stellt sowohl für Webseitenbetreiber als auch für deren Nutzer eine große Herausforderung dar. Neue Ansätze zur Lösung dieses Problems verdienen Anerkennung."
 - id: topic09p03
-  translation: "Wir setzen uns immer dafür ein, Barrierefreiheitsprobleme direkt an der Quelle des ursprünglichen Fehlers zu beheben."
+  translation: "Bei Overlays, insbesondere bei solchen, die versuchen, Widgets mit unterstützenden Funktionen hinzuzufügen, bleibt die Herausforderung allerdings bestehen. Noch problematischer ist das irreführende Marketing einiger Overlay-Anbieter. Sie versprechen, dass die Einbindung ihres Produkts den Websites ihrer Kunden sofortige Konformität mit Gesetzen und Standards verschafft."
 - id: topic09p04
-  translation: "Wir weigern uns zu schweigen, wenn Anbieter von Overlays Täuschung einsetzen, um ihre Produkte zu vermarkten."
+  translation: "Die Unwirksamkeit von Overlays ist unter Experten für Barrierefreiheit allgemein anerkannt. Dies zeigt die <a href=\"https://web.archive.org/web/20251030*/https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM-Umfrage unter Fachleuten für Web-Barrierefreiheit</a>:"
 - id: topic09p05
-  translation: "Konkret sprechen wir uns für die Entfernung von Web-Accessibility-Overlays aus. Wir ermutigen die Seitenbetreiber, die solche Produkte eingesetzt haben, robustere, unabhängige und dauerhafte Strategien zu nutzen, um ihre Seiten zugänglicher zu gestalten."
-- id: topic09p06
-  translation: "Unterschrieben von:"
-- id: topic09p07
-  translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
-- id: topic09p08
-  translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets:"
-- id: topic09p09
-  translation: "Mitwirkende und Autoren der <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, und des <abbr title=\"Hypertext Markup Language\">HTML</abbr> Standards"
-- id: topic09p10
-  translation: "Berater aus <abbr title=\"Vereinigten Staaten von Amerika\">USA</abbr>,  <abbr title=\"Vereinigtes Königreich\">UK</abbr>, <abbr title=\"Niederlande\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Deutschland\">DE</abbr>, <abbr title=\"Frankreich\">FR</abbr>, <abbr title=\"Schweden\">SE</abbr>, <abbr title=\"Norwegen\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Dänemark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> und weiteren"
-- id: topic09p11
-  translation: "Interne Barrierefreiheitsexperten von Firmen wie Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
-- id: topic09p12
-  translation: "Interne Barrierefreiheitsexperten von Hochschulen wie Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Anwälte für Menschen mit Behinderungen"
-- id: topic09p14
-  translation: "Mitwirkende an Software für unterstützende Technologien wie JAWS und NVDA"
-- id: topic09p15
-  translation: "Zahl der Endnutzer mit Behinderungen"
-- id: topic09p16
-  translation: "Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als \"Wettbewerber\" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig."
+  translation: "Eine deutliche Mehrheit (67 %) der Befragten empfindet diese Werkzeuge als überhaupt nicht oder wenig effektiv. Menschen mit Behinderungen bewerteten sie sogar noch kritischer. Hier gaben 72 % an, dass die Werkzeuge überhaupt nicht oder wenig effektiv seien. Lediglich 2,4 % stuften sie als sehr effektiv ein."
 - id: topic10
+  translation: "Erklärung von Sponsoren und Unterzeichnern dieses Fact Sheets"
+- id: topic10p01
+  translation: "In Anbetracht der oben genannten Informationen:"
+- id: topic10p02
+  translation: "Wir werden niemals ein Overlay unterstützen, empfehlen oder integrieren, das sich fälschlicherweise als automatisierte Lösung zur Einhaltung von Gesetzen oder Standards präsentiert."
+- id: topic10p03
+  translation: "Wir setzen uns immer dafür ein, Barrierefreiheitsprobleme direkt an der Quelle des ursprünglichen Fehlers zu beheben."
+- id: topic10p04
+  translation: "Wir weigern uns zu schweigen, wenn Anbieter von Overlays Täuschung einsetzen, um ihre Produkte zu vermarkten."
+- id: topic10p05
+  translation: "Konkret sprechen wir uns für die Entfernung von Web-Accessibility-Overlays aus. Wir ermutigen die Seitenbetreiber, die solche Produkte eingesetzt haben, robustere, unabhängige und dauerhafte Strategien zu nutzen, um ihre Seiten zugänglicher zu gestalten."
+- id: topic10p06
+  translation: "Unterschrieben von:"
+- id: topic10p07
+  translation: "Einige Anbieter von Overlays haben versucht, dieses Overlay Fact Sheet als Bemühung von Konkurrenten darzustellen, ihnen zu schaden. Solche Behauptungen sind ein klassisches Beispiel dafür, wie man durch <a href=\"https://web.archive.org/web/20251030*/https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> versucht, Kritik abzulenken."
+- id: topic10p08
+  translation: "Stand heute gehören zu den Unterzeichnern des Overlay-Factsheets:"
+- id: topic10p09
+  translation: "Mitwirkende und Autoren der <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, und des <abbr title=\"Hypertext Markup Language\">HTML</abbr> Standards"
+- id: topic10p10
+  translation: "Berater aus <abbr title=\"Vereinigten Staaten von Amerika\">USA</abbr>,  <abbr title=\"Vereinigtes Königreich\">UK</abbr>, <abbr title=\"Niederlande\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Deutschland\">DE</abbr>, <abbr title=\"Frankreich\">FR</abbr>, <abbr title=\"Schweden\">SE</abbr>, <abbr title=\"Norwegen\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Dänemark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> und weiteren"
+- id: topic10p11
+  translation: "Interne Barrierefreiheitsexperten von Firmen wie Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
+- id: topic10p12
+  translation: "Interne Barrierefreiheitsexperten von Hochschulen wie Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Anwälte für Menschen mit Behinderungen"
+- id: topic10p14
+  translation: "Mitwirkende an Software für unterstützende Technologien wie JAWS und NVDA"
+- id: topic10p15
+  translation: "Zahl der Endnutzer mit Behinderungen"
+- id: topic10p16
+  translation: "Die unten aufgeführten Unterzeichner sind Experten auf diesem Gebiet. Sie widmen sich beruflich der Behebung von Barrieren oder sind Endnutzer mit Behinderungen, oder beides. Diese als \"Wettbewerber\" abzutun, ist unzutreffend und verfehlt den Kern. Overlays sind kein wirksames Mittel zur Gewährleistung der Barrierefreiheit. Darin sind sich alle unten genannten Personen einig."
+- id: topic11
   translation: "Weitere Lektüre"
 - id: addYourName
   translation: "Fügen Sie Ihren Namen zu dieser Liste hinzu"

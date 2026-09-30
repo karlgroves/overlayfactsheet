@@ -139,52 +139,70 @@
 - id: topic07t21
   translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2's. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
 - id: topic08
-  translation: "Conclusion"
+  translation: "Are overlays better than nothing?"
 - id: topic08p01
-  translation: "No overlay product on the market can cause a website to become fully compliant with any existing accessibility standard and therefore cannot eliminate legal risk."
+  translation: "An overlay is not a neutral addition to a website. It can leave existing barriers in place and add new ones, so it should not be treated as a safe first step."
 - id: topic08p02
-  translation: "Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The invention of novel approaches to resolving this challenge is to be commended."
+  translation: "Whether an overlay improves a particular website depends on that website. Any automated repairs it applies may address some of the site's actual problems, none of them, or make some of them worse. The only way to know is to test the site with and without the overlay, including with assistive technologies. That is the same testing needed to find and fix the problems directly."
 - id: topic08p03
-  translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer's sites immediate compliance with laws and standards."
+  translation: "As described above, the display and reading features that overlay widgets offer are also available to users through their operating system, browser, browser extensions, or assistive technology, where they work on every website and follow each person's own preferences."
 - id: topic08p04
-  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
+  translation: "Instead of adding an overlay, site owners can address the barriers themselves:"
 - id: topic08p05
-  translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
+  translation: "Test the site. Free automated checkers find some common problems and explain how to fix them. They cannot find every problem, so manual testing, including with assistive technologies, is also needed."
+- id: topic08p06
+  translation: "Fix problems in the site's own code and content, starting with the tasks that matter most to its users."
+- id: topic08p07
+  translation: "Get help where it's needed. An accessibility audit identifies problems and how to fix them, and training helps the people who build and edit the site avoid creating new ones."
+- id: topic08p08
+  translation: "Involve people with disabilities in design and testing."
 - id: topic09
-  translation: "Statement from sponsors and signatories to this fact sheet"
+  translation: "Conclusion"
 - id: topic09p01
-  translation: "As a result of the above information:"
+  translation: "No overlay product on the market can cause a website to become fully compliant with any existing accessibility standard and therefore cannot eliminate legal risk."
 - id: topic09p02
-  translation: "We will never advocate, recommend, or integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards"
+  translation: "Accessibility on the Web is a big challenge, both for owners of websites and for the users of those websites. The invention of novel approaches to resolving this challenge is to be commended."
 - id: topic09p03
-  translation: "We will always advocate for the remediation of accessibility issues at the source of the original error"
+  translation: "However, in the case of overlays—especially those which attempt to add widgets that present assistive features—the challenge is not being met. Even more problematic is the deceptive marketing provided by some overlay vendors who promise that implementing their product will give their customer's sites immediate compliance with laws and standards."
 - id: topic09p04
-  translation: "We will refuse to stay silent when overlay vendors use deception to market their products"
+  translation: "The ineffectiveness of overlays is something that has broad agreement among accessibility practitioners, per the <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> which found:"
 - id: topic09p05
-  translation: "More specifically, we hereby advocate for the removal of web accessibility overlay and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible"
-- id: topic09p06
-  translation: "Signed by:"
-- id: topic09p07
-  translation: "Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them. Such overlay claims are a textbook case of an attempt to <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> people to deflect criticism."
-- id: topic09p08
-  translation: "As of today, the signatories to the overlay factsheet include:"
-- id: topic09p09
-  translation: "Contributors and editors for <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
-- id: topic09p10
-  translation: "Consultants from <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> and more"
-- id: topic09p11
-  translation: "Internal accessibility experts for companies like Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
-- id: topic09p12
-  translation: "Internal accessibility experts from higher education institutions like Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Lawyers for the disabled"
-- id: topic09p14
-  translation: "Contributors to assistive technology software such as JAWS and NVDA"
-- id: topic09p15
-  translation: "Scores of end users with disabilities"
-- id: topic09p16
-  translation: "In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree."
+  translation: "A strong majority (67%) of respondents rate these tools as not at all or not very effective. Respondents with disabilities were even less favorable with 72% rating them not at all or not very effective, and only 2.4% rating them as very effective."
 - id: topic10
+  translation: "Statement from sponsors and signatories to this fact sheet"
+- id: topic10p01
+  translation: "As a result of the above information:"
+- id: topic10p02
+  translation: "We will never advocate, recommend, or integrate an overlay which deceptively markets itself as providing automated compliance with laws or standards"
+- id: topic10p03
+  translation: "We will always advocate for the remediation of accessibility issues at the source of the original error"
+- id: topic10p04
+  translation: "We will refuse to stay silent when overlay vendors use deception to market their products"
+- id: topic10p05
+  translation: "More specifically, we hereby advocate for the removal of web accessibility overlay and encourage the site owners who've implemented these products to use more robust, independent, and permanent strategies to making their sites more accessible"
+- id: topic10p06
+  translation: "Signed by:"
+- id: topic10p07
+  translation: "Some overlay vendors have attempted to frame the overlay factsheet as an effort by their competitors to discredit them. Such overlay claims are a textbook case of an attempt to <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslight</a> people to deflect criticism."
+- id: topic10p08
+  translation: "As of today, the signatories to the overlay factsheet include:"
+- id: topic10p09
+  translation: "Contributors and editors for <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr> specifications"
+- id: topic10p10
+  translation: "Consultants from <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Canada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Germany\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sweden\">SE</abbr>, <abbr title=\"Norway\">NO</abbr>, <abbr title=\"Belgium\">BE</abbr>, <abbr title=\"Poland\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Denmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> and more"
+- id: topic10p11
+  translation: "Internal accessibility experts for companies like Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, and Pearson Assessments"
+- id: topic10p12
+  translation: "Internal accessibility experts from higher education institutions like Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Lawyers for the disabled"
+- id: topic10p14
+  translation: "Contributors to assistive technology software such as JAWS and NVDA"
+- id: topic10p15
+  translation: "Scores of end users with disabilities"
+- id: topic10p16
+  translation: "In short, the list of signatories below are people who are experts in this field &amp; have dedicated their professional careers to the improvement of accessibility or are end users with disabilities (or both). Discounting the names listed below as &quot;competitors&quot; is both inaccurate and misses the point: overlays are not an effective means of ensuring accessibility - a point on which all of the people below agree."
+- id: topic11
   translation: "Additional Reading"
 - id: addYourName
   translation: "Add your name to this list"

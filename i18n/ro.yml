@@ -120,53 +120,53 @@
   translation: "Există un instrument extrem de practic care te ajută să faci un site accesibil. Se cheamă un programator. Nevoile care contează în ceea ce privește accesibilitatea sunt cele ale utilizatorilor. Dacă nu poți satisface acele nevoi, atunci nu-ți permiți costul standard de a avea o afacere."
 - id: topic07t21
   translation: "Când #AccessiBe e activat, pagina este plină de titluri de structură. Foarte multe titluri de nivelul 2. Titlul fiecărui telefon rămâne un titlu în ambele versiuni ale paginii. Dar când overlay-ul este activat, elemente precum costul, afișajul și toate celelalte componente ale tabelelor devin, de asemenea, titluri."
-- id: topic08
-  translation: "Concluzie"
-- id: topic08p01
-  translation: "Nici un produs de tip overlay disponibil pe piață nu poate face un site web să devină pe deplin conform cu nici un standard de accesibilitate și, prin urmare, nu poate elimina riscul juridic."
-- id: topic08p02
-  translation: "Accesibilitatea web este o mare provocare, atât pentru proprietarii de site-uri web, cât și pentru utilizatorii acelor site-uri. Invenția unor abordări noi pentru rezolvarea acestei provocări este de lăudat."
-- id: topic08p03
-  translation: "Însă, overlay-urilor, mai ales cele care încearcă să adauge widgeturi care prezintă funcționalități asistive, nu fac față provocării. Și mai problematice sunt tacticile de marketing înșelătoare practicate de vânzătorii de overlay-uri, care promit că implementarea produsului lor în site-uri va oferi clienților conformare instantă cu legile și standardele de accesibilitate."
-- id: topic08p04
-  translation: "Specialiștii în accesibilitate sunt pe deplin de acord că overlay-urile sunt ineficiente, așa cum ilustrează și <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Chestionarul WebAIM pentru Specialiștii în Accesibilitate Web</i></a> care spune că:"
-- id: topic08p05
-  translation: "O mare majoritate (67%) a participanților consideră aceste instrumente ca fiind deloc sau foarte puțin eficiente. Participanții cu dizabilități au avut opinii și mai puțin favorabile față de overlay-uri, 72% considerând aceste instrumente ca fiind deloc sau foarte puțin eficiente, și numai 2.4% considerându-le foarte eficiente."
 - id: topic09
-  translation: "Declarația sponsorilor și a semnatarilor acestui document"
+  translation: "Concluzie"
 - id: topic09p01
-  translation: "Ca și concluzie a celor menționate mai devreme:"
+  translation: "Nici un produs de tip overlay disponibil pe piață nu poate face un site web să devină pe deplin conform cu nici un standard de accesibilitate și, prin urmare, nu poate elimina riscul juridic."
 - id: topic09p02
-  translation: "Nu vom susține, recomanda, sau integra niciodată un overlay care își face reclamă înșelătoare și care pretinde conformare automată cu legi și standarde"
+  translation: "Accesibilitatea web este o mare provocare, atât pentru proprietarii de site-uri web, cât și pentru utilizatorii acelor site-uri. Invenția unor abordări noi pentru rezolvarea acestei provocări este de lăudat."
 - id: topic09p03
-  translation: "Vom susține întotdeauna remedierea problemelor de accesibilitate la sursa erorii originale"
+  translation: "Însă, overlay-urilor, mai ales cele care încearcă să adauge widgeturi care prezintă funcționalități asistive, nu fac față provocării. Și mai problematice sunt tacticile de marketing înșelătoare practicate de vânzătorii de overlay-uri, care promit că implementarea produsului lor în site-uri va oferi clienților conformare instantă cu legile și standardele de accesibilitate."
 - id: topic09p04
-  translation: "Vom refuza să rămânem tăcuți atunci când vânzătorii de overlay-uri utilizează tactici înșelătoare pentru a face reclamă propriilor produse"
+  translation: "Specialiștii în accesibilitate sunt pe deplin de acord că overlay-urile sunt ineficiente, așa cum ilustrează și <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Chestionarul WebAIM pentru Specialiștii în Accesibilitate Web</i></a> care spune că:"
 - id: topic09p05
-  translation: "Mai exact, prin cele menționate, susținem înlăturarea overlay-urilor pentru accesibilitatea web și îi încurajăm pe proprietarii site-urilor care au implementat aceste produse la ei pe site să folosească strategii mai robuste, independente și permanente pentru a face site-urile mai accesibile"
-- id: topic09p06
-  translation: "Semnat de către:"
-- id: topic09p07
-  translation: "Unii vânzători de overlay-uri au încercat să sugereze că acest document este un efort al competitorilor de a îi discredita. Acest lucru este în mod clar o încercare de <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a>, pentru a evita critica."
-- id: topic09p08
-  translation: "Până în momentul de față, acest document include următoarele semnături:"
-- id: topic09p09
-  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și specificațiile <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
-- id: topic09p10
-  translation: "Consultanți din Statele Unite ale Americii, Regatul Unit, Olanda, Canada, Japonia, Germania, Franța, Suedia, Norvegia, Belgia, Polonia, Australia, Danemarca, Israel, Chile și altele"
-- id: topic09p11
-  translation: "Experți în accesibilitate pentru companii precum Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, și Pearson Assessments"
-- id: topic09p12
-  translation: "Experți în accesibilitate din instituții educaționale superioare precum Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Avocați pentru persoanele cu dizabilități"
-- id: topic09p14
-  translation: "Contribuitori la tehnologii asistive precum JAWS și NVDA"
-- id: topic09p15
-  translation: "O multitudine de persoane cu dizabilități"
-- id: topic09p16
-  translation: "Pe scurt, lista de semnatari de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Etichetarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
+  translation: "O mare majoritate (67%) a participanților consideră aceste instrumente ca fiind deloc sau foarte puțin eficiente. Participanții cu dizabilități au avut opinii și mai puțin favorabile față de overlay-uri, 72% considerând aceste instrumente ca fiind deloc sau foarte puțin eficiente, și numai 2.4% considerându-le foarte eficiente."
 - id: topic10
+  translation: "Declarația sponsorilor și a semnatarilor acestui document"
+- id: topic10p01
+  translation: "Ca și concluzie a celor menționate mai devreme:"
+- id: topic10p02
+  translation: "Nu vom susține, recomanda, sau integra niciodată un overlay care își face reclamă înșelătoare și care pretinde conformare automată cu legi și standarde"
+- id: topic10p03
+  translation: "Vom susține întotdeauna remedierea problemelor de accesibilitate la sursa erorii originale"
+- id: topic10p04
+  translation: "Vom refuza să rămânem tăcuți atunci când vânzătorii de overlay-uri utilizează tactici înșelătoare pentru a face reclamă propriilor produse"
+- id: topic10p05
+  translation: "Mai exact, prin cele menționate, susținem înlăturarea overlay-urilor pentru accesibilitatea web și îi încurajăm pe proprietarii site-urilor care au implementat aceste produse la ei pe site să folosească strategii mai robuste, independente și permanente pentru a face site-urile mai accesibile"
+- id: topic10p06
+  translation: "Semnat de către:"
+- id: topic10p07
+  translation: "Unii vânzători de overlay-uri au încercat să sugereze că acest document este un efort al competitorilor de a îi discredita. Acest lucru este în mod clar o încercare de <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a>, pentru a evita critica."
+- id: topic10p08
+  translation: "Până în momentul de față, acest document include următoarele semnături:"
+- id: topic10p09
+  translation: "Contribuitori și editori ai <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, și specificațiile <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic10p10
+  translation: "Consultanți din Statele Unite ale Americii, Regatul Unit, Olanda, Canada, Japonia, Germania, Franța, Suedia, Norvegia, Belgia, Polonia, Australia, Danemarca, Israel, Chile și altele"
+- id: topic10p11
+  translation: "Experți în accesibilitate pentru companii precum Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, și Pearson Assessments"
+- id: topic10p12
+  translation: "Experți în accesibilitate din instituții educaționale superioare precum Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Avocați pentru persoanele cu dizabilități"
+- id: topic10p14
+  translation: "Contribuitori la tehnologii asistive precum JAWS și NVDA"
+- id: topic10p15
+  translation: "O multitudine de persoane cu dizabilități"
+- id: topic10p16
+  translation: "Pe scurt, lista de semnatari de mai jos reprezintă persoanele care sunt experte în acest domeniu și și-au dedicat cariera profesională îmbunătățirii accesibilității sau sunt utilizatori cu dizabilități (sau ambele). Etichetarea persoanelor listate mai jos drept &quot;competitori&quot; este incorectă și ignoră ceea ce este evident: overlay-urile nu sunt o metodă eficientă de a asigura accesibilitatea, lucru cu care toți cei enumerați mai jos sunt de acord."
+- id: topic11
   translation: "Lectură suplimentară"
 - id: addYourName
   translation: "Adaugă numele tău la această listă"  

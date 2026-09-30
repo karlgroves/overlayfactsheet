@@ -120,53 +120,53 @@
   translation: "Webサイトをアクセシブルにするための完全に実用的な手段があります。それはプログラマーです。Webサイトをアクセシブルにするうえで重要なのは、ユーザーのニーズでしょう。それを満たすことができなければ、ビジネスを行うための基本的なコストを満たすこともできません。"
 - id: topic07t21
   translation: "#AccessiBe を有効にすると、ページは見出しで溢れかえります。レベル2の見出しが、たくさん現れるのです。各携帯電話の名称は、どちらの状態でも見出しのままですが、AccessiBeを有効にすると、表にあるコストやディスプレイ、その他のすべての見出しセルまで見出しになります。"
-- id: topic08
-  translation: "結論"
-- id: topic08p01
-  translation: "市販されているどのオーバーレイ製品も、Webサイトを既存のどのアクセシビリティ標準にも完全に適合させることはできず、したがって法的リスクを排除することはできません。"
-- id: topic08p02
-  translation: "Webにおけるアクセシビリティは、サイトの所有者にとっても、そのユーザーにとっても、大きな課題です。この課題を解決するための斬新なアプローチの発明は、賞賛に値します。"
-- id: topic08p03
-  translation: "しかしオーバーレイの場合、とりわけ支援機能を提供するウィジェットを追加する場合、その課題は解決していません。さらに問題なのは、一部のオーバーレイ ベンダーが行っている、自社の製品を導入すれば顧客のサイトが法律や標準に即座に準拠できると約束する、欺瞞的なマーケティングです。"
-- id: topic08p04
-  translation: "<a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Webアクセシビリティの実践者を対象にWebAIMが行った調査</a>によると、オーバーレイが効果的でないことは、広く合意されていることです："
-- id: topic08p05
-  translation: "回答者の大多数（67%）が、これらのツールはまったく効果がないか、あまり効果がないと評価しています。障害のある回答者は、72%が「まったく効果がない」または「あまり効果がない」と評価し、「非常に効果がある」と評価したのはわずか2.4%でした。"
 - id: topic09
-  translation: "本ファクトシートのスポンサーおよび署名者による声明"
+  translation: "結論"
 - id: topic09p01
-  translation: "上記にある情報の結果として："
+  translation: "市販されているどのオーバーレイ製品も、Webサイトを既存のどのアクセシビリティ標準にも完全に適合させることはできず、したがって法的リスクを排除することはできません。"
 - id: topic09p02
-  translation: "私たちは、法律や標準に対する自動的な適合を提供するものとして欺瞞的なマーケティングを行うオーバーレイを、決して推奨や推薦、ないし受容しません。"
+  translation: "Webにおけるアクセシビリティは、サイトの所有者にとっても、そのユーザーにとっても、大きな課題です。この課題を解決するための斬新なアプローチの発明は、賞賛に値します。"
 - id: topic09p03
-  translation: "私たちは常に、問題の発生源まで遡ってアクセシビリティを改善することを提唱します。"
+  translation: "しかしオーバーレイの場合、とりわけ支援機能を提供するウィジェットを追加する場合、その課題は解決していません。さらに問題なのは、一部のオーバーレイ ベンダーが行っている、自社の製品を導入すれば顧客のサイトが法律や標準に即座に準拠できると約束する、欺瞞的なマーケティングです。"
 - id: topic09p04
-  translation: "私たちは、オーバーレイ ベンダーが自社製品を販売するために欺瞞を用いるとき、看過しません。"
+  translation: "<a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">Webアクセシビリティの実践者を対象にWebAIMが行った調査</a>によると、オーバーレイが効果的でないことは、広く合意されていることです："
 - id: topic09p05
-  translation: "具体的には、Webアクセシビリティ オーバーレイの廃止をここに提唱し、それらの製品を導入しているサイトオーナーには、より堅牢で独立した恒久的な戦略を用いて、サイトをよりアクセシブルにするよう奨励します。"
-- id: topic09p06
-  translation: "署名"
-- id: topic09p07
-  translation: "一部のオーバーレイ ベンダーは、このファクトシートを、競合他社が自分たちの信用を失墜させるために作ったものと決めつけようとしています。そのような主張は、批判をそらすための<a href=\"https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">ガスライティング</a>の典型です。"
-- id: topic09p08
-  translation: "今日現在、オーバーレイ ファクトシートに署名しているのは以下の通り："
-- id: topic09p09
-  translation: "<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>や<abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>、<abbr title=\"Hypertext Markup Language\">HTML</abbr>仕様の貢献者や編集者"
-- id: topic09p10
-  translation: "アメリカ（<abbr title=\"United States\">US</abbr>）やイギリス（<abbr title=\"United Kingdom\">UK</abbr>）、オランダ（<abbr title=\"Netherlands\">NL</abbr>）、カナダ（<abbr title=\"Canada\">CA</abbr>）、日本（<abbr title=\"Japan\">JP</abbr>）、ドイツ（<abbr title=\"Germany\">DE</abbr>）、フランス（<abbr title=\"France\">FR</abbr>）、スウェーデン（<abbr title=\"Sweden\">SE</abbr>）、ノルウェー（<abbr title=\"Norway\">NO</abbr>）、ベルギー（<abbr title=\"Belgium\">BE</abbr>）、ポーランド（<abbr title=\"Poland\">PL</abbr>）、オーストラリア（<abbr title=\"Australia\">AU</abbr>）、デンマーク（<abbr title=\"Denmark\">DK</abbr>）、イスラエル（<abbr title=\"Israel\">IL</abbr>）、チリ（<abbr title=\"Chile\">CL</abbr>）、その他の国のコンサルタント"
-- id: topic09p11
-  translation: "GoogleやMicrosoft、Apple、 NBC、Squarespace、BBC、VMWare、Shopify、ServiceNow、Dell、Lyft、HCL、Costco、Expedia、eBay、Cigna、Target、CVS Health、Kijiji、Orange、Pearson、Mitre、Sapient、Pearson Assessmentsといった企業にお勤めのアクセシビリティ専門家"
-- id: topic09p12
-  translation: "Syracuse、CSU、Stuttgart Media University、University of Massachusetts、San Francisco State University、Gallaudet University、Carnegie Mellon、West Virginia University、MITといった高等教育機関にお勤めのアクセシビリティ専門家"
-- id: topic09p13
-  translation: "障害者のための弁護士"
-- id: topic09p14
-  translation: "JAWSやNVDAなどの支援技術ソフトウェアの貢献者"
-- id: topic09p15
-  translation: "数多くの障害をもつエンドユーザー"
-- id: topic09p16
-  translation: "つまり、以下のリストにある署名者は、この分野の専門家にしてアクセシビリティの向上に専門的キャリアを捧げてきた人々、あるいは障害を持つエンドユーザー（またはその両方）です。署名者のことを「競合相手」として割り引くのは不正確であり、なおかつ的外れです。オーバーレイが、アクセシビリティを確保するための効果的な手段ではないという点については、以下のすべての人々が同意しています。"
+  translation: "回答者の大多数（67%）が、これらのツールはまったく効果がないか、あまり効果がないと評価しています。障害のある回答者は、72%が「まったく効果がない」または「あまり効果がない」と評価し、「非常に効果がある」と評価したのはわずか2.4%でした。"
 - id: topic10
+  translation: "本ファクトシートのスポンサーおよび署名者による声明"
+- id: topic10p01
+  translation: "上記にある情報の結果として："
+- id: topic10p02
+  translation: "私たちは、法律や標準に対する自動的な適合を提供するものとして欺瞞的なマーケティングを行うオーバーレイを、決して推奨や推薦、ないし受容しません。"
+- id: topic10p03
+  translation: "私たちは常に、問題の発生源まで遡ってアクセシビリティを改善することを提唱します。"
+- id: topic10p04
+  translation: "私たちは、オーバーレイ ベンダーが自社製品を販売するために欺瞞を用いるとき、看過しません。"
+- id: topic10p05
+  translation: "具体的には、Webアクセシビリティ オーバーレイの廃止をここに提唱し、それらの製品を導入しているサイトオーナーには、より堅牢で独立した恒久的な戦略を用いて、サイトをよりアクセシブルにするよう奨励します。"
+- id: topic10p06
+  translation: "署名"
+- id: topic10p07
+  translation: "一部のオーバーレイ ベンダーは、このファクトシートを、競合他社が自分たちの信用を失墜させるために作ったものと決めつけようとしています。そのような主張は、批判をそらすための<a href=\"https://ja.wikipedia.org/wiki/%E3%82%AC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0\">ガスライティング</a>の典型です。"
+- id: topic10p08
+  translation: "今日現在、オーバーレイ ファクトシートに署名しているのは以下の通り："
+- id: topic10p09
+  translation: "<abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>や<abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>、<abbr title=\"Hypertext Markup Language\">HTML</abbr>仕様の貢献者や編集者"
+- id: topic10p10
+  translation: "アメリカ（<abbr title=\"United States\">US</abbr>）やイギリス（<abbr title=\"United Kingdom\">UK</abbr>）、オランダ（<abbr title=\"Netherlands\">NL</abbr>）、カナダ（<abbr title=\"Canada\">CA</abbr>）、日本（<abbr title=\"Japan\">JP</abbr>）、ドイツ（<abbr title=\"Germany\">DE</abbr>）、フランス（<abbr title=\"France\">FR</abbr>）、スウェーデン（<abbr title=\"Sweden\">SE</abbr>）、ノルウェー（<abbr title=\"Norway\">NO</abbr>）、ベルギー（<abbr title=\"Belgium\">BE</abbr>）、ポーランド（<abbr title=\"Poland\">PL</abbr>）、オーストラリア（<abbr title=\"Australia\">AU</abbr>）、デンマーク（<abbr title=\"Denmark\">DK</abbr>）、イスラエル（<abbr title=\"Israel\">IL</abbr>）、チリ（<abbr title=\"Chile\">CL</abbr>）、その他の国のコンサルタント"
+- id: topic10p11
+  translation: "GoogleやMicrosoft、Apple、 NBC、Squarespace、BBC、VMWare、Shopify、ServiceNow、Dell、Lyft、HCL、Costco、Expedia、eBay、Cigna、Target、CVS Health、Kijiji、Orange、Pearson、Mitre、Sapient、Pearson Assessmentsといった企業にお勤めのアクセシビリティ専門家"
+- id: topic10p12
+  translation: "Syracuse、CSU、Stuttgart Media University、University of Massachusetts、San Francisco State University、Gallaudet University、Carnegie Mellon、West Virginia University、MITといった高等教育機関にお勤めのアクセシビリティ専門家"
+- id: topic10p13
+  translation: "障害者のための弁護士"
+- id: topic10p14
+  translation: "JAWSやNVDAなどの支援技術ソフトウェアの貢献者"
+- id: topic10p15
+  translation: "数多くの障害をもつエンドユーザー"
+- id: topic10p16
+  translation: "つまり、以下のリストにある署名者は、この分野の専門家にしてアクセシビリティの向上に専門的キャリアを捧げてきた人々、あるいは障害を持つエンドユーザー（またはその両方）です。署名者のことを「競合相手」として割り引くのは不正確であり、なおかつ的外れです。オーバーレイが、アクセシビリティを確保するための効果的な手段ではないという点については、以下のすべての人々が同意しています。"
+- id: topic11
   translation: "関連情報"
 - id: addYourName
   translation: "署名する"

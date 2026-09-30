@@ -120,53 +120,53 @@
   translation: "Existe una herramienta perfectamente práctica para hacer que los sitios web sean accesibles: el programador. Las necesidades que realmente importan para que un sitio web sea accesible son las de los usuarios. Si no puedes satisfacerlas, no podrás cubrir los costos básicos de tu negocio."
 - id: topic07t21
   translation: "Cuando #AccessiBe está activado, la página se llena de encabezados. Muchos encabezados de nivel 2. El título de cada teléfono sigue siendo un encabezado en ambas versiones de la página, pero con esta función activada, elementos como el precio, la pantalla y todos los demás componentes de las tablas también se convierten en encabezados."
-- id: topic08
-  translation: "Conclusión"
-- id: topic08p01
-  translation: "Ningún overlay del mercado puede hacer que un sitio web cumpla completamente con ningún estándar de accesibilidad existente y, por lo tanto, no puede eliminar el riesgo legal."
-- id: topic08p02
-  translation: "La accesibilidad web supone un gran reto, tanto para los propietarios de sitios web como para sus usuarios. Es digna de elogio la invención de nuevos enfoques para resolver este desafío."
-- id: topic08p03
-  translation: "Sin embargo, en el caso de los overlays —especialmente aquellos que intentan añadir widgets con funciones de asistencia— el reto no se está superando. Aún más problemático es el marketing engañoso de algunos proveedores de overlays que prometen que la implementación de su producto garantizará el cumplimiento inmediato de las leyes y normativas en los sitios web de sus clientes."
-- id: topic08p04
-  translation: "La ineficacia de las superposiciones es algo en lo que existe un amplio consenso entre los profesionales de la accesibilidad, según la <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">encuesta de WebAIM a profesionales de la accesibilidad web (en inglés)</a>, que concluyó:"
-- id: topic08p05
-  translation: "Una amplia mayoría (67%) de los encuestados considera que estas herramientas no son nada o no son muy efectivas. Los encuestados con discapacidad se mostraron aún menos favorables: el 72% las calificó como nada o no son muy efectivas, y solo el 2,4% las consideró muy efectivas."
 - id: topic09
-  translation: "Declaración de los patrocinadores y firmantes de esta hoja informativa"
+  translation: "Conclusión"
 - id: topic09p01
-  translation: "Como resultado de la información anterior:"
+  translation: "Ningún overlay del mercado puede hacer que un sitio web cumpla completamente con ningún estándar de accesibilidad existente y, por lo tanto, no puede eliminar el riesgo legal."
 - id: topic09p02
-  translation: "Nunca defenderemos, recomendaremos ni integraremos una plataforma que se promocione engañosamente como proveedora de cumplimiento automatizado de leyes o normas."
+  translation: "La accesibilidad web supone un gran reto, tanto para los propietarios de sitios web como para sus usuarios. Es digna de elogio la invención de nuevos enfoques para resolver este desafío."
 - id: topic09p03
-  translation: "Siempre abogaremos por la corrección de los problemas de accesibilidad en la fuente del error original."
+  translation: "Sin embargo, en el caso de los overlays —especialmente aquellos que intentan añadir widgets con funciones de asistencia— el reto no se está superando. Aún más problemático es el marketing engañoso de algunos proveedores de overlays que prometen que la implementación de su producto garantizará el cumplimiento inmediato de las leyes y normativas en los sitios web de sus clientes."
 - id: topic09p04
-  translation: "Nos negaremos a permanecer en silencio cuando los proveedores de overlays utilicen el engaño para comercializar sus productos."
+  translation: "La ineficacia de las superposiciones es algo en lo que existe un amplio consenso entre los profesionales de la accesibilidad, según la <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">encuesta de WebAIM a profesionales de la accesibilidad web (en inglés)</a>, que concluyó:"
 - id: topic09p05
-  translation: "Más concretamente, abogamos por la eliminación de los overlays de accesibilidad web y animamos a los propietarios de sitios web que hayan implementado estos productos a utilizar estrategias más sólidas, independientes y permanentes para hacer que sus sitios sean más accesibles."
-- id: topic09p06
-  translation: "Firmado por:"
-- id: topic09p07
-  translation: "Algunos proveedores de overlays han intentado presentar la hoja informativa sobre overlays como un intento de sus competidores por desacreditarlos. Estas afirmaciones son un ejemplo de manual de manipulación psicológica de <a href=\"https://es.wikipedia.org/wiki/Luz_de_gas_(manipulaci%C3%B3n)\">luz de gas</a> para desviar las críticas."
-- id: topic09p08
-  translation: "Hasta la fecha, los firmantes de esta hoja informativa incluyen:"
-- id: topic09p09
-  translation: "Colaboradores y editores de las especificaciones <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
-- id: topic09p10
-  translation: "Consultores de <abbr title=\"Estados Unidos\">EE.UU.</abbr>, <abbr title=\"Reino Unido\">R.U.</abbr>, <abbr title=\"Holanda\">NL</abbr>, <abbr title=\"Canadá\">CA</abbr>, <abbr title=\"Japón\">JP</abbr>, <abbr title=\"Alemania\">DE</abbr>, <abbr title=\"Francia\">FR</abbr>, <abbr title=\"Suecia\">SE</abbr>, <abbr title=\"Noruega\">NO</abbr>, <abbr title=\"Bélgica\">BE</abbr>, <abbr title=\"Polonia\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Dinamarca\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> y más."
-- id: topic09p11
-  translation: "Expertos internos en accesibilidad de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, y Pearson Assessments"
-- id: topic09p12
-  translation: "Expertos internos en accesibilidad de instituciones de educación superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic09p13
-  translation: "Abogados para personas con discapacidad"
-- id: topic09p14
-  translation: "Colaboradores de software de tecnología de asistencia como JAWS y NVDA"
-- id: topic09p15
-  translation: "Decenas de usuarios finales con discapacidad"
-- id: topic09p16
-  translation: "En resumen, la lista de firmantes que aparece a continuación incluye a personas expertas en este campo que han dedicado su trayectoria profesional a mejorar la accesibilidad o que son usuarios finales con discapacidad (o ambas). Desestimar a las personas que figuran a continuación como &quot;competidores&quot; es inexacto y no viene al caso: las superposiciones no son un medio eficaz para garantizar la accesibilidad, un punto en el que coinciden todas las personas que figuran a continuación."
+  translation: "Una amplia mayoría (67%) de los encuestados considera que estas herramientas no son nada o no son muy efectivas. Los encuestados con discapacidad se mostraron aún menos favorables: el 72% las calificó como nada o no son muy efectivas, y solo el 2,4% las consideró muy efectivas."
 - id: topic10
+  translation: "Declaración de los patrocinadores y firmantes de esta hoja informativa"
+- id: topic10p01
+  translation: "Como resultado de la información anterior:"
+- id: topic10p02
+  translation: "Nunca defenderemos, recomendaremos ni integraremos una plataforma que se promocione engañosamente como proveedora de cumplimiento automatizado de leyes o normas."
+- id: topic10p03
+  translation: "Siempre abogaremos por la corrección de los problemas de accesibilidad en la fuente del error original."
+- id: topic10p04
+  translation: "Nos negaremos a permanecer en silencio cuando los proveedores de overlays utilicen el engaño para comercializar sus productos."
+- id: topic10p05
+  translation: "Más concretamente, abogamos por la eliminación de los overlays de accesibilidad web y animamos a los propietarios de sitios web que hayan implementado estos productos a utilizar estrategias más sólidas, independientes y permanentes para hacer que sus sitios sean más accesibles."
+- id: topic10p06
+  translation: "Firmado por:"
+- id: topic10p07
+  translation: "Algunos proveedores de overlays han intentado presentar la hoja informativa sobre overlays como un intento de sus competidores por desacreditarlos. Estas afirmaciones son un ejemplo de manual de manipulación psicológica de <a href=\"https://es.wikipedia.org/wiki/Luz_de_gas_(manipulaci%C3%B3n)\">luz de gas</a> para desviar las críticas."
+- id: topic10p08
+  translation: "Hasta la fecha, los firmantes de esta hoja informativa incluyen:"
+- id: topic10p09
+  translation: "Colaboradores y editores de las especificaciones <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr>, and <abbr title=\"Hypertext Markup Language\">HTML</abbr>"
+- id: topic10p10
+  translation: "Consultores de <abbr title=\"Estados Unidos\">EE.UU.</abbr>, <abbr title=\"Reino Unido\">R.U.</abbr>, <abbr title=\"Holanda\">NL</abbr>, <abbr title=\"Canadá\">CA</abbr>, <abbr title=\"Japón\">JP</abbr>, <abbr title=\"Alemania\">DE</abbr>, <abbr title=\"Francia\">FR</abbr>, <abbr title=\"Suecia\">SE</abbr>, <abbr title=\"Noruega\">NO</abbr>, <abbr title=\"Bélgica\">BE</abbr>, <abbr title=\"Polonia\">PL</abbr>, <abbr title=\"Australia\">AU</abbr>, <abbr title=\"Dinamarca\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> y más."
+- id: topic10p11
+  translation: "Expertos internos en accesibilidad de empresas como Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient, y Pearson Assessments"
+- id: topic10p12
+  translation: "Expertos internos en accesibilidad de instituciones de educación superior como Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic10p13
+  translation: "Abogados para personas con discapacidad"
+- id: topic10p14
+  translation: "Colaboradores de software de tecnología de asistencia como JAWS y NVDA"
+- id: topic10p15
+  translation: "Decenas de usuarios finales con discapacidad"
+- id: topic10p16
+  translation: "En resumen, la lista de firmantes que aparece a continuación incluye a personas expertas en este campo que han dedicado su trayectoria profesional a mejorar la accesibilidad o que son usuarios finales con discapacidad (o ambas). Desestimar a las personas que figuran a continuación como &quot;competidores&quot; es inexacto y no viene al caso: las superposiciones no son un medio eficaz para garantizar la accesibilidad, un punto en el que coinciden todas las personas que figuran a continuación."
+- id: topic11
   translation: "Lecturas adicionales"
 - id: addYourName
   translation: "Añade tu nombre a esta lista (en inglés)"

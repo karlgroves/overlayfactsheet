@@ -195,12 +195,17 @@ class MainTest(unittest.TestCase):
     def run_main(self):
         out = os.path.join(self._tmp.name, "gh-output")
         open(out, "w").close()
+        # Actions sets GITHUB_OUTPUT for the whole job; put it back afterwards.
+        previous = os.environ.get("GITHUB_OUTPUT")
         os.environ["GITHUB_OUTPUT"] = out
         try:
             rn.main(["--base", "v2026.01.01", "--repo", "o/r", "--tag", "v2026.02.02",
                      "--output", "notes.md"])
         finally:
-            del os.environ["GITHUB_OUTPUT"]
+            if previous is None:
+                del os.environ["GITHUB_OUTPUT"]
+            else:
+                os.environ["GITHUB_OUTPUT"] = previous
         with open(out, encoding="utf-8") as fh:
             flag = fh.read()
         with open("notes.md", encoding="utf-8") as fh:

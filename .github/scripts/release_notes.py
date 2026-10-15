@@ -30,7 +30,7 @@ import re
 import subprocess
 import sys
 import tomllib
-from collections import Counter
+from collections import Counter, defaultdict
 
 import yaml
 
@@ -159,11 +159,94 @@ def list_changes(before, after):
     return _missing_from(after, before), _missing_from(before, after)
 
 
+_SECTION_KEY = re.compile(r"(topic\d+)(.*)")
+
+
+def _split_key(key):
+    """'topic05p02' -> ('topic05', 'p02'); keys outside a section -> (None, key)."""
+    match = _SECTION_KEY.fullmatch(key)
+    return (match.group(1), match.group(2)) if match else (None, key)
+
+
+def section_renames(moved):
+    """Infer renumbered sections from passages that moved key unchanged.
+
+    Returns {new section: old section}, e.g. {"topic06": "topic05"} when a new
+    section was inserted before the privacy section.
+    """
+    votes = defaultdict(Counter)
+    for old_key, new_key in moved:
+        (old_section, old_rest), (new_section, new_rest) = _split_key(old_key), _split_key(new_key)
+        if old_section and new_section and old_section != new_section and old_rest == new_rest:
+            votes[new_section][old_section] += 1
+
+    def rank(new_section, vote):
+        # Most votes wins; a tie (possible when passages share identical
+        # text) goes to the nearest section, since insertions shift by one.
+        old_section, count = vote
+        return count, -abs(_section_number(new_section) - _section_number(old_section))
+
+    return {new: max(counts.items(), key=lambda vote: rank(new, vote))[0] for new, counts in votes.items()}
+
+
+def _section_number(section):
+    return int(section[len("topic"):])
+
+
 def translation_changes(before, after):
-    added = [k for k in after if k not in before]
-    removed = [k for k in before if k not in after]
-    changed = [k for k in after if k in before and before[k] != after[k]]
-    return added, removed, changed
+    """Compare two translation maps.
+
+    Returns (added, removed, changed, renumbered, relocated), the last three
+    as lists of (old key, new key) pairs:
+
+    - changed: new wording, possibly under a renumbered key.
+    - renumbered: identical wording, key changed only because its section was
+      renumbered. Invisible to readers. Without this, inserting a section
+      would report every later passage as rewritten.
+    - relocated: identical wording under a key the renumbering doesn't
+      explain, e.g. two paragraphs swapping places. Readers see a reorder.
+    """
+    old = {k: v for k, v in before.items() if after.get(k) != v}
+    new = {k: v for k, v in after.items() if before.get(k) != v}
+
+    by_text = defaultdict(list)
+    for key, text in old.items():
+        by_text[text].append(key)
+    moved = []
+    for key, text in list(new.items()):
+        if by_text[text]:
+            old_key = by_text[text].pop(0)
+            moved.append((old_key, key))
+            del new[key], old[old_key]
+
+    renames = section_renames(moved)
+    renumbered, relocated = [], []
+    for old_key, key in moved:
+        section, rest = _split_key(key)
+        expected = renames[section] + rest if section in renames else None
+        # With duplicated text the match may come from a different copy; it's
+        # still a renumbering if the expected source key held this text.
+        if expected and (expected == old_key or before.get(expected) == after[key]):
+            renumbered.append((expected, key))
+        else:
+            relocated.append((old_key, key))
+
+    # A passage renumbered *and* reworded: pair it with its old key through
+    # the section renumbering. Only fall back to the same key when that key's
+    # section didn't itself move; otherwise a newly inserted section would be
+    # paired with the reworded passage that used to hold its number.
+    moved_away = {old_section for new_section, old_section in renames.items() if old_section != new_section}
+    changed = []
+    for key in list(new):
+        section, rest = _split_key(key)
+        candidates = [renames[section] + rest] if section in renames else []
+        if section not in moved_away:
+            candidates.append(key)
+        old_key = next((c for c in candidates if c in old), None)
+        if old_key:
+            changed.append((old_key, key))
+            del new[key], old[old_key]
+    return list(new), list(old), changed, renumbered, relocated
 
 
 # "#" is left alone so "#1234" still autolinks to the pull request; every
@@ -216,8 +299,29 @@ def describe_key(key, english):
     return f"`{key}` — {md_escape(section)}" if section else f"`{key}`"
 
 
+def _renumbered_lines(renumbered):
+    """One 'topic05 → topic06 (4 passages), …' line for renumbered passages."""
+    groups = Counter((_split_key(old)[0], _split_key(new)[0]) for old, new in renumbered)
+    if not groups:
+        return []
+    grouped = [f"`{old}` → `{new}` ({n} passage{'s' if n != 1 else ''})" for (old, new), n in sorted(groups.items())]
+    return ["- Renumbered, wording unchanged: " + ", ".join(grouped)]
+
+
+def key_renames(base_files, head_files):
+    """Old section -> new section, as inferred from the English translation."""
+    before = parse_translations(base_files.get(f"{I18N_DIR}en.yml"))
+    after = parse_translations(head_files.get(f"{I18N_DIR}en.yml"))
+    renumbered = translation_changes(before, after)[3]
+    return {old: new for new, old in section_renames(renumbered).items()}
+
+
 def text_section(base_files, head_files, names):
-    """Markdown for translation changes, English first."""
+    """Markdown for translation changes, English first.
+
+    Returns (blocks, reworded): reworded is False when the only differences
+    are renumbered keys, which change nothing a reader sees.
+    """
     english = parse_translations(head_files.get(f"{I18N_DIR}en.yml")) or parse_translations(
         base_files.get(f"{I18N_DIR}en.yml")
     )
@@ -226,13 +330,14 @@ def text_section(base_files, head_files, names):
         key=lambda p: (p != f"{I18N_DIR}en.yml", p),
     )
     blocks = []
+    reworded = False
     for path in paths:
         code = path[len(I18N_DIR) : -len(".yml")]
         before = parse_translations(base_files.get(path))
         after = parse_translations(head_files.get(path))
         if before == after:
             continue
-        added, removed, changed = translation_changes(before, after)
+        added, removed, changed, renumbered, relocated = translation_changes(before, after)
         label = names.get(code, code)
         lines = []
         if path not in base_files:
@@ -240,28 +345,36 @@ def text_section(base_files, head_files, names):
         elif path not in head_files:
             lines.append(f"Translation removed: **{md_escape(label)}**.")
         else:
-            for key in changed:
-                old, new = plain_text(before[key]), plain_text(after[key])
+            for old_key, key in changed:
+                was = f" (was `{old_key}`)" if old_key != key else ""
+                old, new = plain_text(before[old_key]), plain_text(after[key])
                 if old == new:
-                    lines.append(f"- {describe_key(key, english)} (links or formatting only; wording unchanged)")
+                    lines.append(f"- {describe_key(key, english)}{was} (links or formatting only; wording unchanged)")
                 else:
-                    lines.append(f"- {describe_key(key, english)}  \n  {word_diff(old, new)}")
+                    lines.append(f"- {describe_key(key, english)}{was}  \n  {word_diff(old, new)}")
             for key in added:
                 lines.append(f"- {describe_key(key, english)} (new)  \n  {md_escape(plain_text(after[key]))}")
             for key in removed:
                 lines.append(f"- {describe_key(key, english)} (removed)")
+            for old_key, key in relocated:
+                lines.append(f"- {describe_key(key, english)} (moved from `{old_key}`; wording unchanged)")
+            lines += _renumbered_lines(renumbered)
         if not lines:
             continue
+        passages = len(added) + len(removed) + len(changed) + len(relocated)
+        reworded = reworded or passages > 0 or path not in base_files or path not in head_files
         body = "\n".join(lines)
         if code == "en":
             blocks.append(f"#### {md_escape(label)}\n\n{body}")
         else:
-            count = len(added) + len(removed) + len(changed)
-            summary = f"{md_escape(label)} — {count} passage{'s' if count != 1 else ''}"
             if path not in base_files or path not in head_files:
                 summary = md_escape(label)
+            elif passages:
+                summary = f"{md_escape(label)} — {passages} passage{'s' if passages != 1 else ''}"
+            else:
+                summary = f"{md_escape(label)} — renumbered only"
             blocks.append(f"<details>\n<summary>{summary}</summary>\n\n{body}\n\n</details>")
-    return blocks
+    return blocks, reworded
 
 
 def build_notes(base_files, head_files, commits, *, compare_url=None):
@@ -274,10 +387,16 @@ def build_notes(base_files, head_files, commits, *, compare_url=None):
     before_tpl = parse_template(base_files.get(TEMPLATE))
     after_tpl = parse_template(head_files.get(TEMPLATE))
 
-    text_blocks = text_section(base_files, head_files, names)
+    text_blocks, reworded = text_section(base_files, head_files, names)
     reading_added, reading_removed = list_changes(before_tpl["reading"], after_tpl["reading"])
     signed, unsigned = list_changes(before_tpl["signatories"], after_tpl["signatories"])
-    template_changed = TEMPLATE in head_files and TEMPLATE in base_files and before_tpl["rest"] != after_tpl["rest"]
+    # Renumbered sections rename the template's {{ T "topicNN…" }} references
+    # too; apply the same renumbering to the old template before comparing.
+    renames = key_renames(base_files, head_files)
+    before_rest = re.sub(
+        r'(T ")(topic\d+)', lambda m: m.group(1) + renames.get(m.group(2), m.group(2)), before_tpl["rest"]
+    )
+    template_changed = TEMPLATE in head_files and TEMPLATE in base_files and before_rest != after_tpl["rest"]
 
     other_files = sorted(
         p
@@ -285,7 +404,7 @@ def build_notes(base_files, head_files, commits, *, compare_url=None):
         if p != TEMPLATE and not p.startswith(I18N_DIR) and base_files.get(p) != head_files.get(p)
     )
 
-    substantive = bool(text_blocks or reading_added or reading_removed or template_changed or other_files)
+    substantive = bool(reworded or reading_added or reading_removed or template_changed or other_files)
 
     parts = []
     if text_blocks:

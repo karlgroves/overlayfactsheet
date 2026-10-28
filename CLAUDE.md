@@ -65,6 +65,20 @@ The workflow is: feature branch → `develop` → verify on preview → PR to `m
 2. Find the translation key (e.g., `topic01p01`)
 3. Update the `translation:` value
 
+#### To see which translations are behind:
+```bash
+python3 .github/scripts/translation_status.py                    # one line per language
+python3 .github/scripts/translation_status.py --format markdown  # paste into an issue
+```
+Reports, per language, the keys missing from it, the entries still identical to
+the English, and any key that no longer exists in `en.yml`. Missing keys are not
+an error — Hugo falls back to English — so the script exits 0 for them. With
+`--check` (how CI runs it) it exits 1 only on a key that renders nowhere: one
+absent from `en.yml`, or a duplicate id.
+
+Use the markdown report when telling translators what changed (#1434), so each
+person sees the exact keys to update rather than re-reading the page.
+
 #### To add a new language:
 1. Add language configuration to `config.toml` under `[languages]`:
    ```toml

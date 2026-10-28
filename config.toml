@@ -81,4 +81,11 @@ home = ['HTML']
       languageName = 'español'
       languageNameShort = 'es'
       languageCode = 'es'
+  [languages.sv]
+    contentDir = 'i18n/sv'
+    weight = 9
+    [languages.sv.params]
+      languageName = 'svenska'
+      languageNameShort = 'sv'
+      languageCode = 'sv'
 

@@ -4,9 +4,9 @@
 `i18n/en.yml` is the source of truth. Every other `i18n/*.yml` is measured
 against it and described three ways (#1434):
 
-* **missing** -- a key in English with no entry in that language. Hugo falls
-  back to English for these, so the page still renders; the reader just sees
-  English in the middle of their own language.
+* **missing** -- a key in English with no entry, or a blank one, in that
+  language. Hugo falls back to English for these, so the page still renders;
+  the reader just sees English in the middle of their own language.
 * **untranslated** -- an entry whose text is byte-for-byte the English. Usually
   a placeholder that was copied in and never translated. A handful are
   legitimate (proper nouns, a list of country abbreviations), so this is
@@ -15,6 +15,10 @@ against it and described three ways (#1434):
   worth failing a build over: the key renders nowhere, so a renumbering that
   missed a file (as in #1441) leaves the real passage silently falling back to
   English while a dead key sits in the file looking fine.
+
+Only the set of keys is compared. When the English text under an existing
+key is reworded, every translation of it still counts as translated, so those
+edits have to be listed by hand.
 
 Telling translators "topic05p03 changed" is the whole point -- nobody should
 have to re-read the page to find the edit -- so `--format markdown` prints a
@@ -88,15 +92,15 @@ def compare(english, other):
     """
     english_text = dict(english)
     order = [key for key, _ in english]
-    other_text = dict(other)
+    # A blank entry renders the English too (Hugo falls back on it), so it
+    # counts as missing rather than as a translation.
+    other_text = {key: text for key, text in other if text.strip()}
 
     missing = [key for key in order if key not in other_text]
     untranslated = [
         key
         for key in order
-        if key in other_text
-        and other_text[key].strip() == english_text[key].strip()
-        and other_text[key].strip() != ""
+        if key in other_text and other_text[key].strip() == english_text[key].strip()
     ]
     # Unknown keys are reported in the order they appear in the translation,
     # which is where someone editing the file will look for them.

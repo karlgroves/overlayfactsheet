@@ -77,7 +77,9 @@ an error — Hugo falls back to English — so the script exits 0 for them. With
 absent from `en.yml`, or a duplicate id.
 
 Use the markdown report when telling translators what changed (#1434), so each
-person sees the exact keys to update rather than re-reading the page.
+person sees the exact keys to update rather than re-reading the page. It compares
+keys only: rewording the English under an existing key leaves every translation
+of it counted as translated, so list those keys by hand.
 
 #### To add a new language:
 1. Add language configuration to `config.toml` under `[languages]`:

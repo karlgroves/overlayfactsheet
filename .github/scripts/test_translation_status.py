@@ -136,9 +136,11 @@ class Compare(unittest.TestCase):
         self.assertEqual(len(status["untranslated"]), 4)
 
     def test_empty_translation_is_missing_not_untranslated(self):
-        status = ts.compare(self.english, [("title", "")])
+        # Hugo renders the English for a blank entry, so it is not a translation.
+        status = ts.compare(self.english, [("title", ""), ("topic01", "  ")])
         self.assertEqual(status["untranslated"], [])
-        self.assertNotIn("title", status["missing"])
+        self.assertEqual(status["missing"], ["title", "topic01", "topic01p01", "topic02"])
+        self.assertEqual(status["translated"], 0)
 
     def test_missing_keys_follow_english_order(self):
         english = ts.parse_entries(EN)

@@ -31,7 +31,7 @@
 - id: topic02p03
   translation: "För lekmän kan dessa funktioner verka fördelaktiga, men deras praktiska värde är till stor del överskattat eftersom de användare som funktionerna sägs vara till för ändå har nödvändiga funktioner på sin dator - antingen inbyggt eller som mjukvara som användaren installerar för att komma åt inte bara webben utan all programvara."
 - id: topic02p04
-  translation: "Det är ett misstag att tro att överläggsswidgetens funktioner kommer att vara till stor nytta för slutanvändare. Om dessa funktioner var <strong>nödvändiga</strong> för att använda webbplatsen skulle de ju behövas för alla webbplatser som användaren interagerar med. Istället är widgeten — i bästa fall — redundant funktionalitet, alltså funktioner som användaren redan har."
+  translation: "Det är ett misstag att tro att överläggswidgetens funktioner kommer att vara till stor nytta för slutanvändare. Om dessa funktioner var <strong>nödvändiga</strong> för att använda webbplatsen skulle de ju behövas för alla webbplatser som användaren interagerar med. Istället är widgeten — i bästa fall — redundant funktionalitet, alltså funktioner som användaren redan har."
 - id: topic03
   translation: "Styrkor och svagheter med automatiserad reparation"
 - id: topic03p01
@@ -55,17 +55,17 @@
 - id: topic04
   translation: "Förmåga att uppnå överensstämmelse med tillgänglighetsstandarder"
 - id: topic04p01
-  translation: "Även om användning av ett överlägg kan förbättra efterlevnaden av en handfull bestämmelser i större tillgänglighetsstandarder, kan full överensstämmelse inte uppnås med en överlägg."
+  translation: "Även om användning av ett överlägg kan förbättra efterlevnaden av en handfull bestämmelser i större tillgänglighetsstandarder, kan full överensstämmelse inte uppnås med ett överlägg."
 - id: topic04p02
   translation: "Ett av många påståenden som görs av överläggsleverantörer är att användningen av deras produkt kommer att göra att webbplatsen överensstämmer med tillgänglighetsstandarder som WCAG 2.x, relaterade och härledda standarder och lagar som kräver efterlevnad av dessa standarder."
 - id: topic04p03
-  translation: "Överensstämmelse med en standard innebär att du uppfyller standardens \"krav\". I WCAG 2.0 är \"kraven\" framgångskriterierna. För att uppfylla WCAG 2.0 måste du uppfylla framgångskriterierna, det får alltså inte finns innehåll som bryter mot framgångskriterierna."
+  translation: "Överensstämmelse med en standard innebär att du uppfyller standardens \"krav\". I WCAG 2.0 är \"kraven\" framgångskriterierna. För att uppfylla WCAG 2.0 måste du uppfylla framgångskriterierna, det får alltså inte finnas innehåll som bryter mot framgångskriterierna."
 - id: topic04p04
   translation: "Med tanke på att överensstämmelse definieras som att uppfylla alla krav i standarden, innebär dessa produkters dokumenterade oförmåga att reparera <strong>alla</strong> möjliga problem att de inte kan få en webbplats att överensstämma. Produkter som marknadsförs med sådana påståenden bör betraktas med stor skepsis."
 - id: topic06p02
-  translation: "Överlägg som automatiskt aktiverar vissa inställningar, exempelvis för skärmläsare eller taligenkänning, gör det genom att upptäcka när en hjälpmedelsteknik körs på enheten. Detta avslöjar att den som använder enheten har en funktionsnedsättning. I vissa fall avslöjas detaljer om vilken slags funktionsnedsättning personen har. Exempelvis vid skärmläsaranvändning, eftersom skärmläsar främst används av personer som är blinda eller har nedsatt syn. Precis som ålder, etnisk bakgrund eller föredraget kön är funktionsnedsättning en känslig personuppgift. Sådana ska inte samlas in utan informerat samtycke från den person som de tillhör."
+  translation: "Överlägg som automatiskt aktiverar vissa inställningar, exempelvis för skärmläsare eller taligenkänning, gör det genom att upptäcka när en hjälpmedelsteknik körs på enheten. Detta avslöjar att den som använder enheten har en funktionsnedsättning. I vissa fall avslöjas detaljer om vilken slags funktionsnedsättning personen har. Exempelvis vid skärmläsaranvändning, eftersom skärmläsare främst används av personer som är blinda eller har nedsatt syn. Precis som ålder, etnisk bakgrund eller föredraget kön är funktionsnedsättning en känslig personuppgift. Sådana ska inte samlas in utan informerat samtycke från den person som de tillhör."
 - id: topic06p03
-  translation: "Vissa överlägg har visat sig bevara användarnas inställningar mellan webbplatser som använder samma överlägg. Detta görs genom att sätta en cookie på användarens dator. När användaren aktiverar en inställning för en överäggsfunktion på en webbplats, kommer överlägget automatiskt att aktivera den funktionen även på andra webbplatser. Även om överläggsföretaget kanske tror att de gör något bra för slutanvändaren, är det stora integritetsproblemet att användaren aldrig valde att bli spårad och det finns heller ingen möjlighet att välja bort det. På grund av denna avsaknad av ett opt-out (annat än att uttryckligen stänga av den inställningen) innebär detta att den som använder ett sådant överlägg riskerar att bryta mot General Data Protection Regulation (GDPR) och California Consumer Privacy Act (CCPA)."
+  translation: "Vissa överlägg har visat sig bevara användarnas inställningar mellan webbplatser som använder samma överlägg. Detta görs genom att sätta en cookie på användarens dator. När användaren aktiverar en inställning för en överläggsfunktion på en webbplats, kommer överlägget automatiskt att aktivera den funktionen även på andra webbplatser. Även om överläggsföretaget kanske tror att de gör något bra för slutanvändaren, är det stora integritetsproblemet att användaren aldrig valde att bli spårad och det finns heller ingen möjlighet att välja bort det. På grund av denna avsaknad av ett opt-out (annat än att uttryckligen stänga av den inställningen) innebär detta att den som använder ett sådant överlägg riskerar att bryta mot General Data Protection Regulation (GDPR) och California Consumer Privacy Act (CCPA)."
 - id: topic07
   translation: "Med deras egna ord"
 - id: topic07p01
@@ -77,9 +77,9 @@
 - id: topic07t02
   translation: "...Jag lyckades äntligen få tillgång till mitt @NameCheap-konto genom att blockera #AccessiBe i min Windows Hosts-fil. Jag borde inte behöva göra detta för att använda Internet. AccessiBe borde heta AccessiBeGone"
 - id: topic07t03
-  translation: "..Jag vet med 100 % säkerhet, att alla webbplatser som har implementerat ett överlägg under det senaste ett och ett halvt året har varit mindre användbara för både min fru och mig – båda blinda."
+  translation: "...Jag vet med 100 % säkerhet, att alla webbplatser som har implementerat ett överlägg under det senaste ett och ett halvt året har varit mindre användbara för både min fru och mig – båda blinda."
 - id: topic07t04
-  translation: "..Det är fortfarande jobbigt att ens försöka läsa artikeln på en mobil enhet på grund av det ständiga avbrottet med några sekunders mellanrum. Med tanke på att varje webbplats som använder din tjänst också har detta problem... Nej."
+  translation: "...Det är fortfarande jobbigt att ens försöka läsa artikeln på en mobil enhet på grund av det ständiga avbrottet med några sekunders mellanrum. Med tanke på att varje webbplats som använder din tjänst också har detta problem... Nej."
 - id: topic07t05
   translation: "...Att göra en webbsida tillgänglig kräver arbete, och att bara berätta för ett företag att de kan installera ditt plugin är helt dumt, du bygger och designar åtkomst till en webbsida med WCAG-standarder."
 - id: topic07t06
@@ -93,7 +93,7 @@
 - id: topic07t10
   translation: "Till följare som använder skärmläsare: Du kanske har hört talas om #Accessibe, ett överlägg som påstår sig göra sidor där den är inbäddad mer tillgängliga. Jag kommer inte gå in på några mer detaljer. Kort sagt: fullständigt nonsens. Hands off!"
 - id: topic07t11
-  translation: "Automatiserade lösningar som lovar att göra din webbplats tillgänglig klarar inte detta. Det krävs mer än automatisering för att uppnå detta krav. Du kommer inte att undan ditt ansvar. Du kommer nästan säkert att påverka dina kunder med funktionsnedsättning negativt."
+  translation: "Automatiserade lösningar som lovar att göra din webbplats tillgänglig klarar inte detta. Det krävs mer än automatisering för att uppnå detta krav. Du kommer inte att komma undan ditt ansvar. Du kommer nästan säkert att påverka dina kunder med funktionsnedsättning negativt."
 - id: topic07t12
   translation: "Varje gång jag går in på en webbplats och jag hör #accessiBe-meddelandet att den här webbplatsen är anpassad till min skärmläsare, vet jag att min blockerare inte fungerar som den ska, och jag får en helvetisk upplevelse på just den webbplatsen. https://web.archive.org/web/20251030*/https://t.co/ZFzKMfUe0t"
 - id: topic07t13
@@ -101,11 +101,11 @@
 - id: topic07t14
   translation: "Jag skrev ett e-postmeddelande till deras kundtjänst och berättade att jag inte kan använda deras sida på grund av överlägget, men... Jag är verkligen besviken, men jag hoppas att de lyssnar. @Goodfair_ - snälla sluta använda AccessiBe."
 - id: topic07t15
-  translation: "Jag är ingen tillgänglighetsexpert, bara en skärmläsareanvändare med anständiga kunskaper som säger att den här tråden är spot on, och min erfarenhet av #AccessiBe är att det gör webbplatser med tillgänglighetsproblem ännu svårare att komma runt. https://t.co/cfyrEqXwTy"
+  translation: "Jag är ingen tillgänglighetsexpert, bara en skärmläsaranvändare med anständiga kunskaper som säger att den här tråden är spot on, och min erfarenhet av #AccessiBe är att det gör webbplatser med tillgänglighetsproblem ännu svårare att komma runt. https://t.co/cfyrEqXwTy"
 - id: topic07t16
-  translation: "Om du är blind eller har nedsatt syn och förlitar dig på hjälpmedel som skärmläsare, kanske du har börjat hitta populära webbplatser som blir mindre användbara... den här sidan beskriver hur du förbjuder AccessiBe att någonsin nå din dator... https://t.co /qbiKvolizS"
+  translation: "...Om du är blind eller har nedsatt syn och förlitar dig på hjälpmedel som skärmläsare, kanske du har börjat hitta populära webbplatser som blir mindre användbara... den här sidan beskriver hur du förbjuder AccessiBe att någonsin nå din dator... https://t.co/qbiKvolizS"
 - id: topic07t17
-  translation: "Okej, det här verkar väldigt fel för mig. En lokal kedja här vid namn Fleet Farm använder nu AccessiBe. Det gör funktionen att söka efter en plat till en enda röra. Detta är vad jag nu får i början av resultatsidan."
+  translation: "Okej, det här verkar väldigt fel för mig. En lokal kedja här vid namn Fleet Farm använder nu AccessiBe. Det gör funktionen att söka efter en plats till en enda röra. Detta är vad jag nu får i början av resultatsidan."
 - id: topic07t18
   translation: "Tack och lov blockerar Firefox deras tillgänglighetsdetektering. För mig hoppar fokus överallt med #AccessiBe aktiverat. När den är inaktiverad beter den sig som den ska."
 - id: topic07t19
@@ -117,7 +117,7 @@
 - id: topic09
   translation: "Slutsats"
 - id: topic09p01
-  translation: "Ingen överläggssprodukt på marknaden kan få en webbplats att bli helt kompatibel med någon befintlig tillgänglighetsstandard och kan därför inte eliminera juridisk risk."
+  translation: "Ingen överläggsprodukt på marknaden kan få en webbplats att bli helt kompatibel med någon befintlig tillgänglighetsstandard och kan därför inte eliminera juridisk risk."
 - id: topic09p02
   translation: "Tillgänglighet på webben är en stor utmaning, både för ägare av webbplatser och för användare av dessa webbplatser. Uppfinnande av nya tillvägagångssätt för att lösa denna utmaning vore berömliga."
 - id: topic09p03
@@ -129,7 +129,7 @@
 - id: topic10
   translation: "Uttalande från sponsorer och undertecknare till detta faktablad"
 - id: topic10p01
-  translation: "Som en följa av ovanstående information:"
+  translation: "Som en följd av ovanstående information:"
 - id: topic10p02
   translation: "Vi kommer aldrig att förespråka, rekommendera eller integrera överlägg som bedrägligt marknadsför sig som att de tillhandahåller automatisk efterlevnad av lagar eller standarder"
 - id: topic10p03
@@ -149,11 +149,9 @@
 - id: topic10p10
   translation: "Konsulter från <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Tyskland\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sverige\">SE</abbr>, <abbr title=\"Norge\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Danmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> med flera"
 - id: topic10p11
-  translation: "Interna tillgänglighetsexperter på företag som Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre , Sapient och Pearson Assessments"
+  translation: "Interna tillgänglighetsexperter på företag som Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient och Pearson Assessments"
 - id: topic10p12
   translation: "Interna tillgänglighetsexperter från högre utbildningsinstitutioner som Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic10p13
-  translation: "Lawyers for the disabled"
 - id: topic10p14
   translation: "Aktörer som bidrar till hjälpmedelsprogramvara som JAWS och NVDA"
 - id: topic10p15

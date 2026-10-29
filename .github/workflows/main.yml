@@ -61,6 +61,14 @@ jobs:
           python3 -c 'import yaml' 2>/dev/null || python3 -m pip install --break-system-packages pyyaml
           python3 -m unittest discover -s .github/scripts
 
+      # Prints how far each translation is behind English, and fails only on a
+      # key that renders nowhere -- one not in en.yml, or a duplicate id. A
+      # renumbering that misses a file (#1441) leaves exactly that trace, and
+      # Hugo's fallback hides it. Keys merely waiting for a translation are
+      # reported, never failed on: English is a working fallback.
+      - name: Translation status
+        run: python3 .github/scripts/translation_status.py --check
+
       # Hugo can exit 0 while producing an empty or partial site, so assert the
       # output actually exists for every configured language.
       - name: Verify build output

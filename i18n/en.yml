@@ -138,6 +138,10 @@
   translation: "There's a perfectly practical tool for making websites accessible. It's called a programmer. The needs that matter in making a website accessible are those of the users. If you can't meet those, then you can't meet the basic costs of doing business."
 - id: topic07t21
   translation: "When #AccessiBe is enabled, the page is flooded with headings. Lots of heading level 2's. The title of each phone remains a heading in both versions of the page, but with it enabled, things like cost, display, and all the other components of the tables become headings as well."
+- id: topic07t22
+  translation: "I am a complete blind person and rely on a screen reader to use the web... They claim that they have created this wonderful overlay that is 1 line long and can do all of this and I'm telling you that it is not possible."
+- id: topic07t23
+  translation: "...compliance cannot be fixed or purchased with any of these useless overlay products. In fact the mere use of these products shows a complete lack of understanding and commitment to what it takes to achieve accessibility compliance."
 - id: topic08
   translation: "Are overlays better than nothing?"
 - id: topic08p01

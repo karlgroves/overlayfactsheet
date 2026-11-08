@@ -29,19 +29,19 @@
 - id: topic02p01
   translation: "Overlay widgets are unnecessary and are poorly placed in the technology stack."
 - id: topic02p02
-  translation: "As stated above, some overlay products contain widgets which present a series of controls that modify the presentation of the page they're on. Depending on the product, those changes may do things like change the page contrast, enlarge the size of the page's text, or perform other changes to the page that are intended to improve the experience for users with disabilities."
+  translation: "As stated above, some overlay products contain widgets with controls that change the presentation of the page they're on. Depending on the product, these controls may change the page contrast, enlarge the page's text, or make other changes to the page that are intended to improve the experience for users with disabilities."
 - id: topic02p03
-  translation: "To laypersons, these features may seem beneficial, but their practical value is largely overstated because the end users that these features claim to serve will already have the necessary features on their computer, either as a built-in feature or as an additional piece of software that the user needs to access not only the Web but all software."
+  translation: "To laypersons, these features may seem beneficial, but their practical value is largely overstated. The end users these features claim to serve will already have the necessary features on their computer, either as a built-in feature or as additional software that they need to access not only the Web but all software."
 - id: topic02p04
-  translation: "On this latter point, it is a mistake to believe that the features provided by the overlay widget will be of much use by end users because if those features were <strong>necessary</strong> to use the website, they'd be needed for all websites that the user interacts with. Instead, the widget is  —at best—redundant functionality with what the user already has."
+  translation: "It is a mistake to believe that the features provided by the overlay widget will be of much use to end users. If those features were <strong>necessary</strong> to use the website, they would be needed for every website the user interacts with. At best, the widget duplicates functionality the user already has."
 - id: topic03
   translation: "Strengths and weaknesses of automated repair"
 - id: topic03p01
   translation: "While some automated repair is possible, customers should be discouraged from using an overlay as a long-term solution."
 - id: topic03p02
-  translation: "Some overlay products have capabilities aimed at providing accessibility repairs to the underlying page on which the overlay is added. These repairs are applied when the page loads in the user's browser."
+  translation: "Some overlay products aim to repair accessibility problems in the underlying page the overlay is added to. These repairs are applied when the page loads in the user's browser."
 - id: topic03p03
-  translation: "While it is true that a non-trivial array of accessibility problems can be repaired in this manner, the nature, extent, and accuracy of such repair are limited by a number of important factors:"
+  translation: "While a non-trivial range of accessibility problems can be repaired this way, the nature, extent, and accuracy of these repairs are limited by several important factors:"
 - id: topic03p04
   translation: "Automated application of text alternatives for images is not reliable"
 - id: topic03p05
@@ -49,7 +49,7 @@
 - id: topic03p06
   translation: "Automated repair of keyboard access is not reliable"
 - id: topic03p07
-  translation: "Modern, component-based user interfaces, such as those using ReactJS, Angular, or Vue may change the state of all or some of the underlying page independently of the overlay, rendering it unable to fix those JavaScript-driven changes to content"
+  translation: "Modern, component-based user interfaces, such as those built with ReactJS, Angular, or Vue, may change the state of all or part of the underlying page independently of the overlay, leaving the overlay unable to fix those JavaScript-driven changes to content"
 - id: topic03p08
   translation: "Repairs to the page can either slow down page load times or cause unexpected page changes for assistive technology users."
 - id: topic03p09
@@ -59,11 +59,11 @@
 - id: topic04p01
   translation: "While the use of an overlay may improve compliance with a handful of provisions in major accessibility standards, full compliance cannot be achieved with an overlay."
 - id: topic04p02
-  translation: "Among the many claims made by overlay vendors is the claim that the use of their product will bring the site into compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards."
+  translation: "One of the many claims made by overlay vendors is that using their product will bring the site into compliance with accessibility standards such as WCAG 2.x, related and derivative standards, and laws that mandate compliance with those standards."
 - id: topic04p03
   translation: "Conformance to a standard means that you meet or satisfy the ‘requirements' of the standard. In WCAG 2.0 the ‘requirements' are the Success Criteria. To conform to WCAG 2.0, you need to satisfy the Success Criteria, that is, there is no content which violates the Success Criteria."
 - id: topic04p04
-  translation: "Given that conformance is defined as meeting all requirements of the standard, these products' documented inability to repair <strong>all</strong> possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant skepticism."
+  translation: "Conformance is defined as meeting all requirements of the standard. These products' documented inability to repair <strong>all</strong> possible issues means that they cannot bring a website into compliance. Products marketed with such claims should be viewed with significant skepticism."
 - id: topic04p05
   translation: "Using an overlay has not protected site owners from legal action. In its review of 2024 digital accessibility lawsuits in the United States, the accessibility company <a href=\"https://web.archive.org/web/20251030*/https://blog.usablenet.com/2024-digital-accessibility-lawsuit-report-relased-insights-for-2025\">UsableNet found</a> that over 1,000 businesses were sued despite having accessibility widgets on their websites, more than 25% of the cases it reviewed."
 - id: topic04p06

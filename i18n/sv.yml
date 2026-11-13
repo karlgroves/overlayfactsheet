@@ -114,51 +114,51 @@
   translation: "Det finns ett perfekt praktiskt verktyg för att göra webbplatser tillgängliga. Det kallas en programmerare. De behov som är viktiga för att göra en webbplats tillgänglig är användarnas. Om du inte kan möta dessa, kan du inte täcka de grundläggande kostnaderna för att göra affärer."
 - id: topic07t21
   translation: "När #AccessiBe är aktiverat översvämmas sidan av rubriker. Många rubriker på nivå 2. Titeln på varje telefon förblir en rubrik i båda versionerna av sidan, men med den aktiverad blir saker som kostnad, skärm och alla andra komponenter i tabellerna också rubriker."
-- id: topic09
-  translation: "Slutsats"
-- id: topic09p01
-  translation: "Ingen överläggsprodukt på marknaden kan få en webbplats att bli helt kompatibel med någon befintlig tillgänglighetsstandard och kan därför inte eliminera juridisk risk."
-- id: topic09p02
-  translation: "Tillgänglighet på webben är en stor utmaning, både för ägare av webbplatser och för användare av dessa webbplatser. Uppfinnande av nya tillvägagångssätt för att lösa denna utmaning vore berömliga."
-- id: topic09p03
-  translation: "Men i fallet med överlägg – särskilt de som försöker lägga till widgets som har hjälpmedelsfunktioner – klarar inte utmaningen. Ännu mer problematisk är den vilseledande marknadsföringen från vissa överläggsleverantörer som lovar att implementeringen av deras produkt kommer att ge deras kunders webbplatser omedelbar överensstämmelse med lagar och standarder."
-- id: topic09p04
-  translation: "Ineffektiviteten hos överlägg är något som har bred enighet bland de som praktiserar tillgänglighet, enligt <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> som hittade:"
-- id: topic09p05
-  translation: "En stark majoritet (67 %) av de tillfrågade bedömer dessa verktyg som inte alls eller inte särskilt effektiva. Respondenter med funktionsnedsättning var ännu mindre positiva med 72 % som bedömde dem som inte alls eller inte särskilt effektiva, och endast 2,4 % bedömde dem som mycket effektiva."
 - id: topic10
-  translation: "Uttalande från sponsorer och undertecknare till detta faktablad"
+  translation: "Slutsats"
 - id: topic10p01
-  translation: "Som en följd av ovanstående information:"
+  translation: "Ingen överläggsprodukt på marknaden kan få en webbplats att bli helt kompatibel med någon befintlig tillgänglighetsstandard och kan därför inte eliminera juridisk risk."
 - id: topic10p02
-  translation: "Vi kommer aldrig att förespråka, rekommendera eller integrera överlägg som bedrägligt marknadsför sig som att de tillhandahåller automatisk efterlevnad av lagar eller standarder"
+  translation: "Tillgänglighet på webben är en stor utmaning, både för ägare av webbplatser och för användare av dessa webbplatser. Uppfinnande av nya tillvägagångssätt för att lösa denna utmaning vore berömliga."
 - id: topic10p03
-  translation: "Vi kommer alltid att förespråka åtgärdande av tillgänglighetsproblem vid källan till det ursprungliga felet"
+  translation: "Men i fallet med överlägg – särskilt de som försöker lägga till widgets som har hjälpmedelsfunktioner – klarar inte utmaningen. Ännu mer problematisk är den vilseledande marknadsföringen från vissa överläggsleverantörer som lovar att implementeringen av deras produkt kommer att ge deras kunders webbplatser omedelbar överensstämmelse med lagar och standarder."
 - id: topic10p04
-  translation: "Vi kommer att vägra att vara tysta när överläggsleverantörer marknadsför sina produkter på ett bedrägligt sätt"
+  translation: "Ineffektiviteten hos överlägg är något som har bred enighet bland de som praktiserar tillgänglighet, enligt <a href=\"https://webaim.org/projects/practitionersurvey3/#overlay\">WebAIM Survey of Web Accessibility Practitioners</a> som hittade:"
 - id: topic10p05
-  translation: "Mer specifikt förespråkar vi härmed att webbtillgänglighetsöverlägg tas bort och uppmuntrar webbplatsägare som har implementerat dessa produkter att använda mer robusta, oberoende och permanenta strategier för att göra sina webbplatser mer tillgängliga"
-- id: topic10p06
-  translation: "Undertecknat av:"
-- id: topic10p07
-  translation: "Vissa överläggsleverantörer har försökt att utmåla överläggsfaktabladet som ett försök från sina konkurrenter att misskreditera dem. Sådana påståenden från överläggssidan är ett klassiskt exempel på försök till <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a> för att vilseleda människor från att ta del av kritik."
-- id: topic10p08
-  translation: "Från och med idag inkluderar undertecknarna av överläggsfaktabladet:"
-- id: topic10p09
-  translation: "Bidragande och redaktörer för <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr> och <abbr title=\"Hypertext Markup Language\">HTML</abbr>-specifikationer"
-- id: topic10p10
-  translation: "Konsulter från <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Tyskland\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sverige\">SE</abbr>, <abbr title=\"Norge\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Danmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> med flera"
-- id: topic10p11
-  translation: "Interna tillgänglighetsexperter på företag som Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient och Pearson Assessments"
-- id: topic10p12
-  translation: "Interna tillgänglighetsexperter från högre utbildningsinstitutioner som Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
-- id: topic10p14
-  translation: "Aktörer som bidrar till hjälpmedelsprogramvara som JAWS och NVDA"
-- id: topic10p15
-  translation: "Mängder av slutanvändare med funktionsnedsättning"
-- id: topic10p16
-  translation: "Kort sagt, listan över undertecknare nedan är personer som är experter på detta område &amp; har ägnat sina yrkeskarriärer åt att förbättra tillgängligheten eller är slutanvändare med funktionsnedsättning (eller både och). Att avfärda namnen nedan som &quot;konkurrenter&quot; är både felaktigt och missar poängen: överlägg är inte ett effektivt sätt att säkerställa tillgänglighet - något som alla personer nedan är överens om."
+  translation: "En stark majoritet (67 %) av de tillfrågade bedömer dessa verktyg som inte alls eller inte särskilt effektiva. Respondenter med funktionsnedsättning var ännu mindre positiva med 72 % som bedömde dem som inte alls eller inte särskilt effektiva, och endast 2,4 % bedömde dem som mycket effektiva."
 - id: topic11
+  translation: "Uttalande från sponsorer och undertecknare till detta faktablad"
+- id: topic11p01
+  translation: "Som en följd av ovanstående information:"
+- id: topic11p02
+  translation: "Vi kommer aldrig att förespråka, rekommendera eller integrera överlägg som bedrägligt marknadsför sig som att de tillhandahåller automatisk efterlevnad av lagar eller standarder"
+- id: topic11p03
+  translation: "Vi kommer alltid att förespråka åtgärdande av tillgänglighetsproblem vid källan till det ursprungliga felet"
+- id: topic11p04
+  translation: "Vi kommer att vägra att vara tysta när överläggsleverantörer marknadsför sina produkter på ett bedrägligt sätt"
+- id: topic11p05
+  translation: "Mer specifikt förespråkar vi härmed att webbtillgänglighetsöverlägg tas bort och uppmuntrar webbplatsägare som har implementerat dessa produkter att använda mer robusta, oberoende och permanenta strategier för att göra sina webbplatser mer tillgängliga"
+- id: topic11p06
+  translation: "Undertecknat av:"
+- id: topic11p07
+  translation: "Vissa överläggsleverantörer har försökt att utmåla överläggsfaktabladet som ett försök från sina konkurrenter att misskreditera dem. Sådana påståenden från överläggssidan är ett klassiskt exempel på försök till <a href=\"https://en.wikipedia.org/wiki/Gaslighting\">gaslighting</a> för att vilseleda människor från att ta del av kritik."
+- id: topic11p08
+  translation: "Från och med idag inkluderar undertecknarna av överläggsfaktabladet:"
+- id: topic11p09
+  translation: "Bidragande och redaktörer för <abbr title=\"Web Content Accessibility Guidelines\">WCAG</abbr>, <abbr title=\"Accessible Rich Internet Applications\">ARIA</abbr> och <abbr title=\"Hypertext Markup Language\">HTML</abbr>-specifikationer"
+- id: topic11p10
+  translation: "Konsulter från <abbr title=\"United States\">US</abbr>, <abbr title=\"United Kingdom\">UK</abbr>, <abbr title=\"Netherlands\">NL</abbr>, <abbr title=\"Kanada\">CA</abbr>, <abbr title=\"Japan\">JP</abbr>, <abbr title=\"Tyskland\">DE</abbr>, <abbr title=\"France\">FR</abbr>, <abbr title=\"Sverige\">SE</abbr>, <abbr title=\"Norge\">NO</abbr>, <abbr title=\"Belgien\">BE</abbr>, <abbr title=\"Polen\">PL</abbr>, <abbr title=\"Australien\">AU</abbr>, <abbr title=\"Danmark\">DK</abbr>, <abbr title=\"Israel\">IL</abbr>, <abbr title=\"Chile\">CL</abbr> med flera"
+- id: topic11p11
+  translation: "Interna tillgänglighetsexperter på företag som Google, Microsoft, Apple, NBC, Squarespace, BBC, VMWare, Shopify, ServiceNow, Dell, Lyft, HCL, Costco, Expedia, eBay, Cigna, Target, CVS Health, Kijiji, Orange, Pearson, Mitre, Sapient och Pearson Assessments"
+- id: topic11p12
+  translation: "Interna tillgänglighetsexperter från högre utbildningsinstitutioner som Syracuse, CSU, Stuttgart Media University, University of Massachusetts, San Francisco State University, Gallaudet University, Carnegie Mellon, West Virginia University, MIT"
+- id: topic11p14
+  translation: "Aktörer som bidrar till hjälpmedelsprogramvara som JAWS och NVDA"
+- id: topic11p15
+  translation: "Mängder av slutanvändare med funktionsnedsättning"
+- id: topic11p16
+  translation: "Kort sagt, listan över undertecknare nedan är personer som är experter på detta område &amp; har ägnat sina yrkeskarriärer åt att förbättra tillgängligheten eller är slutanvändare med funktionsnedsättning (eller både och). Att avfärda namnen nedan som &quot;konkurrenter&quot; är både felaktigt och missar poängen: överlägg är inte ett effektivt sätt att säkerställa tillgänglighet - något som alla personer nedan är överens om."
+- id: topic12
   translation: "Ytterligare läsning"
 - id: addYourName
   translation: "Lägg till ditt namn i den här listan"

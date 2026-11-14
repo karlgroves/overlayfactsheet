@@ -52,11 +52,11 @@ If you want to add a new language, it's only a 2-step process:
     [languages.fr.params]
       languageName = 'français'
       languageNameShort = 'fr'
-      languageCode 'fr'
+      languageCode = 'fr'
   [languages.es]
     contentDir = 'i18n/es'
     weight = 3
-    [languages.fr.params]
+    [languages.es.params]
       languageName = 'español'
       languageNameShort = 'es'
       languageCode = 'es'

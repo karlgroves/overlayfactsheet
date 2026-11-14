@@ -36,7 +36,7 @@ Please use the PR process described below, issuing your PR against the `develop`
 If you want to modify an existing language, simply go to the corresponding file in the `i18n/` folder, e.g. `i18n/en.yml` (for english) and modify the contents. If a translation key doesn't exist, it automatically switches to english content.
 
 If you want to add a new language, it's only a 2-step process:
-1. In the `hugo.toml` file, add the new language, e.g. spanish in third position
+1. In the `config.toml` file, add the new language, e.g. spanish in third position
 ```
 [languages]
   [languages.en]
@@ -52,11 +52,11 @@ If you want to add a new language, it's only a 2-step process:
     [languages.fr.params]
       languageName = 'français'
       languageNameShort = 'fr'
-      languageCode 'fr'
+      languageCode = 'fr'
   [languages.es]
     contentDir = 'i18n/es'
     weight = 3
-    [languages.fr.params]
+    [languages.es.params]
       languageName = 'español'
       languageNameShort = 'es'
       languageCode = 'es'

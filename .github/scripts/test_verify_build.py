@@ -73,6 +73,13 @@ class VerifyBuildTest(unittest.TestCase):
         self.assertEqual(result.returncode, 1)
         self.assertIn("public/index.html is missing or empty", result.stdout)
 
+    def test_fails_on_an_empty_root_index(self):
+        self.build_all()
+        self.write("public/index.html", "")
+        result = self.run_script()
+        self.assertEqual(result.returncode, 1)
+        self.assertIn("public/index.html is missing or empty", result.stdout)
+
     def test_fails_when_config_lists_no_languages(self):
         self.build_all()
         self.write("config.toml", "baseURL = 'https://example.org/'\n")

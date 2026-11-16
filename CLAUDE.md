@@ -36,7 +36,10 @@ Unlike typical Hugo sites, this project has no markdown content files. All text 
 ### Build
 ```bash
 hugo --gc --minify
+scripts/verify-build.sh   # fails if any configured language produced no page
 ```
+`scripts/verify-build.sh` is the same check CI's "Verify build output" step runs:
+Hugo can exit 0 while writing an empty or partial site.
 
 ### Local Development
 ```bash

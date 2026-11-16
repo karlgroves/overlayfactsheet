@@ -70,33 +70,7 @@ jobs:
         run: python3 .github/scripts/translation_status.py --check
 
       # Hugo can exit 0 while producing an empty or partial site, so assert the
-      # output actually exists for every configured language.
+      # output actually exists for every configured language. Run the same
+      # check locally with scripts/verify-build.sh after a build.
       - name: Verify build output
-        shell: bash
-        run: |
-          fail=0
-
-          if [ ! -s public/index.html ]; then
-            echo "::error::public/index.html is missing or empty"
-            fail=1
-          fi
-
-          langs="$(grep -oE '^[[:space:]]*\[languages\.[A-Za-z-]+\]' config.toml \
-            | sed -E 's/.*\[languages\.(.*)\]/\1/')"
-
-          if [ -z "$langs" ]; then
-            echo "::error file=config.toml::No [languages.*] entries found in config.toml"
-            exit 1
-          fi
-
-          while read -r lang; do
-            page="public/$lang/index.html"
-            if [ -s "$page" ]; then
-              echo "ok  $page ($(wc -c < "$page") bytes)"
-            else
-              echo "::error file=config.toml::$page is missing or empty"
-              fail=1
-            fi
-          done <<< "$langs"
-
-          exit $fail
+        run: scripts/verify-build.sh
